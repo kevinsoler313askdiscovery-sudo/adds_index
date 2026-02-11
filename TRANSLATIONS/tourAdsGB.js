@@ -1,6 +1,6 @@
 const tourAds = [
     {
-        background: 'FLOATING WEB/floating_1.webp',
+        background: 'PICTURES/FLOATING WEB/floating_1.webp',
         link: 'https://monkeytravel.co/excursion/bangkok-railway-floating-market-tour-with-paddleboat-ride/?utm_campaign=FB20',
         content: {
             english: {
@@ -18,7 +18,7 @@ const tourAds = [
         }
     },
     {
-        background: 'CHIANG RAI WEB/chiang_1.webp',
+        background: 'PICTURES/CHIANG RAI WEB/chiang_1.webp',
         link: 'https://monkeytravel.co/excursion/chiang-mai-chiang-rai-temple-day-trip-with-hot-springs/',
         content: {
             english: {
@@ -36,7 +36,7 @@ const tourAds = [
         }
     },
     {
-        background: 'TUK TUK WEB/tuktuk_1.webp',
+        background: 'PICTURES/TUK TUK WEB/tuktuk_1.webp',
         link: 'https://monkeytravel.co/excursion/bangkok-tuk-tuk-adventure-bangkoks-magic-nightime/',
         content: {
             english: {
