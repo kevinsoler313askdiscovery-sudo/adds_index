@@ -287,7 +287,7 @@
         { id: 15, title: '15. TEMPIO HUAY PLA KANG', url: BASE_URL + 'italian/15.templo_huay_pla_kang_it.mp3' },
         { id: 16, title: '16. SALUTO FINALE', url: BASE_URL + 'italian/16.saludo_final_it.mp3' }
     ],
-    日本語: [
+    japanese: [
         { id: 1, title: '1. はじめに – ようこそ', url: BASE_URL + 'japanese/1.introduccion_bienvenida_jp.mp3' },
         { id: 2, title: '2. チェンマイへの到着 | 北部への門', url: BASE_URL + 'japanese/2.llegada_chiang_mai_jp.mp3' },
         { id: 3, title: '3. 気候', url: BASE_URL + 'japanese/3.clima_jp.mp3' },
@@ -305,7 +305,7 @@
         { id: 15, title: '15. ワット・フ아이・プラー・カン', url: BASE_URL + 'japanese/15.templo_huay_pla_kang_jp.mp3' },
         { id: 16, title: '16. おわりに (終わりの挨拶)', url: BASE_URL + 'japanese/16.saludo_final_jp.mp3' }
     ],
-    한국어: [
+    korean: [
         { id: 1, title: '1. 서론 – 환영합니다', url: BASE_URL + 'korean/1.introduccion_bienvenida_ko.mp3' },
         { id: 2, title: '2. 치앙마이 도착 | 북부의 관문', url: BASE_URL + 'korean/2.llegada_chiang_mai_ko.mp3' },
         { id: 3, title: '3. 기후', url: BASE_URL + 'korean/3.clima_ko.mp3' },
@@ -359,7 +359,7 @@
         { id: 15, title: '15. Huay Pla Kang-tempelet', url: BASE_URL + 'norwegian/15.templo_huay_pla_kang_no.mp3' },
         { id: 16, title: '16. Avsluttende hilsen', url: BASE_URL + 'norwegian/16.saludo_final_no.mp3' }
     ],
-    فارسی: [
+    persian: [
         { id: 1, title: '۱. مقدمه – خوش‌آمدگویی', url: BASE_URL + 'persian/1.introduccion_bienvenida_fa.mp3' },
         { id: 2, title: '۲. ورود به چیانگ مای | دروازه شمال', url: BASE_URL + 'persian/2.llegada_chiang_mai_fa.mp3' },
         { id: 3, title: '۳. آب و هوا', url: BASE_URL + 'persian/3.clima_fa.mp3' },

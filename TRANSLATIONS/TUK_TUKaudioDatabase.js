@@ -362,7 +362,7 @@ const audioDatabase = {
             { id: 11, title: '11. Abschließender Gruß', url: BASE_URL + 'german/11.saludo_final_de.mp3' }
         ]
     },
-    العربية: {
+    arabic: {
         section1: [
             { id: 1, title: '1. مقدمة · مرحبا بك', url: BASE_URL + 'arabic/1.introduccion_bienvenida_ar.mp3' },
             { id: 2, title: '2. بانكوك ليلا', url: BASE_URL + 'arabic/2.la_noche_de_bangkok_ar.mp3' },
@@ -395,7 +395,7 @@ const audioDatabase = {
             { id: 11, title: '11. التحية الختامية', url: BASE_URL + 'arabic/11.saludo_final_ar.mp3' }
         ]
     },
-    বাংলা: {
+    bengali: {
         section1: [
             { id: 1, title: '1. ভূমিকা · স্বাগতম', url: BASE_URL + 'bengali/1.introduccion_bienvenida_bn.mp3' },
             { id: 2, title: '2. রাতের ব্যাংকক', url: BASE_URL + 'bengali/2.la_noche_de_bangkok_bn.mp3' },
@@ -428,7 +428,7 @@ const audioDatabase = {
             { id: 11, title: '11. সমাপনী অভিবাদন', url: BASE_URL + 'bengali/11.saludo_final_bn.mp3' }
         ]
     },
-    Czech: {
+    czech: {
         section1: [
             { id: 1, title: '1. Úvod · Vítejte', url: BASE_URL + 'czech/1.introduccion_bienvenida_cs.mp3' },
             { id: 2, title: '2. Bangkok v noci', url: BASE_URL + 'czech/2.la_noche_de_bangkok_cs.mp3' },
@@ -461,7 +461,7 @@ const audioDatabase = {
             { id: 11, title: '11. Závěrečný pozdrav', url: BASE_URL + 'czech/11.saludo_final_cs.mp3' }
         ]
     },
-    Dansk: {
+    danish: {
         section1: [
             { id: 1, title: '1. Introduktion · Velkommen', url: BASE_URL + 'danish/1.introduccion_bienvenida_da.mp3' },
             { id: 2, title: '2. Bangkok om Natten', url: BASE_URL + 'danish/2.la_noche_de_bangkok_da.mp3' },
@@ -494,7 +494,7 @@ const audioDatabase = {
             { id: 11, title: '11. Afsluttende Hilsen', url: BASE_URL + 'danish/11.saludo_final_da.mp3' }
         ]
     },
-    English: {
+    english: {
         section1: [
             { id: 1, title: '1. Introduction · Welcome', url: BASE_URL + 'english/1.introduccion_bienvenida_en.mp3' },
             { id: 2, title: '2. Bangkok at Night', url: BASE_URL + 'english/2.la_noche_de_bangkok_en.mp3' },
@@ -527,7 +527,7 @@ const audioDatabase = {
             { id: 11, title: '11. Final Greeting', url: BASE_URL + 'english/11.saludo_final_en.mp3' }
         ]
     },
-    Español_España: {
+    spanish_spain: {
         section1: [
             { id: 1, title: '1. Introducción · Bienvenida', url: BASE_URL + 'spanish_spain/1.introduccion_bienvenida_es.mp3' },
             { id: 2, title: '2. Bangkok de Noche', url: BASE_URL + 'spanish_spain/2.la_noche_de_bangkok_es.mp3' },
@@ -560,7 +560,7 @@ const audioDatabase = {
             { id: 11, title: '11. Saludo Final', url: BASE_URL + 'spanish_spain/11.saludo_final_es.mp3' }
         ]
     },
-    Español_Latam: {
+    spanish_latam: {
         section1: [
             { id: 1, title: '1. Introducción · Bienvenida', url: BASE_URL + 'spanish_latam/1.introduccion_bienvenida_es.mp3' },
             { id: 2, title: '2. Bangkok de Noche', url: BASE_URL + 'spanish_latam/2.la_noche_de_bangkok_es.mp3' },
@@ -593,7 +593,7 @@ const audioDatabase = {
             { id: 11, title: '11. Saludo Final', url: BASE_URL + 'spanish_latam/11.saludo_final_es.mp3' }
         ]
     },
-    Русский: {
+    russian: {
         section1: [
             { id: 1, title: '1. Введение · Добро пожаловать', url: BASE_URL + 'russian/1.introduccion_bienvenida_ru.mp3' },
             { id: 2, title: '2. Бангкок ночью', url: BASE_URL + 'russian/2.la_noche_de_bangkok_ru.mp3' },
@@ -626,7 +626,7 @@ const audioDatabase = {
             { id: 11, title: '11. Прощальное приветствие', url: BASE_URL + 'russian/11.saludo_final_ru.mp3' }
         ]
     },
-    Srpski: {
+    serbian: {
         section1: [
             { id: 1, title: '1. Uvod · Dobrodošli', url: BASE_URL + 'serbian/1.introduccion_bienvenida_sr.mp3' },
             { id: 2, title: '2. Bangkok noću', url: BASE_URL + 'serbian/2.la_noche_de_bangkok_sr.mp3' },
@@ -659,7 +659,7 @@ const audioDatabase = {
             { id: 11, title: '11. Završni pozdrav', url: BASE_URL + 'serbian/11.saludo_final_sr.mp3' }
         ]
     },
-    Kiswahili: {
+    swahili: {
         section1: [
             { id: 1, title: '1. Utangulizi · Karibu', url: BASE_URL + 'swahili/1.introduccion_bienvenida_sw.mp3' },
             { id: 2, title: '2. Bangkok Usiku', url: BASE_URL + 'swahili/2.la_noche_de_bangkok_sw.mp3' },
@@ -692,7 +692,7 @@ const audioDatabase = {
             { id: 11, title: '11. Salamu ya Mwisho', url: BASE_URL + 'swahili/11.saludo_final_sw.mp3' }
         ]
     },
-    Svenska: {
+    swedish: {
         section1: [
             { id: 1, title: '1. Introduktion · Välkommen', url: BASE_URL + 'swedish/1.introduccion_bienvenida_sv.mp3' },
             { id: 2, title: '2. Bangkok på natten', url: BASE_URL + 'swedish/2.la_noche_de_bangkok_sv.mp3' },
@@ -725,7 +725,7 @@ const audioDatabase = {
             { id: 11, title: '11. Avslutande hälsning', url: BASE_URL + 'swedish/11.saludo_final_sv.mp3' }
         ]
     },
-    ខ្មែរ: {
+    khmer: {
         section1: [
             { id: 1, title: '1. ការណែនាំ · សូមស្វាគមន៍', url: BASE_URL + 'cambodian/1.introduccion_bienvenida_km.mp3' },
             { id: 2, title: '2. បាងកកពេលយប់', url: BASE_URL + 'cambodian/2.la_noche_de_bangkok_km.mp3' },
@@ -760,7 +760,7 @@ const audioDatabase = {
             { id: 11, title: '11. សំណេះសំណាលចុងក្រោយ', url: BASE_URL + 'cambodian/11.saludo_final_km.mp3' }
         ]
     },
-    Català: {
+    catalan: {
         section1: [
             { id: 1, title: '1. Introducció · Benvinguts', url: BASE_URL + 'catalan/1.introduccion_bienvenida_ca.mp3' },
             { id: 2, title: '2. Bangkok de nit', url: BASE_URL + 'catalan/2.la_noche_de_bangkok_ca.mp3' },
@@ -795,7 +795,7 @@ const audioDatabase = {
             { id: 11, title: '11. Salutació final', url: BASE_URL + 'catalan/11.saludo_final_ca.mp3' }
         ]
     },
-    Hrvatski: {
+    croatian: {
         section1: [
             { id: 1, title: '1. Uvod · Dobrodošli', url: BASE_URL + 'croatian/1.introduccion_bienvenida_hr.mp3' },
             { id: 2, title: '2. Bangkok noću', url: BASE_URL + 'croatian/2.la_noche_de_bangkok_hr.mp3' },
@@ -830,7 +830,7 @@ const audioDatabase = {
             { id: 11, title: '11. Završni pozdrav', url: BASE_URL + 'croatian/11.saludo_final_hr.mp3' }
         ]
     },
-    Nederlands: {
+    dutch: {
         section1: [
             { id: 1, title: '1. Introductie · Welkom', url: BASE_URL + 'dutch/1.introduccion_bienvenida_nl.mp3' },
             { id: 2, title: '2. Bangkok bij nacht', url: BASE_URL + 'dutch/2.la_noche_de_bangkok_nl.mp3' },
@@ -865,7 +865,7 @@ const audioDatabase = {
             { id: 11, title: '11. Afsluitende groet', url: BASE_URL + 'dutch/11.saludo_final_nl.mp3' }
         ]
     },
-    Filipino: {
+    filipino: {
         section1: [
             { id: 1, title: '1. Panimula · Maligayang pagdating', url: BASE_URL + 'filipino/1.introduccion_bienvenida_fil.mp3' },
             { id: 2, title: '2. Bangkok sa gabi', url: BASE_URL + 'filipino/2.la_noche_de_bangkok_fil.mp3' },
@@ -900,7 +900,7 @@ const audioDatabase = {
             { id: 11, title: '11. Panghuling pagbati', url: BASE_URL + 'filipino/11.saludo_final_fil.mp3' }
         ]
     },
-    Slovenščina: {
+    slovenian: {
         section1: [
             { id: 1, title: '1. Uvod · Dobrodošli', url: BASE_URL + 'slovenian/1.introduccion_bienvenida_sl.mp3' },
             { id: 2, title: '2. Bangkok ponoči', url: BASE_URL + 'slovenian/2.la_noche_de_bangkok_sl.mp3' },
@@ -935,7 +935,7 @@ const audioDatabase = {
             { id: 11, title: '11. Zaključni pozdrav', url: BASE_URL + 'slovenian/11.saludo_final_sl.mp3' }
         ]
     },
-    ไทย: {
+    thai: {
         section1: [
             { id: 1, title: '1. บทนำ · ยินดีต้อนรับ', url: BASE_URL + 'thai/1.introduccion_bienvenida_th.mp3' },
             { id: 2, title: '2. กรุงเทพฯ ยามค่ำคืน', url: BASE_URL + 'thai/2.la_noche_de_bangkok_th.mp3' },
@@ -970,7 +970,7 @@ const audioDatabase = {
             { id: 11, title: '11. คำอำลาสุดท้าย', url: BASE_URL + 'thai/11.saludo_final_th.mp3' }
         ]
     },
-    தமிழ்: {
+    tamil: {
         section1: [
             { id: 1, title: '1. அறிமுகம் · வரவேற்பு', url: BASE_URL + 'tamil/1.introduccion_bienvenida_ta.mp3' },
             { id: 2, title: '2. இரவில் பாங்காக்', url: BASE_URL + 'tamil/2.la_noche_de_bangkok_ta.mp3' },
@@ -1005,7 +1005,7 @@ const audioDatabase = {
             { id: 11, title: '11. இறுதி வாழ்த்து', url: BASE_URL + 'tamil/11.saludo_final_ta.mp3' }
         ]
     },
-    Français: {
+    french: {
         section1: [
             { id: 1, title: '1. Introduction · Bienvenue', url: BASE_URL + 'french/1.introduccion_bienvenida_fr.mp3' },
             { id: 2, title: '2. Bangkok la nuit', url: BASE_URL + 'french/2.la_noche_de_bangkok_fr.mp3' },
@@ -1040,7 +1040,7 @@ const audioDatabase = {
             { id: 11, title: '11. Mot de clôture', url: BASE_URL + 'french/11.saludo_final_fr.mp3' }
         ]
     },
-    Galego: {
+    galician: {
         section1: [
             { id: 1, title: '1. Introdución · Benvida', url: BASE_URL + 'galician/1.introduccion_bienvenida_gl.mp3' },
             { id: 2, title: '2. Bangkok pola noite', url: BASE_URL + 'galician/2.la_noche_de_bangkok_gl.mp3' },
@@ -1075,7 +1075,7 @@ const audioDatabase = {
             { id: 11, title: '11. Saúdo final', url: BASE_URL + 'galician/11.saludo_final_gl.mp3' }
         ]
     },
-    Ελληνικά: {
+    greek: {
         section1: [
             { id: 1, title: '1. Εισαγωγή · Καλωσορίσατε', url: BASE_URL + 'greek/1.introduccion_bienvenida_el.mp3' },
             { id: 2, title: '2. Μπανγκόκ τη νύχτα', url: BASE_URL + 'greek/2.la_noche_de_bangkok_el.mp3' },
@@ -1110,7 +1110,7 @@ const audioDatabase = {
             { id: 11, title: '11. Τελικός χαιρετισμός', url: BASE_URL + 'greek/11.saludo_final_el.mp3' }
         ]
     },
-    हिन्दी: {
+    hindi: {
         section1: [
             { id: 1, title: '1. परिचय · स्वागत है', url: BASE_URL + 'hindi/1.introduccion_bienvenida_hi.mp3' },
             { id: 2, title: '2. रात में बैंकॉक', url: BASE_URL + 'hindi/2.la_noche_de_bangkok_hi.mp3' },
@@ -1145,7 +1145,7 @@ const audioDatabase = {
             { id: 11, title: '11. अंतिम विदाई', url: BASE_URL + 'hindi/11.saludo_final_hi.mp3' }
         ]
     },
-    Türkçe: {
+    turkish: {
         section1: [
             { id: 1, title: '1. Giriş · Hoş geldiniz', url: BASE_URL + 'turkish/1.introduccion_bienvenida_tr.mp3' },
             { id: 2, title: '2. Gece Bangkok', url: BASE_URL + 'turkish/2.la_noche_de_bangkok_tr.mp3' },
@@ -1180,7 +1180,7 @@ const audioDatabase = {
             { id: 11, title: '11. Final Selamı', url: BASE_URL + 'turkish/11.saludo_final_tr.mp3' }
         ]
     },
-    Українська: {
+    ukrainian: {
         section1: [
             { id: 1, title: '1. Вступ · Ласкаво просимо', url: BASE_URL + 'ukrainian/1.introduccion_bienvenida_uk.mp3' },
             { id: 2, title: '2. Бангкок уночі', url: BASE_URL + 'ukrainian/2.la_noche_de_bangkok_uk.mp3' },
@@ -1215,7 +1215,7 @@ const audioDatabase = {
             { id: 11, title: '11. Фінальне прощання', url: BASE_URL + 'ukrainian/11.saludo_final_uk.mp3' }
         ]
     },
-    Euskara: {
+    basque: {
         section1: [
             { id: 1, title: '1. Sarrera · Ongietorria', url: BASE_URL + 'basque/1.introduccion_bienvenida_eu.mp3' },
             { id: 2, title: '2. Bangkok gauez', url: BASE_URL + 'basque/2.la_noche_de_bangkok_eu.mp3' },
@@ -1250,7 +1250,7 @@ const audioDatabase = {
             { id: 11, title: '11. Azken agurra', url: BASE_URL + 'basque/11.saludo_final_eu.mp3' }
         ]
     },
-    Magyar: {
+    hungarian: {
         section1: [
             { id: 1, title: '1. Bevezetés · Üdvözlet', url: BASE_URL + 'hungarian/1.introduccion_bienvenida_hu.mp3' },
             { id: 2, title: '2. Bangkok éjszaka', url: BASE_URL + 'hungarian/2.la_noche_de_bangkok_hu.mp3' },
@@ -1285,7 +1285,7 @@ const audioDatabase = {
             { id: 11, title: '11. Búcsú', url: BASE_URL + 'hungarian/11.saludo_final_hu.mp3' }
         ]
     },
-    Bahasa_Indonesia: {
+    indonesian: {
         section1: [
             { id: 1, title: '1. Pengantar · Selamat Datang', url: BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3' },
             { id: 2, title: '2. Bangkok di Malam Hari', url: BASE_URL + 'indonesian/2.la_noche_de_bangkok_id.mp3' },
@@ -1320,7 +1320,7 @@ const audioDatabase = {
             { id: 11, title: '11. Salam Penutup', url: BASE_URL + 'indonesian/11.saludo_final_id.mp3' }
         ]
     },
-    Italiano: {
+    italian: {
         section1: [
             { id: 1, title: '1. Introduzione · Benvenuto', url: BASE_URL + 'italian/1.introduccion_bienvenida_it.mp3' },
             { id: 2, title: '2. Bangkok di Notte', url: BASE_URL + 'italian/2.la_noche_de_bangkok_it.mp3' },
@@ -1355,7 +1355,7 @@ const audioDatabase = {
             { id: 11, title: '11. Saluto Finale', url: BASE_URL + 'italian/11.saludo_final_it.mp3' }
         ]
     },
-    اردو: {
+    urdu: {
         section1: [
             { id: 1, title: '1. تعارف · خوش آمدید', url: BASE_URL + 'urdu/1.introduccion_bienvenida_ur.mp3' },
             { id: 2, title: '2. رات کے وقت بینکاک', url: BASE_URL + 'urdu/2.la_noche_de_bangkok_ur.mp3' },
@@ -1390,7 +1390,7 @@ const audioDatabase = {
             { id: 11, title: '11. اختتامی سلام', url: BASE_URL + 'urdu/11.saludo_final_ur.mp3' }
         ]
     },
-    Tiếng_Việt: {
+    vietnamese: {
         section1: [
             { id: 1, title: '1. Giới thiệu · Chào mừng', url: BASE_URL + 'vietnamese/1.introduccion_bienvenida_vi.mp3' },
             { id: 2, title: '2. Bangkok về đêm', url: BASE_URL + 'vietnamese/2.la_noche_de_bangkok_vi.mp3' },

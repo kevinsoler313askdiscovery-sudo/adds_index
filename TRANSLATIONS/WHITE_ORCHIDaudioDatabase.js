@@ -1,5 +1,5 @@
 const audioDatabase = {
-    Deutsch: [
+    german: [
         { id: 1, title: '1. WILLKOMMEN | ABENDESSEN NACHTKREUZFAHRT', url: BASE_URL + 'german/1.bienvenidos_cena_crucero_nocturna_de.mp3' },
         { id: 2, title: '2. CHAO-PHRAYA-FLUSS', url: BASE_URL + 'german/2.rio_chao_phraya_de.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPEL DER MORGENRÖTE', url: BASE_URL + 'german/3.wat_arun_templo_del_amanecer_de.mp3' },
@@ -9,7 +9,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNATIONALES UND THAILÄNDISCHES BUFFET', url: BASE_URL + 'german/7.buffet_internacional_y_tailandes_de.mp3' },
         { id: 8, title: '8. ABSCHIEDSGRUSS', url: BASE_URL + 'german/8.saludo_final_de.mp3' }
     ],
-    العربية: [
+    arabic: [
         { id: 1, title: '1. مرحبًا بكم | عشاء رحلة بحرية ليلية', url: BASE_URL + 'arabic/1.bienvenidos_cena_crucero_nocturna_ar.mp3' },
         { id: 2, title: '2. نهر تشاو فرايا', url: BASE_URL + 'arabic/2.rio_chao_phraya_ar.mp3' },
         { id: 3, title: '3. وات آرون | معبد الفجر', url: BASE_URL + 'arabic/3.wat_arun_templo_del_amanecer_ar.mp3' },
@@ -19,7 +19,7 @@ const audioDatabase = {
         { id: 7, title: '7. بوفيه عالمي وتايلاندي', url: BASE_URL + 'arabic/7.buffet_internacional_y_tailandes_ar.mp3' },
         { id: 8, title: '8. تحية الوداع', url: BASE_URL + 'arabic/8.saludo_final_ar.mp3' }
     ],
-    বাংলা: [
+    bengali: [
         { id: 1, title: '1. স্বাগতম | রাতের নৌভ্রমণের নৈশভোজ', url: BASE_URL + 'bengali/1.bienvenidos_cena_crucero_nocturna_bn.mp3' },
         { id: 2, title: '2. চাও ফ্রায়া নদী', url: BASE_URL + 'bengali/2.rio_chao_phraya_bn.mp3' },
         { id: 3, title: '3. ওয়াট আরুন | ভোরের মন্দির', url: BASE_URL + 'bengali/3.wat_arun_templo_del_amanecer_bn.mp3' },
@@ -29,7 +29,7 @@ const audioDatabase = {
         { id: 7, title: '7. আন্তর্জাতিক ও থাই বুফে', url: BASE_URL + 'bengali/7.buffet_internacional_y_tailandes_bn.mp3' },
         { id: 8, title: '8. বিদায় সম্ভাষণ', url: BASE_URL + 'bengali/8.saludo_final_bn.mp3' }
     ],
-    简体中_中国: [
+    mandarin_china: [
         { id: 1, title: '1. 欢迎 | 夜游游船晚宴', url: BASE_URL + 'mandarin_china/1.bienvenidos_cena_crucero_nocturna_zh.mp3' },
         { id: 2, title: '2. 昭披耶河', url: BASE_URL + 'mandarin_china/2.rio_chao_phraya_zh.mp3' },
         { id: 3, title: '3. 郑王庙 | 黎明寺', url: BASE_URL + 'mandarin_china/3.wat_arun_templo_del_amanecer_zh.mp3' },
@@ -39,7 +39,7 @@ const audioDatabase = {
         { id: 7, title: '7. 国际与泰式自助餐', url: BASE_URL + 'mandarin_china/7.buffet_internacional_y_tailandes_zh.mp3' },
         { id: 8, title: '8. 告别致意', url: BASE_URL + 'mandarin_china/8.saludo_final_zh.mp3' }
     ],
-    Čeština: [
+    czech: [
         { id: 1, title: '1. VÍTEJTE | VEČEŘE NA NOČNÍ PLAVBĚ', url: BASE_URL + 'czech/1.bienvenidos_cena_crucero_nocturna_cs.mp3' },
         { id: 2, title: '2. ŘEKA CHAO PHRAYA', url: BASE_URL + 'czech/2.rio_chao_phraya_cs.mp3' },
         { id: 3, title: '3. WAT ARUN | CHRÁM ÚSVITU', url: BASE_URL + 'czech/3.wat_arun_templo_del_amanecer_cs.mp3' },
@@ -49,7 +49,7 @@ const audioDatabase = {
         { id: 7, title: '7. MEZINÁRODNÍ A THAJSKÝ BUFET', url: BASE_URL + 'czech/7.buffet_internacional_y_tailandes_cs.mp3' },
         { id: 8, title: '8. ZÁVĚREČNÝ POZDRAV', url: BASE_URL + 'czech/8.saludo_final_cs.mp3' }
     ],
-    日本語: [
+    japanese: [
         { id: 1, title: '1. ようこそ | ナイトクルーズ ディナー', url: BASE_URL + 'japanese/1.bienvenidos_cena_crucero_nocturna_ja.mp3' },
         { id: 2, title: '2. チャオプラヤー川', url: BASE_URL + 'japanese/2.rio_chao_phraya_ja.mp3' },
         { id: 3, title: '3. ワット・アルン | 暁の寺', url: BASE_URL + 'japanese/3.wat_arun_templo_del_amanecer_ja.mp3' },
@@ -59,7 +59,7 @@ const audioDatabase = {
         { id: 7, title: '7. インターナショナル＆タイ料理ビュッフェ', url: BASE_URL + 'japanese/7.buffet_internacional_y_tailandes_ja.mp3' },
         { id: 8, title: '8. お別れの挨拶', url: BASE_URL + 'japanese/8.saludo_final_ja.mp3' }
     ],
-    한국어: [
+    korean: [
         { id: 1, title: '1. 환영합니다 | 야간 크루즈 디너', url: BASE_URL + 'korean/1.bienvenidos_cena_crucero_nocturna_ko.mp3' },
         { id: 2, title: '2. 차오프라야 강', url: BASE_URL + 'korean/2.rio_chao_phraya_ko.mp3' },
         { id: 3, title: '3. 왓 아룬 | 새벽 사원', url: BASE_URL + 'korean/3.wat_arun_templo_del_amanecer_ko.mp3' },
@@ -69,7 +69,7 @@ const audioDatabase = {
         { id: 7, title: '7. 인터내셔널 및 태국식 뷔페', url: BASE_URL + 'korean/7.buffet_internacional_y_tailandes_ko.mp3' },
         { id: 8, title: '8. 작별 인사', url: BASE_URL + 'korean/8.saludo_final_ko.mp3' }
     ],
-    Bahasa_Melayu: [
+    malay: [
         { id: 1, title: '1. SELAMAT DATANG | MAKAN MALAM PELAYARAN MALAM', url: BASE_URL + 'malay/1.bienvenidos_cena_crucero_nocturna_ms.mp3' },
         { id: 2, title: '2. SUNGAI CHAO PHRAYA', url: BASE_URL + 'malay/2.rio_chao_phraya_ms.mp3' },
         { id: 3, title: '3. WAT ARUN | KUIL FAJAR', url: BASE_URL + 'malay/3.wat_arun_templo_del_amanecer_ms.mp3' },
@@ -79,7 +79,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFET ANTARABANGSA DAN THAI', url: BASE_URL + 'malay/7.buffet_internacional_y_tailandes_ms.mp3' },
         { id: 8, title: '8. UCAPAN PERPISAHAN', url: BASE_URL + 'malay/8.saludo_final_ms.mp3' }
     ],
-    Dansk: [
+    danish: [
         { id: 1, title: '1. VELKOMMEN | AFTENSMAD PÅ NATKRYDSTOGT', url: BASE_URL + 'danish/1.bienvenidos_cena_crucero_nocturna_da.mp3' },
         { id: 2, title: '2. CHAO PHRAYA-FLODEN', url: BASE_URL + 'danish/2.rio_chao_phraya_da.mp3' },
         { id: 3, title: '3. WAT ARUN | DAGGRYETS TEMPEL', url: BASE_URL + 'danish/3.wat_arun_templo_del_amanecer_da.mp3' },
@@ -89,7 +89,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNATIONAL OG THAILANDSK BUFFET', url: BASE_URL + 'danish/7.buffet_internacional_y_tailandes_da.mp3' },
         { id: 8, title: '8. AFSLUTTENDE HILSEN', url: BASE_URL + 'danish/8.saludo_final_da.mp3' }
     ],
-    English: [
+    english: [
         { id: 1, title: '1. WELCOME | NIGHT CRUISE DINNER', url: BASE_URL + 'english/1.bienvenidos_cena_crucero_nocturna_en.mp3' },
         { id: 2, title: '2. CHAO PHRAYA RIVER', url: BASE_URL + 'english/2.rio_chao_phraya_en.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLE OF DAWN', url: BASE_URL + 'english/3.wat_arun_templo_del_amanecer_en.mp3' },
@@ -99,7 +99,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNATIONAL AND THAI BUFFET', url: BASE_URL + 'english/7.buffet_internacional_y_tailandes_en.mp3' },
         { id: 8, title: '8. FAREWELL GREETING', url: BASE_URL + 'english/8.saludo_final_en.mp3' }
     ],
-    नेपाली: [
+    nepali: [
         { id: 1, title: '1. स्वागत छ | रात्री क्रुज डिनर', url: BASE_URL + 'nepali/1.bienvenidos_cena_crucero_nocturna_ne.mp3' },
         { id: 2, title: '2. चाओ फ्राया नदी', url: BASE_URL + 'nepali/2.rio_chao_phraya_ne.mp3' },
         { id: 3, title: '3. वाट अरुण | प्रभातको मन्दिर', url: BASE_URL + 'nepali/3.wat_arun_templo_del_amanecer_ne.mp3' },
@@ -109,7 +109,7 @@ const audioDatabase = {
         { id: 7, title: '7. अन्तर्राष्ट्रिय र थाई बुफे', url: BASE_URL + 'nepali/7.buffet_internacional_y_tailandes_ne.mp3' },
         { id: 8, title: '8. बिदाइ अभिवादन', url: BASE_URL + 'nepali/8.saludo_final_ne.mp3' }
     ],
-    Norsk: [
+    norwegian: [
         { id: 1, title: '1. VELKOMMEN | MIDDAG PÅ NATTCRUISE', url: BASE_URL + 'norwegian/1.bienvenidos_cena_crucero_nocturna_no.mp3' },
         { id: 2, title: '2. CHAO PHRAYA-ELVEN', url: BASE_URL + 'norwegian/2.rio_chao_phraya_no.mp3' },
         { id: 3, title: '3. WAT ARUN | DAGGRYETS TEMPEL', url: BASE_URL + 'norwegian/3.wat_arun_templo_del_amanecer_no.mp3' },
@@ -119,7 +119,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNASJONAL OG THAILANDSK BUFFET', url: BASE_URL + 'norwegian/7.buffet_internacional_y_tailandes_no.mp3' },
         { id: 8, title: '8. AVSKJEDSHILSEN', url: BASE_URL + 'norwegian/8.saludo_final_no.mp3' }
     ],
-    فارسی: [
+    persian: [
         { id: 1, title: '1. خوش آمدید | شام کروز شبانه', url: BASE_URL + 'persian/1.bienvenidos_cena_crucero_nocturna_fa.mp3' },
         { id: 2, title: '2. رودخانه چائو فرایا', url: BASE_URL + 'persian/2.rio_chao_phraya_fa.mp3' },
         { id: 3, title: '3. وات آرون | معبد سپیده‌دم', url: BASE_URL + 'persian/3.wat_arun_templo_del_amanecer_fa.mp3' },
@@ -129,7 +129,7 @@ const audioDatabase = {
         { id: 7, title: '7. بوفه بین‌المللی و تایلندی', url: BASE_URL + 'persian/7.buffet_internacional_y_tailandes_fa.mp3' },
         { id: 8, title: '8. پیام خداحافظی', url: BASE_URL + 'persian/8.saludo_final_fa.mp3' }
     ],
-    Español_España: [
+    spanish_spain: [
         { id: 1, title: '1. BIENVENIDOS | CENA CRUCERO NOCTURNA', url: BASE_URL + 'spanish_spain/1.bienvenidos_cena_crucero_nocturna_es.mp3' },
         { id: 2, title: '2. RÍO CHAO PHRAYA', url: BASE_URL + 'spanish_spain/2.rio_chao_phraya_es.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLO DEL AMANECER', url: BASE_URL + 'spanish_spain/3.wat_arun_templo_del_amanecer_es.mp3' },
@@ -139,7 +139,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFÉ INTERNACIONAL Y TAILANDÉS', url: BASE_URL + 'spanish_spain/7.buffet_internacional_y_tailandes_es.mp3' },
         { id: 8, title: '8. SALUDO FINAL', url: BASE_URL + 'spanish_spain/8.saludo_final_es.mp3' }
     ],
-    Español_Latinoamérica: [
+    spanish_latam: [
         { id: 1, title: '1. BIENVENIDOS | CENA CRUCERO NOCTURNA', url: BASE_URL + 'spanish_latam/1.bienvenidos_cena_crucero_nocturna_es.mp3' },
         { id: 2, title: '2. RÍO CHAO PHRAYA', url: BASE_URL + 'spanish_latam/2.rio_chao_phraya_es.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLO DEL AMANECER', url: BASE_URL + 'spanish_latam/3.wat_arun_templo_del_amanecer_es.mp3' },
@@ -149,7 +149,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFÉ INTERNACIONAL Y TAILANDÉS', url: BASE_URL + 'spanish_latam/7.buffet_internacional_y_tailandes_es.mp3' },
         { id: 8, title: '8. SALUDO FINAL', url: BASE_URL + 'spanish_latam/8.saludo_final_es.mp3' }
     ],
-    繁體中_台灣: [
+    mandarin_taiwan: [
         { id: 1, title: '1. 歡迎 | 夜間遊船晚宴', url: BASE_URL + 'mandarin_taiwan/1.bienvenidos_cena_crucero_nocturna_zh_tw.mp3' },
         { id: 2, title: '2. 昭披耶河', url: BASE_URL + 'mandarin_taiwan/2.rio_chao_phraya_zh_tw.mp3' },
         { id: 3, title: '3. 鄭王廟 | 黎明寺', url: BASE_URL + 'mandarin_taiwan/3.wat_arun_templo_del_amanecer_zh_tw.mp3' },
@@ -159,7 +159,7 @@ const audioDatabase = {
         { id: 7, title: '7. 國際與泰式自助餐', url: BASE_URL + 'mandarin_taiwan/7.buffet_internacional_y_tailandes_zh_tw.mp3' },
         { id: 8, title: '8. 告別致意', url: BASE_URL + 'mandarin_taiwan/8.saludo_final_zh_tw.mp3' }
     ],
-    ខ្មែរ: [
+    khmer: [
         { id: 1, title: '1. សូមស្វាគមន៍ | អាហារពេលល្ងាចលើនាវាកម្សាន្តពេលយប់', url: BASE_URL + 'khmer/1.bienvenidos_cena_crucero_nocturna_km.mp3' },
         { id: 2, title: '2. ទន្លេចៅផ្រាយ៉ា', url: BASE_URL + 'khmer/2.rio_chao_phraya_km.mp3' },
         { id: 3, title: '3. វត្តអរុណ | វត្តព្រឹកព្រលឹម', url: BASE_URL + 'khmer/3.wat_arun_templo_del_amanecer_km.mp3' },
@@ -169,7 +169,7 @@ const audioDatabase = {
         { id: 7, title: '7. អាហារប៊ូហ្វេអន្តរជាតិ និង ថៃ', url: BASE_URL + 'khmer/7.buffet_internacional_y_tailandes_km.mp3' },
         { id: 8, title: '8. ពាក្យលាឈប់', url: BASE_URL + 'khmer/8.saludo_final_km.mp3' }
     ],
-    Català: [
+    catalan: [
         { id: 1, title: '1. BENVINGUTS | SOPAR CREUER NOCTURN', url: BASE_URL + 'catalan/1.bienvenidos_cena_crucero_nocturna_ca.mp3' },
         { id: 2, title: '2. RIU CHAO PHRAYA', url: BASE_URL + 'catalan/2.rio_chao_phraya_ca.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLE DE L’ALBA', url: BASE_URL + 'catalan/3.wat_arun_templo_del_amanecer_ca.mp3' },
@@ -179,7 +179,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFET INTERNACIONAL I TAILANDÈS', url: BASE_URL + 'catalan/7.buffet_internacional_y_tailandes_ca.mp3' },
         { id: 8, title: '8. SALUTACIÓ FINAL', url: BASE_URL + 'catalan/8.saludo_final_ca.mp3' }
     ],
-    Polski: [
+    polish: [
         { id: 1, title: '1. WITAMY | KOLACJA NA NOCNYM REJSIE', url: BASE_URL + 'polish/1.bienvenidos_cena_crucero_nocturna_pl.mp3' },
         { id: 2, title: '2. RZEKA CHAO PHRAYA', url: BASE_URL + 'polish/2.rio_chao_phraya_pl.mp3' },
         { id: 3, title: '3. WAT ARUN | ŚWIĄTYNIA ŚWITU', url: BASE_URL + 'polish/3.wat_arun_templo_del_amanecer_pl.mp3' },
@@ -189,7 +189,7 @@ const audioDatabase = {
         { id: 7, title: '7. MIĘDZYNARODOWY I TAJSKI BUFET', url: BASE_URL + 'polish/7.buffet_internacional_y_tailandes_pl.mp3' },
         { id: 8, title: '8. POŻEGNALNE POZDROWIENIE', url: BASE_URL + 'polish/8.saludo_final_pl.mp3' }
     ],
-    Português: [
+    portuguese: [
         { id: 1, title: '1. BEM-VINDOS | JANTAR EM CRUZEIRO NOTURNO', url: BASE_URL + 'portuguese/1.bienvenidos_cena_crucero_nocturna_pt.mp3' },
         { id: 2, title: '2. RIO CHAO PHRAYA', url: BASE_URL + 'portuguese/2.rio_chao_phraya_pt.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLO DO AMANHECER', url: BASE_URL + 'portuguese/3.wat_arun_templo_del_amanecer_pt.mp3' },
@@ -199,7 +199,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFÊ INTERNACIONAL E TAILANDÊS', url: BASE_URL + 'portuguese/7.buffet_internacional_y_tailandes_pt.mp3' },
         { id: 8, title: '8. SAUDAÇÃO FINAL', url: BASE_URL + 'portuguese/8.saludo_final_pt.mp3' }
     ],
-    Hrvatski: [
+    croatian: [
         { id: 1, title: '1. DOBRODOŠLI | VEČERA NA NOĆNOM KRSTARENJU', url: BASE_URL + 'croatian/1.bienvenidos_cena_crucero_nocturna_hr.mp3' },
         { id: 2, title: '2. RIJEKA CHAO PHRAYA', url: BASE_URL + 'croatian/2.rio_chao_phraya_hr.mp3' },
         { id: 3, title: '3. WAT ARUN | HRAM ZORE', url: BASE_URL + 'croatian/3.wat_arun_templo_del_amanecer_hr.mp3' },
@@ -209,7 +209,7 @@ const audioDatabase = {
         { id: 7, title: '7. MEĐUNARODNI I TAJLANDSKI BUFET', url: BASE_URL + 'croatian/7.buffet_internacional_y_tailandes_hr.mp3' },
         { id: 8, title: '8. ZAVRŠNI POZDRAV', url: BASE_URL + 'croatian/8.saludo_final_hr.mp3' }
     ],
-    Nederlands: [
+    dutch: [
         { id: 1, title: '1. WELKOM | DINER OP EEN AVONDCRUISE', url: BASE_URL + 'dutch/1.bienvenidos_cena_crucero_nocturna_nl.mp3' },
         { id: 2, title: '2. DE CHAO PHRAYA-RIVIER', url: BASE_URL + 'dutch/2.rio_chao_phraya_nl.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPEL VAN DE DAGERAAD', url: BASE_URL + 'dutch/3.wat_arun_templo_del_amanecer_nl.mp3' },
@@ -219,7 +219,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNATIONAAL EN THAIS BUFFET', url: BASE_URL + 'dutch/7.buffet_internacional_y_tailandes_nl.mp3' },
         { id: 8, title: '8. AFSCHEIDSGROET', url: BASE_URL + 'dutch/8.saludo_final_nl.mp3' }
     ],
-    Русский: [
+    russian: [
         { id: 1, title: '1. ДОБРО ПОЖАЛОВАТЬ | УЖИН НА ВЕЧЕРНЕМ КРУИЗЕ', url: BASE_URL + 'russian/1.bienvenidos_cena_crucero_nocturna_ru.mp3' },
         { id: 2, title: '2. РЕКА ЧАО ПРАЙЯ', url: BASE_URL + 'russian/2.rio_chao_phraya_ru.mp3' },
         { id: 3, title: '3. ВАТ АРУН | ХРАМ РАССВЕТА', url: BASE_URL + 'russian/3.wat_arun_templo_del_amanecer_ru.mp3' },
@@ -229,7 +229,7 @@ const audioDatabase = {
         { id: 7, title: '7. МЕЖДУНАРОДНЫЙ И ТАЙСКИЙ БУФЕТ', url: BASE_URL + 'russian/7.buffet_internacional_y_tailandes_ru.mp3' },
         { id: 8, title: '8. ПРОЩАЛЬНОЕ ПРИВЕТСТВИЕ', url: BASE_URL + 'russian/8.saludo_final_ru.mp3' }
     ],
-    Српски: [
+    serbian: [
         { id: 1, title: '1. ДОБРО ДОШЛИ | ВЕЧЕРА НА НОЋНОМ КРУЗЕРУ', url: BASE_URL + 'serbian/1.bienvenidos_cena_crucero_nocturna_sr.mp3' },
         { id: 2, title: '2. РЕКА ЧАО ФРАЈА', url: BASE_URL + 'serbian/2.rio_chao_phraya_sr.mp3' },
         { id: 3, title: '3. ВАТ АРУН | ХРАМ ЗОРЕ', url: BASE_URL + 'serbian/3.wat_arun_templo_del_amanecer_sr.mp3' },
@@ -239,7 +239,7 @@ const audioDatabase = {
         { id: 7, title: '7. МЕЂУНАРОДНИ И ТАЈЛАНДСКИ БУФЕТ', url: BASE_URL + 'serbian/7.buffet_internacional_y_tailandes_sr.mp3' },
         { id: 8, title: '8. ЗАВРШНИ ПОЗДРАВ', url: BASE_URL + 'serbian/8.saludo_final_sr.mp3' }
     ],
-    Filipino: [
+    filipino: [
         { id: 1, title: '1. MALIGAYANG PAGDATING | HAPUNAN SA GABING CRUISE', url: BASE_URL + 'filipino/1.bienvenidos_cena_crucero_nocturna_fil.mp3' },
         { id: 2, title: '2. ILOG CHAO PHRAYA', url: BASE_URL + 'filipino/2.rio_chao_phraya_fil.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLO NG BUHANGIN NG ARAW', url: BASE_URL + 'filipino/3.wat_arun_templo_del_amanecer_fil.mp3' },
@@ -249,7 +249,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNASYONAL AT THAI NA BUFFET', url: BASE_URL + 'filipino/7.buffet_internacional_y_tailandes_fil.mp3' },
         { id: 8, title: '8. HULING PAGBATI', url: BASE_URL + 'filipino/8.saludo_final_fil.mp3' }
     ],
-    Slovenščina: [
+    slovenian: [
         { id: 1, title: '1. DOBRODOŠLI | VEČERJA NA NOČNI KRIŽARJENJU', url: BASE_URL + 'slovenian/1.bienvenidos_cena_crucero_nocturna_sl.mp3' },
         { id: 2, title: '2. REKA CHAO PHRAYA', url: BASE_URL + 'slovenian/2.rio_chao_phraya_sl.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPEL ZORE', url: BASE_URL + 'slovenian/3.wat_arun_templo_del_amanecer_sl.mp3' },
@@ -259,7 +259,7 @@ const audioDatabase = {
         { id: 7, title: '7. MEDNARODNI IN TAJSKI BIFE', url: BASE_URL + 'slovenian/7.buffet_internacional_y_tailandes_sl.mp3' },
         { id: 8, title: '8. ZAKLJUČNI POZDRAV', url: BASE_URL + 'slovenian/8.saludo_final_sl.mp3' }
     ],
-    Kiswahili: [
+    swahili: [
         { id: 1, title: '1. KARIBU | CHAKULA CHA JIONI KWENYE CRUISE YA USIKU', url: BASE_URL + 'swahili/1.bienvenidos_cena_crucero_nocturna_sw.mp3' },
         { id: 2, title: '2. MTO CHAO PHRAYA', url: BASE_URL + 'swahili/2.rio_chao_phraya_sw.mp3' },
         { id: 3, title: '3. WAT ARUN | HEKALU YA MAPAMBANO YA JUA', url: BASE_URL + 'swahili/3.wat_arun_templo_del_amanecer_sw.mp3' },
@@ -269,7 +269,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFFET YA KIMATAIFA NA KITHAI', url: BASE_URL + 'swahili/7.buffet_internacional_y_tailandes_sw.mp3' },
         { id: 8, title: '8. SALAMU YA MWISHO', url: BASE_URL + 'swahili/8.saludo_final_sw.mp3' }
     ],
-    Svenska: [
+    swedish: [
         { id: 1, title: '1. VÄLKOMMEN | MIDDAG PÅ EN KVÄLLSKRYSSNING', url: BASE_URL + 'swedish/1.bienvenidos_cena_crucero_nocturna_sv.mp3' },
         { id: 2, title: '2. CHAO PHRAYA-FLODEN', url: BASE_URL + 'swedish/2.rio_chao_phraya_sv.mp3' },
         { id: 3, title: '3. WAT ARUN | GRYNINGENS TEMPEL', url: BASE_URL + 'swedish/3.wat_arun_templo_del_amanecer_sv.mp3' },
@@ -279,7 +279,7 @@ const audioDatabase = {
         { id: 7, title: '7. INTERNATIONELL OCH THAILÄNDSK BUFFÉ', url: BASE_URL + 'swedish/7.buffet_internacional_y_tailandes_sv.mp3' },
         { id: 8, title: '8. AVSLUTANDE HÄLSNING', url: BASE_URL + 'swedish/8.saludo_final_sv.mp3' }
     ],
-    Galego: [
+    galician: [
         { id: 1, title: '1. BENVIDOS | CEA EN CRUCEIRO NOCTURNO', url: BASE_URL + 'galician/1.bienvenidos_cena_crucero_nocturna_gl.mp3' },
         { id: 2, title: '2. RÍO CHAO PHRAYA', url: BASE_URL + 'galician/2.rio_chao_phraya_gl.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPLO DO AMENCER', url: BASE_URL + 'galician/3.wat_arun_templo_del_amanecer_gl.mp3' },
@@ -289,7 +289,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFFET INTERNACIONAL E TAILANDÉS', url: BASE_URL + 'galician/7.buffet_internacional_y_tailandes_gl.mp3' },
         { id: 8, title: '8. SAÚDO FINAL', url: BASE_URL + 'galician/8.saludo_final_gl.mp3' }
     ],
-    Ελληνικά: [
+    greek: [
         { id: 1, title: '1. ΚΑΛΩΣ ΗΡΘΑΤΕ | ΔΕΙΠΝΟ ΣΕ ΝΥΧΤΕΡΙΝΗ ΚΡΟΥΑΖΙΕΡΑ', url: BASE_URL + 'greek/1.bienvenidos_cena_crucero_nocturna_el.mp3' },
         { id: 2, title: '2. ΠΟΤΑΜΟΣ ΤΣΑΟ ΠΡΑΓΙΑ', url: BASE_URL + 'greek/2.rio_chao_phraya_el.mp3' },
         { id: 3, title: '3. WAT ARUN | ΝΑΟΣ ΤΗΣ ΑΥΓΗΣ', url: BASE_URL + 'greek/3.wat_arun_templo_del_amanecer_el.mp3' },
@@ -299,7 +299,7 @@ const audioDatabase = {
         { id: 7, title: '7. ΔΙΕΘΝΕΣ ΚΑΙ ΤΑΪΛΑΝΔΕΖΙΚΟ ΜΠΟΥΦΕ', url: BASE_URL + 'greek/7.buffet_internacional_y_tailandes_el.mp3' },
         { id: 8, title: '8. ΤΕΛΙΚΟΣ ΧΑΙΡΕΤΙΣΜΟΣ', url: BASE_URL + 'greek/8.saludo_final_el.mp3' }
     ],
-    ภาษาไทย: [
+    thai: [
         { id: 1, title: '1. ยินดีต้อนรับ | ดินเนอร์ล่องเรือยามค่ำคืน', url: BASE_URL + 'thai/1.bienvenidos_cena_crucero_nocturna_th.mp3' },
         { id: 2, title: '2. แม่น้ำเจ้าพระยา', url: BASE_URL + 'thai/2.rio_chao_phraya_th.mp3' },
         { id: 3, title: '3. วัดอรุณ | วัดแห่งรุ่งอรุณ', url: BASE_URL + 'thai/3.wat_arun_templo_del_amanecer_th.mp3' },
@@ -309,7 +309,7 @@ const audioDatabase = {
         { id: 7, title: '7. บุฟเฟต์นานาชาติและอาหารไทย', url: BASE_URL + 'thai/7.buffet_internacional_y_tailandes_th.mp3' },
         { id: 8, title: '8. คำอำลาสุดท้าย', url: BASE_URL + 'thai/8.saludo_final_th.mp3' }
     ],
-    Türkçe: [
+    turkish: [
         { id: 1, title: '1. HOŞ GELDİNİZ | GECE TEKNE TURUNDA AKŞAM YEMEĞİ', url: BASE_URL + 'turkish/1.bienvenidos_cena_crucero_nocturna_tr.mp3' },
         { id: 2, title: '2. CHAO PHRAYA NEHRİ', url: BASE_URL + 'turkish/2.rio_chao_phraya_tr.mp3' },
         { id: 3, title: '3. WAT ARUN | ŞAFAK TAPINAĞI', url: BASE_URL + 'turkish/3.wat_arun_templo_del_amanecer_tr.mp3' },
@@ -319,7 +319,7 @@ const audioDatabase = {
         { id: 7, title: '7. ULUSLARARASI VE TAY MUTFAĞI AÇIK BÜFE', url: BASE_URL + 'turkish/7.buffet_internacional_y_tailandes_tr.mp3' },
         { id: 8, title: '8. SON SELAMLAMA', url: BASE_URL + 'turkish/8.saludo_final_tr.mp3' }
     ],
-    Euskara: [
+    basque: [
         { id: 1, title: '1. ONGI ETORRI | GAUEKO GURUTZALDIKO AFARIA', url: BASE_URL + 'basque/1.bienvenidos_cena_crucero_nocturna_eu.mp3' },
         { id: 2, title: '2. CHAO PHRAYA IBAIA', url: BASE_URL + 'basque/2.rio_chao_phraya_eu.mp3' },
         { id: 3, title: '3. WAT ARUN | EGUNSENTIKO TENPLUA', url: BASE_URL + 'basque/3.wat_arun_templo_del_amanecer_eu.mp3' },
@@ -329,7 +329,7 @@ const audioDatabase = {
         { id: 7, title: '7. NAZIOARTEKO ETA THAILANDIAR BUFFETA', url: BASE_URL + 'basque/7.buffet_internacional_y_tailandes_eu.mp3' },
         { id: 8, title: '8. AZKEN AGURRA', url: BASE_URL + 'basque/8.saludo_final_eu.mp3' }
     ],
-    हिन्दी: [
+    hindi: [
         { id: 1, title: '1. आपका स्वागत है | रात्रि क्रूज़ में रात्रिभोज', url: BASE_URL + 'hindi/1.bienvenidos_cena_crucero_nocturna_hi.mp3' },
         { id: 2, title: '2. चाओ फ्राया नदी', url: BASE_URL + 'hindi/2.rio_chao_phraya_hi.mp3' },
         { id: 3, title: '3. वॉट अरुण | उषा का मंदिर', url: BASE_URL + 'hindi/3.wat_arun_templo_del_amanecer_hi.mp3' },
@@ -339,7 +339,7 @@ const audioDatabase = {
         { id: 7, title: '7. अंतरराष्ट्रीय और थाई बुफे', url: BASE_URL + 'hindi/7.buffet_internacional_y_tailandes_hi.mp3' },
         { id: 8, title: '8. अंतिम अभिवादन', url: BASE_URL + 'hindi/8.saludo_final_hi.mp3' }
     ],
-    Magyar: [
+    hungarian: [
         { id: 1, title: '1. ÜDVÖZÖLJÜK | VACSORA ÉJSZAKAI HAJÓKIRÁNDULÁSON', url: BASE_URL + 'hungarian/1.bienvenidos_cena_crucero_nocturna_hu.mp3' },
         { id: 2, title: '2. CHAO PHRAYA FOLYÓ', url: BASE_URL + 'hungarian/2.rio_chao_phraya_hu.mp3' },
         { id: 3, title: '3. WAT ARUN | A HAJNAL TEMPLOMA', url: BASE_URL + 'hungarian/3.wat_arun_templo_del_amanecer_hu.mp3' },
@@ -349,7 +349,7 @@ const audioDatabase = {
         { id: 7, title: '7. NEMZETKÖZI ÉS THAI BÜFÉ', url: BASE_URL + 'hungarian/7.buffet_internacional_y_tailandes_hu.mp3' },
         { id: 8, title: '8. ZÁRÓ ÜDVÖZLET', url: BASE_URL + 'hungarian/8.saludo_final_hu.mp3' }
     ],
-    Bahasa_Indonesia: [
+    indonesian: [
         { id: 1, title: '1. SELAMAT DATANG | MAKAN MALAM DI KAPAL PESIAR MALAM', url: BASE_URL + 'indonesian/1.bienvenidos_cena_crucero_nocturna_id.mp3' },
         { id: 2, title: '2. SUNGAI CHAO PHRAYA', url: BASE_URL + 'indonesian/2.rio_chao_phraya_id.mp3' },
         { id: 3, title: '3. WAT ARUN | KUIL FAJAR', url: BASE_URL + 'indonesian/3.wat_arun_templo_del_amanecer_id.mp3' },
@@ -359,7 +359,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFET INTERNASIONAL DAN THAILAND', url: BASE_URL + 'indonesian/7.buffet_internacional_y_tailandes_id.mp3' },
         { id: 8, title: '8. SALAM PENUTUP', url: BASE_URL + 'indonesian/8.saludo_final_id.mp3' }
     ],
-    Italiano: [
+    italian: [
         { id: 1, title: '1. BENVENUTI | CENA IN CROCIERA NOTTURNA', url: BASE_URL + 'italian/1.bienvenidos_cena_crucero_nocturna_it.mp3' },
         { id: 2, title: '2. FIUME CHAO PHRAYA', url: BASE_URL + 'italian/2.rio_chao_phraya_it.mp3' },
         { id: 3, title: '3. WAT ARUN | TEMPIO DELL’ALBA', url: BASE_URL + 'italian/3.wat_arun_templo_del_amanecer_it.mp3' },
@@ -369,7 +369,7 @@ const audioDatabase = {
         { id: 7, title: '7. BUFFET INTERNAZIONALE E THAILANDESE', url: BASE_URL + 'italian/7.buffet_internacional_y_tailandes_it.mp3' },
         { id: 8, title: '8. SALUTO FINALE', url: BASE_URL + 'italian/8.saludo_final_it.mp3' }
     ],
-    Українська: [
+    ukrainian: [
         { id: 1, title: '1. ЛАСКАВО ПРОСИМО | ВЕЧЕРЯ НА НІЧНОМУ КРУЇЗІ', url: BASE_URL + 'ukrainian/1.bienvenidos_cena_crucero_nocturna_uk.mp3' },
         { id: 2, title: '2. РІЧКА ЧАО ПРАЯ', url: BASE_URL + 'ukrainian/2.rio_chao_phraya_uk.mp3' },
         { id: 3, title: '3. WAT ARUN | ХРАМ СВІТАНКУ', url: BASE_URL + 'ukrainian/3.wat_arun_templo_del_amanecer_uk.mp3' },
@@ -379,7 +379,7 @@ const audioDatabase = {
         { id: 7, title: '7. МІЖНАРОДНИЙ ТА ТАЙСЬКИЙ БУФЕТ', url: BASE_URL + 'ukrainian/7.buffet_internacional_y_tailandes_uk.mp3' },
         { id: 8, title: '8. ЗАКЛЮЧНЕ ВІТАННЯ', url: BASE_URL + 'ukrainian/8.saludo_final_uk.mp3' }
     ],
-    اردو: [
+    urdu: [
         { id: 1, title: '1. خوش آمدید | رات کے کروز میں عشائیہ', url: BASE_URL + 'urdu/1.bienvenidos_cena_crucero_nocturna_ur.mp3' },
         { id: 2, title: '2. چاؤ فرایا دریا', url: BASE_URL + 'urdu/2.rio_chao_phraya_ur.mp3' },
         { id: 3, title: '3. واٹ ارون | سحر کا مندر', url: BASE_URL + 'urdu/3.wat_arun_templo_del_amanecer_ur.mp3' },
@@ -389,7 +389,7 @@ const audioDatabase = {
         { id: 7, title: '7. بین الاقوامی اور تھائی بوفے', url: BASE_URL + 'urdu/7.buffet_internacional_y_tailandes_ur.mp3' },
         { id: 8, title: '8. الوداعی پیغام', url: BASE_URL + 'urdu/8.saludo_final_ur.mp3' }
     ],
-    Tiếng_Việt: [
+    vietnamese: [
         { id: 1, title: '1. CHÀO MỪNG | BỮA TỐI TRÊN DU THUYỀN BAN ĐÊM', url: BASE_URL + 'vietnamese/1.bienvenidos_cena_crucero_nocturna_vi.mp3' },
         { id: 2, title: '2. SÔNG CHAO PHRAYA', url: BASE_URL + 'vietnamese/2.rio_chao_phraya_vi.mp3' },
         { id: 3, title: '3. WAT ARUN | ĐỀN BÌNH MINH', url: BASE_URL + 'vietnamese/3.wat_arun_templo_del_amanecer_vi.mp3' },

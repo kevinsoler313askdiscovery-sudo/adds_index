@@ -303,7 +303,7 @@
         { id: 16, title: '16. Il mercato galleggiante di Damnoen Saduak', url: BASE_URL + 'italiano/16.el_mercado_flotante_damnoen_saduak_it.mp3' },
         { id: 17, title: '17. Saluto finale', url: BASE_URL + 'italiano/17.saludo_final_it.mp3' }
     ],
-    日本語: [
+    japanese: [
         { id: 1, title: '1. イントロダクション', url: BASE_URL + 'japanese/1.introduccion_jp.mp3' },
         { id: 2, title: '2. バンコクの街', url: BASE_URL + 'japanese/2.ciudad_de_bangkok_jp.mp3' },
         { id: 3, title: '3. 気候', url: BASE_URL + 'japanese/3.clima_jp.mp3' },
@@ -322,7 +322,7 @@
         { id: 16, title: '16. ダムヌンサドゥアック水上マーケット', url: BASE_URL + 'japanese/16.el_mercado_flotante_damnoen_saduak_jp.mp3' },
         { id: 17, title: '17. お別れの挨拶', url: BASE_URL + 'japanese/17.saludo_final_jp.mp3' }
     ],
-    한국어: [
+    korean: [
         { id: 1, title: '1. 소개', url: BASE_URL + 'korean/1.introduccion_kr.mp3' },
         { id: 2, title: '2. 방콕 도시', url: BASE_URL + 'korean/2.ciudad_de_bangkok_kr.mp3' },
         { id: 3, title: '3. 기후', url: BASE_URL + 'korean/3.clima_kr.mp3' },
@@ -417,7 +417,7 @@
         { id: 16, title: '16. DAMNOEN SADUAK FLYTENDE MARKED', url: BASE_URL + 'norwegian/16.el_mercado_flotante_damnoen_saduak_no.mp3' },
         { id: 17, title: '17. AVSLUTTENDE HILSEN', url: BASE_URL + 'norwegian/17.saludo_final_no.mp3' }
     ],
-    فارسی: [
+    persian: [
         { id: 1, title: '1. مقدمه', url: BASE_URL + 'persian/1.introduccion_fa.mp3' },
         { id: 2, title: '2. شهر بانکوک', url: BASE_URL + 'persian/2.ciudad_de_bangkok_fa.mp3' },
         { id: 3, title: '3. آب‌وهوا', url: BASE_URL + 'persian/3.clima_fa.mp3' },

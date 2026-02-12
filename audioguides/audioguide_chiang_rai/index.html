@@ -1242,7 +1242,13 @@
             const dropdown = document.getElementById('languageDropdown');
             dropdown.innerHTML = '';
 
-            Object.keys(audioDatabase).forEach(lang => {
+            const languages = Object.keys(audioDatabase).sort((a, b) => {
+                if (a === 'english') return -1;
+                if (b === 'english') return 1;
+                return a.localeCompare(b);
+            });
+
+            languages.forEach(lang => {
                 const button = document.createElement('button');
                 button.className = 'language-option';
                 if (lang === currentLanguage) button.classList.add('active');
