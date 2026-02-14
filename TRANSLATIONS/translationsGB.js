@@ -3,7 +3,7 @@ const translations = {
         label: "English",
         playlist: "Playlist",
         promoTitle: "OUR OTHER TOURS",
-        promoSubtitle: "Only today take advantage of discount code XX30",
+        promoSubtitle: "Only today take advantage of discount code <span class='highlight'>Audioguide</span>",
         promoButton: "BOOK NOW",
         searchPlaceholder: "Search language..."
     },
@@ -11,7 +11,7 @@ const translations = {
         label: "العربية",
         playlist: "قائمة التشغيل",
         promoTitle: "جولاتنا الأخرى",
-        promoSubtitle: "فقط اليوم استفد من رمز الخصم XX30",
+        promoSubtitle: "فقط اليوم استفد من رمز الخصم <span class='highlight'>Audioguide</span>",
         promoButton: "احجز الآن",
         searchPlaceholder: "ابحث عن اللغة…"
     },
@@ -19,7 +19,7 @@ const translations = {
         label: "Euskara",
         playlist: "Erreprodukzio zerrenda",
         promoTitle: "GURE BESTE IBILBIDEAK",
-        promoSubtitle: "Gaur bakarrik aprobetxatu XX30 deskontu kodea",
+        promoSubtitle: "Gaur bakarrik aprobetxatu <span class='highlight'>Audioguide</span> deskontu kodea",
         promoButton: "ERRESERBATU ORAIN",
         searchPlaceholder: "Hizkuntza bilatu…"
     },
@@ -27,7 +27,7 @@ const translations = {
         label: "বাংলা",
         playlist: "প্লেলিস্ট",
         promoTitle: "আমাদের অন্যান্য ট্যুর",
-        promoSubtitle: "শুধুমাত্র আজ ডিসকাউন্ট কোড XX30 ব্যবহার করুন",
+        promoSubtitle: "শুধুমাত্র আজ ডিসকাউন্ট কোড <span class='highlight'>Audioguide</span> ব্যবহার করুন",
         promoButton: "এখনই বুক করুন",
         searchPlaceholder: "ভাষা খুঁজুন..."
     },
@@ -35,7 +35,7 @@ const translations = {
         label: "Català",
         playlist: "Llista de reproducció",
         promoTitle: "ELS NOSTRES ALTRES TOURS",
-        promoSubtitle: "Només avui aprofita el codi de descompte XX30",
+        promoSubtitle: "Només avui aprofita el codi de descompte <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVA ARA",
         searchPlaceholder: "Cerca idioma..."
     },
@@ -43,7 +43,7 @@ const translations = {
         label: "Hrvatski",
         playlist: "Popis za reprodukciju",
         promoTitle: "NAŠE OSTALE TURE",
-        promoSubtitle: "Samo danas iskoristite kod za popust XX30",
+        promoSubtitle: "Samo danas iskoristite kod za popust <span class='highlight'>Audioguide</span>",
         promoButton: "REZERVIRAJ SADA",
         searchPlaceholder: "Traži jezik..."
     },
@@ -51,7 +51,7 @@ const translations = {
         label: "Čeština",
         playlist: "Playlist",
         promoTitle: "NAŠE DALŠÍ PROHLÍDKY",
-        promoSubtitle: "Pouze dnes využijte slevový kód XX30",
+        promoSubtitle: "Pouze dnes využijte slevový kód <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVOVAT NYNÍ",
         searchPlaceholder: "Hledat jazyk..."
     },
@@ -59,7 +59,7 @@ const translations = {
         label: "Dansk",
         playlist: "Playlist",
         promoTitle: "VORES ANDRE TURE",
-        promoSubtitle: "Kun i dag, udnyt rabatkoden XX30",
+        promoSubtitle: "Kun i dag, udnyt rabatkoden <span class='highlight'>Audioguide</span>",
         promoButton: "BESTIL NU",
         searchPlaceholder: "Søg sprog..."
     },
@@ -67,7 +67,7 @@ const translations = {
         label: "Nederlands",
         playlist: "Afspeellijst",
         promoTitle: "ONZE ANDERE TOURS",
-        promoSubtitle: "Alleen vandaag, profiteer van kortingscode XX30",
+        promoSubtitle: "Alleen vandaag, profiteer van kortingscode <span class='highlight'>Audioguide</span>",
         promoButton: "BOEK NU",
         searchPlaceholder: "Zoek taal..."
     },
@@ -75,7 +75,7 @@ const translations = {
         label: "Filipino",
         playlist: "Playlist",
         promoTitle: "ANG AMING IBA PANG MGA TOUR",
-        promoSubtitle: "Ngayon lang, samantalahin ang discount code na XX30",
+        promoSubtitle: "Ngayon lang, samantalahin ang discount code na <span class='highlight'>Audioguide</span>",
         promoButton: "MAG-BOOK NA",
         searchPlaceholder: "Maghanap ng wika..."
     },
@@ -83,7 +83,7 @@ const translations = {
         label: "Français",
         playlist: "Playlist",
         promoTitle: "NOS AUTRES TOURS",
-        promoSubtitle: "Aujourd'hui seulement, profitez du code promo XX30",
+        promoSubtitle: "Aujourd'hui seulement, profitez du code promo <span class='highlight'>Audioguide</span>",
         promoButton: "RÉSERVER MAINTENANT",
         searchPlaceholder: "Rechercher une langue..."
     },
@@ -91,7 +91,7 @@ const translations = {
         label: "Galego",
         playlist: "Lista de reprodución",
         promoTitle: "OS NOSOS OUTROS TOURS",
-        promoSubtitle: "Só hoxe aproveita o código de desconto XX30",
+        promoSubtitle: "Só hoxe aproveita o código de desconto <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVAR AGORA",
         searchPlaceholder: "Buscar idioma..."
     },
@@ -99,7 +99,7 @@ const translations = {
         label: "Deutsch",
         playlist: "Playlist",
         promoTitle: "UNSERE WEITEREN TOUREN",
-        promoSubtitle: "Nur heute Rabattcode XX30 nutzen",
+        promoSubtitle: "Nur heute Rabattcode <span class='highlight'>Audioguide</span> nutzen",
         promoButton: "JETZT BUCHEN",
         searchPlaceholder: "Sprache suchen..."
     },
@@ -107,7 +107,7 @@ const translations = {
         label: "Ελληνικά",
         playlist: "Λίστα αναπαραγωγής",
         promoTitle: "ΟΙ ΑΛΛΕΣ ΠΕΡΙΗΓΗΣΕΙΣ ΜΑΣ",
-        promoSubtitle: "Μόνο σήμερα επωφεληθείτε από τον κωδικό έκπτωσης XX30",
+        promoSubtitle: "Μόνο σήμερα επωφεληθείτε από τον κωδικό έκπτωσης <span class='highlight'>Audioguide</span>",
         promoButton: "ΚΑΝΤΕ ΚΡΑΤΗΣΗ ΤΩΡΑ",
         searchPlaceholder: "Αναζήτηση γλώσσας..."
     },
@@ -115,7 +115,7 @@ const translations = {
         label: "हिन्दी",
         playlist: "प्लेलिस्ट",
         promoTitle: "हमारे अन्य टूर",
-        promoSubtitle: "केवल आज ही डिस्काउंट कोड XX30 का लाभ उठाएं",
+        promoSubtitle: "केवल आज ही डिस्काउंट कोड <span class='highlight'>Audioguide</span> का लाभ उठाएं",
         promoButton: "अभी बुक करें",
         searchPlaceholder: "भाषा खोजें..."
     },
@@ -123,7 +123,7 @@ const translations = {
         label: "Magyar",
         playlist: "Lejátszási lista",
         promoTitle: "TOVÁBBI TÚRÁINK",
-        promoSubtitle: "Csak ma használd ki az XX30 kedvezménykódot",
+        promoSubtitle: "Csak ma használd ki az <span class='highlight'>Audioguide</span> kedvezménykódot",
         promoButton: "FOGLALÁS MOST",
         searchPlaceholder: "Nyelv keresése..."
     },
@@ -131,7 +131,7 @@ const translations = {
         label: "Bahasa Indonesia",
         playlist: "Daftar putar",
         promoTitle: "TUR KAMI LAINNYA",
-        promoSubtitle: "Hanya hari ini manfaatkan kode diskon XX30",
+        promoSubtitle: "Hanya hari ini manfaatkan kode diskon <span class='highlight'>Audioguide</span>",
         promoButton: "PESAN SEKARANG",
         searchPlaceholder: "Cari bahasa..."
     },
@@ -139,7 +139,7 @@ const translations = {
         label: "Italiano",
         playlist: "Playlist",
         promoTitle: "I NOSTRI ALTRI TOUR",
-        promoSubtitle: "Solo oggi approfitta del codice sconto XX30",
+        promoSubtitle: "Solo oggi approfitta del codice sconto <span class='highlight'>Audioguide</span>",
         promoButton: "PRENOTA ORA",
         searchPlaceholder: "Cerca lingua..."
     },
@@ -147,7 +147,7 @@ const translations = {
         label: "日本語",
         playlist: "プレイリスト",
         promoTitle: "その他のツアー",
-        promoSubtitle: "今日だけ割引コードXX30を利用してください",
+        promoSubtitle: "今日だけ割引コード<span class='highlight'>Audioguide</span>を利用してください",
         promoButton: "今すぐ予約",
         searchPlaceholder: "言語を検索..."
     },
@@ -155,7 +155,7 @@ const translations = {
         label: "ភាសាខ្មែរ",
         playlist: "បញ្ជីចាក់",
         promoTitle: "ដំណើរកម្សាន្តផ្សេងទៀតរបស់យើង",
-        promoSubtitle: "មានតែថ្ងៃនេះប៉ុណ្ណោះ សូមប្រើកូដបញ្ចុះតម្លៃ XX30",
+        promoSubtitle: "មានតែថ្ងៃនេះប៉ុណ្ណោះ សូមប្រើកូដបញ្ចុះតម្លៃ <span class='highlight'>Audioguide</span>",
         promoButton: "កក់ឥឡូវនេះ",
         searchPlaceholder: "ស្វែងរកភាសា..."
     },
@@ -163,7 +163,7 @@ const translations = {
         label: "한국어",
         playlist: "재생 목록",
         promoTitle: "다른 투어",
-        promoSubtitle: "오늘만 할인 코드 XX30을 이용하세요",
+        promoSubtitle: "오늘만 할인 코드 <span class='highlight'>Audioguide</span>을 이용하세요",
         promoButton: "지금 예약",
         searchPlaceholder: "언어 검색..."
     },
@@ -171,7 +171,7 @@ const translations = {
         label: "Bahasa Melayu",
         playlist: "Senarai main",
         promoTitle: "LAWATAN KAMI YANG LAIN",
-        promoSubtitle: "Hanya hari ini manfaatkan kod diskaun XX30",
+        promoSubtitle: "Hanya hari ini manfaatkan kod diskaun <span class='highlight'>Audioguide</span>",
         promoButton: "TEMPAH SEKARANG",
         searchPlaceholder: "Cari bahasa..."
     },
@@ -179,7 +179,7 @@ const translations = {
         label: "简体中文",
         playlist: "播放列表",
         promoTitle: "我们的其他行程",
-        promoSubtitle: "仅限今天，使用折扣码 XX30",
+        promoSubtitle: "仅限今天，使用折扣码 <span class='highlight'>Audioguide</span>",
         promoButton: "立即预订",
         searchPlaceholder: "搜索语言..."
     },
@@ -187,7 +187,7 @@ const translations = {
         label: "繁體中文",
         playlist: "播放列表",
         promoTitle: "我們的其他行程",
-        promoSubtitle: "僅限今天，使用折扣碼 XX30",
+        promoSubtitle: "僅限今天，使用折扣碼 <span class='highlight'>Audioguide</span>",
         promoButton: "立即預訂",
         searchPlaceholder: "搜尋語言..."
     },
@@ -195,7 +195,7 @@ const translations = {
         label: "नेपाली",
         playlist: "प्लेलिस्ट",
         promoTitle: "हाम्रा अन्य भ्रमणहरू",
-        promoSubtitle: "आज मात्र छुट कोड XX30 को फाइदा लिनुहोस्",
+        promoSubtitle: "आज मात्र छुट कोड <span class='highlight'>Audioguide</span> को फाइदा लिनुहोस्",
         promoButton: "अहिले बुक गर्नुहोस्",
         searchPlaceholder: "भाषा खोज्नुहोस्..."
     },
@@ -203,7 +203,7 @@ const translations = {
         label: "Norsk",
         playlist: "Spilleliste",
         promoTitle: "VÅRE ANDRE TURER",
-        promoSubtitle: "Bare i dag, benytt deg av rabattkoden XX30",
+        promoSubtitle: "Bare i dag, benytt deg av rabattkoden <span class='highlight'>Audioguide</span>",
         promoButton: "BESTILL NÅ",
         searchPlaceholder: "Søk språk..."
     },
@@ -211,7 +211,7 @@ const translations = {
         label: "فارسی",
         playlist: "لیست پخش",
         promoTitle: "تورهای دیگر ما",
-        promoSubtitle: "فقط امروز از کد تخفیف XX30 استفاده کنید",
+        promoSubtitle: "فقط امروز از کد تخفیف <span class='highlight'>Audioguide</span> استفاده کنید",
         promoButton: "اکنون رزرو کنید",
         searchPlaceholder: "جستجوی زبان..."
     },
@@ -219,7 +219,7 @@ const translations = {
         label: "Polski",
         playlist: "Playlista",
         promoTitle: "NASZE INNE WYCIECZKI",
-        promoSubtitle: "Tylko dzisiaj skorzystaj z kodu rabatowego XX30",
+        promoSubtitle: "Tylko dzisiaj skorzystaj z kodu rabatowego <span class='highlight'>Audioguide</span>",
         promoButton: "ZAREZERWUJ TERAZ",
         searchPlaceholder: "Szukaj języka..."
     },
@@ -227,7 +227,7 @@ const translations = {
         label: "Português",
         playlist: "Lista de reprodução",
         promoTitle: "NOSSOS OUTROS TOURS",
-        promoSubtitle: "Só hoje aproveite o código de desconto XX30",
+        promoSubtitle: "Só hoje aproveite o código de desconto <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVAR AGORA",
         searchPlaceholder: "Pesquisar idioma..."
     },
@@ -235,7 +235,7 @@ const translations = {
         label: "Русский",
         playlist: "Плейлист",
         promoTitle: "НАШИ ДРУГИЕ ТУРЫ",
-        promoSubtitle: "Только сегодня воспользуйтесь промокодом XX30",
+        promoSubtitle: "Только сегодня воспользуйтесь промокодом <span class='highlight'>Audioguide</span>",
         promoButton: "ЗАБРОНИРОВАТЬ СЕЙЧАС",
         searchPlaceholder: "Поиск языка..."
     },
@@ -243,7 +243,7 @@ const translations = {
         label: "Српски",
         playlist: "Листа песама",
         promoTitle: "НАШЕ ОСТАЛЕ ТУРЕ",
-        promoSubtitle: "Само данас искористите код за попуст XX30",
+        promoSubtitle: "Само данас искористите код за попуст <span class='highlight'>Audioguide</span>",
         promoButton: "РЕЗЕРВИШИ САДА",
         searchPlaceholder: "Претражи језик..."
     },
@@ -251,7 +251,7 @@ const translations = {
         label: "Slovenščina",
         playlist: "Seznam predvajanja",
         promoTitle: "NAŠI DRUGI IZLETI",
-        promoSubtitle: "Samo danes izkoristite kodo za popust XX30",
+        promoSubtitle: "Samo danes izkoristite kodo za popust <span class='highlight'>Audioguide</span>",
         promoButton: "REZERVIRAJ ZDAJ",
         searchPlaceholder: "Išči jezik..."
     },
@@ -259,7 +259,7 @@ const translations = {
         label: "Español (España)",
         playlist: "Lista de reproducción",
         promoTitle: "NUESTROS OTROS TOURS",
-        promoSubtitle: "Solo hoy aprovecha el código de descuento XX30",
+        promoSubtitle: "Solo hoy aprovecha el código de descuento <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVAR AHORA",
         searchPlaceholder: "Buscar idioma..."
     },
@@ -267,7 +267,7 @@ const translations = {
         label: "Español (Latam)",
         playlist: "Lista de reproducción",
         promoTitle: "NUESTROS OTROS TOURS",
-        promoSubtitle: "Solo hoy aprovecha el código de descuento XX30",
+        promoSubtitle: "Solo hoy aprovecha el código de descuento <span class='highlight'>Audioguide</span>",
         promoButton: "RESERVAR AHORA",
         searchPlaceholder: "Buscar idioma..."
     },
@@ -275,7 +275,7 @@ const translations = {
         label: "Kiswahili",
         playlist: "Orodha ya kucheza",
         promoTitle: "TOURS ZETU NYINGINE",
-        promoSubtitle: "Leo pekee tumia nambari ya punguzo XX30",
+        promoSubtitle: "Leo pekee tumia nambari ya punguzo <span class='highlight'>Audioguide</span>",
         promoButton: "WEKA SASA",
         searchPlaceholder: "Tafuta lugha..."
     },
@@ -283,7 +283,7 @@ const translations = {
         label: "Svenska",
         playlist: "Spellista",
         promoTitle: "VÅRA ANDRA TURER",
-        promoSubtitle: "Endast idag, utnyttja rabattkoden XX30",
+        promoSubtitle: "Endast idag, utnyttja rabattkoden <span class='highlight'>Audioguide</span>",
         promoButton: "BOKA NU",
         searchPlaceholder: "Sök språk..."
     },
@@ -291,7 +291,7 @@ const translations = {
         label: "தமிழ்",
         playlist: "பிளேலிஸ்ட்",
         promoTitle: "எங்கள் மற்ற சுற்றுப்பயணங்கள்",
-        promoSubtitle: "இன்று மட்டும் தள்ளுபடி குறியீடு XX30 ஐப் பயன்படுத்தவும்",
+        promoSubtitle: "இன்று மட்டும் தள்ளுபடி குறியீடு <span class='highlight'>Audioguide</span> ஐப் பயன்படுத்தவும்",
         promoButton: "இப்போதே முன்பதிவு செய்யுங்கள்",
         searchPlaceholder: "மொழியைத் தேடுங்கள்..."
     },
@@ -299,7 +299,7 @@ const translations = {
         label: "ไทย",
         playlist: "เพลย์ลิสต์",
         promoTitle: "ทัวร์อื่นๆ ของเรา",
-        promoSubtitle: "เฉพาะวันนี้เท่านั้น ใช้รหัสส่วนลด XX30",
+        promoSubtitle: "เฉพาะวันนี้เท่านั้น ใช้รหัสส่วนลด <span class='highlight'>Audioguide</span>",
         promoButton: "จองเลย",
         searchPlaceholder: "ค้นหาภาษา..."
     },
@@ -307,7 +307,7 @@ const translations = {
         label: "Türkçe",
         playlist: "Oynatma listesi",
         promoTitle: "DİĞER TURLARIMIZ",
-        promoSubtitle: "Sadece bugün XX30 indirim kodundan yararlanın",
+        promoSubtitle: "Sadece bugün <span class='highlight'>Audioguide</span> indirim kodundan yararlanın",
         promoButton: "ŞİMDİ REZERVASYON YAPIN",
         searchPlaceholder: "Dil ara..."
     },
@@ -315,7 +315,7 @@ const translations = {
         label: "Українська",
         playlist: "Плейлист",
         promoTitle: "НАШІ ІНШІ ТУРИ",
-        promoSubtitle: "Тільки сьогодні скористайтеся промокодом XX30",
+        promoSubtitle: "Тільки сьогодні скористайтеся промокодом <span class='highlight'>Audioguide</span>",
         promoButton: "ЗАБРОНЮВАТИ ЗАРАЗ",
         searchPlaceholder: "Пошук мови..."
     },
@@ -323,7 +323,7 @@ const translations = {
         label: "اردو",
         playlist: "پلے لسٹ",
         promoTitle: "ہمارے دوسرے ٹورز",
-        promoSubtitle: "صرف آج ہی ڈسکاؤنٹ کوڈ XX30 سے فائدہ اٹھائیں",
+        promoSubtitle: "صرف آج ہی ڈسکاؤنٹ کوڈ <span class='highlight'>Audioguide</span> سے فائدہ اٹھائیں",
         promoButton: "ابھی بک کریں",
         searchPlaceholder: "زبان تلاش کریں..."
     },
@@ -331,7 +331,7 @@ const translations = {
         label: "Tiếng Việt",
         playlist: "Danh sách phát",
         promoTitle: "CÁC TOUR KHÁC CỦA CHÚNG TÔI",
-        promoSubtitle: "Chỉ hôm nay, hãy tận dụng mã giảm giá XX30",
+        promoSubtitle: "Chỉ hôm nay, hãy tận dụng mã giảm giá <span class='highlight'>Audioguide</span>",
         promoButton: "ĐẶT NGAY",
         searchPlaceholder: "Tìm kiếm ngôn ngữ..."
     }

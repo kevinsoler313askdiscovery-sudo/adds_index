@@ -758,6 +758,14 @@
             padding: 0 1.5rem;
         }
 
+        .promo-subtitle .highlight {
+            background: linear-gradient(to right, #9f24e7, #f200c4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 1.25em;
+        }
+
         body.dark .promo-subtitle {
             color: #9ca3af;
         }
@@ -1164,7 +1172,9 @@
         <!-- Initial Promo Section (Replaces Empty State) -->
         <a href="#" target="_blank" class="promo-section" id="initialPromoSection">
             <h2 class="promo-title" id="initialPromoTitle">OUR OTHER TOURS</h2>
-            <p class="promo-subtitle" id="initialPromoSubtitle">Only today take advantage of discount code XX30</p>
+            <p class="promo-subtitle" id="initialPromoSubtitle">Only today take advantage of discount code <span
+                    class='highlight'>Audioguide</span>
+            </p>
 
             <div class="promo-slider-wrapper">
                 <div class="promo-slider">
@@ -1418,7 +1428,7 @@
             const promoSubtitles = ['promoSubtitle', 'initialPromoSubtitle'];
             promoSubtitles.forEach(id => {
                 const el = document.getElementById(id);
-                if (el) el.textContent = t.promoSubtitle || "Â¡No te pierdas esta oportunidad Ãºnica!";
+                if (el) el.innerHTML = t.promoSubtitle || "Â¡No te pierdas esta oportunidad Ãºnica!";
             });
 
             const promoButtons = ['promoButton', 'initialPromoButton'];

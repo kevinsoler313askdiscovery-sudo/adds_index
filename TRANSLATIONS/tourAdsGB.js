@@ -873,5 +873,180 @@ const tourAds = [
                 title: 'Tham quan kênh đào, cuộc sống địa phương ven sông & thăm Wat Arun'
             }
         }
+    },
+    {
+        id: 'luxury_white',
+        background: 'PICTURES/LUXURY WHITE WEB/luxury_white_3.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-luxury-white-dinner-cruise-free-flow-beer-and-wine/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Luxury White Dinner Cruise Free Flow Beer and Wine'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة عشاء بيضاء فاخرة مع بيرة ونبيذ متدفقان بحرية'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Luxuzko Afari Zuri Gurutzaldiak garagardo eta ardo fluxu librearekin'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'বিলাসবহুল সাদা ডিনার ক্রুজ ফ্রি ফ্লো বিয়ার এবং ওয়াইন'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer de luxe amb sopar blanc amb cervesa i vi de flux lliure'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Luksuzno bijelo krstarenje s večerom uz neograničeno pivo i vino'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Luxusní bílá večeře plavba s neomezeným pivem a vínem'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Luksus Hvid Middagskrydstogt med fritflydende øl og vin'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Luxe wit diner cruise met onbeperkt bier en wijn'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Luxury White Dinner Cruise na may Free Flow Beer at Wine'
+            },
+            french: {
+                discount: '20%',
+                title: 'Croisière dîner blanche de luxe avec bière et vin à volonté'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Cruceiro de luxo con cea branca con cervexa e viño de fluxo libre'
+            },
+            german: {
+                discount: '20%',
+                title: 'Luxuriöse weiße Dinner-Kreuzfahrt mit kostenlosem Bier und Wein'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Πολυτελής Λευκή Κρουαζιέρα Δείπνου με Ελεύθερη Ροή Μπύρας και Κρασιού'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'लक्ज़री व्हाइट डिनर क्रूज़ फ्री फ़्लो बीयर और वाइन'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Luxus fehér vacsora hajóút korlátlan sörrel és borral'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Putih Mewah dengan Bir dan Anggur Mengalir Bebas'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera di lusso con cena bianca, birra e vino a flusso libero'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'ラグジュアリーホワイトディナークルーズフリーフロービールとワイン'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សาน្តពេលល្ងាចពណ៌សប្រណិត ជាមួយស្រាបៀរ និងស្រាឥតគិតថ្លៃ'
+            },
+            korean: {
+                discount: '20%',
+                title: '럭셔리 화이트 디너 크루즈 무제한 맥주 및 와인'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Putih Mewah Bir dan Wain Aliran Bebas'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '豪华白色晚餐巡游无限量啤酒和葡萄酒'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '豪華白色晚餐巡遊無限量啤酒和葡萄酒'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'लक्जरी सेतो डिनर क्रूज फ्री फ्लो बियर र वाइन'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Luksuriøst hvitt middagscruise med fri flyt av øl og vin'
+            },
+            persian: {
+                discount: '20%',
+                title: 'کروز شام سفید لوکس با سرو نامحدود آبجو و شراب'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Luksusowy biały rejs z kolacją z nielimitowanym piwem i winem'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro de luxe com jantar branco, cerveja e vinho à vontade'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Роскошный белый ужин-круиз с безлимитным пивом и вином'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Луксузна бела крстарења са вечером уз неограничено пиво и вино'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Luksuzno belo križarjenje z večerjo in neomejenim pivom ter vinom'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Crucero de lujo con cena blanca, cerveza y vino ilimitados'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero de lujo con cena blanca, cerveza y vino ilimitados'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Msafara wa kifahari wa Chakula cha Jioni Cheupe chenye Bia na Mvinyo Bila Kikomo'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Lyxig vit middagskryssning med fritt flödande öl och vin'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'சொகுசு வெள்ளை இரவு உணவுப் பயணம் இலவச பீர் மற்றும் ஒயின்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ล่องเรือดินเนอร์สุดหรูพร้อมเบียร์และไวน์แบบไม่อั้น'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Lüks Beyaz Akşam Yemeği Gezisi Sınırsız Bira ve Şarap'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Розкішний білий круїз із вечерею, необмеженим пивом та вином'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'لگژری وائٹ ڈنر کروز فری فلو بیئر اور وائن'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền ăn tối trắng sang trọng, bia và rượu vang không giới hạn'
+            }
+        }
     }
 ];
