@@ -2,7 +2,7 @@ const tourAds = [
     {
         id: 'floating',
         background: 'PICTURES/FLOATING WEB/floating_1.webp',
-        link: 'https://monkeytravel.co/excursion/bangkok-railway-floating-market-tour-with-paddleboat-ride/?utm_campaign=FB20',
+        link: 'https://monkeytravel.co/excursion/bangkok-railway-floating-market-tour-with-paddleboat-ride/?utm_campaign=Audioguide',
         content: {
             english: {
                 discount: '20%',
@@ -177,7 +177,7 @@ const tourAds = [
     {
         id: 'chiang_rai',
         background: 'PICTURES/CHIANG RAI WEB/chiang_1.webp',
-        link: 'https://monkeytravel.co/excursion/chiang-mai-chiang-rai-temple-day-trip-with-hot-springs/',
+        link: 'https://monkeytravel.co/excursion/chiang-mai-chiang-rai-temple-day-trip-with-hot-springs/?utm_campaign=Audioguide',
         content: {
             english: {
                 discount: '20%',
@@ -352,7 +352,7 @@ const tourAds = [
     {
         id: 'tuktuk',
         background: 'PICTURES/TUK TUK WEB/tuktuk_1.webp',
-        link: 'https://monkeytravel.co/excursion/bangkok-tuk-tuk-adventure-bangkoks-magic-nightime/',
+        link: 'https://monkeytravel.co/excursion/bangkok-tuk-tuk-adventure-bangkoks-magic-nightime/?utm_campaign=Audioguide',
         content: {
             english: {
                 discount: '20%',
@@ -521,6 +521,181 @@ const tourAds = [
             vietnamese: {
                 discount: '20%',
                 title: 'Phiêu Lưu Tuk Tuk: Phép Màu Đêm Bangkok'
+            }
+        }
+    },
+    {
+        id: 'white_orchid',
+        background: 'PICTURES/WHITE ORCHID WEB/white_orchid_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-white-orchid-chao-phraya-dinner-cruise-free-beer/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise free Beer'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة عشاء الأوركيد الأبيض في تشاو فرايا مع بيرة مجانية'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Orkidia Zuri Chao Phraya Afari Itsas Bidaia doako garagardoa'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'হোয়াইট অর্কিড চাও ফ্রায়া ডিনার ক্রুজ ফ্রি বিয়ার'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer amb sopar White Orchid Chao Phraya amb cervesa gratuïta'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Krstarenje Chao Phraya s večerom White Orchid i besplatnim pivom'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Večeře na lodi White Orchid Chao Phraya s pivem zdarma'
+            },
+            danish: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise gratis øl'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Witte Orchidee Chao Phraya Dinner Cruise gratis bier'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise libreng Beer'
+            },
+            french: {
+                discount: '20%',
+                title: 'Croisière Dîner White Orchid Chao Phraya bière gratuite'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Cruceiro con cea White Orchid Chao Phraya con cervexa gratuíta'
+            },
+            german: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise mit Freibier'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Κρουαζιέρα με Δείπνο White Orchid Chao Phraya με δωρεάν Μπύρα'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'व्हाइट ऑर्किड चाओ फ्राया डिनर क्रूज़ मुफ्त बीयर'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya vacsorahajózás ingyenes sörrel'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise bir gratis'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera con cena White Orchid Chao Phraya con birra gratuita'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'ホワイトオーキッドチャオプラヤディナークルーズ無料ビール'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សាន្តពេលល្ងាច White Orchid Chao Phraya ជាមួយនឹងស្រាបៀរឥតគិតថ្លៃ'
+            },
+            korean: {
+                discount: '20%',
+                title: '화이트 오키드 짜오프라야 디너 크루즈 무료 맥주'
+            },
+            malay: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise bir percuma'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '白兰花昭披耶河晚餐游船免费啤酒'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '白蘭花昭披耶河晚餐遊船免費啤酒'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'व्हाइट अर्কিड चाओ फ्राया डिनर क्रूज निःशुल्क बियर'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya middagscruise gratis øl'
+            },
+            persian: {
+                discount: '20%',
+                title: 'گشت شام رودخانه چائو فرایا ارکیده سفید با آبجوی رایگان'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Rejs z kolacją White Orchid Chao Phraya z darmowym piwem'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro com jantar White Orchid Chao Phraya com cerveja grátis'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Ужин-круиз «Белая орхидея» по Чао Прайя с бесплатным пивом'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Крстарење „Бела орхидеја Чао Праја“ уз вечеру са бесплатним пивом'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Večerja na ladjici White Orchid Chao Phraya s pivom gratis'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Cruceros con cena White Orchid Chao Phraya con cerveza gratis'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero con cena White Orchid Chao Phraya con cerveza gratis'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Dinner Cruise bia bila malipo'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya middagskryssning gratis öl'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'வைட் ஆர்கிட் சாவோ பிராயா டின்னர் க்ரூஸ் இலவச பீர்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ล่องเรือดินเนอร์เจ้าพระยาไวท์ออร์คิด เบียร์ฟรี'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'White Orchid Chao Phraya Akşam Yemeği Turu ücretsiz Bira'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Вечірній круїз White Orchid Chao Phraya з безкоштовним пивом'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'وائٹ آرکڈ چاو پھرایا ڈنر کروز مفت بیئر'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền ăn tối White Orchid Chao Phraya bia miễn phí'
             }
         }
     }
