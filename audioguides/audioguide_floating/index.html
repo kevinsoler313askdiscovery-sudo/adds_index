@@ -1172,10 +1172,14 @@
 
     <script>
 
-        // Variables globales
         let currentLanguage = '';
         let currentTrackIndex = 0;
         let isPlaying = false;
+
+        // IDs of tours to show (refer to tourAdsGB.js)
+        const activeTourIds = ['chiang_rai', 'tuktuk'];
+        const filteredTourAds = tourAds.filter(ad => activeTourIds.includes(ad.id));
+
         let currentSlideIndex = 0;
         let sliderInterval;
         let heroSlideIndex = 0;
@@ -1433,7 +1437,6 @@
             startHeroSlider(); // Reiniciar el intervalo al cambiar manualmente
         }
 
-        // LÃ³gica del Slider de Tours
         function initPromoSlider() {
             const containers = [
                 document.getElementById('sliderContainer'),
@@ -1443,7 +1446,7 @@
             containers.forEach(container => {
                 if (!container) return;
                 container.innerHTML = '';
-                tourAds.forEach((ad, index) => {
+                filteredTourAds.forEach((ad, index) => {
                     const img = document.createElement('img');
                     img.src = '../../' + ad.background;
                     img.alt = `Tour ${index + 1}`;
@@ -1456,7 +1459,8 @@
         }
 
         function updatePromoContent() {
-            const ad = tourAds[currentSlideIndex];
+            if (filteredTourAds.length === 0) return;
+            const ad = filteredTourAds[currentSlideIndex];
             const promoSections = [
                 document.getElementById('promoSection'),
                 document.getElementById('initialPromoSection')
@@ -1489,7 +1493,7 @@
             // Actualizar imÃ¡genes activas
             const slides = document.querySelectorAll('.slider-image');
             slides.forEach((slide, i) => {
-                slide.classList.toggle('active', i % tourAds.length === currentSlideIndex);
+                slide.classList.toggle('active', i % filteredTourAds.length === currentSlideIndex);
             });
         }
 
@@ -1499,12 +1503,14 @@
         }
 
         function nextSlide() {
-            currentSlideIndex = (currentSlideIndex + 1) % tourAds.length;
+            if (filteredTourAds.length === 0) return;
+            currentSlideIndex = (currentSlideIndex + 1) % filteredTourAds.length;
             updatePromoContent();
         }
 
         function prevSlide() {
-            currentSlideIndex = (currentSlideIndex - 1 + tourAds.length) % tourAds.length;
+            if (filteredTourAds.length === 0) return;
+            currentSlideIndex = (currentSlideIndex - 1 + filteredTourAds.length) % filteredTourAds.length;
             updatePromoContent();
             startSlider(); // Reiniciar el intervalo al cambiar manualmente
         }
