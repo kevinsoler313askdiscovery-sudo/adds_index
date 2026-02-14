@@ -1048,5 +1048,355 @@ const tourAds = [
                 title: 'Du thuyền ăn tối trắng sang trọng, bia và rượu vang không giới hạn'
             }
         }
-    }
+    },
+    {
+        id: 'royal_princess',
+        background: 'PICTURES/ROYAL PRINCESS WEB/royal_princess_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-royal-princess-river-dinner-cruise-with-live-music/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Royal Princess River Dinner Cruise with Live Music'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة عشاء الأميرة الملكية النهرية مع الموسيقى الحية'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Errege Printzesaren Ibaiko Afari Gurutzaldia Zuzeneko Musikarekin'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'রয়্যাল প্রিন্সেস রিভার ডিনার ক্রুজ লাইভ মিউজিক সহ'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer amb sopar pel riu Royal Princess amb música en directe'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Krstarenje Kraljevske Princeze rijekom uz večeru s glazbom uživo'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Večeře na řece Royal Princess s živou hudbou'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Royal Princess flodmiddagskrydstogt med levende musik'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Royal Princess Rivier Diner Cruise met Live Muziek'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Royal Princess River Dinner Cruise na may Live Music'
+            },
+            french: {
+                discount: '20%',
+                title: 'Croisière Dîner Royale Princesse sur la Rivière avec Musique Live'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Cruceiro con cea polo río Royal Princess con música en directo'
+            },
+            german: {
+                discount: '20%',
+                title: 'Royal Princess Fluss-Dinner-Kreuzfahrt mit Live-Musik'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Κρουαζιέρα Δείπνου στο Ποτάμι Royal Princess με Ζωντανή Μουσική'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'रॉयल प्रिंसेस रिवर डिनर क्रूज़ लाइव म्यूजिक के साथ'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Luxus fehér vacsora hajóút korlátlan sörrel és borral'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Sungai Royal Princess dengan Musik Live'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera con cena sul fiume Royal Princess con musica dal vivo'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'ロイヤルプリンセス リバーディナークルーズ 生演奏付き'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សាន្តអាហារពេលល្ងាចតាមទន្លេ Royal Princess ជាមួយតន្ត្រីបន្តផ្ទាល់'
+            },
+            korean: {
+                discount: '20%',
+                title: '로얄 프린세스 리버 디너 크루즈 (라이브 음악 포함)'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Sungai Royal Princess dengan Muzik Langsung'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '皇家公主河上晚餐游轮，含现场音乐'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '皇家公主河上晚餐遊輪，含現場音樂'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'रोयल प्रिन्सेस रिभर डिनर क्रूज लाइभ म्युजिक सहित'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Royal Princess elvemiddagscruise med levende musikk'
+            },
+            persian: {
+                discount: '20%',
+                title: 'گشت و گذار شام رودخانه ای رویال پرنسس با موسیقی زنده'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Rejs Kolacyjny Królewska Księżniczka po Rzece z Muzyką na Żywo'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro com Jantar no Rio Royal Princess com Música ao Vivo'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Круиз с ужином по реке «Королевская принцесса» с живой музыкой'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Крстарење Краљевске Принцезе реком уз вечеру са живом музиком'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Rečna večerja z ladjo Royal Princess z živo glasbo'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Crucero con cena por el río Royal Princess con música en vivo'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero con cena por el río Royal Princess con música en vivo'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Msafara wa Chakula cha Jioni wa Royal Princess na Muziki Moja kwa Moja'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Royal Princess floddinnerskryssning med levande musik'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'ராயல் பிரின்சஸ் ரிவர் டின்னர் குரூஸ் நேரடி இசையுடன்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ล่องเรือดินเนอร์เจ้าหญิงแห่งแม่น้ำพร้อมดนตรีสด'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Canlı Müzikli Royal Princess Nehir Akşam Yemeği Gezisi'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Вечірній круїз по річці «Королівська принцеса» з живою музикою'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'رائل پرنسس ریور ڈنر کروز مع لائیو میوزک'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền ăn tối trên sông Royal Princess với nhạc sống'
+            }
+        }
+    },
+    {
+        id: 'opulence_luxury',
+        background: 'PICTURES/OPULENCE LUXURY WEB/opulence_luxury_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-opulence-luxury-river-dinner-cruise/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Opulence Luxury River Dinner Cruise'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة عشاء نهرية فاخرة فخمة'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Oparotasun Luxuzko Ibaiko Afari Gurutzaldia'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'ঐশ্বর্য্যপূর্ণ বিলাসবহুল নদী নৈশভোজের ক্রুজ'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer de luxe d\'opulència amb sopar pel riu'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Luksuzno riječno krstarenje s večerom Opulencija'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Opulentní luxusní říční večeře plavba'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Overdådig Luksus Flod Middagskrydstogt'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Opulentie Luxe Rivier Diner Cruise'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Marangyang Luho na Paglalayag sa Ilog para sa Hapunan'
+            },
+            french: {
+                discount: '20%',
+                title: 'Croisière Dîner Luxe Opulence sur la Rivière'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Cruceiro de luxo de opulencia con cea polo río'
+            },
+            german: {
+                discount: '20%',
+                title: 'Opulenz Luxus Fluss Dinner Kreuzfahrt'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Πολυτελής Κρουαζιέρα Ποταμού με Δείπνο Πολυτέλειας'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'भव्यता लक्जरी रिवर डिनर क्रूज'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Pompás Luxus Folyami Vacsora Hajóút'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Mewah di Sungai Opulence'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera con cena di lusso sul fiume Opulence'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'オーピュレンス ラグジュアリー リバー ディナークルーズ'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សាន្តអាហារពេលល្ងាចតាមទន្លេប្រណិតភាព'
+            },
+            korean: {
+                discount: '20%',
+                title: '호화로운 럭셔리 리버 디너 크루즈'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Sungai Mewah Kemewahan'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '奢华河上晚餐游轮'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '奢華河上晚餐遊輪'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'ऐश्वर्य विलासी नदी डिनर क्रूज'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Overdådig Luksus Elvecruise med Middag'
+            },
+            persian: {
+                discount: '20%',
+                title: 'گشت و گذار لوکس شام رودخانه ای مجلل'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Luksusowy Rejs Kolacyjny Rzeką Opulence'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro de Jantar Luxuoso no Rio Opulence'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Роскошный круиз по реке с ужином "Опуленс"'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Опус Луксузни Ривер Динер Круз'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Razkošna luksuzna rečna večerja'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Crucero con cena de lujo "Opulence" por el río'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero con cena de lujo "Opulence" por el río'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Usafiri wa Anasa wa Mto wa Kifahari wa Jioni'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Overdådig Lyxig Flod Middagskryssning'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'ஆடம்பரமான நதி இரவு உணவு சொகுசுப் பயணம்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'การล่องเรือรับประทานอาหารค่ำสุดหรูในแม่น้ำ'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Lüks Nehir Akşam Yemeği Gezisi'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Розкішний річковий круїз з вечерею'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'شاہانہ پرتعیش دریا ڈنر کروز'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền ăn tối sang trọng trên sông'
+            }
+        }
+    },
 ];
