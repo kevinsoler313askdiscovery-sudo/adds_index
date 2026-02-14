@@ -1399,4 +1399,354 @@ const tourAds = [
             }
         }
     },
+    {
+        id: 'yodsiam_sightseeing',
+        background: 'PICTURES/YODSIAM SIGHTSEEING WEB/yodsiam_sightseeing_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-yodsiam-sightseeing-cruise-snacks-unlimited-beer/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing Cruise Snacks & Unlimited Beer'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة يودسيام لمشاهدة المعالم السياحية وجبات خفيفة وبيرة غير محدودة'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Yodsiam Aztarnari Txangoa Mokaduak eta Garagardo Mugagabea'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'ইডসিয়াম দর্শনীয় স্থান ভ্রমণ স্ন্যাক্স এবং আনলিমিটেড বিয়ার'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer turístic Yodsiam amb aperitius i cervesa il·limitada'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Yodsiam Razgledavanje Krstarenje Grickalice i Neograničeno Pivo'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Vyhlídková plavba Yodsiam Občerstvení a neomezené pivo'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing Cruise Snacks & Ubegrænset Øl'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing Cruise Snacks & Onbeperkt Bier'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing Cruise Snacks at Walang Limitasyong Beer'
+            },
+            french: {
+                discount: '20%',
+                title: 'Croisière touristique Yodsiam Collations et bière à volonté'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Cruceiro turístico Yodsiam con petiscos e cervexa ilimitada'
+            },
+            german: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing-Kreuzfahrt Snacks & unbegrenztes Bier'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Yodsiam Περιηγητική Κρουαζιέρα Σνακ & Απεριόριστη Μπύρα'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'योदसियाम दर्शनीय स्थल क्रूज स्नैक्स और असीमित बीयर'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Yodsiam városnéző hajóút rágcsálnivalók és korlátlan sör'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Wisata Kapal Pesiar Yodsiam Makanan Ringan & Bir Tanpa Batas'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera turistica Yodsiam Snack e birra illimitata'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'ヨドサイアム観光クルーズ スナック＆無制限ビール'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សាន្តតាមទូកកម្សាន្ត Yodsiam អាហារសម្រន់ & ស្រាបៀរគ្មានដែនកំណត់'
+            },
+            korean: {
+                discount: '20%',
+                title: '욧시암 관광 크루즈 스낵 및 무제한 맥주'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Pelayaran Pemandangan Yodsiam Snek & Bir Tanpa Had'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '游暹观光游轮小吃和无限量啤酒'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '遊暹觀光遊輪小吃和無限量啤酒'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'योदसियाम दर्शनीय स्थल क्रुज खाजा र असीमित बियर'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeing Cruise Snacks & Ubegrenset Øl'
+            },
+            persian: {
+                discount: '20%',
+                title: 'گشت و گذار کروز Yodsiam تنقلات و آبجو نامحدود'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Rejs widokowy Yodsiam Przekąski i nieograniczone piwo'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro turístico Yodsiam Lanches e Cerveja Ilimitada'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Экскурсионный круиз Yodsiam Закуски и безлимитное пиво'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Разгледање крстарење Јодсиам Грицкалице и неограничено пиво'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Yodsiam Ogledna križarjenja Prigrizki in neomejeno pivo'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Crucero turístico Yodsiam con aperitivos y cerveza ilimitada'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero turístico Yodsiam con aperitivos y cerveza ilimitada'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Yodsiam Ziara ya Mashua Vitafunio na Bia Isiyo na Kikomo'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Yodsiam Sightseeingkryssning Snacks & Obegränsad Öl'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'யோத்சியாம் சுற்றுலாப் படகு சிற்றுண்டிகள் மற்றும் வரம்பற்ற பீர்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'โยเดียม ท่องเที่ยวล่องเรือ ขนมและเบียร์ไม่อั้น'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Yodsiam Gezi Teknesi Atıştırmalıklar ve Sınırsız Bira'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Екскурсійний круїз Yodsiam Закуски та необмежене пиво'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'یودسیام سیر و تفریح کروز اسنیکس اور لامحدود بیئر'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền tham quan Yodsiam Đồ ăn nhẹ & Bia không giới hạn'
+            }
+        }
+    },
+    {
+        id: 'elephant_sanctuary',
+        background: 'PICTURES/ELEPHANT SANCTUARY WEB/elephant_sanctuary_1.webp',
+        link: 'https://monkeytravel.co/excursion/chiang-mai-elephant-sanctuary-only-ticket/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Elephant Sanctuary with Bamboo Raft and Waterfall'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'محمية الفيلة مع ركوب قارب الخيزران والشلال'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Elefante Santutegia Banbu Baltsa eta Ur-jauziarekin'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'বাঁশের ভেলা এবং জলপ্রপাত সহ এলিফ্যান্ট অভয়ারণ্য'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Santuari d\'elefants amb balsa de bambú i cascada'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Utočište slonova sa splavom od bambusa i slapom'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Sloní rezervace s bambusovým vorem a vodopádem'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Elefantreservat med bambusflåde og vandfald'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Olifantenreservaat met bamboevlot en waterval'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Elephant Sanctuary na may Bamboo Raft at Waterfall'
+            },
+            french: {
+                discount: '20%',
+                title: 'Sanctuaire des éléphants avec radeau en bambou et cascade'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Santuario de elefantes con balsa de bambú e fervenza'
+            },
+            german: {
+                discount: '20%',
+                title: 'Elefantenreservat mit Bambusfloß und Wasserfall'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Καταφύγιο Ελεφάντων με Σχεδία από Μπαμπού και Καταρράκτη'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'बांस के बेड़े और झरने के साथ एलीफेंट सैंक्चुअरी'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Elefántrezervátum bambusztutajjal és vízeséssel'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Suaka Gajah dengan Rakit Bambu dan Air Terjun'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Santuario degli elefanti con zattera di bambù e cascata'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'エレファントサンクチュアリ、竹いかだ、滝付き'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ជម្រកដំរីជាមួយក្បូនឫស្សី និងទឹកធ្លាក់'
+            },
+            korean: {
+                discount: '20%',
+                title: '대나무 뗏목과 폭포가 있는 코끼리 보호구역'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Tempat Perlindungan Gajah dengan Rakit Buluh dan Air Terjun'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '大象保护区，含竹筏和瀑布'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '大象保護區，含竹筏和瀑布'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'बाँसको भेला और झरना सहितको हात्ती अभयारण्य'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Elefantreservat med bambusflåte og foss'
+            },
+            persian: {
+                discount: '20%',
+                title: 'پناهگاه فیل ها با قایق بامبو و آبشار'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Sanktuarium słoni z tratwą bambusową i wodospadem'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Santuário de Elefantes com Balsa de Bambu e Cachoeira'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Заповедник слонов с бамбуковым плотом и водопадом'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Светилиште за слонове са сплавом од бамбуса и водопадом'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Zavetišče za slone z bambusovim splavom in slapom'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Santuario de elefantes con balsa de bambú y cascada'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Santuario de elefantes con balsa de bambú y cascada'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Hifadhi ya Tembo na Rafu ya Bamboo na Maporomoko ya Maji'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Elefantreservat med bambuflotte och vattenfall'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'மூங்கில் படகு மற்றும் நீர்வீழ்ச்சியுடன் யானைகள் சரணालयம்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ปางช้างพร้อมล่องแพไม้ไผ่และน้ำตก'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Bambu Sal ve Şelale ile Fil Barınağı'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Заповідник слонів із бамбуковим плотом та водоспадом'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'بانس کے بیڑے اور آبشار کے ساتھ ہاتھیوں کی پناہ گاہ'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Khu bảo tồn voi với bè tre và thác nước'
+            }
+        }
+    }
 ];
