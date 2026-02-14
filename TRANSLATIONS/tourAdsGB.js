@@ -698,5 +698,180 @@ const tourAds = [
                 title: 'Du thuyền ăn tối White Orchid Chao Phraya bia miễn phí'
             }
         }
+    },
+    {
+        id: 'canal_tour',
+        background: 'PICTURES/CANAL TOUR WEB/canal_tour_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-canal-tour-wat-paknam-river-local-life-wat-arum/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Canal Tour, River Local Life & Wat Arun Visit'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'جولة بالقناة، حياة النهر المحلية وزيارة وات ارون'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Kanal-ibilbidea, ibaiko tokiko bizimodua eta Wat Arun bisita'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'খাল ভ্রমণ, নদীর স্থানীয় জীবন ও ওয়াট অরুণ দর্শন'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Excursió pel canal, vida local al riu i visita a Wat Arun'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Obilazak kanala, lokalni život na rijeci i posjet Wat Arunu'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Prohlídka kanálu, místní život u řeky a návštěva Wat Arunu'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Kanalrundfart, lokalt liv ved floden og besøg ved Wat Arun'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Kanaalrondvaart, lokaal rivierleven en bezoek aan Wat Arun'
+            },
+            filipino: {
+                discount: '20%',
+                title: 'Paglalakbay sa Kanal, Lokal na Buhay sa Ilog at Pagbisita sa Wat Arun'
+            },
+            french: {
+                discount: '20%',
+                title: 'Visite du canal, vie locale sur la rivière et visite de Wat Arun'
+            },
+            galician: {
+                discount: '20%',
+                title: 'Percorrido pola canle, vida local no río e visita a Wat Arun'
+            },
+            german: {
+                discount: '20%',
+                title: 'Kanaltour, lokales Flussleben & Wat Arun Besuch'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Περιήγηση στο κανάλι, τοπική ζωή στο ποτάμι και επίσκεψη στο Wat Arun'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'नहर यात्रा, नदी का स्थानीय जीवन और वाट अरुण दर्शन'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Csatornatúra, helyi folyóparti élet és Wat Arun látogatás'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Tur Kanal, Kehidupan Lokal Sungai & Kunjungan Wat Arun'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Tour in barca sul canale, vita locale sul fiume e visita a Wat Arun'
+            },
+            japanese: {
+                discount: '20%',
+                title: '運河ツアー、川沿いの地元生活＆ワットアルン訪問'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ដំណើរកម្សាន្តតាមព្រែក ជីវិតប្រជាជនតាមដងទន្លេ និងទស្សនាប្រាសាទវត្តអារុណ'
+            },
+            korean: {
+                discount: '20%',
+                title: '운하 투어, 강변 현지 생활 및 왓 아룬 방문'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Lawatan Terusan, Kehidupan Tempatan Sungai & Lawatan Wat Arun'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '运河之旅，河流当地生活及郑王庙参观'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '運河之旅，河流當地生活及鄭王廟參觀'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'नहर भ्रमण, नदीको स्थानीय जीवन र वाट अरुण भ्रमण'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Kanaltur, lokalt elveliv og besøk til Wat Arun'
+            },
+            persian: {
+                discount: '20%',
+                title: 'گشت کانال، زندگی محلی رودخانه و بازدید از وات آرون'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Wycieczka kanałowa, lokalne życie nad rzeką i wizyta w Wat Arun'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Passeio de Canal, Vida Local no Rio e Visita ao Wat Arun'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Тур по каналам, местная жизнь на реке и посещение Ват Аруна'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Обилазак канала, локални живот на реци и посета Ват Аруну'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Ogled kanala, lokalno življenje ob reki in obisk Wat Aruna'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Tour por el canal, vida local en el río y visita al Wat Arun'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Tour por el canal, vida local en el río y visita al Wat Arun'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Ziara ya Mfereji, Maisha ya Watu wa Mtoni na Ziara ya Wat Arun'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Kanalrundtur, lokalt flodliv og besök vid Wat Arun'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'கால்வாய் சுற்றுலா, ஆற்றுப்புற உள்ளூர் வாழ்க்கை & வாட் அருண் வருகை'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ทัวร์คลอง, วิถีชีวิตริมน้ำ & เยี่ยมชมวัดอรุณ'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Kanal Turu, Nehir Yerel Yaşamı ve Wat Arun Ziyareti'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Прогулянка каналом, місцеве життя на річці та відвідування Ват Арун'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'نہرا کا دورہ، دریا کی مقامی زندگی اور واٹ ارون کا دورہ'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Tham quan kênh đào, cuộc sống địa phương ven sông & thăm Wat Arun'
+            }
+        }
     }
 ];
