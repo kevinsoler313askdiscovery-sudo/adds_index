@@ -1757,6 +1757,170 @@ const tourAds = [
             english: {
                 discount: '20%',
                 title: 'Alangka Luxury Chao Phraya Dinner Cruise'
+            },
+            arabic: {
+                discount: '20%',
+                title: 'رحلة عشاء ألانغكا الفاخرة في تشاو فرايا'
+            },
+            basque: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Afari Itsas Bidaia'
+            },
+            bengali: {
+                discount: '20%',
+                title: 'আলাংকা লাক্সারি চাও ফ্রায়া ডিনার ক্রুজ'
+            },
+            catalan: {
+                discount: '20%',
+                title: 'Creuer amb sopar Alangka Luxury Chao Phraya'
+            },
+            croatian: {
+                discount: '20%',
+                title: 'Krstarenje Chao Phraya s večerom Alangka Luxury'
+            },
+            czech: {
+                discount: '20%',
+                title: 'Večeře na lodi Alangka Luxury Chao Phraya'
+            },
+            danish: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Middagscruise'
+            },
+            dutch: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Diner Cruise'
+            },
+            finnish: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya -illallisristeily'
+            },
+            french: {
+                discount: '20%',
+                title: 'Dîner-croisière Alangka Luxury Chao Phraya'
+            },
+            german: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Dinner Cruise'
+            },
+            greek: {
+                discount: '20%',
+                title: 'Κρουαζιέρα με δείπνο Alangka Luxury Chao Phraya'
+            },
+            hebrew: {
+                discount: '20%',
+                title: 'שייט ארוחת ערב אורכידאה לבנה צ\'או פראיה'
+            },
+            hindi: {
+                discount: '20%',
+                title: 'आलांका लक्जरी चाओ फ्राया डिनर क्रूज'
+            },
+            hungarian: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya vacsorahajó'
+            },
+            indonesian: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Alangka Luxury Chao Phraya'
+            },
+            italian: {
+                discount: '20%',
+                title: 'Crociera con cena Alangka Luxury Chao Phraya'
+            },
+            japanese: {
+                discount: '20%',
+                title: 'アランカ・ラグジュアリー・チャオプラヤ・ディナークルーズ'
+            },
+            khmer: {
+                discount: '20%',
+                title: 'ទូកកម្សាន្តអាហារពេលល្ងាច Alangka Luxury Chao Phraya'
+            },
+            korean: {
+                discount: '20%',
+                title: '알랑카 럭셔리 차오프라야 디너 크루즈'
+            },
+            malay: {
+                discount: '20%',
+                title: 'Pelayaran Makan Malam Alangka Luxury Chao Phraya'
+            },
+            mandarin_china: {
+                discount: '20%',
+                title: '阿拉ん卡豪华湄南河晚餐游船'
+            },
+            mandarin_taiwan: {
+                discount: '20%',
+                title: '阿拉ん卡豪華湄南河晚餐遊船'
+            },
+            nepali: {
+                discount: '20%',
+                title: 'आलांका लक्जरी चाओ फ्राया डिनर क्रूज'
+            },
+            norwegian: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya middagscruise'
+            },
+            persian: {
+                discount: '20%',
+                title: 'کشتی شام آلانگکا لوکسری چائو فرایا'
+            },
+            polish: {
+                discount: '20%',
+                title: 'Rejs z kolacją Alangka Luxury Chao Phraya'
+            },
+            portuguese: {
+                discount: '20%',
+                title: 'Cruzeiro de jantar Alangka Luxury Chao Phraya'
+            },
+            russian: {
+                discount: '20%',
+                title: 'Ужин-круиз Alangka Luxury Chao Phraya'
+            },
+            serbian: {
+                discount: '20%',
+                title: 'Крстарење вечером Alangka Luxury Chao Phraya'
+            },
+            slovenian: {
+                discount: '20%',
+                title: 'Križarjenje z večerjo Alangka Luxury Chao Phraya'
+            },
+            spanish_spain: {
+                discount: '20%',
+                title: 'Crucero con cena Alangka Luxury Chao Phraya'
+            },
+            spanish_latam: {
+                discount: '20%',
+                title: 'Crucero con cena Alangka Luxury Chao Phraya'
+            },
+            swahili: {
+                discount: '20%',
+                title: 'Safari ya Chakula cha jioni cha Alangka Luxury Chao Phraya'
+            },
+            swedish: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya middagskryssning'
+            },
+            tamil: {
+                discount: '20%',
+                title: 'ஆலங்கா லக்ஷ்ரி சாவோ பிரயா இரவு உணவு கப்பல்'
+            },
+            thai: {
+                discount: '20%',
+                title: 'ล่องเรือดินเนอร์ Alangka Luxury Chao Phraya'
+            },
+            turkish: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Akşam Yemeği Turu'
+            },
+            ukrainian: {
+                discount: '20%',
+                title: 'Вечерній круїз Alangka Luxury Chao Phraya'
+            },
+            urdu: {
+                discount: '20%',
+                title: 'آلانکا لکژری چاؤ فرایا ڈنر کروز'
+            },
+            vietnamese: {
+                discount: '20%',
+                title: 'Du thuyền ăn tối Alangka Luxury Chao Phraya'
             }
         }
     }
