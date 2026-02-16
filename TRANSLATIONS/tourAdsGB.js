@@ -1748,5 +1748,16 @@ const tourAds = [
                 title: 'Khu bảo tồn voi với bè tre và thác nước'
             }
         }
+    },
+    {
+        id: 'alangka_luxury',
+        background: 'PICTURES/ALANGKA LUXURY WEB/alangka_luxury_1.webp',
+        link: 'https://monkeytravel.co/excursion/bangkok-alangka-luxury-chao-phraya-dinner-cruise/?utm_campaign=Audioguide',
+        content: {
+            english: {
+                discount: '20%',
+                title: 'Alangka Luxury Chao Phraya Dinner Cruise'
+            }
+        }
     }
 ];
