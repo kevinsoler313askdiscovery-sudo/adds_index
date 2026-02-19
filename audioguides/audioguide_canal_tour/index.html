@@ -1,0 +1,1698 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Guide - Monkey Travel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            transition: background-color 0.3s;
+        }
+
+        body.dark {
+            background-color: #111827;
+        }
+
+        body.light {
+            background-color: #f9fafb;
+        }
+
+        .container {
+            max-width: 448px;
+            margin: 0 auto;
+            padding: 0;
+            /* Remove padding from container to allow hero to span full width */
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            height: 200px;
+            /* Adjust height as needed */
+            overflow: hidden;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            background-color: #333;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+        }
+
+        .hero-slider-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-slider-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: scale(1.05);
+        }
+
+        .hero-slider-image.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .hero-content {
+            width: 100%;
+            padding: 1.5rem 1.5rem;
+            /* Dark overlay effect for better text readability */
+            background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0));
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1;
+            color: white;
+            text-align: center;
+
+            /* Mimic the magenta/purple color from the mockup */
+            background: linear-gradient(to right, #ffffff, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.5));
+            /* Subtle shadow for contrast */
+        }
+
+        /* Adjust padding for the rest of the content */
+        .language-selector,
+        .player,
+        .playlist,
+        .empty-state {
+            padding: 1rem;
+        }
+
+        /* Header */
+
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.1rem;
+            /* Reduced margin to bring closer to language selector */
+            padding: 1rem;
+            /* Add padding back to header content */
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(to bottom right, #9f24e7, #f200c4);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+        }
+
+
+
+        .brand-link {
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: all 0.3s;
+        }
+
+
+
+        body.dark .brand-link {
+            color: white;
+        }
+
+        .logo-section a:hover .brand-link {
+            color: #9f24e7;
+        }
+
+        body.light .brand-link {
+            color: #111827;
+        }
+
+        .logo-section a:hover .brand-link {
+            color: #9f24e7;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .theme-toggle,
+        .social-button {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .social-button svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        body.dark .theme-toggle,
+        body.dark .social-button {
+            background-color: #1f2937;
+            color: #9ca3af;
+        }
+
+        body.dark .theme-toggle {
+            color: #fbbf24;
+        }
+
+        body.dark .theme-toggle:hover,
+        body.dark .social-button:hover {
+            background-color: #374151;
+            color: white;
+        }
+
+        body.light .theme-toggle,
+        body.light .social-button {
+            background-color: white;
+            color: #6b7280;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body.light .theme-toggle {
+            color: #9f24e7;
+        }
+
+        body.light .theme-toggle:hover,
+        body.light .social-button:hover {
+            background-color: #f3f4f6;
+            color: #111827;
+        }
+
+        /* Language Selector (Unificado con Playlist) */
+        .language-selector-container {
+            margin: 0 1rem 1rem 1rem;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        body.dark .language-selector-container {
+            background-color: #1f2937;
+        }
+
+        body.light .language-selector-container {
+            background-color: white;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .language-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 1.2rem 1.5rem;
+            user-select: none;
+        }
+
+        .language-header h3 {
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin: 0 !important;
+        }
+
+        body.dark .language-header h3 {
+            color: white;
+        }
+
+        body.light .language-header h3 {
+            color: #111827;
+        }
+
+        .language-items-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            max-height: 60vh;
+            /* Limit height on mobile */
+            overflow-y: auto;
+            /* Enable scrolling */
+            opacity: 1;
+            transition: all 0.4s ease-in-out;
+            scrollbar-width: thin;
+            scrollbar-color: #9f24e7 transparent;
+        }
+
+        .language-items-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .language-items-container::-webkit-scrollbar-thumb {
+            background-color: #9f24e7;
+            border-radius: 10px;
+        }
+
+        .language-search-container {
+            padding: 0 1.5rem 1rem 1.5rem;
+            display: block;
+        }
+
+        .language-search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            font-size: 0.9375rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        body.dark .language-search-input {
+            background-color: #374151;
+            border-color: #4b5563;
+            color: white;
+        }
+
+        body.light .language-search-input {
+            background-color: #f3f4f6;
+            border-color: #e5e7eb;
+            color: #111827;
+        }
+
+        .language-search-input:focus {
+            border-color: #9f24e7;
+            box-shadow: 0 0 0 2px rgba(159, 36, 231, 0.2);
+        }
+
+        .language-selector-container.collapsed .language-items-container,
+        .language-selector-container.collapsed .language-search-container {
+            max-height: 0;
+            opacity: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .language-selector-container.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .language-option {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.2s;
+            width: 100%;
+            font-size: 0.9375rem;
+            font-weight: 500;
+        }
+
+        body.dark .language-option {
+            color: #9ca3af;
+        }
+
+        body.dark .language-option:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: white;
+        }
+
+        body.light .language-option {
+            color: #6b7280;
+        }
+
+        body.light .language-option:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            color: #111827;
+        }
+
+        .language-option.active {
+            background: linear-gradient(to right, #9f24e7, #f200c4) !important;
+            color: white !important;
+        }
+
+        /* Player */
+        .player {
+            border-radius: 1.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+            display: none;
+            margin: 0 1rem 1rem 1rem;
+            /* Add horizontal margin to respect container width */
+        }
+
+        .player.show {
+            display: block;
+        }
+
+        body.dark .player {
+            background: linear-gradient(to bottom right, #1f2937, #111827);
+        }
+
+        body.light .player {
+            background: linear-gradient(to bottom right, white, #f9fafb);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos del slider de Ã¡lbum eliminados - ahora en hero */
+
+        .album-content {
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .album-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .track-info {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .track-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        body.dark .track-title {
+            color: white;
+        }
+
+        body.light .track-title {
+            color: #111827;
+        }
+
+        .track-language {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        body.dark .track-language {
+            color: #9ca3af;
+        }
+
+        body.light .track-language {
+            color: #6b7280;
+        }
+
+        /* Progress Bar */
+        .progress-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            appearance: none;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-bar::-webkit-slider-thumb {
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .progress-bar::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .time-display {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.875rem;
+        }
+
+        body.dark .time-display {
+            color: #9ca3af;
+        }
+
+        body.light .time-display {
+            color: #6b7280;
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .control-btn {
+            padding: 0.75rem;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        body.dark .control-btn {
+            background-color: #374151;
+            color: white;
+        }
+
+        body.dark .control-btn:hover:not(:disabled) {
+            background-color: #4b5563;
+        }
+
+        body.light .control-btn {
+            background-color: #e5e7eb;
+            color: #111827;
+        }
+
+        body.light .control-btn:hover:not(:disabled) {
+            background-color: #d1d5db;
+        }
+
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .play-btn {
+            padding: 1.25rem;
+            background: linear-gradient(to right, #9f24e7, #f200c4);
+            color: white;
+            box-shadow: 0 10px 15px rgba(159, 36, 231, 0.3);
+        }
+
+        .play-btn:hover:not(:disabled) {
+            transform: scale(1.05);
+        }
+
+        /* Estilos para la Playlist Desplegable */
+        .playlist {
+            margin: 0 1rem 1rem 1rem;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        /* --- ESTILOS CORREGIDOS DE PLAYLIST --- */
+        .playlist {
+            margin: 0 1rem 1rem 1rem;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s;
+            display: none;
+            /* Se muestra solo cuando hay un idioma seleccionado */
+        }
+
+        .playlist.show {
+            display: block;
+        }
+
+        body.dark .playlist {
+            background-color: #1f2937;
+        }
+
+        body.light .playlist {
+            background-color: white;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .playlist-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 1.2rem 1.5rem;
+            user-select: none;
+        }
+
+        .playlist-header h3 {
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin: 0 !important;
+        }
+
+        body.dark .playlist-header h3 {
+            color: white;
+        }
+
+        body.light .playlist-header h3 {
+            color: #111827;
+        }
+
+        .toggle-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        body.dark .toggle-icon {
+            color: white;
+        }
+
+        body.light .toggle-icon {
+            color: #111827;
+        }
+
+        .playlist.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .playlist-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            max-height: 2000px;
+            opacity: 1;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .playlist.collapsed .playlist-items {
+            max-height: 0;
+            opacity: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .playlist-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.2s;
+            width: 100%;
+        }
+
+        body.dark .playlist-item {
+            color: #9ca3af;
+        }
+
+        body.dark .playlist-item:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: white;
+        }
+
+        body.light .playlist-item {
+            color: #6b7280;
+        }
+
+        body.light .playlist-item:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            color: #111827;
+        }
+
+        .playlist-item.active {
+            background: linear-gradient(to right, #9f24e7, #f200c4) !important;
+            color: white !important;
+        }
+
+        .playlist-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: rgba(159, 36, 231, 0.1);
+            color: #9f24e7;
+            flex-shrink: 0;
+        }
+
+        .playlist-item.active .playlist-icon {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .playlist-title {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Promo Section Styles */
+        .promo-section {
+            margin: 1rem;
+            padding: 1.5rem 0.5rem;
+            border-radius: 1.5rem;
+            display: none;
+            flex-direction: column;
+            gap: 1.25rem;
+            transition: all 0.3s;
+            text-decoration: none;
+            /* Quitar subrayado del enlace */
+            cursor: pointer;
+        }
+
+        .promo-section.show {
+            display: flex;
+        }
+
+        body.dark .promo-section {
+            background-color: #1f2937;
+            color: white;
+        }
+
+        body.light .promo-section {
+            background-color: white;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            color: #111827;
+        }
+
+        .promo-title {
+            font-size: 2.25rem;
+            /* Agrandado */
+            font-weight: 900;
+            text-align: center;
+            background: linear-gradient(to right, #9f24e7, #f200c4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 0;
+            line-height: 1.1;
+            padding: 0 1rem;
+        }
+
+        .promo-subtitle {
+            font-size: 1rem;
+            font-weight: 500;
+            text-align: center;
+            margin-top: -0.5rem;
+            margin-bottom: 0.5rem;
+            padding: 0 1.5rem;
+        }
+
+        .promo-subtitle .highlight {
+            background: linear-gradient(to right, #9f24e7, #f200c4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 1.25em;
+        }
+
+        body.dark .promo-subtitle {
+            color: #9ca3af;
+        }
+
+        body.light .promo-subtitle {
+            color: #6b7280;
+        }
+
+        .promo-slider-wrapper {
+            position: relative;
+            width: 100%;
+            padding: 0 2.5rem;
+            /* Reducido un poco para dar mÃ¡s espacio a la imagen */
+            margin: 0 auto;
+        }
+
+        .promo-slider {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1;
+            /* Imagen cuadrada */
+            border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            background-color: #000;
+        }
+
+        .slider-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .slider-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: scale(1.05);
+        }
+
+        .slider-image.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .slider-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: transparent;
+            border: none;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+
+        body.dark .slider-nav {
+            color: #9ca3af;
+        }
+
+        body.light .slider-nav {
+            color: #6b7280;
+        }
+
+        .slider-nav:hover {
+            color: #9f24e7;
+            transform: translateY(-50%) scale(1.2);
+        }
+
+        .slider-nav.prev {
+            left: -0.5rem;
+        }
+
+        .slider-nav.next {
+            right: -0.5rem;
+        }
+
+        .slider-nav svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .promo-price-tag {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: #ef4444;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            z-index: 5;
+        }
+
+        .old-price {
+            font-size: 0.75rem;
+            text-decoration: line-through;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+
+        .new-price {
+            font-size: 1.25rem;
+            font-weight: 900;
+        }
+
+        .promo-footer {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 0 1rem;
+        }
+
+        .promo-description {
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .promo-button {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: none;
+            background: linear-gradient(to right, #9f24e7, #f200c4);
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .promo-button:hover {
+            transform: scale(1.02);
+            opacity: 0.9;
+        }
+
+        .promo-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Empty State */
+        .empty-state {
+            border-radius: 1.5rem;
+            padding: 3rem;
+            text-align: center;
+            transition: all 0.3s;
+            margin: 0 1rem 1rem 1rem;
+            /* Add horizontal margin to respect container width */
+        }
+
+        body.dark .empty-state {
+            background-color: #1f2937;
+        }
+
+        body.light .empty-state {
+            background-color: white;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .empty-text {
+            font-size: 1.125rem;
+        }
+
+        body.dark .empty-text {
+            color: #9ca3af;
+        }
+
+        body.light .empty-text {
+            color: #6b7280;
+        }
+
+        /* Icons */
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-small {
+            width: 20px;
+            height: 20px;
+        }
+
+        .icon-large {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-slider-container" id="heroSliderContainer">
+                <!-- Las imágenes se cargarán dinámicamente desde JavaScript -->
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">CANAL TOUR</h1>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-section">
+                <a href="https://monkeytravel.co/" target="_blank"
+                    style="text-decoration: none; display: flex; align-items: center; gap: 0.75rem;">
+                    <div class="logo">
+                        <img src="../../LOGO/logo_monkey.webp" alt="Logo">
+                    </div>
+                    <div class="brand-info">
+                        <span class="brand-link">Monkey Travel</span>
+                    </div>
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/monkey.travel/" target="_blank" class="social-button"
+                    aria-label="Instagram">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@MonkeyTravel-u7e" target="_blank" class="social-button"
+                    aria-label="YouTube">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                    </svg>
+                </a>
+                <a href="https://www.tiktok.com/@monkey_travel_" target="_blank" class="social-button"
+                    aria-label="TikTok">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.35-.54.38-.89.98-1.03 1.64-.13.47-.12.95-.01 1.42.14.84.76 1.57 1.57 1.85.55.19 1.17.22 1.74.1.71-.15 1.32-.62 1.67-1.24.25-.44.38-.93.4-1.43.01-3.13 0-6.25.01-9.37z" />
+                    </svg>
+                </a>
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <svg class="icon" id="themeIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Language Selector -->
+        <div class="language-selector-container" id="languageSelectorContainer">
+            <div class="language-header" onclick="toggleLanguageDropdown()">
+                <h3 id="selectedLanguage">Select Language</h3>
+                <svg class="toggle-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="language-search-container">
+                <input type="text" id="languageSearch" class="language-search-input" placeholder="Search language..."
+                    onkeyup="filterLanguages()" onclick="event.stopPropagation()">
+            </div>
+            <div class="language-items-container" id="languageDropdown">
+                <!-- Los idiomas se cargarÃ¡n aquÃ­ -->
+            </div>
+        </div>
+
+        <!-- Player -->
+        <div class="player" id="player">
+            <div class="track-info">
+                <h2 class="track-title" id="trackTitle">Sin audio</h2>
+                <p class="track-language" id="trackLanguage"></p>
+            </div>
+
+            <div class="progress-section">
+                <input type="range" class="progress-bar" id="progressBar" min="0" max="100" value="0">
+                <div class="time-display">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="control-btn" onclick="previousTrack()" id="prevBtn">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" />
+                    </svg>
+                </button>
+                <button class="control-btn play-btn" onclick="togglePlay()" id="playBtn">
+                    <svg class="icon-large" id="playIcon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                </button>
+                <button class="control-btn" onclick="nextTrack()" id="nextBtn">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist collapsed" id="playlist">
+            <div class="playlist-header" onclick="togglePlaylist()">
+                <h3 id="playlistTitle">Lista de ReproducciÃ³n</h3>
+                <svg class="toggle-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="playlist-items" id="playlistItems"></div>
+        </div>
+
+        <!-- Promo Section -->
+        <a href="#" target="_blank" class="promo-section" id="promoSection">
+            <h2 class="promo-title" id="promoTitle">OFERTA ESPECIAL</h2>
+            <p class="promo-subtitle" id="promoSubtitle">Â¡No te pierdas esta oportunidad Ãºnica!</p>
+
+            <div class="promo-slider-wrapper">
+                <div class="promo-slider">
+                    <div class="slider-container" id="sliderContainer">
+                        <!-- Las imÃ¡genes se cargarÃ¡n dinÃ¡micamente -->
+                    </div>
+                    <div class="promo-price-tag">
+                        <span class="new-price" id="promoNewPrice">20% OFF</span>
+                    </div>
+                </div>
+                <button class="slider-nav prev" onclick="event.preventDefault(); prevSlide();">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+                <button class="slider-nav next" onclick="event.preventDefault(); nextSlide();">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="promo-footer">
+                <p class="promo-description" id="promoDescription">Bangkok: Railway Market & Floating Market Tour</p>
+                <button class="promo-button" id="promoButton">RESERVAR AHORA</button>
+            </div>
+        </a>
+
+
+        <!-- Initial Promo Section (Replaces Empty State) -->
+        <a href="#" target="_blank" class="promo-section" id="initialPromoSection">
+            <h2 class="promo-title" id="initialPromoTitle">OUR OTHER TOURS</h2>
+            <p class="promo-subtitle" id="initialPromoSubtitle">Only today take advantage of discount code <span
+                    class='highlight'>Audioguide</span>
+            </p>
+
+            <div class="promo-slider-wrapper">
+                <div class="promo-slider">
+                    <div class="initial-slider-container" id="initialSliderContainer">
+                        <!-- Las imÃ¡genes se cargarÃ¡n dinÃ¡micamente -->
+                    </div>
+                    <div class="promo-price-tag">
+                        <span class="new-price" id="initialPromoNewPrice">20% OFF</span>
+                    </div>
+                </div>
+                <button class="slider-nav prev" onclick="event.preventDefault(); prevSlide();">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+                <button class="slider-nav next" onclick="event.preventDefault(); nextSlide();">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="promo-footer">
+                <p class="promo-description" id="initialPromoDescription">Bangkok: Railway Market & Floating Market Tour
+                </p>
+                <button class="promo-button" id="initialPromoButton">BOOK NOW</button>
+            </div>
+        </a>
+
+        <audio id="audioPlayer"></audio>
+    </div>
+
+    <script>
+        // Base de datos de audios - DEBE estar antes de cargar los archivos externos
+        const BASE_URL = "https://kevinsoler313askdiscovery-sudo.github.io/Canal_Tour_Audios/";
+    </script>
+
+    <!-- External data files -->
+    <script src="../../TRANSLATIONS/translationsGB.js"></script>
+    <script src="../../TRANSLATIONS/tourAdsGB.js"></script>
+    <script src="../../TRANSLATIONS/CANAL_TOURaudioDatabase.js"></script>
+    <script src="CANAL_TOURImages.js"></script>
+
+    <script>
+
+        let currentLanguage = '';
+        let currentTrackIndex = 0;
+        let isPlaying = false;
+
+        // IDs of tours to show (refer to tourAdsGB.js)
+        const activeTourIds = ['floating', 'chiang_rai', 'tuktuk', 'white_orchid', 'luxury_white', 'royal_princess', 'opulence_luxury', 'yodsiam_sightseeing', 'elephant_sanctuary', 'alangka_luxury'];
+        const filteredTourAds = activeTourIds
+            .map(id => tourAds.find(ad => ad.id === id))
+            .filter(ad => ad !== undefined);
+
+        let currentSlideIndex = 0;
+        let sliderInterval;
+        let heroSlideIndex = 0;
+        let heroSliderInterval;
+
+
+        const audio = document.getElementById('audioPlayer');
+        const playIcon = document.getElementById('playIcon');
+
+
+
+
+        // Cargar imágenes del hero slider dinámicamente
+        function loadHeroImages() {
+            const heroContainer = document.getElementById('heroSliderContainer');
+            if (!heroContainer) return;
+
+            heroContainer.innerHTML = ''; // Limpiar por si acaso
+            const imageFolder = '../../PICTURES/CANAL TOUR WEB/';
+
+            // Usar la lista global heroImages (cargada desde heroImages.js)
+            if (typeof heroImages !== 'undefined' && heroImages.length > 0) {
+                heroImages.forEach((fileName, index) => {
+                    const img = document.createElement('img');
+                    img.src = imageFolder + fileName;
+                    img.alt = `Canal Tour ${index + 1}`;
+                    img.className = 'hero-slider-image';
+                    // La primera imagen será activa
+                    if (index === 0) img.classList.add('active');
+                    heroContainer.appendChild(img);
+                });
+                console.log(`Hero Slider: ${heroImages.length} imágenes cargadas.`);
+            } else {
+                console.error("Hero Slider: No se encontró la lista de imágenes (heroImages).");
+            }
+        }
+
+        // Inicializar
+        function init() {
+            // Cargar imágenes del hero primero
+            loadHeroImages();
+
+            populateLanguages();
+            setupEventListeners();
+
+            // Inicializar selector de idiomas como colapsado
+            document.getElementById('languageSelectorContainer').classList.add('collapsed');
+
+            // Mostrar publicidad inicial
+            const initialPromo = document.getElementById('initialPromoSection');
+            if (initialPromo) initialPromo.classList.add('show');
+
+            // Inicializar publicidad inicial
+            initPromoSlider();
+            startSlider();
+
+            // Inicializar slider del hero
+            console.log("Hero Slider: Iniciando animación...");
+            startHeroSlider();
+        }
+
+        // Poblar idiomas
+        function populateLanguages() {
+            const dropdown = document.getElementById('languageDropdown');
+            dropdown.innerHTML = '';
+
+            const languages = Object.keys(audioDatabase).sort((a, b) => {
+                if (a === 'english') return -1;
+                if (b === 'english') return 1;
+                return a.localeCompare(b);
+            });
+
+            languages.forEach(lang => {
+                const button = document.createElement('button');
+                button.className = 'language-option';
+                if (lang === currentLanguage) button.classList.add('active');
+                const label = translations[lang]?.label || lang.charAt(0).toUpperCase() + lang.slice(1);
+                button.textContent = label;
+                button.onclick = (e) => {
+                    e.stopPropagation();
+                    selectLanguage(lang);
+                };
+                dropdown.appendChild(button);
+            });
+        }
+
+        // Seleccionar idioma
+        function selectLanguage(lang) {
+            currentLanguage = lang;
+            currentTrackIndex = 0;
+            isPlaying = false;
+
+            const label = translations[lang]?.label || lang.charAt(0).toUpperCase() + lang.slice(1);
+            document.getElementById('selectedLanguage').textContent = label;
+
+            toggleLanguageDropdown();
+            loadPlaylist();
+            showPlayer();
+            loadTrack(0);
+            populateLanguages(); // Actualizar estado activo
+        }
+
+        // Mostrar/ocultar dropdown de idiomas
+        function toggleLanguageDropdown() {
+            const container = document.getElementById('languageSelectorContainer');
+            const isCollapsed = container.classList.contains('collapsed');
+
+            if (isCollapsed) {
+                container.classList.remove('collapsed');
+                // Enfocar el buscador al abrir
+                setTimeout(() => {
+                    const searchInput = document.getElementById('languageSearch');
+                    searchInput.value = '';
+                    searchInput.focus();
+                    filterLanguages(); // Resetear filtro
+                }, 100);
+            } else {
+                container.classList.add('collapsed');
+            }
+        }
+
+        // Filtrar idiomas
+        function filterLanguages() {
+            const searchText = document.getElementById('languageSearch').value.toLowerCase();
+            const options = document.querySelectorAll('.language-option');
+
+            options.forEach(option => {
+                const text = option.textContent.toLowerCase();
+                if (text.includes(searchText)) {
+                    option.style.display = 'flex';
+                } else {
+                    option.style.display = 'none';
+                }
+            });
+        }
+
+        // Cargar lista de reproducciÃ³n
+        function loadPlaylist() {
+            const playlistItems = document.getElementById('playlistItems');
+            const titleElement = document.getElementById('playlistTitle');
+
+            // Cambia el tÃ­tulo segÃºn el idioma
+            const t = translations[currentLanguage] || { playlist: "Playlist" };
+            titleElement.textContent = t.playlist || "Playlist";
+
+            // Actualizar secciones de publicidad
+            const promoTitles = ['promoTitle', 'initialPromoTitle'];
+            promoTitles.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = t.promoTitle || "OFERTA ESPECIAL";
+            });
+
+            const promoSubtitles = ['promoSubtitle', 'initialPromoSubtitle'];
+            promoSubtitles.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = t.promoSubtitle || "Â¡No te pierdas esta oportunidad Ãºnica!";
+            });
+
+            const promoButtons = ['promoButton', 'initialPromoButton'];
+            promoButtons.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = t.promoButton || "RESERVAR AHORA";
+            });
+
+            // Siempre actualizar el contenido de la promociÃ³n para reflejar el idioma seleccionado
+            updatePromoContent();
+
+            // Actualizar placeholder del buscador
+            const searchInput = document.getElementById('languageSearch');
+            if (searchInput) {
+                searchInput.placeholder = t.searchPlaceholder || (currentLanguage === 'espaÃ±ol' ? 'Buscar idioma...' : 'Search language...');
+            }
+
+            playlistItems.innerHTML = '';
+            const tracks = audioDatabase[currentLanguage];
+
+            tracks.forEach((track, index) => {
+                const button = document.createElement('button');
+                button.className = 'playlist-item';
+                if (index === currentTrackIndex) button.classList.add('active');
+
+                button.innerHTML = `
+                    <div class="playlist-icon">
+                        <svg class="icon-small" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="${isPlaying && index === currentTrackIndex ? 'M6 19h4V5H6v14zm8-14v14h4V5h-4z' : 'M8 5v14l11-7z'}"/>
+                        </svg>
+                    </div>
+                    <div class="playlist-title">${track.title}</div>
+                `;
+
+                button.onclick = () => selectTrack(index);
+                playlistItems.appendChild(button);
+            });
+        }
+
+        // Mostrar reproductor
+        function showPlayer() {
+            document.getElementById('player').classList.add('show');
+            const playlist = document.getElementById('playlist');
+            playlist.classList.add('show');
+            // Asegurarse de que empiece colapsado
+            playlist.classList.add('collapsed');
+            playlist.classList.remove('expanded');
+
+            // Mostrar secciÃ³n de publicidad principal
+            const promoSection = document.getElementById('promoSection');
+            if (promoSection) promoSection.classList.add('show');
+
+            // Ocultar secciÃ³n de publicidad inicial
+            const initialPromo = document.getElementById('initialPromoSection');
+            if (initialPromo) initialPromo.classList.remove('show');
+
+            initPromoSlider();
+            startSlider();
+        }
+
+        // LÃ³gica del Slider del Hero
+        function startHeroSlider() {
+            if (heroSliderInterval) clearInterval(heroSliderInterval);
+            heroSliderInterval = setInterval(nextHeroSlide, 4000); // Cambia cada 4 segundos
+        }
+
+        function showHeroSlide(index) {
+            const slides = document.querySelectorAll('.hero-slider-image');
+            if (index >= slides.length) heroSlideIndex = 0;
+            else if (index < 0) heroSlideIndex = slides.length - 1;
+            else heroSlideIndex = index;
+
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === heroSlideIndex);
+            });
+        }
+
+        function nextHeroSlide() {
+            const slides = document.querySelectorAll('.hero-slider-image');
+            if (slides.length <= 1) {
+                console.warn("Hero Slider: No hay suficientes imágenes para rotar.");
+                return;
+            }
+
+            let newIndex;
+            // Generar un índice aleatorio diferente al actual
+            let attempts = 0;
+            do {
+                newIndex = Math.floor(Math.random() * slides.length);
+                attempts++;
+            } while (newIndex === heroSlideIndex && attempts < 10);
+
+            console.log(`Hero Slider: Cambiando a imagen aleatoria índice ${newIndex}`);
+            showHeroSlide(newIndex);
+        }
+
+        function prevHeroSlide() {
+            showHeroSlide(heroSlideIndex - 1);
+            startHeroSlider(); // Reiniciar el intervalo al cambiar manualmente
+        }
+
+        function initPromoSlider() {
+            const containers = [
+                document.getElementById('sliderContainer'),
+                document.getElementById('initialSliderContainer')
+            ];
+
+            containers.forEach(container => {
+                if (!container) return;
+                container.innerHTML = '';
+                filteredTourAds.forEach((ad, index) => {
+                    const img = document.createElement('img');
+                    img.src = '../../' + ad.background;
+                    img.alt = `Tour ${index + 1}`;
+                    img.className = `slider-image ${index === 0 ? 'active' : ''}`;
+                    container.appendChild(img);
+                });
+            });
+
+            updatePromoContent();
+        }
+
+        function updatePromoContent() {
+            if (filteredTourAds.length === 0) return;
+            const ad = filteredTourAds[currentSlideIndex];
+            const promoSections = [
+                document.getElementById('promoSection'),
+                document.getElementById('initialPromoSection')
+            ];
+
+            // Determinar el idioma para el contenido del anuncio de forma dinÃ¡mica
+            let langKey = currentLanguage.toLowerCase();
+
+            // Intentar obtener el contenido en el idioma actual, si no existe, usar 'english' como respaldo
+            const content = ad.content[langKey] || ad.content['english'] || Object.values(ad.content)[0];
+
+            promoSections.forEach(section => {
+                if (section) section.href = ad.link;
+            });
+
+            // Actualizar el porcentaje de descuento en la etiqueta roja
+            const priceTags = ['promoNewPrice', 'initialPromoNewPrice'];
+            priceTags.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = `${content.discount} OFF`;
+            });
+
+            // Actualizar el tÃ­tulo del tour
+            const descriptions = ['promoDescription', 'initialPromoDescription'];
+            descriptions.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = content.title;
+            });
+
+            // Actualizar imÃ¡genes activas
+            const slides = document.querySelectorAll('.slider-image');
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i % filteredTourAds.length === currentSlideIndex);
+            });
+        }
+
+        function startSlider() {
+            if (sliderInterval) clearInterval(sliderInterval);
+            sliderInterval = setInterval(nextSlide, 5000);
+        }
+
+        function nextSlide() {
+            if (filteredTourAds.length === 0) return;
+            currentSlideIndex = (currentSlideIndex + 1) % filteredTourAds.length;
+            updatePromoContent();
+        }
+
+        function prevSlide() {
+            if (filteredTourAds.length === 0) return;
+            currentSlideIndex = (currentSlideIndex - 1 + filteredTourAds.length) % filteredTourAds.length;
+            updatePromoContent();
+            startSlider(); // Reiniciar el intervalo al cambiar manualmente
+        }
+
+        // Cargar pista
+        function loadTrack(index) {
+            const tracks = audioDatabase[currentLanguage];
+            if (!tracks || !tracks[index]) return;
+
+            currentTrackIndex = index;
+            const track = tracks[index];
+
+            audio.src = track.url;
+            document.getElementById('trackTitle').textContent = track.title;
+            document.getElementById('trackLanguage').textContent =
+                translations[currentLanguage]?.label || currentLanguage.charAt(0).toUpperCase() + currentLanguage.slice(1);
+
+            loadPlaylist();
+
+            if (isPlaying) {
+                audio.play();
+            }
+        }
+
+        // Seleccionar pista
+        function selectTrack(index) {
+            loadTrack(index);
+            isPlaying = true;
+            audio.play();
+            updatePlayIcon();
+        }
+
+        // Toggle play/pause
+        function togglePlay() {
+            if (!currentLanguage) return;
+
+            if (isPlaying) {
+                audio.pause();
+            } else {
+                audio.play();
+            }
+
+            isPlaying = !isPlaying;
+            updatePlayIcon();
+            loadPlaylist();
+        }
+
+        // Pista anterior
+        function previousTrack() {
+            if (audio.currentTime > 3) {
+                audio.currentTime = 0;
+            } else if (currentTrackIndex > 0) {
+                loadTrack(currentTrackIndex - 1);
+                if (isPlaying) audio.play();
+            }
+        }
+
+        // Pista siguiente
+        function nextTrack() {
+            const tracks = audioDatabase[currentLanguage];
+            if (currentTrackIndex < tracks.length - 1) {
+                loadTrack(currentTrackIndex + 1);
+                if (isPlaying) audio.play();
+            } else {
+                loadTrack(0);
+                isPlaying = false;
+                updatePlayIcon();
+            }
+        }
+
+
+
+        // Actualizar icono de play
+        function updatePlayIcon() {
+            playIcon.innerHTML = isPlaying
+                ? '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>'
+                : '<path d="M8 5v14l11-7z"/>';
+        }
+
+
+
+        // Formatear tiempo
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return '0:00';
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        // Actualizar gradiente de barras
+        function updateProgressGradient(value, max) {
+            const percentage = (value / max) * 100;
+            const isDark = document.body.classList.contains('dark');
+            const bgColor = isDark ? '#374151' : '#e5e7eb';
+            return `linear-gradient(to right, #9f24e7 0%, #f200c4 ${percentage}%, ${bgColor} ${percentage}%, ${bgColor} 100%)`;
+        }
+
+        // Event listeners
+        function setupEventListeners() {
+            // Audio events
+            audio.addEventListener('timeupdate', () => {
+                const progressBar = document.getElementById('progressBar');
+                progressBar.max = audio.duration || 0;
+                progressBar.value = audio.currentTime;
+                progressBar.style.background = updateProgressGradient(audio.currentTime, audio.duration);
+                document.getElementById('currentTime').textContent = formatTime(audio.currentTime);
+            });
+
+            audio.addEventListener('loadedmetadata', () => {
+                document.getElementById('duration').textContent = formatTime(audio.duration);
+            });
+
+            audio.addEventListener('ended', () => {
+                nextTrack();
+            });
+
+            // Progress bar
+            document.getElementById('progressBar').addEventListener('input', (e) => {
+                audio.currentTime = e.target.value;
+            });
+
+
+
+            // Cerrar selector de idiomas al hacer clic fuera
+            document.addEventListener('click', (e) => {
+                const container = document.getElementById('languageSelectorContainer');
+                if (!container.contains(e.target)) {
+                    container.classList.add('collapsed');
+                }
+            });
+
+
+        }
+
+        // Toggle playlist visibility
+        function togglePlaylist() {
+            const playlist = document.getElementById('playlist');
+            if (playlist.classList.contains('collapsed')) {
+                playlist.classList.remove('collapsed');
+                playlist.classList.add('expanded');
+            } else {
+                playlist.classList.add('collapsed');
+                playlist.classList.remove('expanded');
+            }
+        }
+
+        // Toggle tema
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            document.body.classList.toggle('light');
+
+            const isDark = document.body.classList.contains('dark');
+            const icon = document.getElementById('themeIcon');
+
+            if (isDark) {
+                icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>';
+            } else {
+                icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>';
+            }
+
+            // Actualizar gradientes
+            const progressBar = document.getElementById('progressBar');
+
+            progressBar.style.background = updateProgressGradient(audio.currentTime, audio.duration);
+
+        }
+
+        // Inicializar app
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+
+</html>
