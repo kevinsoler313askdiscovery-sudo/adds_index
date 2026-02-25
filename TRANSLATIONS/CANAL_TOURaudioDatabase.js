@@ -95,4 +95,36 @@ const audioDatabase = {
         { id: 5, title: '5. 總結', url: BASE_URL + 'mandarin_taiwan/5.resumen_zh_tw.mp3' },
         { id: 6, title: '6. 結語問候', url: BASE_URL + 'mandarin_taiwan/6.saludo_final_zh_tw.mp3' }
     ],
+    greek: [
+        { id: 1, title: '1. ΕΙΣΑΓΩΓΗ | ΚΑΛΩΣ ΗΡΘΑΤΕ', url: BASE_URL + 'greek/1.introduccion_bienvenida_el.mp3' },
+        { id: 2, title: '2. Η ΜΠΑΝΓΚΟΚ ΚΑΙ ΤΑ ΚΑΝΑΛΙΑ ΤΗΣ', url: BASE_URL + 'greek/2.bangkok_y_sus_canales_el.mp3' },
+        { id: 3, title: '3. ΠΕΡΙΗΓΗΣΗ ΜΕ ΜΑΚΡΥΠΡΥΜΝΟ ΣΚΑΦΟΣ', url: BASE_URL + 'greek/3.recorrido_en_barco_de_cola_larga_el.mp3' },
+        { id: 4, title: '4. WAT ARUN | ΝΑΟΣ ΤΗΣ ΑΥΓΗΣ', url: BASE_URL + 'greek/4.wat_arun_templo_del_amanecer_el.mp3' },
+        { id: 5, title: '5. ΠΕΡΙΛΗΨΗ', url: BASE_URL + 'greek/5.resumen_el.mp3' },
+        { id: 6, title: '6. ΤΕΛΙΚΟΣ ΧΑΙΡΕΤΙΣΜΟΣ', url: BASE_URL + 'greek/6.saludo_final_el.mp3' }
+    ],
+    nepali: [
+        { id: 1, title: '1. परिचय | स्वागत छ', url: BASE_URL + 'nepali/1.introduccion_bienvenida_ne.mp3' },
+        { id: 2, title: '2. बैंकक र यसका नहरहरू', url: BASE_URL + 'nepali/2.bangkok_y_sus_canales_ne.mp3' },
+        { id: 3, title: '3. लामो पुच्छर डुंगामा यात्रा', url: BASE_URL + 'nepali/3.recorrido_en_barco_de_cola_larga_ne.mp3' },
+        { id: 4, title: '4. वाट अरुण | प्रभातको मन्दिर', url: BASE_URL + 'nepali/4.wat_arun_templo_del_amanecer_ne.mp3' },
+        { id: 5, title: '5. सारांश', url: BASE_URL + 'nepali/5.resumen_ne.mp3' },
+        { id: 6, title: '6. अन्तिम अभिवादन', url: BASE_URL + 'nepali/6.saludo_final_ne.mp3' }
+    ],
+    norwegian: [
+        { id: 1, title: '1. INTRODUKSJON | VELKOMMEN', url: BASE_URL + 'norwegian/1.introduccion_bienvenida_no.mp3' },
+        { id: 2, title: '2. BANGKOK OG DENS KANALER', url: BASE_URL + 'norwegian/2.bangkok_y_sus_canales_no.mp3' },
+        { id: 3, title: '3. TUR MED LONGTAIL-BÅT', url: BASE_URL + 'norwegian/3.recorrido_en_barco_de_cola_larga_no.mp3' },
+        { id: 4, title: '4. WAT ARUN | DAGGRYETS TEMPEL', url: BASE_URL + 'norwegian/4.wat_arun_templo_del_amanecer_no.mp3' },
+        { id: 5, title: '5. OPPSUMMERING', url: BASE_URL + 'norwegian/5.resumen_no.mp3' },
+        { id: 6, title: '6. AVSLUTTENDE HILSEN', url: BASE_URL + 'norwegian/6.saludo_final_no.mp3' }
+    ],
+    turkish: [
+        { id: 1, title: '1. GİRİŞ | HOŞ GELDİNİZ', url: BASE_URL + 'turkish/1.introduccion_bienvenida_tr.mp3' },
+        { id: 2, title: '2. BANGKOK VE KANALLARI', url: BASE_URL + 'turkish/2.bangkok_y_sus_canales_tr.mp3' },
+        { id: 3, title: '3. UZUN KUYRUKLU TEKNE TURU', url: BASE_URL + 'turkish/3.recorrido_en_barco_de_cola_larga_tr.mp3' },
+        { id: 4, title: '4. WAT ARUN | ŞAFAK TAPINAĞI', url: BASE_URL + 'turkish/4.wat_arun_templo_del_amanecer_tr.mp3' },
+        { id: 5, title: '5. ÖZET', url: BASE_URL + 'turkish/5.resumen_tr.mp3' },
+        { id: 6, title: '6. KAPANIŞ SELAMI', url: BASE_URL + 'turkish/6.saludo_final_tr.mp3' }
+    ],
 }
