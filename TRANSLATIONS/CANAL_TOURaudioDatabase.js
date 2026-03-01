@@ -127,4 +127,52 @@ const audioDatabase = {
         { id: 5, title: '5. ÖZET', url: BASE_URL + 'turkish/5.resumen_tr.mp3' },
         { id: 6, title: '6. KAPANIŞ SELAMI', url: BASE_URL + 'turkish/6.saludo_final_tr.mp3' }
     ],
+    cambodian: [
+        { id: 1, title: '1. សេចក្តីផ្តើម | សូមស្វាគមន៍', url: BASE_URL + 'cambodian/1.introduccion_bienvenida_km.mp3' },
+        { id: 2, title: '2. បាងកក និងប្រឡាយរបស់វា', url: BASE_URL + 'cambodian/2.bangkok_y_sus_canales_km.mp3' },
+        { id: 3, title: '3. ដំណើរកម្សាន្តដោយទូកកន្ទុយវែង', url: BASE_URL + 'cambodian/3.recorrido_en_barco_de_cola_larga_km.mp3' },
+        { id: 4, title: '4. វត្តអរុណ | ប្រាសាទព្រឹកព្រោះ', url: BASE_URL + 'cambodian/4.wat_arun_templo_del_amanecer_km.mp3' },
+        { id: 5, title: '5. សេចក្តីសង្ខេប', url: BASE_URL + 'cambodian/5.resumen_km.mp3' },
+        { id: 6, title: '6. ការស្វាគមន៍បញ្ចប់', url: BASE_URL + 'cambodian/6.saludo_final_km.mp3' }
+    ],
+    hindi: [
+        { id: 1, title: '1. परिचय | स्वागत है', url: BASE_URL + 'hindi/1.introduccion_bienvenida_hi.mp3' },
+        { id: 2, title: '2. बैंकॉक और इसकी नहरें', url: BASE_URL + 'hindi/2.bangkok_y_sus_canales_hi.mp3' },
+        { id: 3, title: '3. लॉन्ग-टेल बोट यात्रा', url: BASE_URL + 'hindi/3.recorrido_en_barco_de_cola_larga_hi.mp3' },
+        { id: 4, title: '4. वाट अरुण | प्रभात का मंदिर', url: BASE_URL + 'hindi/4.wat_arun_templo_del_amanecer_hi.mp3' },
+        { id: 5, title: '5. सारांश', url: BASE_URL + 'hindi/5.resumen_hi.mp3' },
+        { id: 6, title: '6. अंतिम अभिवादन', url: BASE_URL + 'hindi/6.saludo_final_hi.mp3' }
+    ],
+    persian: [
+        { id: 1, title: '1. مقدمه | خوش آمدید', url: BASE_URL + 'persian/1.introduccion_bienvenida_fa.mp3' },
+        { id: 2, title: '2. بانکوک و کانال‌های آن', url: BASE_URL + 'persian/2.bangkok_y_sus_canales_fa.mp3' },
+        { id: 3, title: '3. گشت با قایق دم‌دراز', url: BASE_URL + 'persian/3.recorrido_en_barco_de_cola_larga_fa.mp3' },
+        { id: 4, title: '4. وات آرون | معبد سپیده‌دم', url: BASE_URL + 'persian/4.wat_arun_templo_del_amanecer_fa.mp3' },
+        { id: 5, title: '5. خلاصه', url: BASE_URL + 'persian/5.resumen_fa.mp3' },
+        { id: 6, title: '6. خداحافظی پایانی', url: BASE_URL + 'persian/6.saludo_final_fa.mp3' }
+    ],
+    polish: [
+        { id: 1, title: '1. WPROWADZENIE | WITAMY', url: BASE_URL + 'polish/1.introduccion_bienvenida_pl.mp3' },
+        { id: 2, title: '2. BANGKOK I JEGO KANAŁY', url: BASE_URL + 'polish/2.bangkok_y_sus_canales_pl.mp3' },
+        { id: 3, title: '3. REJS ŁODZIĄ Z DŁUGIM OGONEM', url: BASE_URL + 'polish/3.recorrido_en_barco_de_cola_larga_pl.mp3' },
+        { id: 4, title: '4. WAT ARUN | ŚWIĄTYNIA ŚWITU', url: BASE_URL + 'polish/4.wat_arun_templo_del_amanecer_pl.mp3' },
+        { id: 5, title: '5. PODSUMOWANIE', url: BASE_URL + 'polish/5.resumen_pl.mp3' },
+        { id: 6, title: '6. POŻEGNANIE KOŃCOWE', url: BASE_URL + 'polish/6.saludo_final_pl.mp3' }
+    ],
+    spanish_latam: [
+        { id: 1, title: '1. INTRODUCCIÓN | BIENVENIDOS', url: BASE_URL + 'spanish_latam/1.introduccion_bienvenida_es_latam.mp3' },
+        { id: 2, title: '2. BANGKOK Y SUS CANALES', url: BASE_URL + 'spanish_latam/2.bangkok_y_sus_canales_es_latam.mp3' },
+        { id: 3, title: '3. RECORRIDO EN BARCO DE COLA LARGA', url: BASE_URL + 'spanish_latam/3.recorrido_en_barco_de_cola_larga_es_latam.mp3' },
+        { id: 4, title: '4. WAT ARUN | EL TEMPLO DEL AMANECER', url: BASE_URL + 'spanish_latam/4.wat_arun_templo_del_amanecer_es_latam.mp3' },
+        { id: 5, title: '5. RESUMEN', url: BASE_URL + 'spanish_latam/5.resumen_es_latam.mp3' },
+        { id: 6, title: '6. SALUDO FINAL', url: BASE_URL + 'spanish_latam/6.saludo_final_es_latam.mp3' }
+    ],
+    ukrainian: [
+        { id: 1, title: '1. ВСТУП | ЛАСКАВО ПРОСИМО', url: BASE_URL + 'ukrainian/1.introduccion_bienvenida_uk.mp3' },
+        { id: 2, title: '2. БАНГКОК І ЙОГО КАНАЛИ', url: BASE_URL + 'ukrainian/2.bangkok_y_sus_canales_uk.mp3' },
+        { id: 3, title: '3. ПРОГУЛЯНКА НА ДОВГОХВОСТОМУ ЧОВНІ', url: BASE_URL + 'ukrainian/3.recorrido_en_barco_de_cola_larga_uk.mp3' },
+        { id: 4, title: '4. WAT ARUN | ХРАМ СВІТАНКУ', url: BASE_URL + 'ukrainian/4.wat_arun_templo_del_amanecer_uk.mp3' },
+        { id: 5, title: '5. ПІДСУМОК', url: BASE_URL + 'ukrainian/5.resumen_uk.mp3' },
+        { id: 6, title: '6. ФІНАЛЬНЕ ВІТАННЯ', url: BASE_URL + 'ukrainian/6.saludo_final_uk.mp3' }
+    ],
 }

@@ -897,7 +897,7 @@
             font-size: 1.2rem;
             font-weight: 600;
             line-height: 1.4;
-            margin: 0;
+            margin: 0; 
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
@@ -1187,7 +1187,7 @@
         let isPlaying = false;
 
         // IDs of tours to show (refer to tourAdsGB.js)
-        const activeTourIds = ['floating', 'tuktuk', 'white_orchid', 'canal_tour', 'luxury_white', 'royal_princess', 'opulence_luxury', 'yodsiam_sightseeing', 'elephant_sanctuary', 'alangka_luxury'];
+        const activeTourIds = ['floating', 'chiang_rai', 'tuktuk'];
         const filteredTourAds = activeTourIds
             .map(id => tourAds.find(ad => ad.id === id))
             .filter(ad => ad !== undefined);
