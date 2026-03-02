@@ -175,4 +175,28 @@ const audioDatabase = {
         { id: 5, title: '5. ПІДСУМОК', url: BASE_URL + 'ukrainian/5.resumen_uk.mp3' },
         { id: 6, title: '6. ФІНАЛЬНЕ ВІТАННЯ', url: BASE_URL + 'ukrainian/6.saludo_final_uk.mp3' }
     ],
+    catalan: [
+        { id: 1, title: '1. INTRODUCCIÓ | BENVINGUTS', url: BASE_URL + 'catalan/1.introduccion_bienvenida_ca.mp3' },
+        { id: 2, title: '2. BANGKOK I ELS SEUS CANALS', url: BASE_URL + 'catalan/2.bangkok_y_sus_canales_ca.mp3' },
+        { id: 3, title: '3. RECORREGUT EN BARCA DE CUA LLARGA', url: BASE_URL + 'catalan/3.recorrido_en_barco_de_cola_larga_ca.mp3' },
+        { id: 4, title: '4. WAT ARUN | EL TEMPLE DE L’ALBA', url: BASE_URL + 'catalan/4.wat_arun_templo_del_amanecer_ca.mp3' },
+        { id: 5, title: '5. RESUM', url: BASE_URL + 'catalan/5.resumen_ca.mp3' },
+        { id: 6, title: '6. SALUTACIÓ FINAL', url: BASE_URL + 'catalan/6.saludo_final_ca.mp3' }
+    ],
+    hungarian: [
+        { id: 1, title: '1. BEVEZETÉS | ÜDVÖZÖLJÜK', url: BASE_URL + 'hungarian/1.introduccion_bienvenida_hu.mp3' },
+        { id: 2, title: '2. BANGKOK ÉS CSATORNÁI', url: BASE_URL + 'hungarian/2.bangkok_y_sus_canales_hu.mp3' },
+        { id: 3, title: '3. HOSSZÚFARKÚ CSÓNAKTÚRA', url: BASE_URL + 'hungarian/3.recorrido_en_barco_de_cola_larga_hu.mp3' },
+        { id: 4, title: '4. WAT ARUN | A HAJNAL TEMPLOMA', url: BASE_URL + 'hungarian/4.wat_arun_templo_del_amanecer_hu.mp3' },
+        { id: 5, title: '5. ÖSSZEFOGLALÁS', url: BASE_URL + 'hungarian/5.resumen_hu.mp3' },
+        { id: 6, title: '6. ZÁRÓ ÜDVÖZLET', url: BASE_URL + 'hungarian/6.saludo_final_hu.mp3' }
+    ],
+    portuguese: [
+        { id: 1, title: '1. INTRODUÇÃO | BEM-VINDOS', url: BASE_URL + 'portuguese/1.introduccion_bienvenida_pt.mp3' },
+        { id: 2, title: '2. BANGKOK E SEUS CANAIS', url: BASE_URL + 'portuguese/2.bangkok_y_sus_canales_pt.mp3' },
+        { id: 3, title: '3. PASSEIO DE BARCO LONGTAIL', url: BASE_URL + 'portuguese/3.recorrido_en_barco_de_cola_larga_pt.mp3' },
+        { id: 4, title: '4. WAT ARUN | TEMPLO DO AMANHECER', url: BASE_URL + 'portuguese/4.wat_arun_templo_del_amanecer_pt.mp3' },
+        { id: 5, title: '5. RESUMO', url: BASE_URL + 'portuguese/5.resumen_pt.mp3' },
+        { id: 6, title: '6. SAUDAÇÃO FINAL', url: BASE_URL + 'portuguese/6.saludo_final_pt.mp3' }
+    ],
 }
