@@ -199,4 +199,52 @@ const audioDatabase = {
         { id: 5, title: '5. RESUMO', url: BASE_URL + 'portuguese/5.resumen_pt.mp3' },
         { id: 6, title: '6. SAUDAÇÃO FINAL', url: BASE_URL + 'portuguese/6.saludo_final_pt.mp3' }
     ],
+    croatian: [
+        { id: 1, title: '1. UVOD | DOBRODOŠLI', url: BASE_URL + 'croatian/1.introduccion_bienvenida_hr.mp3' },
+        { id: 2, title: '2. BANGKOK I NJEGOVI KANALI', url: BASE_URL + 'croatian/2.bangkok_y_sus_canales_hr.mp3' },
+        { id: 3, title: '3. VOŽNJA ČAMCEM S DUGIM REPOM', url: BASE_URL + 'croatian/3.recorrido_en_barco_de_cola_larga_hr.mp3' },
+        { id: 4, title: '4. WAT ARUN | HRAM ZORE', url: BASE_URL + 'croatian/4.wat_arun_templo_del_amanecer_hr.mp3' },
+        { id: 5, title: '5. SAŽETAK', url: BASE_URL + 'croatian/5.resumen_hr.mp3' },
+        { id: 6, title: '6. ZAVRŠNI POZDRAV', url: BASE_URL + 'croatian/6.saludo_final_hr.mp3' }
+    ],
+    dutch: [
+        { id: 1, title: '1. INTRODUCTIE | WELKOM', url: BASE_URL + 'dutch/1.introduccion_bienvenida_nl.mp3' },
+        { id: 2, title: '2. BANGKOK EN ZIJN KANALEN', url: BASE_URL + 'dutch/2.bangkok_y_sus_canales_nl.mp3' },
+        { id: 3, title: '3. TOCHT MET EEN LONGTAILBOOT', url: BASE_URL + 'dutch/3.recorrido_en_barco_de_cola_larga_nl.mp3' },
+        { id: 4, title: '4. WAT ARUN | TEMPEL VAN DE DAWN', url: BASE_URL + 'dutch/4.wat_arun_templo_del_amanecer_nl.mp3' },
+        { id: 5, title: '5. SAMENVATTING', url: BASE_URL + 'dutch/5.resumen_nl.mp3' },
+        { id: 6, title: '6. AFSLUITENDE GROET', url: BASE_URL + 'dutch/6.saludo_final_nl.mp3' }
+    ],
+    indonesian: [
+        { id: 1, title: '1. PENGANTAR | SELAMAT DATANG', url: BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3' },
+        { id: 2, title: '2. BANGKOK DAN KANAL-KANALNYA', url: BASE_URL + 'indonesian/2.bangkok_y_sus_canales_id.mp3' },
+        { id: 3, title: '3. TUR PERAHU EKOR PANJANG', url: BASE_URL + 'indonesian/3.recorrido_en_barco_de_cola_larga_id.mp3' },
+        { id: 4, title: '4. WAT ARUN | KUIL FAJAR', url: BASE_URL + 'indonesian/4.wat_arun_templo_del_amanecer_id.mp3' },
+        { id: 5, title: '5. RINGKASAN', url: BASE_URL + 'indonesian/5.resumen_id.mp3' },
+        { id: 6, title: '6. SALAM PENUTUP', url: BASE_URL + 'indonesian/6.saludo_final_id.mp3' }
+    ],
+    russian: [
+        { id: 1, title: '1. ВВЕДЕНИЕ | ДОБРО ПОЖАЛОВАТЬ', url: BASE_URL + 'russian/1.introduccion_bienvenida_ru.mp3' },
+        { id: 2, title: '2. БАНГКОК И ЕГО КАНАЛЫ', url: BASE_URL + 'russian/2.bangkok_y_sus_canales_ru.mp3' },
+        { id: 3, title: '3. ПРОГУЛКА НА ДЛИННОХВОСТОЙ ЛОДКЕ', url: BASE_URL + 'russian/3.recorrido_en_barco_de_cola_larga_ru.mp3' },
+        { id: 4, title: '4. ВАТ АРУН | ХРАМ РАССВЕТА', url: BASE_URL + 'russian/4.wat_arun_templo_del_amanecer_ru.mp3' },
+        { id: 5, title: '5. РЕЗЮМЕ', url: BASE_URL + 'russian/5.resumen_ru.mp3' },
+        { id: 6, title: '6. ЗАКЛЮЧИТЕЛЬНОЕ ПРИВЕТСТВИЕ', url: BASE_URL + 'russian/6.saludo_final_ru.mp3' }
+    ],
+    serbian: [
+        { id: 1, title: '1. UVOD | DOBRODOŠLI', url: BASE_URL + 'serbian/1.introduccion_bienvenida_sr.mp3' },
+        { id: 2, title: '2. BANGKOK I NJEGOVI KANALI', url: BASE_URL + 'serbian/2.bangkok_y_sus_canales_sr.mp3' },
+        { id: 3, title: '3. VOŽNJA ČAMCEM SA DUGIM REPOM', url: BASE_URL + 'serbian/3.recorrido_en_barco_de_cola_larga_sr.mp3' },
+        { id: 4, title: '4. WAT ARUN | HRAM SVITANJA', url: BASE_URL + 'serbian/4.wat_arun_templo_del_amanecer_sr.mp3' },
+        { id: 5, title: '5. SAŽETAK', url: BASE_URL + 'serbian/5.resumen_sr.mp3' },
+        { id: 6, title: '6. ZAVRŠNI POZDRAV', url: BASE_URL + 'serbian/6.saludo_final_sr.mp3' }
+    ],
+    urdu: [
+        { id: 1, title: '1. تعارف | خوش آمدید', url: BASE_URL + 'urdu/1.introduccion_bienvenida_ur.mp3' },
+        { id: 2, title: '2. بینکاک اور اس کی نہریں', url: BASE_URL + 'urdu/2.bangkok_y_sus_canales_ur.mp3' },
+        { id: 3, title: '3. لانگ ٹیل کشتی کی سیر', url: BASE_URL + 'urdu/3.recorrido_en_barco_de_cola_larga_ur.mp3' },
+        { id: 4, title: '4. واٹ ارون | مندرِ سحر', url: BASE_URL + 'urdu/4.wat_arun_templo_del_amanecer_ur.mp3' },
+        { id: 5, title: '5. خلاصہ', url: BASE_URL + 'urdu/5.resumen_ur.mp3' },
+        { id: 6, title: '6. آخری سلام', url: BASE_URL + 'urdu/6.saludo_final_ur.mp3' }
+    ]
 }
