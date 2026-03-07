@@ -246,5 +246,53 @@ const audioDatabase = {
         { id: 4, title: '4. واٹ ارون | مندرِ سحر', url: BASE_URL + 'urdu/4.wat_arun_templo_del_amanecer_ur.mp3' },
         { id: 5, title: '5. خلاصہ', url: BASE_URL + 'urdu/5.resumen_ur.mp3' },
         { id: 6, title: '6. آخری سلام', url: BASE_URL + 'urdu/6.saludo_final_ur.mp3' }
-    ]
+    ],
+    slovenian: [
+        { id: 1, title: '1. UVOD | DOBRODOŠLI', url: BASE_URL + 'slovenian/1.introduccion_bienvenida_sl.mp3' },
+        { id: 2, title: '2. BANGKOK IN NJEGOVI KANALI', url: BASE_URL + 'slovenian/2.bangkok_y_sus_canales_sl.mp3' },
+        { id: 3, title: '3. VOŽNJA Z DOLGOREPO LADJO', url: BASE_URL + 'slovenian/3.recorrido_en_barco_de_cola_larga_sl.mp3' },
+        { id: 4, title: '4. WAT ARUN | TEMPelj ZORE', url: BASE_URL + 'slovenian/4.wat_arun_templo_del_amanecer_sl.mp3' },
+        { id: 5, title: '5. POVZETEK', url: BASE_URL + 'slovenian/5.resumen_sl.mp3' },
+        { id: 6, title: '6. ZAKLJUČNI POZDRAV', url: BASE_URL + 'slovenian/6.saludo_final_sl.mp3' }
+    ],
+    basque: [
+        { id: 1, title: '1. SARRERA | ONGIE TORRI', url: BASE_URL + 'basque/1.introduccion_bienvenida_eu.mp3' },
+        { id: 2, title: '2. BANGKOK ETA BERE KANALAK', url: BASE_URL + 'basque/2.bangkok_y_sus_canales_eu.mp3' },
+        { id: 3, title: '3. ISATS LUZEDUN TXALUPAZKO IBILALDIA', url: BASE_URL + 'basque/3.recorrido_en_barco_de_cola_larga_eu.mp3' },
+        { id: 4, title: '4. WAT ARUN | EGUNSENTIAREN TENPLUA', url: BASE_URL + 'basque/4.wat_arun_templo_del_amanecer_eu.mp3' },
+        { id: 5, title: '5. LABURPENA', url: BASE_URL + 'basque/5.resumen_eu.mp3' },
+        { id: 6, title: '6. AZKEN AGURRA', url: BASE_URL + 'basque/6.saludo_final_eu.mp3' }
+    ],
+    italian: [
+        { id: 1, title: '1. INTRODUZIONE | BENVENUTI', url: BASE_URL + 'italian/1.introduccion_bienvenida_it.mp3' },
+        { id: 2, title: '2. BANGKOK E I SUOI CANALI', url: BASE_URL + 'italian/2.bangkok_y_sus_canales_it.mp3' },
+        { id: 3, title: '3. GIRO IN BARCA LONGTAIL', url: BASE_URL + 'italian/3.recorrido_en_barco_de_cola_larga_it.mp3' },
+        { id: 4, title: '4. WAT ARUN | IL TEMPIO DELL’ALBA', url: BASE_URL + 'italian/4.wat_arun_templo_del_amanecer_it.mp3' },
+        { id: 5, title: '5. RIASSUNTO', url: BASE_URL + 'italian/5.resumen_it.mp3' },
+        { id: 6, title: '6. SALUTO FINALE', url: BASE_URL + 'italian/6.saludo_final_it.mp3' }
+    ],
+    filipino: [
+        { id: 1, title: '1. PANIMULA | MALIGAYANG PAGDATING', url: BASE_URL + 'filipino/1.introduccion_bienvenida_fil.mp3' },
+        { id: 2, title: '2. BANGKOK AT ANG MGA KANAL NITO', url: BASE_URL + 'filipino/2.bangkok_y_sus_canales_fil.mp3' },
+        { id: 3, title: '3. BIYAHE SA LONG-TAIL NA BANGKA', url: BASE_URL + 'filipino/3.recorrido_en_barco_de_cola_larga_fil.mp3' },
+        { id: 4, title: '4. WAT ARUN | TEMPLO NG LIWAYWAY', url: BASE_URL + 'filipino/4.wat_arun_templo_del_amanecer_fil.mp3' },
+        { id: 5, title: '5. BUOD', url: BASE_URL + 'filipino/5.resumen_fil.mp3' },
+        { id: 6, title: '6. PANGWAKAS NA PAGBATI', url: BASE_URL + 'filipino/6.saludo_final_fil.mp3' }
+    ],
+    swahili: [
+        { id: 1, title: '1. UTANGULIZI | KARIBU', url: BASE_URL + 'swahili/1.introduccion_bienvenida_sw.mp3' },
+        { id: 2, title: '2. BANGKOK NA MIFEREJI YAKE', url: BASE_URL + 'swahili/2.bangkok_y_sus_canales_sw.mp3' },
+        { id: 3, title: '3. ZIARA YA MASHUA YA MKIA MREFU', url: BASE_URL + 'swahili/3.recorrido_en_barco_de_cola_larga_sw.mp3' },
+        { id: 4, title: '4. WAT ARUN | HEKALU LA MAPAMBAPUKO', url: BASE_URL + 'swahili/4.wat_arun_templo_del_amanecer_sw.mp3' },
+        { id: 5, title: '5. MUHTASARI', url: BASE_URL + 'swahili/5.resumen_sw.mp3' },
+        { id: 6, title: '6. SALAMU YA MWISHO', url: BASE_URL + 'swahili/6.saludo_final_sw.mp3' }
+    ],
+    swedish: [
+        { id: 1, title: '1. INTRODUKTION | VÄLKOMMEN', url: BASE_URL + 'swedish/1.introduccion_bienvenida_sv.mp3' },
+        { id: 2, title: '2. BANGKOK OCH DESS KANALER', url: BASE_URL + 'swedish/2.bangkok_y_sus_canales_sv.mp3' },
+        { id: 3, title: '3. TUR MED LONGTAIL-BÅT', url: BASE_URL + 'swedish/3.recorrido_en_barco_de_cola_larga_sv.mp3' },
+        { id: 4, title: '4. WAT ARUN | GRYNINGSTEMPLET', url: BASE_URL + 'swedish/4.wat_arun_templo_del_amanecer_sv.mp3' },
+        { id: 5, title: '5. SAMMANFATTNING', url: BASE_URL + 'swedish/5.resumen_sv.mp3' },
+        { id: 6, title: '6. AVSLUTANDE HÄLSNING', url: BASE_URL + 'swedish/6.saludo_final_sv.mp3' }
+    ],
 }
