@@ -295,4 +295,28 @@ const audioDatabase = {
         { id: 5, title: '5. SAMMANFATTNING', url: BASE_URL + 'swedish/5.resumen_sv.mp3' },
         { id: 6, title: '6. AVSLUTANDE HÄLSNING', url: BASE_URL + 'swedish/6.saludo_final_sv.mp3' }
     ],
+    french: [
+        { id: 1, title: '1. INTRODUCTION | BIENVENUE', url: BASE_URL + 'french/1.introduccion_bienvenida_fr.mp3' },
+        { id: 2, title: '2. BANGKOK ET SES CANAUX', url: BASE_URL + 'french/2.bangkok_y_sus_canales_fr.mp3' },
+        { id: 3, title: '3. VISITE EN BATEAU LONG-TAIL', url: BASE_URL + 'french/3.recorrido_en_barco_de_cola_larga_fr.mp3' },
+        { id: 4, title: '4. WAT ARUN | TEMPLE DE L’AUBE', url: BASE_URL + 'french/4.wat_arun_templo_del_amanecer_fr.mp3' },
+        { id: 5, title: '5. RÉSUMÉ', url: BASE_URL + 'french/5.resumen_fr.mp3' },
+        { id: 6, title: '6. SALUTATION FINALE', url: BASE_URL + 'french/6.saludo_final_fr.mp3' }
+    ],
+    tamil: [
+        { id: 1, title: '1. அறிமுகம் | வரவேற்கிறோம்', url: BASE_URL + 'tamil/1.introduccion_bienvenida_ta.mp3' },
+        { id: 2, title: '2. பாங்காக் மற்றும் அதன் கால்வாய்கள்', url: BASE_URL + 'tamil/2.bangkok_y_sus_canales_ta.mp3' },
+        { id: 3, title: '3. நீளவால் படகு பயணம்', url: BASE_URL + 'tamil/3.recorrido_en_barco_de_cola_larga_ta.mp3' },
+        { id: 4, title: '4. வாட் அருண் | விடியற்காலையின் கோவில்', url: BASE_URL + 'tamil/4.wat_arun_templo_del_amanecer_ta.mp3' },
+        { id: 5, title: '5. சுருக்கம்', url: BASE_URL + 'tamil/5.resumen_ta.mp3' },
+        { id: 6, title: '6. இறுதி வாழ்த்து', url: BASE_URL + 'tamil/6.saludo_final_ta.mp3' }
+    ],
+    vietnamese: [
+        { id: 1, title: '1. GIỚI THIỆU | CHÀO MỪNG', url: BASE_URL + 'vietnamese/1.introduccion_bienvenida_vi.mp3' },
+        { id: 2, title: '2. BANGKOK VÀ CÁC KÊNH RẠCH', url: BASE_URL + 'vietnamese/2.bangkok_y_sus_canales_vi.mp3' },
+        { id: 3, title: '3. CHUYẾN ĐI THUYỀN ĐUÔI DÀI', url: BASE_URL + 'vietnamese/3.recorrido_en_barco_de_cola_larga_vi.mp3' },
+        { id: 4, title: '4. WAT ARUN | ĐỀN BÌNH MINH', url: BASE_URL + 'vietnamese/4.wat_arun_templo_del_amanecer_vi.mp3' },
+        { id: 5, title: '5. TÓM TẮT', url: BASE_URL + 'vietnamese/5.resumen_vi.mp3' },
+        { id: 6, title: '6. LỜI CHÀO KẾT THÚC', url: BASE_URL + 'vietnamese/6.saludo_final_vi.mp3' }
+    ],
 }
