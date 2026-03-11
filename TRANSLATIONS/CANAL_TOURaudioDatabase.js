@@ -319,4 +319,20 @@ const audioDatabase = {
         { id: 5, title: '5. TÓM TẮT', url: BASE_URL + 'vietnamese/5.resumen_vi.mp3' },
         { id: 6, title: '6. LỜI CHÀO KẾT THÚC', url: BASE_URL + 'vietnamese/6.saludo_final_vi.mp3' }
     ],
+    galician: [
+        { id: 1, title: '1. INTRODUCIÓN | BENVIDOS', url: BASE_URL + 'galician/1.introduccion_bienvenida_gl.mp3' },
+        { id: 2, title: '2. BANGKOK E OS SEUS CANLES', url: BASE_URL + 'galician/2.bangkok_y_sus_canales_gl.mp3' },
+        { id: 3, title: '3. PERCORRIDO EN BARCO LONGTAIL', url: BASE_URL + 'galician/3.recorrido_en_barco_de_cola_larga_gl.mp3' },
+        { id: 4, title: '4. WAT ARUN | O TEMPLO DO AMENCER', url: BASE_URL + 'galician/4.wat_arun_templo_del_amanecer_gl.mp3' },
+        { id: 5, title: '5. RESUMO', url: BASE_URL + 'galician/5.resumen_gl.mp3' },
+        { id: 6, title: '6. SAÚDO FINAL', url: BASE_URL + 'galician/6.saludo_final_gl.mp3' }
+    ],
+    thai: [
+        { id: 1, title: '1. บทนำ | ยินดีต้อนรับ', url: BASE_URL + 'thai/1.introduccion_bienvenida_th.mp3' },
+        { id: 2, title: '2. กรุงเทพฯ และคลองต่าง ๆ ของเมือง', url: BASE_URL + 'thai/2.bangkok_y_sus_canales_th.mp3' },
+        { id: 3, title: '3. ทัวร์เรือหางยาว', url: BASE_URL + 'thai/3.recorrido_en_barco_de_cola_larga_th.mp3' },
+        { id: 4, title: '4. วัดอรุณ | วัดแห่งรุ่งอรุณ', url: BASE_URL + 'thai/4.wat_arun_templo_del_amanecer_th.mp3' },
+        { id: 5, title: '5. สรุป', url: BASE_URL + 'thai/5.resumen_th.mp3' },
+        { id: 6, title: '6. คำทักทายส่งท้าย', url: BASE_URL + 'thai/6.saludo_final_th.mp3' }
+    ],
 }
