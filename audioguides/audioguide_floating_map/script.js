@@ -532,12 +532,12 @@ const tourMapPoints = [
     {
         lat: 13.520176060764442,
         lng: 99.9586287865303,
-        url: 'https://monkeytravel.co/'   // ← enlace del punto 1
+        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'   // ← enlace del punto 1
     },
     {
         lat: 13.407729248140535,
         lng: 99.99896162903356,
-        url: 'https://monkeytravel.co/location/america/'   // ← enlace del punto 2
+        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
     }
     // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
 ];
@@ -549,7 +549,7 @@ function buildPopupHTML(name, desc, url) {
               style="display:inline-block;padding:6px 14px;border-radius:8px;
                      background:linear-gradient(to right,#9f24e7,#f200c4);
                      color:white;font-size:0.8rem;font-weight:700;text-decoration:none;">
-            More info
+            Pictures and information
            </a>`
         : '';
     return `<div style="min-width:160px;line-height:1.4;text-align:center;">
