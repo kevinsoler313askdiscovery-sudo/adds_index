@@ -14,6 +14,27 @@ let sliderInterval;
 let heroSlideIndex = 0;
 let heroSliderInterval;
 
+// Map variables
+let leafletMap = null;
+let mapMarkers = [];
+
+// Array de puntos de interés del tour.
+// Propiedades opcionales: color, fillColor, fillOpacity, radius (metros), url (enlace del popup).
+// Los textos (nombre y descripción) vienen de translations[lang].mapStops[i]
+const tourMapPoints = [
+    {
+        lat: 13.520176060764442,
+        lng: 99.9586287865303,
+        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'   // ← enlace del punto 1
+    },
+    {
+        lat: 13.407729248140535,
+        lng: 99.99896162903356,
+        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
+    }
+    // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
+];
+
 
 const audio = document.getElementById('audioPlayer');
 const playIcon = document.getElementById('playIcon');
@@ -44,6 +65,22 @@ function loadHeroImages() {
     } else {
         console.error("Hero Slider: No se encontró la lista de imágenes (heroImages).");
     }
+}
+
+function buildPopupHTML(name, desc, url) {
+    const descHtml = desc ? `<p style="margin:4px 0 8px;font-size:0.85rem;color:#9ca3af;">${desc}</p>` : '';
+    const linkHtml = url
+        ? `<a href="${url}" target="_blank" rel="noopener"
+              style="display:inline-block;padding:6px 14px;border-radius:8px;
+                     background:linear-gradient(to right,#9f24e7,#f200c4);
+                     color:white;font-size:0.8rem;font-weight:700;text-decoration:none;">
+            Pictures and information
+           </a>`
+        : '';
+    return `<div style="min-width:160px;line-height:1.4;text-align:center;">
+        ${descHtml}
+        ${linkHtml}
+    </div>`;
 }
 
 // Inicializar
@@ -182,6 +219,9 @@ function loadPlaylist() {
         searchInput.placeholder = t.searchPlaceholder || (currentLanguage === 'espaÃ±ol' ? 'Buscar idioma...' : 'Search language...');
     }
 
+    // Actualizar contenido del mapa
+    updateMapLanguage();
+
     playlistItems.innerHTML = '';
     const tracks = audioDatabase[currentLanguage];
 
@@ -212,6 +252,18 @@ function showPlayer() {
     // Asegurarse de que empiece colapsado
     playlist.classList.add('collapsed');
     playlist.classList.remove('expanded');
+
+    // Mostrar mapa e inicializarlo la primera vez que es visible
+    const mapSection = document.querySelector('.map-section');
+    if (mapSection) {
+        mapSection.classList.add('show');
+        // Esperar a que el browser repinte el contenedor (display:none -> block)
+        // antes de inicializar Leaflet, para que lea el tamaño correcto
+        setTimeout(() => {
+            initMap();
+            if (leafletMap) leafletMap.invalidateSize();
+        }, 50);
+    }
 
     // Mostrar secciÃ³n de publicidad principal
     const promoSection = document.getElementById('promoSection');
@@ -505,6 +557,84 @@ function toggleTheme() {
 
     progressBar.style.background = updateProgressGradient(audio.currentTime, audio.duration);
 
+}
+
+// Inicializar mapa (lazy - solo cuando la sección es visible)
+function initMap() {
+    if (leafletMap) return; // Ya inicializado
+
+    // Vista inicial centrada en el primer punto para que los tiles carguen de inmediato
+    const firstPoint = tourMapPoints[0] || { lat: 13.52, lng: 99.96 };
+    leafletMap = L.map('map').setView([firstPoint.lat, firstPoint.lng], 11);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(leafletMap);
+
+    const fallback = translations['english'];
+    const t = translations[currentLanguage] || fallback;
+    const stops = t.mapStops || fallback.mapStops || [];
+
+    // Crear un círculo por cada punto del tour
+    tourMapPoints.forEach((point, i) => {
+        const stop = stops[i] || {};
+        const name = stop.name || `Stop ${i + 1}`;
+        const desc = stop.description || '';
+        const url = point.url || '';
+
+        const circle = L.circle([point.lat, point.lng], {
+            color: point.color || '#9f24e7',
+            fillColor: point.fillColor || '#f200c4',
+            fillOpacity: point.fillOpacity ?? 0.35,
+            radius: point.radius || 200
+        })
+            .addTo(leafletMap)
+            // Tooltip permanente: muestra sólo el nombre siempre visible
+            .bindTooltip(`<strong>${name}</strong>`, {
+                permanent: true,
+                direction: 'top'
+            })
+            // Popup al hacer click: nombre + descripción + enlace
+            .bindPopup(buildPopupHTML(name, desc, url), { maxWidth: 240 });
+
+        mapMarkers.push(circle);
+    });
+
+    // Ajustar el mapa para mostrar todos los círculos
+    if (mapMarkers.length > 0) {
+        const group = L.featureGroup(mapMarkers);
+        leafletMap.fitBounds(group.getBounds().pad(0.3));
+    }
+
+    // Actualizar título del mapa
+    updateMapLanguage();
+}
+
+// Actualizar el título, tooltips y popups del mapa según el idioma actual
+function updateMapLanguage() {
+    // Actualizar título
+    const mapTitleEl = document.querySelector('.map-title');
+    if (mapTitleEl) {
+        const t = translations[currentLanguage] || translations['english'];
+        mapTitleEl.textContent = t.mapTitle || 'Location';
+    }
+
+    // Actualizar tooltips y popups de todos los círculos
+    if (mapMarkers.length > 0) {
+        const fallback = translations['english'];
+        const t = translations[currentLanguage] || fallback;
+        const stops = t.mapStops || fallback.mapStops || [];
+
+        mapMarkers.forEach((marker, i) => {
+            const stop = stops[i] || {};
+            const name = stop.name || `Stop ${i + 1}`;
+            const desc = stop.description || '';
+            const url = tourMapPoints[i]?.url || '';
+
+            marker.setTooltipContent(`<strong>${name}</strong>`);
+            marker.setPopupContent(buildPopupHTML(name, desc, url));
+        });
+    }
 }
 
 // Inicializar app

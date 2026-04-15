@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Guide - Monkey Travel</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 
 <body class="dark">
@@ -126,6 +127,12 @@
             <div class="playlist-items" id="playlistItems"></div>
         </div>
 
+        <!-- Map Section -->
+        <div class="map-section">
+            <h2 class="map-title">Location</h2>
+            <div id="map"></div>
+        </div>
+
         <!-- Promo Section -->
         <a href="#" target="_blank" class="promo-section" id="promoSection">
             <h2 class="promo-title" id="promoTitle">OFERTA ESPECIAL</h2>
@@ -208,6 +215,7 @@
     <script src="../../TRANSLATIONS/FLOATINGaudioDatabase.js"></script>
     <script src="FLOATINGImages.js"></script>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
 
