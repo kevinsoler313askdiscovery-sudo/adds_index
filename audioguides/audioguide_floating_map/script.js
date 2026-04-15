@@ -571,7 +571,8 @@ function initMap() {
 
     const fallback = translations['english'];
     const t = translations[currentLanguage] || fallback;
-    const stops = t.mapStops || fallback.mapStops || [];
+    const fallbackStops = tourMapStops['english'] || [];
+    const stops = tourMapStops[currentLanguage] || fallbackStops;
 
     // Crear un círculo por cada punto del tour
     tourMapPoints.forEach((point, i) => {
@@ -590,7 +591,9 @@ function initMap() {
             // Tooltip permanente: muestra sólo el nombre siempre visible
             .bindTooltip(`<strong>${name}</strong>`, {
                 permanent: true,
-                direction: 'top'
+                direction: 'top',
+                interactive: true,
+                className: 'poi-tooltip'
             })
             // Popup al hacer click: nombre + descripción + enlace
             .bindPopup(buildPopupHTML(name, desc, url), { maxWidth: 240 });
@@ -621,7 +624,8 @@ function updateMapLanguage() {
     if (mapMarkers.length > 0) {
         const fallback = translations['english'];
         const t = translations[currentLanguage] || fallback;
-        const stops = t.mapStops || fallback.mapStops || [];
+        const fallbackStops = tourMapStops['english'] || [];
+        const stops = tourMapStops[currentLanguage] || fallbackStops;
 
         mapMarkers.forEach((marker, i) => {
             const stop = stops[i] || {};

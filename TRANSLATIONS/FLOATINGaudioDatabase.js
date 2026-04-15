@@ -798,3 +798,174 @@
         { id: 17, title: '17. SLOVO', url: BASE_URL + 'eslovenio/17.saludo_final_sl.mp3' }
     ],
 };
+
+const tourMapStops = {
+    english: [
+        { name: "Stop 1 - Damnoen Saduak Floating Market" },
+        { name: "Stop 2 - Maeklong Railway Market" }
+    ],
+    arabic: [
+        { name: "المحطة 1 - مدخل السوق العائم" },
+        { name: "المحطة 2 - سوق سكة حديد ماكلونج" }
+    ],
+    basque: [
+        { name: "1. geltokia - Merkatu Flotagarriaren sarrera" },
+        { name: "2. geltokia - Maeklong Trenbideko Merkatua" }
+    ],
+    bengali: [
+        { name: "স্টপ ১ - ভাসমান বাজারের প্রবেশদ্বার" },
+        { name: "স্টপ ২ - মেকলং রেলওয়ে মার্কেট" }
+    ],
+    catalan: [
+        { name: "Parada 1 - Entrada al Mercat Flotant" },
+        { name: "Parada 2 - Mercat del Ferrocarril de Maeklong" }
+    ],
+    croatian: [
+        { name: "Postaja 1 - Ulaz u Plovni tržnicu" },
+        { name: "Postaja 2 - Željeznička tržnica Maeklong" }
+    ],
+    czech: [
+        { name: "Zastávka 1 - Vstup na Plovoucí tržiště" },
+        { name: "Zastávka 2 - Železniční trh Maeklong" }
+    ],
+    danish: [
+        { name: "Stop 1 - Indgangen til det flydende marked" },
+        { name: "Stop 2 - Maeklong Togmarked" }
+    ],
+    dutch: [
+        { name: "Stop 1 - Ingang Drijvende Markt" },
+        { name: "Stop 2 - Maeklong Spoorwegmarkt" }
+    ],
+    filipino: [
+        { name: "Hinto 1 - Pasukan ng Lumulutang na Palengke" },
+        { name: "Hinto 2 - Pamilihan ng Riles ng Maeklong" }
+    ],
+    french: [
+        { name: "Arrêt 1 - Entrée du Marché Flottant" },
+        { name: "Arrêt 2 - Marché Ferroviaire de Maeklong" }
+    ],
+    galician: [
+        { name: "Parada 1 - Entrada ao Mercado Flotante" },
+        { name: "Parada 2 - Mercado Ferroviario de Maeklong" }
+    ],
+    german: [
+        { name: "Haltestelle 1 - Eingang zum Schwimmenden Markt" },
+        { name: "Haltestelle 2 - Maeklong Eisenbahnmarkt" }
+    ],
+    greek: [
+        { name: "Στάση 1 - Είσοδος Πλωτής Αγοράς" },
+        { name: "Στάση 2 - Αγορά Σιδηροδρόμου Maeklong" }
+    ],
+    hindi: [
+        { name: "स्टॉप 1 - फ्लोटिंग मार्केट प्रवेश द्वार" },
+        { name: "स्टॉप 2 - माईक्लोंग रेलवे मार्केट" }
+    ],
+    hungarian: [
+        { name: "1. megálló - Úszó piac bejárata" },
+        { name: "2. megálló - Maeklong Vasúti Piac" }
+    ],
+    indonesian: [
+        { name: "Pemberhentian 1 - Pintu Masuk Pasar Terapung" },
+        { name: "Pemberhentian 2 - Pasar Kereta Api Maeklong" }
+    ],
+    italian: [
+        { name: "Fermata 1 - Ingresso al Mercato Galleggiante" },
+        { name: "Fermata 2 - Mercato Ferroviario di Maeklong" }
+    ],
+    japanese: [
+        { name: "ストップ1 - フローティングマーケット入口" },
+        { name: "ストップ2 - メークロン鉄道市場" }
+    ],
+    khmer: [
+        { name: "ចំណុចឈប់ 1 - ច្រកចូលទីផ្សារអណ្តែតទឹក" },
+        { name: "ចំណុចឈប់ 2 - ទីផ្សារផ្លូវដែកម៉ែគឡុង" }
+    ],
+    korean: [
+        { name: "정류장 1 - 수상 시장 입구" },
+        { name: "정류장 2 - 매끌렁 기차시장" }
+    ],
+    malay: [
+        { name: "Hentian 1 - Pintu Masuk Pasar Terapung" },
+        { name: "Hentian 2 - Pasar Kereta Api Maeklong" }
+    ],
+    mandarin_china: [
+        { name: "站点 1 - 水上市场入口" },
+        { name: "站点 2 - 美功铁道市场" }
+    ],
+    mandarin_taiwan: [
+        { name: "站點 1 - 水上市場入口" },
+        { name: "站點 2 - 美功鐵道市場" }
+    ],
+    nepali: [
+        { name: "स्टप १ - तैरिने बजारको प्रवेशद्वार" },
+        { name: "स्टप २ - मएक्लोङ रेलवे बजार" }
+    ],
+    norwegian: [
+        { name: "Stopp 1 - Inngangen til det flytende markedet" },
+        { name: "Stopp 2 - Maeklong Jernbanemarked" }
+    ],
+    persian: [
+        { name: "ایستگاه ۱ - ورودی بازار شناور" },
+        { name: "ایستگاه ۲ - بازار راه‌آهن مائکلونگ" }
+    ],
+    polish: [
+        { name: "Przystanek 1 - Wejście na Pływający Rynek" },
+        { name: "Przystanek 2 - Targ Kolejowy Maeklong" }
+    ],
+    portuguese: [
+        { name: "Parada 1 - Entrada do Mercado Flutuante" },
+        { name: "Parada 2 - Mercado Ferroviário de Maeklong" }
+    ],
+    russian: [
+        { name: "Остановка 1 - Вход на плавучий рынок" },
+        { name: "Остановка 2 - Рынок на железной дороге Маеклонг" }
+    ],
+    serbian: [
+        { name: "Станица 1 - Улаз у Пловећу пијацу" },
+        { name: "Станица 2 - Железничка пијаца Маеклонг" }
+    ],
+    slovenian: [
+        { name: "Postaja 1 - Vhod v Plavajoči trg" },
+        { name: "Postaja 2 - Železniška tržnica Maeklong" }
+    ],
+    spanish_spain: [
+        { name: "Parada 1 - Entrada al Mercado Flotante" },
+        { name: "Parada 2 - Mercado del Tren de Maeklong" }
+    ],
+    spanish_latam: [
+        { name: "Parada 1 - Entrada al Mercado Flotante" },
+        { name: "Parada 2 - Mercado del Tren de Maeklong" }
+    ],
+    swahili: [
+        { name: "Kituo 1 - Mlango wa Soko la Maji" },
+        { name: "Kituo 2 - Soko la Reli la Maeklong" }
+    ],
+    swedish: [
+        { name: "Stopp 1 - Ingången till den flytande marknaden" },
+        { name: "Stopp 2 - Maeklong Järnvägsmarknad" }
+    ],
+    tamil: [
+        { name: "நிறுத்தம் 1 - மிதக்கும் சந்தை நுழைவு" },
+        { name: "நிறுத்தம் 2 - மேக்லாங் ரயில் சந்தை" }
+    ],
+    thai: [
+        { name: "จุดแวะที่ 1 - ทางเข้าตลาดน้ำ" },
+        { name: "จุดแวะที่ 2 - ตลาดร่มหุบ (แม่กลอง)" }
+    ],
+    turkish: [
+        { name: "Durak 1 - Yüzen Pazar Girişi" },
+        { name: "Durak 2 - Maeklong Tren Pazarı" }
+    ],
+    ukrainian: [
+        { name: "Зупинка 1 - Вхід до Плавучого ринку" },
+        { name: "Зупинка 2 - Залізничний ринок Маклонг" }
+    ],
+    urdu: [
+        { name: "اسٹاپ 1 - تیرتے بازار کا داخلہ" },
+        { name: "اسٹاپ 2 - ماکیلوںگ ریلوے مارکیٹ" }
+    ],
+    vietnamese: [
+        { name: "Điểm dừng 1 - Lối vào Chợ nổi" },
+        { name: "Điểm dừng 2 - Chợ đường sắt Maeklong" }
+    ],
+};
