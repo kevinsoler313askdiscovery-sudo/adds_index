@@ -1,4 +1,3 @@
-
 let currentLanguage = '';
 let currentTrackIndex = 0;
 let isPlaying = false;
@@ -13,27 +12,6 @@ let currentSlideIndex = 0;
 let sliderInterval;
 let heroSlideIndex = 0;
 let heroSliderInterval;
-
-// Map variables
-let leafletMap = null;
-let mapMarkers = [];
-
-// Array de puntos de interés del tour.
-// Propiedades opcionales: color, fillColor, fillOpacity, radius (metros), url (enlace del popup).
-// Los textos (nombre y descripción) vienen de translations[lang].mapStops[i]
-const tourMapPoints = [
-    {
-        lat: 13.520176060764442,
-        lng: 99.9586287865303,
-        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'   // ← enlace del punto 1
-    },
-    {
-        lat: 13.407729248140535,
-        lng: 99.99896162903356,
-        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
-    }
-    // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
-];
 
 
 const audio = document.getElementById('audioPlayer');
@@ -65,22 +43,6 @@ function loadHeroImages() {
     } else {
         console.error("Hero Slider: No se encontró la lista de imágenes (heroImages).");
     }
-}
-
-function buildPopupHTML(name, desc, url) {
-    const descHtml = desc ? `<p style="margin:4px 0 8px;font-size:0.85rem;color:#9ca3af;">${desc}</p>` : '';
-    const linkHtml = url
-        ? `<a href="${url}" target="_blank" rel="noopener"
-              style="display:inline-block;padding:6px 14px;border-radius:8px;
-                     background:linear-gradient(to right,#9f24e7,#f200c4);
-                     color:white;font-size:0.8rem;font-weight:700;text-decoration:none;">
-            Pictures and information
-           </a>`
-        : '';
-    return `<div style="min-width:160px;line-height:1.4;text-align:center;">
-        ${descHtml}
-        ${linkHtml}
-    </div>`;
 }
 
 // Inicializar
@@ -231,13 +193,13 @@ function loadPlaylist() {
         if (index === currentTrackIndex) button.classList.add('active');
 
         button.innerHTML = `
-            <div class="playlist-icon">
-                <svg class="icon-small" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="${isPlaying && index === currentTrackIndex ? 'M6 19h4V5H6v14zm8-14v14h4V5h-4z' : 'M8 5v14l11-7z'}"/>
-                </svg>
-            </div>
-            <div class="playlist-title">${track.title}</div>
-        `;
+                    <div class="playlist-icon">
+                        <svg class="icon-small" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="${isPlaying && index === currentTrackIndex ? 'M6 19h4V5H6v14zm8-14v14h4V5h-4z' : 'M8 5v14l11-7z'}"/>
+                        </svg>
+                    </div>
+                    <div class="playlist-title">${track.title}</div>
+                `;
 
         button.onclick = () => selectTrack(index);
         playlistItems.appendChild(button);
@@ -560,6 +522,42 @@ function toggleTheme() {
 }
 
 // Inicializar mapa (lazy - solo cuando la sección es visible)
+let leafletMap = null;
+let mapMarkers = [];
+
+// Array de puntos de interés del tour.
+// Propiedades opcionales: color, fillColor, fillOpacity, radius (metros), url (enlace del popup).
+// Los textos (nombre y descripción) vienen de translations[lang].mapStops[i]
+const tourMapPoints = [
+    {
+        lat: 13.520176060764442,
+        lng: 99.9586287865303,
+        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'   // ← enlace del punto 1
+    },
+    {
+        lat: 13.407729248140535,
+        lng: 99.99896162903356,
+        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
+    }
+    // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
+];
+
+function buildPopupHTML(name, desc, url) {
+    const descHtml = desc ? `<p style="margin:4px 0 8px;font-size:0.85rem;color:#9ca3af;">${desc}</p>` : '';
+    const linkHtml = url
+        ? `<a href="${url}" target="_blank" rel="noopener"
+              style="display:inline-block;padding:6px 14px;border-radius:8px;
+                     background:linear-gradient(to right,#9f24e7,#f200c4);
+                     color:white;font-size:0.8rem;font-weight:700;text-decoration:none;">
+            Pictures and information
+           </a>`
+        : '';
+    return `<div style="min-width:160px;line-height:1.4;text-align:center;">
+        ${descHtml}
+        ${linkHtml}
+    </div>`;
+}
+
 function initMap() {
     if (leafletMap) return; // Ya inicializado
 
@@ -573,7 +571,8 @@ function initMap() {
 
     const fallback = translations['english'];
     const t = translations[currentLanguage] || fallback;
-    const stops = t.mapStops || fallback.mapStops || [];
+    const fallbackStops = tourMapStops['english'] || [];
+    const stops = tourMapStops[currentLanguage] || fallbackStops;
 
     // Crear un círculo por cada punto del tour
     tourMapPoints.forEach((point, i) => {
@@ -592,7 +591,9 @@ function initMap() {
             // Tooltip permanente: muestra sólo el nombre siempre visible
             .bindTooltip(`<strong>${name}</strong>`, {
                 permanent: true,
-                direction: 'top'
+                direction: 'top',
+                interactive: true,
+                className: 'poi-tooltip'
             })
             // Popup al hacer click: nombre + descripción + enlace
             .bindPopup(buildPopupHTML(name, desc, url), { maxWidth: 240 });
@@ -623,7 +624,8 @@ function updateMapLanguage() {
     if (mapMarkers.length > 0) {
         const fallback = translations['english'];
         const t = translations[currentLanguage] || fallback;
-        const stops = t.mapStops || fallback.mapStops || [];
+        const fallbackStops = tourMapStops['english'] || [];
+        const stops = tourMapStops[currentLanguage] || fallbackStops;
 
         mapMarkers.forEach((marker, i) => {
             const stop = stops[i] || {};
@@ -639,3 +641,4 @@ function updateMapLanguage() {
 
 // Inicializar app
 document.addEventListener('DOMContentLoaded', init);
+
