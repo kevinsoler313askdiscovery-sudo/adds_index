@@ -85,5 +85,92 @@ const audioDatabase = {
             { id: 13, title: '13. Tercer tast | El clàssic Pad Thai', url: BASE_URL + 'catalan/13.tercera_degustacion_el_clasico_pad_thai_ca.mp3' },
             { id: 14, title: '14. Comiat · Final del recorregut', url: BASE_URL + 'catalan/14.despedida_fin_del_recorrido_ca.mp3' }
         ]
+    },
+    german: {
+        section1: [
+            { id: 1, title: '1. Einführung · Willkommen', url: BASE_URL + 'german/1.introduccion_bienvenida_de.mp3' },
+            { id: 2, title: '2. Bangkok bei Nacht', url: BASE_URL + 'german/2.la_noche_de_bangkok_de.mp3' },
+            { id: 3, title: '3. Denkmäler und Geschichte der Stadt', url: BASE_URL + 'german/3.monumentos_y_memoria_de_la_ciudad_de.mp3' },
+            { id: 4, title: '4. Eingang nach Chinatown | Das Herz von Yaowarat', url: BASE_URL + 'german/4.entrada_a_chinatown_el_corazon_de_yaowarat_de.mp3' },
+            { id: 5, title: '5. Erste Verkostung | Straßenküche', url: BASE_URL + 'german/5.primera_degustacion_sabores_de_la_calle_de.mp3' },
+            { id: 6, title: '6. Chinatown in deinem Tempo', url: BASE_URL + 'german/6.chinatown_a_tu_ritmo_de.mp3' },
+            { id: 7, title: '7. Zweite Verkostung | Tradition in jedem Bissen', url: BASE_URL + 'german/7.segunda_degustacion_tradicion_en_cada_bocado_de.mp3' },
+            { id: 15, title: '8. Abschied · Ende der Tour', url: BASE_URL + 'german/15.despedida_tour_1_fin_del_recorrido_de.mp3' }
+        ],
+
+        section2: [
+            { id: 1, title: '1. Einführung · Willkommen', url: BASE_URL + 'german/1.introduccion_bienvenida_de.mp3' },
+            { id: 2, title: '2. Bangkok bei Nacht', url: BASE_URL + 'german/2.la_noche_de_bangkok_de.mp3' },
+            { id: 3, title: '3. Denkmäler und Geschichte der Stadt', url: BASE_URL + 'german/3.monumentos_y_memoria_de_la_ciudad_de.mp3' },
+            { id: 4, title: '4. Eingang nach Chinatown | Das Herz von Yaowarat', url: BASE_URL + 'german/4.entrada_a_chinatown_el_corazon_de_yaowarat_de.mp3' },
+            { id: 5, title: '5. Erste Verkostung | Straßenküche', url: BASE_URL + 'german/5.primera_degustacion_sabores_de_la_calle_de.mp3' },
+            { id: 6, title: '6. Chinatown in deinem Tempo', url: BASE_URL + 'german/6.chinatown_a_tu_ritmo_de.mp3' },
+            { id: 7, title: '7. Zweite Verkostung | Tradition in jedem Bissen', url: BASE_URL + 'german/7.segunda_degustacion_tradicion_en_cada_bocado_de.mp3' },
+            { id: 8, title: '8. Yaowarat | Kulinarisches Herz', url: BASE_URL + 'german/8.yaowarat_corazon_gastronomico_de.mp3' },
+            { id: 9, title: '9. Vom Blumenmarkt zum Fluss', url: BASE_URL + 'german/9.del_mercado_de_flores_al_rio_de.mp3' },
+            { id: 10, title: '10. Wat Arun | Nächtliche Postkarte', url: BASE_URL + 'german/10.wat_arun_postal_nocturna_de.mp3' },
+            { id: 11, title: '11. Großer Palast und Abschluss', url: BASE_URL + 'german/11.gran_palacio_y_transicion_final_de.mp3' },
+            { id: 12, title: '12. Khao San Road | Nachtleben und Aromen', url: BASE_URL + 'german/12.khao_san_road_vida_nocturna_y_sabores_de.mp3' },
+            { id: 13, title: '13. Dritte Verkostung | Klassisches Pad Thai', url: BASE_URL + 'german/13.tercera_degustacion_el_clasico_pad_thai_de.mp3' },
+            { id: 14, title: '14. Abschied · Ende der Tour', url: BASE_URL + 'german/14.despedida_fin_del_recorrido_de.mp3' }
+        ]
+    },
+    danish: {
+        section1: [
+            { id: 1, title: '1. Introduktion · Velkommen', url: BASE_URL + 'danish/1.introduccion_bienvenida_da.mp3' },
+            { id: 2, title: '2. Bangkok om natten', url: BASE_URL + 'danish/2.la_noche_de_bangkok_da.mp3' },
+            { id: 3, title: '3. Monumenter og byens historie', url: BASE_URL + 'danish/3.monumentos_y_memoria_de_la_ciudad_da.mp3' },
+            { id: 4, title: '4. Indgang til Chinatown | Hjertet af Yaowarat', url: BASE_URL + 'danish/4.entrada_a_chinatown_el_corazon_de_yaowarat_da.mp3' },
+            { id: 5, title: '5. Første smagning | Gadekøkkenets smage', url: BASE_URL + 'danish/5.primera_degustacion_sabores_de_la_calle_da.mp3' },
+            { id: 6, title: '6. Chinatown i dit eget tempo', url: BASE_URL + 'danish/6.chinatown_a_tu_ritmo_da.mp3' },
+            { id: 7, title: '7. Anden smagning | Tradition i hver bid', url: BASE_URL + 'danish/7.segunda_degustacion_tradicion_en_cada_bocado_da.mp3' },
+            { id: 15, title: '8. Afsked · Turens afslutning', url: BASE_URL + 'danish/15.despedida_tour_1_fin_del_recorrido_da.mp3' }
+        ],
+
+        section2: [
+            { id: 1, title: '1. Introduktion · Velkommen', url: BASE_URL + 'danish/1.introduccion_bienvenida_da.mp3' },
+            { id: 2, title: '2. Bangkok om natten', url: BASE_URL + 'danish/2.la_noche_de_bangkok_da.mp3' },
+            { id: 3, title: '3. Monumenter og byens historie', url: BASE_URL + 'danish/3.monumentos_y_memoria_de_la_ciudad_da.mp3' },
+            { id: 4, title: '4. Indgang til Chinatown | Hjertet af Yaowarat', url: BASE_URL + 'danish/4.entrada_a_chinatown_el_corazon_de_yaowarat_da.mp3' },
+            { id: 5, title: '5. Første smagning | Gadekøkkenets smage', url: BASE_URL + 'danish/5.primera_degustacion_sabores_de_la_calle_da.mp3' },
+            { id: 6, title: '6. Chinatown i dit eget tempo', url: BASE_URL + 'danish/6.chinatown_a_tu_ritmo_da.mp3' },
+            { id: 7, title: '7. Anden smagning | Tradition i hver bid', url: BASE_URL + 'danish/7.segunda_degustacion_tradicion_en_cada_bocado_da.mp3' },
+            { id: 8, title: '8. Yaowarat | Gastronomisk hjerte', url: BASE_URL + 'danish/8.yaowarat_corazon_gastronomico_da.mp3' },
+            { id: 9, title: '9. Fra blomstermarkedet til floden', url: BASE_URL + 'danish/9.del_mercado_de_flores_al_rio_da.mp3' },
+            { id: 10, title: '10. Wat Arun | Natligt postkort', url: BASE_URL + 'danish/10.wat_arun_postal_nocturna_da.mp3' },
+            { id: 11, title: '11. Det Store Palads og afslutning', url: BASE_URL + 'danish/11.gran_palacio_y_transicion_final_da.mp3' },
+            { id: 12, title: '12. Khao San Road | Natteliv og smage', url: BASE_URL + 'danish/12.khao_san_road_vida_nocturna_y_sabores_da.mp3' },
+            { id: 13, title: '13. Tredje smagning | Klassisk Pad Thai', url: BASE_URL + 'danish/13.tercera_degustacion_el_clasico_pad_thai_da.mp3' },
+            { id: 14, title: '14. Afsked · Turens afslutning', url: BASE_URL + 'danish/14.despedida_fin_del_recorrido_da.mp3' }
+        ]
+    },
+    indonesian: {
+        section1: [
+            { id: 1, title: '1. Pengantar · Selamat datang', url: BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3' },
+            { id: 2, title: '2. Bangkok di malam hari', url: BASE_URL + 'indonesian/2.la_noche_de_bangkok_id.mp3' },
+            { id: 3, title: '3. Monumen dan sejarah kota', url: BASE_URL + 'indonesian/3.monumentos_y_memoria_de_la_ciudad_id.mp3' },
+            { id: 4, title: '4. Pintu masuk Chinatown | Jantung Yaowarat', url: BASE_URL + 'indonesian/4.entrada_a_chinatown_el_corazon_de_yaowarat_id.mp3' },
+            { id: 5, title: '5. Cicipan pertama | Rasa makanan jalanan', url: BASE_URL + 'indonesian/5.primera_degustacion_sabores_de_la_calle_id.mp3' },
+            { id: 6, title: '6. Chinatown dengan ritmemu', url: BASE_URL + 'indonesian/6.chinatown_a_tu_ritmo_id.mp3' },
+            { id: 7, title: '7. Cicipan kedua | Tradisi di setiap gigitan', url: BASE_URL + 'indonesian/7.segunda_degustacion_tradicion_en_cada_bocado_id.mp3' },
+            { id: 15, title: '8. Perpisahan · Akhir tur', url: BASE_URL + 'indonesian/15.despedida_tour_1_fin_del_recorrido_id.mp3' }
+        ],
+
+        section2: [
+            { id: 1, title: '1. Pengantar · Selamat datang', url: BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3' },
+            { id: 2, title: '2. Bangkok di malam hari', url: BASE_URL + 'indonesian/2.la_noche_de_bangkok_id.mp3' },
+            { id: 3, title: '3. Monumen dan sejarah kota', url: BASE_URL + 'indonesian/3.monumentos_y_memoria_de_la_ciudad_id.mp3' },
+            { id: 4, title: '4. Pintu masuk Chinatown | Jantung Yaowarat', url: BASE_URL + 'indonesian/4.entrada_a_chinatown_el_corazon_de_yaowarat_id.mp3' },
+            { id: 5, title: '5. Cicipan pertama | Rasa makanan jalanan', url: BASE_URL + 'indonesian/5.primera_degustacion_sabores_de_la_calle_id.mp3' },
+            { id: 6, title: '6. Chinatown dengan ritmemu', url: BASE_URL + 'indonesian/6.chinatown_a_tu_ritmo_id.mp3' },
+            { id: 7, title: '7. Cicipan kedua | Tradisi di setiap gigitan', url: BASE_URL + 'indonesian/7.segunda_degustacion_tradicion_en_cada_bocado_id.mp3' },
+            { id: 8, title: '8. Yaowarat | Jantung kuliner', url: BASE_URL + 'indonesian/8.yaowarat_corazon_gastronomico_id.mp3' },
+            { id: 9, title: '9. Dari pasar bunga ke sungai', url: BASE_URL + 'indonesian/9.del_mercado_de_flores_al_rio_id.mp3' },
+            { id: 10, title: '10. Wat Arun | Kartu pos malam', url: BASE_URL + 'indonesian/10.wat_arun_postal_nocturna_id.mp3' },
+            { id: 11, title: '11. Istana Agung dan penutup', url: BASE_URL + 'indonesian/11.gran_palacio_y_transicion_final_id.mp3' },
+            { id: 12, title: '12. Khao San Road | Kehidupan malam dan rasa', url: BASE_URL + 'indonesian/12.khao_san_road_vida_nocturna_y_sabores_id.mp3' },
+            { id: 13, title: '13. Cicipan ketiga | Pad Thai klasik', url: BASE_URL + 'indonesian/13.tercera_degustacion_el_clasico_pad_thai_id.mp3' },
+            { id: 14, title: '14. Perpisahan · Akhir tur', url: BASE_URL + 'indonesian/14.despedida_fin_del_recorrido_id.mp3' }
+        ]
     }
 }
