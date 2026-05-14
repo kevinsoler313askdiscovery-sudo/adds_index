@@ -202,7 +202,7 @@ const audioDatabase = {
             { id: 14, title: '14. Agurra · Ibilbidearen amaiera', url: BASE_URL + 'basque/14.despedida_fin_del_recorrido_eu.mp3' }
         ]
     },
-    cambodian: {
+    khmer: {
         section1: [
             { id: 1, title: '1. ការណែនាំ · សូមស្វាគមន៍', url: BASE_URL + 'cambodian/1.introduccion_bienvenida_km.mp3' },
             { id: 2, title: '2. រាត្រីនៅបាងកក', url: BASE_URL + 'cambodian/2.la_noche_de_bangkok_km.mp3' },
@@ -231,7 +231,7 @@ const audioDatabase = {
             { id: 14, title: '14. លា​សិន · បញ្ចប់ដំណើរកម្សាន្ត', url: BASE_URL + 'cambodian/14.despedida_fin_del_recorrido_km.mp3' }
         ]
     },
-    chinese_china: {
+    mandarin_china: {
         section1: [
             { id: 1, title: '1. 介绍 · 欢迎', url: BASE_URL + 'chinese_china/1.introduccion_bienvenida_zh.mp3' },
             { id: 2, title: '2. 曼谷之夜', url: BASE_URL + 'chinese_china/2.la_noche_de_bangkok_zh.mp3' },
@@ -260,7 +260,7 @@ const audioDatabase = {
             { id: 14, title: '14. 告别 · 行程结束', url: BASE_URL + 'chinese_china/14.despedida_fin_del_recorrido_zh.mp3' }
         ]
     },
-    chinese_taiwan: {
+    mandarin_taiwan: {
         section1: [
             { id: 1, title: '1. 介紹 · 歡迎', url: BASE_URL + 'chinese_taiwan/1.introduccion_bienvenida_zh_tw.mp3' },
             { id: 2, title: '2. 曼谷之夜', url: BASE_URL + 'chinese_taiwan/2.la_noche_de_bangkok_zh_tw.mp3' },
@@ -753,7 +753,7 @@ const audioDatabase = {
             { id: 14, title: '14. خداحافظ · پایان تور', url: BASE_URL + 'persian/14.despedida_fin_del_recorrido_fa.mp3' }
         ]
     },
-    philipines: {
+    filipino: {
         section1: [
             { id: 1, title: '1. Panimula · Maligayang pagdating', url: BASE_URL + 'philipines/1.introduccion_bienvenida_fil.mp3' },
             { id: 2, title: '2. Gabi sa Bangkok', url: BASE_URL + 'philipines/2.la_noche_de_bangkok_fil.mp3' },
@@ -800,7 +800,7 @@ const audioDatabase = {
             { id: 3, title: '3. Pomniki i pamięć miasta', url: BASE_URL + 'polish/3.monumentos_y_memoria_de_la_ciudad_pl.mp3' },
             { id: 4, title: '4. Wejście do Chinatown | Serce Yaowarat', url: BASE_URL + 'polish/4.entrada_a_chinatown_el_corazon_de_yaowarat_pl.mp3' },
             { id: 5, title: '5. Pierwsza degustacja | Smaki ulicy', url: BASE_URL + 'polish/5.primera_degustacion_sabores_de_la_calle_pl.mp3' },
-            { id: 6, title: '6. Chinatown we własnym tempie', url: BASE_URL + 'polish/6.chinatown_a_tu_ritmo_pl.mp3' },
+            { id: 6, title: '6. cambodian we własnym tempie', url: BASE_URL + 'polish/6.chinatown_a_tu_ritmo_pl.mp3' },
             { id: 7, title: '7. Druga degustacja | Tradycja w każdym kęsie', url: BASE_URL + 'polish/7.segunda_degustacion_tradicion_en_cada_bocado_pl.mp3' },
             { id: 8, title: '8. Yaowarat | Gastronomiczne serce', url: BASE_URL + 'polish/8.yaowarat_corazon_gastronomico_pl.mp3' },
             { id: 9, title: '9. Od targu kwiatowego do rzeki', url: BASE_URL + 'polish/9.del_mercado_de_flores_al_rio_pl.mp3' },
@@ -811,7 +811,7 @@ const audioDatabase = {
             { id: 14, title: '14. Pożegnanie · Koniec wycieczki', url: BASE_URL + 'polish/14.despedida_fin_del_recorrido_pl.mp3' }
         ]
     },
-    portugues: {
+    portuguese: {
         section1: [
             { id: 1, title: '1. Introdução · Bem-vindo', url: BASE_URL + 'portugues/1.introduccion_bienvenida_pt.mp3' },
             { id: 2, title: '2. A noite de Bangkok', url: BASE_URL + 'portugues/2.la_noche_de_bangkok_pt.mp3' },
@@ -1130,7 +1130,7 @@ const audioDatabase = {
             { id: 14, title: '14. Veda · Turun sonu', url: BASE_URL + 'turkish/14.despedida_fin_del_recorrido_tr.mp3' }
         ]
     },
-    ukranian: {
+    ukrainian: {
         section1: [
             { id: 1, title: '1. Вступ · Ласкаво просимо', url: BASE_URL + 'ukranian/1.introduccion_bienvenida_uk.mp3' },
             { id: 2, title: '2. Нічний Бангкок', url: BASE_URL + 'ukranian/2.la_noche_de_bangkok_uk.mp3' },
