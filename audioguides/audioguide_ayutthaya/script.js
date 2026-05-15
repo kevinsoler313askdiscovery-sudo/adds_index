@@ -530,14 +530,24 @@ let mapMarkers = [];
 // Los textos (nombre y descripción) vienen de translations[lang].mapStops[i]
 const tourMapPoints = [
     {
-        lat: 13.520176060764442,
-        lng: 99.9586287865303,
-        url: 'https://monkeytravel.co/audioguia/audioguia-ayutthaya/'   // ← enlace del punto 1
+        lat: 14.3438458933021,
+        lng: 100.541540435582,
+        url: 'https://monkeytravel.co/'   // ← enlace del punto 1
     },
     {
-        lat: 13.407729248140535,
-        lng: 99.99896162903356,
-        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
+        lat: 14.357214537904452,
+        lng: 100.56820320992418,
+        url: 'https://monkeytravel.co/'   // ← enlace del punto 2
+    },
+    {
+        lat: 14.359177379781714,
+        lng: 100.59378737553145,
+        url: 'https://monkeytravel.co/'   // ← enlace del punto 2
+    },
+    {
+        lat: 14.345714291655183,
+        lng: 100.59291750436748,
+        url: 'https://monkeytravel.co/'   // ← enlace del punto 2
     }
     // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
 ];

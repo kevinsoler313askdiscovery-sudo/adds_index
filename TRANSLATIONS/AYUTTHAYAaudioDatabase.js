@@ -558,3 +558,12 @@ const audioDatabase = {
         { id: 11, title: '11. LỜI CHÀO KẾT THÚC', url: BASE_URL + 'vietnamese/11.saludo_final_vi.mp3' }
     ],
 }
+
+const tourMapStops = {
+    english: [
+        { name: "Stop 1 - Wat Chaiwatthanaram" },
+        { name: "Stop 2 - Wat Maha That" },
+        { name: "Stop 3 - Ayothaya Floating Market" },
+        { name: "Stop 4 - Wat Yai Chai Mongkhon" }
+    ]
+}
