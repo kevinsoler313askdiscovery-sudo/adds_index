@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grand Palace Audio Guide - Monkey Travel</title>
+    <title>Audio Guide - Monkey Travel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
@@ -17,7 +17,7 @@
                 <!-- Las imágenes se cargarán dinámicamente desde JavaScript -->
             </div>
             <div class="hero-content">
-                <h1 class="hero-title">Floating & Railway Markets & Grand Palace Experience</h1>
+                <h1 class="hero-title">FLOATING WAT ARUN</h1>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
                     onkeyup="filterLanguages()" onclick="event.stopPropagation()">
             </div>
             <div class="language-items-container" id="languageDropdown">
-                <!-- Los idiomas se cargarán aquí -->
+                <!-- Los idiomas se cargarÃ¡n aquÃ­ -->
             </div>
         </div>
 
@@ -119,7 +119,7 @@
         <!-- Playlist -->
         <div class="playlist collapsed" id="playlist">
             <div class="playlist-header" onclick="togglePlaylist()">
-                <h3 id="playlistTitle">Lista de Reproducción</h3>
+                <h3 id="playlistTitle">Lista de ReproducciÃ³n</h3>
                 <svg class="toggle-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
@@ -136,12 +136,12 @@
         <!-- Promo Section -->
         <a href="#" target="_blank" class="promo-section" id="promoSection">
             <h2 class="promo-title" id="promoTitle">OFERTA ESPECIAL</h2>
-            <p class="promo-subtitle" id="promoSubtitle">¡No te pierdas esta oportunidad única!</p>
+            <p class="promo-subtitle" id="promoSubtitle">Â¡No te pierdas esta oportunidad Ãºnica!</p>
 
             <div class="promo-slider-wrapper">
                 <div class="promo-slider">
                     <div class="slider-container" id="sliderContainer">
-                        <!-- Las imágenes se cargarán dinámicamente -->
+                        <!-- Las imÃ¡genes se cargarÃ¡n dinÃ¡micamente -->
                     </div>
                     <div class="promo-price-tag">
                         <span class="new-price" id="promoNewPrice">20% OFF</span>
@@ -160,12 +160,12 @@
             </div>
 
             <div class="promo-footer">
-                <p class="promo-description" id="promoDescription">Bangkok: Grand Palace Tour</p>
+                <p class="promo-description" id="promoDescription">Bangkok: Railway Market & Floating Market Tour</p>
                 <button class="promo-button" id="promoButton">RESERVAR AHORA</button>
             </div>
         </a>
 
-        <!-- Initial Promo Section -->
+        <!-- Initial Promo Section (Replaces Empty State) -->
         <a href="#" target="_blank" class="promo-section" id="initialPromoSection">
             <h2 class="promo-title" id="initialPromoTitle">OUR OTHER TOURS</h2>
             <p class="promo-subtitle" id="initialPromoSubtitle">Only today take advantage of discount code <span
@@ -175,7 +175,7 @@
             <div class="promo-slider-wrapper">
                 <div class="promo-slider">
                     <div class="initial-slider-container" id="initialSliderContainer">
-                        <!-- Las imágenes se cargarán dinámicamente -->
+                        <!-- Las imÃ¡genes se cargarÃ¡n dinÃ¡micamente -->
                     </div>
                     <div class="promo-price-tag">
                         <span class="new-price" id="initialPromoNewPrice">20% OFF</span>
@@ -194,7 +194,8 @@
             </div>
 
             <div class="promo-footer">
-                <p class="promo-description" id="initialPromoDescription">Bangkok: Grand Palace Tour</p>
+                <p class="promo-description" id="initialPromoDescription">Bangkok: Railway Market & Floating Market Tour
+                </p>
                 <button class="promo-button" id="initialPromoButton">BOOK NOW</button>
             </div>
         </a>
@@ -203,15 +204,16 @@
     </div>
 
     <script>
-        // BASE_URL debe definirse ANTES de cargar el audioDatabase
-        const BASE_URL = "https://kevinsoler313askdiscovery-sudo.github.io/Grand_Palace_Audios/";
+        // Base de datos de audios - DEBE estar antes de cargar los archivos externos
+        const BASE_URL = "https://kevinsoler313askdiscovery-sudo.github.io/monkeytravel-audios/audios/";
     </script>
 
     <!-- External data files -->
     <script src="../../TRANSLATIONS/translationsGB.js"></script>
     <script src="../../TRANSLATIONS/tourAdsGB.js"></script>
-    <script src="../../TRANSLATIONS/GRAND_PALACEaudioDatabase.js"></script>
-    <script src="GRAND_PALACEImages.js"></script>
+    <script src="../../TRANSLATIONS/FLOATING_WAT_ARUNaudioDatabase.js"></script>
+    <script src="FLOATING_WAT_ARUNImages.js"></script>
+
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>

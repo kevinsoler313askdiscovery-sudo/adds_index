@@ -33,7 +33,7 @@ function loadHeroImages() {
         heroImages.forEach((fileName, index) => {
             const img = document.createElement('img');
             img.src = imageFolder + fileName;
-            img.alt = `Floating Market ${index + 1}`;
+            img.alt = `Floating Wat Arun ${index + 1}`;
             img.className = 'hero-slider-image';
             // La primera imagen será activa
             if (index === 0) img.classList.add('active');
@@ -530,15 +530,46 @@ let mapMarkers = [];
 // Los textos (nombre y descripción) vienen de translations[lang].mapStops[i]
 const tourMapPoints = [
     {
-        lat: 13.520176060764442,
-        lng: 99.9586287865303,
-        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'   // ← enlace del punto 1
-    },
-    {
         lat: 13.407729248140535,
         lng: 99.99896162903356,
-        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'   // ← enlace del punto 2
-    }
+        url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'
+    },
+    {
+        lat: 13.506600891635927,
+        lng: 99.9715800199491,
+        url: 'https://monkeytravel.co'
+    },
+    {
+        lat: 13.520176060764442,
+        lng: 99.9586287865303,
+        url: 'https://monkeytravel.co/audioguia/audioguia-floating/'
+    },
+    {
+        lat: 13.749970435108397,
+        lng: 100.491581864418,
+        url: 'https://monkeytravel.co'
+    },
+    {
+        lat: 13.752823982465735,
+        lng: 100.48847229325405,
+        url: 'https://monkeytravel.co'
+    },
+    {
+        lat: 13.744011102951061,
+        lng: 100.48848155092612,
+        url: 'https://monkeytravel.co'
+    },
+    {
+        lat: 13.746111980093563,
+        lng: 100.49022476441803,
+        url: 'https://monkeytravel.co'
+    },
+    {
+        lat: 13.746580022879458,
+        lng: 100.49285376627024,
+        url: 'https://monkeytravel.co'
+    },
+
     // Añade más puntos aquí: { lat: X, lng: Y, url: 'https://...' }
 ];
 

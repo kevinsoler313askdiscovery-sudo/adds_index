@@ -22,7 +22,7 @@ function loadHeroImages() {
     if (!heroContainer) return;
 
     heroContainer.innerHTML = '';
-    const imageFolder = '../../PICTURES/WHITE ORCHID WEB/';
+    const imageFolder = '../../PICTURES/';
 
     if (typeof heroImages !== 'undefined' && heroImages.length > 0) {
         heroImages.forEach((fileName, index) => {

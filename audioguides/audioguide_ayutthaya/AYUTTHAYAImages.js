@@ -1,8 +1,8 @@
 const heroImages = [
-    'ayutthaya_1.webp',
-    'ayutthaya_2.webp',
-    'ayutthaya_3.webp',
-    'ayutthaya_4.webp',
-    'ayutthaya_5.webp',
-    'ayutthaya_6.webp'
+    'AYUTTHAYA WEB/ayutthaya_1.webp',
+    'AYUTTHAYA WEB/ayutthaya_2.webp',
+    'AYUTTHAYA WEB/ayutthaya_3.webp',
+    'AYUTTHAYA WEB/ayutthaya_4.webp',
+    'AYUTTHAYA WEB/ayutthaya_5.webp',
+    'AYUTTHAYA WEB/ayutthaya_6.webp',
 ];

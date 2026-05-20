@@ -11,18 +11,22 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK FLOATING MARKET', url: BASE_URL + 'english/6.mercado_flotante_damnoen_saduak_en.mp3' },
         { id: 7, title: '7. RETURN TO BANGKOK', url: BASE_URL + 'english/7.regreso_hacia_bangkok_en.mp3' },
         { id: 8, title: '8. THE GREAT PALACE AND THE TEMPLE OF THE EMERALD BUDDHA', url: BASE_URL + 'english/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_en.mp3' },
-        { id: 9, title: '9. FINAL GREETING', url: BASE_URL + 'english/9.saludo_final_en.mp3' }
+        { id: 9, title: '9. CROSS THE CHAO PHRAYA RIVER | ROAD TO WAT ARUN', url: BASE_URL + 'english/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_en.mp3' },
+        { id: 10, title: '10. WAT ARUN | THE TEMPLE OF THE DAWN', url: BASE_URL + 'english/10.wat_arun_el_templo_del_amanecer_en.mp3' },
+        { id: 11, title: '11. WAT PHO | THE RECLINING BUDDHA', url: BASE_URL + 'english/11.wat_pho_el_buda_reclinado_en.mp3' }
     ],
     arabic: [
         { id: 1, title: '1. مقدمة | مرحباً', url: BASE_URL + 'arabic/1.introduccion_bienvenida_ar.mp3' },
-        { id: 2, title: '2. الطريق إلى مايكلونج', url: BASE_URL + 'arabic/2.camino_hacia_maeklong_ar.mp3' },
+        { id: 2, title: '2. الطريق إلى ماكلونج', url: BASE_URL + 'arabic/2.camino_hacia_maeklong_ar.mp3' },
         { id: 3, title: '3. سوق قطارات مايكلونج', url: BASE_URL + 'arabic/3.mercado_del_tren_de_maeklong_ar.mp3' },
         { id: 4, title: '4. المشي إلى قفص الاتهام', url: BASE_URL + 'arabic/4.camino_hacia_el_muelle_ar.mp3' },
         { id: 5, title: '5. تجربة القارب ذو الذيل الطويل (طريق هانغ ياو)', url: BASE_URL + 'arabic/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_ar.mp3' },
         { id: 6, title: '6. سوق دامنوين سادواك العائم', url: BASE_URL + 'arabic/6.mercado_flotante_damnoen_saduak_ar.mp3' },
         { id: 7, title: '7. العودة إلى بانكوك', url: BASE_URL + 'arabic/7.regreso_hacia_bangkok_ar.mp3' },
         { id: 8, title: '8. القصر الكبير ومعبد بوذا الزمردي', url: BASE_URL + 'arabic/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ar.mp3' },
-        { id: 9, title: '9. التحية النهائية', url: BASE_URL + 'arabic/9.saludo_final_ar.mp3' }
+        { id: 9, title: '9. عبور نهر تشاو فرايا | الطريق إلى وات آرون', url: BASE_URL + 'arabic/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ar.mp3' },
+        { id: 10, title: '10. وات آرون | معبد الفجر', url: BASE_URL + 'arabic/10.wat_arun_el_templo_del_amanecer_ar.mp3' },
+        { id: 11, title: '11. وات فو | بوذا المتكئ', url: BASE_URL + 'arabic/11.wat_pho_el_buda_reclinado_ar.mp3' }
     ],
     basque: [
         { id: 1, title: '1. SARRERA | ONGI ETORRI', url: BASE_URL + 'basque/1.introduccion_bienvenida_eu.mp3' },
@@ -33,7 +37,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK MERKATU HIGARRIKOA', url: BASE_URL + 'basque/6.mercado_flotante_damnoen_saduak_eu.mp3' },
         { id: 7, title: '7. BANGKOKERA ITZULERA', url: BASE_URL + 'basque/7.regreso_hacia_bangkok_eu.mp3' },
         { id: 8, title: '8. JAUREGI HANDIA ETA BUDA ESMERALDAREN TENplua', url: BASE_URL + 'basque/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_eu.mp3' },
-        { id: 9, title: '9. AZKEN AGURRA', url: BASE_URL + 'basque/9.saludo_final_eu.mp3' }
+        { id: 9, title: '9. CHAO PHRAYA IBAIA gurutzatu | WAT ARUNERAKO BIDEA', url: BASE_URL + 'basque/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_eu.mp3' },
+        { id: 10, title: '10. WAT ARUN | GOIZKO TENplua', url: BASE_URL + 'basque/10.wat_arun_el_templo_del_amanecer_eu.mp3' },
+        { id: 11, title: '11. ZER PHO | BUDA ETZENA', url: BASE_URL + 'basque/11.wat_pho_el_buda_reclinado_eu.mp3' }
     ],
     bengali: [
         { id: 1, title: '1. ভূমিকা | স্বাগতম', url: BASE_URL + 'bengali/1.introduccion_bienvenida_bn.mp3' },
@@ -44,7 +50,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK ফ্লোটিং মার্কেট', url: BASE_URL + 'bengali/6.mercado_flotante_damnoen_saduak_bn.mp3' },
         { id: 7, title: '7. ব্যাংককে ফিরে যান', url: BASE_URL + 'bengali/7.regreso_hacia_bangkok_bn.mp3' },
         { id: 8, title: '8. মহান প্রাসাদ এবং পান্না বুদ্ধের মন্দির', url: BASE_URL + 'bengali/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_bn.mp3' },
-        { id: 9, title: '9. চূড়ান্ত অভিবাদন', url: BASE_URL + 'bengali/9.saludo_final_bn.mp3' }
+        { id: 9, title: '9. চাও ফ্রায়া নদী পার | অরুণ ওয়াটের রাস্তা', url: BASE_URL + 'bengali/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_bn.mp3' },
+        { id: 10, title: '10. ওয়াট অরুণ | ভোরের মন্দির', url: BASE_URL + 'bengali/10.wat_arun_el_templo_del_amanecer_bn.mp3' },
+        { id: 11, title: '11. ওয়াট ফো | রিক্লিনিং বুদ্ধ', url: BASE_URL + 'bengali/11.wat_pho_el_buda_reclinado_bn.mp3' }
     ],
     catalan: [
         { id: 1, title: '1. INTRODUCCIÓ | BENVINGUDA', url: BASE_URL + 'catalan/1.introduccion_bienvenida_ca.mp3' },
@@ -55,29 +63,35 @@ const audioDatabase = {
         { id: 6, title: '6. MERCAT FLOTANT DAMNOEN SADUAK', url: BASE_URL + 'catalan/6.mercado_flotante_damnoen_saduak_ca.mp3' },
         { id: 7, title: '7. RETORN CAP A BANGKOK', url: BASE_URL + 'catalan/7.regreso_hacia_bangkok_ca.mp3' },
         { id: 8, title: '8. EL GRAN PALAU I EL TEMPLE DEL BUDA ESMERALDA', url: BASE_URL + 'catalan/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ca.mp3' },
-        { id: 9, title: '9. SALUTACIÓ FINAL', url: BASE_URL + 'catalan/9.saludo_final_ca.mp3' }
+        { id: 9, title: '9. ENCREUAMENT PEL RIU CHAO PHRAYA | CAMÍ CAP WAT ARUN', url: BASE_URL + 'catalan/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ca.mp3' },
+        { id: 10, title: '10. WAT ARUN | EL TEMPLE DE L\'ALUNAR', url: BASE_URL + 'catalan/10.wat_arun_el_templo_del_amanecer_ca.mp3' },
+        { id: 11, title: '11. WAT PHO | EL BUDA RECLINAT', url: BASE_URL + 'catalan/11.wat_pho_el_buda_reclinado_ca.mp3' }
     ],
     croatian: [
         { id: 1, title: '1. UVOD | DOBRODOŠLI', url: BASE_URL + 'croatian/1.introduccion_bienvenida_hr.mp3' },
         { id: 2, title: '2. CESTA ZA MAEKLONG', url: BASE_URL + 'croatian/2.camino_hacia_maeklong_hr.mp3' },
         { id: 3, title: '3. TRŽNICA VLAKOVA MAEKLONG', url: BASE_URL + 'croatian/3.mercado_del_tren_de_maeklong_hr.mp3' },
-        { id: 4, title: '4. PROŠETAJ DO PRISTANIŠTA', url: BASE_URL + 'croatian/4.camino_hacia_el_muelle_hr.mp3' },
+        { id: 4, title: '4. PROŠETAJ DO PRISTANE', url: BASE_URL + 'croatian/4.camino_hacia_el_muelle_hr.mp3' },
         { id: 5, title: '5. ISKUSTVO ČAMCA S DUGIM REPOM (CESTA HANG YAO)', url: BASE_URL + 'croatian/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_hr.mp3' },
         { id: 6, title: '6. PLUTAJUĆA TRŽNICA DAMNOEN SADUAK', url: BASE_URL + 'croatian/6.mercado_flotante_damnoen_saduak_hr.mp3' },
         { id: 7, title: '7. POVRATAK U BANGKOK', url: BASE_URL + 'croatian/7.regreso_hacia_bangkok_hr.mp3' },
         { id: 8, title: '8. VELIKA PALAČA I HRAM SMARAGDNOG BUDDHE', url: BASE_URL + 'croatian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_hr.mp3' },
-        { id: 9, title: '9. ZAVRŠNI POZDRAV', url: BASE_URL + 'croatian/9.saludo_final_hr.mp3' }
+        { id: 9, title: '9. PREĐI RIJEKU CHAO PHRAYA | CESTA ZA WAT ARUN', url: BASE_URL + 'croatian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_hr.mp3' },
+        { id: 10, title: '10. WAT ARUN | HRAM ZORE', url: BASE_URL + 'croatian/10.wat_arun_el_templo_del_amanecer_hr.mp3' },
+        { id: 11, title: '11. WAT PHO | LEŽEĆI BUDDHA', url: BASE_URL + 'croatian/11.wat_pho_el_buda_reclinado_hr.mp3' }
     ],
     czech: [
         { id: 1, title: '1. ÚVOD | VÍTEJTE', url: BASE_URL + 'czech/1.introduccion_bienvenida_cs.mp3' },
         { id: 2, title: '2. CESTA DO MAEKLONG', url: BASE_URL + 'czech/2.camino_hacia_maeklong_cs.mp3' },
-        { id: 3, title: '3. TRH VLAKŮ MAEKLONG', url: BASE_URL + 'czech/3.mercado_del_tren_de_maeklong_cs.mp3' },
+        { id: 3, title: '3. VLAKOVÝ TRH MAEKLONG', url: BASE_URL + 'czech/3.mercado_del_tren_de_maeklong_cs.mp3' },
         { id: 4, title: '4. PROCHÁZET DO DOKU', url: BASE_URL + 'czech/4.camino_hacia_el_muelle_cs.mp3' },
         { id: 5, title: '5. ZKUŠENOSTI NA LODĚ LONG TAIL (HANG YAO ROAD)', url: BASE_URL + 'czech/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_cs.mp3' },
         { id: 6, title: '6. DAMNOEN SADUAK PLOVOUCÍ TRH', url: BASE_URL + 'czech/6.mercado_flotante_damnoen_saduak_cs.mp3' },
         { id: 7, title: '7. NÁVRAT DO BANGKOKU', url: BASE_URL + 'czech/7.regreso_hacia_bangkok_cs.mp3' },
         { id: 8, title: '8. VELKÝ PALÁC A CHRÁM SMARAGDOVÉHO BUDHY', url: BASE_URL + 'czech/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_cs.mp3' },
-        { id: 9, title: '9. ZÁVĚREČNÝ POZDRAV', url: BASE_URL + 'czech/9.saludo_final_cs.mp3' }
+        { id: 9, title: '9. PŘEJDĚTE ŘEKU CHAO PHRAYA | CESTA K WAT ARUN', url: BASE_URL + 'czech/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_cs.mp3' },
+        { id: 10, title: '10. WAT ARUN | CHRÁM Úsvitu', url: BASE_URL + 'czech/10.wat_arun_el_templo_del_amanecer_cs.mp3' },
+        { id: 11, title: '11. WAT PHO | LEŽÍCÍ BUDHA', url: BASE_URL + 'czech/11.wat_pho_el_buda_reclinado_cs.mp3' }
     ],
     danish: [
         { id: 1, title: '1. INTRODUKTION | VELKOMST', url: BASE_URL + 'danish/1.introduccion_bienvenida_da.mp3' },
@@ -88,7 +102,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK FLYDENDE MARKED', url: BASE_URL + 'danish/6.mercado_flotante_damnoen_saduak_da.mp3' },
         { id: 7, title: '7. TILBAGE TIL BANGKOK', url: BASE_URL + 'danish/7.regreso_hacia_bangkok_da.mp3' },
         { id: 8, title: '8. DET STORE PALADS OG SMERALDBUDDHAENS TEMPEL', url: BASE_URL + 'danish/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_da.mp3' },
-        { id: 9, title: '9. ENDELIG HILSEN', url: BASE_URL + 'danish/9.saludo_final_da.mp3' }
+        { id: 9, title: '9. KRYDS CHAO PHRAYA FLOD | VEJ TIL WAT ARUN', url: BASE_URL + 'danish/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_da.mp3' },
+        { id: 10, title: '10. WAT ARUN | DAGENS TEMPEL', url: BASE_URL + 'danish/10.wat_arun_el_templo_del_amanecer_da.mp3' },
+        { id: 11, title: '11. WAT PHO | DEN LIGGENDE BUDDHA', url: BASE_URL + 'danish/11.wat_pho_el_buda_reclinado_da.mp3' }
     ],
     dutch: [
         { id: 1, title: '1. INLEIDING | WELKOM', url: BASE_URL + 'dutch/1.introduccion_bienvenida_nl.mp3' },
@@ -99,18 +115,22 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK DRIJVENDE MARKT', url: BASE_URL + 'dutch/6.mercado_flotante_damnoen_saduak_nl.mp3' },
         { id: 7, title: '7. TERUG NAAR BANGKOK', url: BASE_URL + 'dutch/7.regreso_hacia_bangkok_nl.mp3' },
         { id: 8, title: '8. HET GROTE PALEIS EN DE TEMPEL VAN DE EMERALD BOEDHA', url: BASE_URL + 'dutch/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_nl.mp3' },
-        { id: 9, title: '9. LAATSTE BEGROETING', url: BASE_URL + 'dutch/9.saludo_final_nl.mp3' }
+        { id: 9, title: '9. OVER DE CHAO PHRAYA-RIVIER | WEG NAAR WAT ARUN', url: BASE_URL + 'dutch/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_nl.mp3' },
+        { id: 10, title: '10. WAT ARUN | DE TEMPEL VAN DE DAGERAAD', url: BASE_URL + 'dutch/10.wat_arun_el_templo_del_amanecer_nl.mp3' },
+        { id: 11, title: '11. WAT FO | DE liggende BOEDHA', url: BASE_URL + 'dutch/11.wat_pho_el_buda_reclinado_nl.mp3' }
     ],
     filipino: [
         { id: 1, title: '1. PANIMULA | WELCOME', url: BASE_URL + 'filipino/1.introduccion_bienvenida_tl.mp3' },
         { id: 2, title: '2. DAAN SA MAEKLONG', url: BASE_URL + 'filipino/2.camino_hacia_maeklong_tl.mp3' },
         { id: 3, title: '3. MAEKLONG TRAIN MARKET', url: BASE_URL + 'filipino/3.mercado_del_tren_de_maeklong_tl.mp3' },
-        { id: 4, title: '4. MAGLALAKAD SA DOCK', url: BASE_URL + 'filipino/4.camino_hacia_el_muelle_tl.mp3' },
+        { id: 4, title: '4. MAGLAKAD SA DOCK', url: BASE_URL + 'filipino/4.camino_hacia_el_muelle_tl.mp3' },
         { id: 5, title: '5. LONG TAIL BOAT EXPERIENCE (HANG YAO ROAD)', url: BASE_URL + 'filipino/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_tl.mp3' },
         { id: 6, title: '6. DAMNOEN SADUAK FLOATING MARKET', url: BASE_URL + 'filipino/6.mercado_flotante_damnoen_saduak_tl.mp3' },
         { id: 7, title: '7. BUMALIK SA BANGKOK', url: BASE_URL + 'filipino/7.regreso_hacia_bangkok_tl.mp3' },
         { id: 8, title: '8. ANG DAKILANG PALACE AT ANG TEMPLO NG EMERALD BUDDHA', url: BASE_URL + 'filipino/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_tl.mp3' },
-        { id: 9, title: '9. FINAL GREETING', url: BASE_URL + 'filipino/9.saludo_final_tl.mp3' }
+        { id: 9, title: '9. TUMAWID SA ILOG NG CHAO PHRAYA | DAAN SA WAT ARUN', url: BASE_URL + 'filipino/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_tl.mp3' },
+        { id: 10, title: '10. WAT ARUN | ANG TEMPLO NG LIwayway', url: BASE_URL + 'filipino/10.wat_arun_el_templo_del_amanecer_tl.mp3' },
+        { id: 11, title: '11. WAT PHO | ANG RECLINING BUDDHA', url: BASE_URL + 'filipino/11.wat_pho_el_buda_reclinado_tl.mp3' }
     ],
     french: [
         { id: 1, title: '1. INTRODUCTION | ACCUEILLIR', url: BASE_URL + 'french/1.introduccion_bienvenida_fr.mp3' },
@@ -121,18 +141,22 @@ const audioDatabase = {
         { id: 6, title: '6. MARCHÉ FLOTTANT DE DAMNOEN SADUAK', url: BASE_URL + 'french/6.mercado_flotante_damnoen_saduak_fr.mp3' },
         { id: 7, title: '7. RETOUR À BANGKOK', url: BASE_URL + 'french/7.regreso_hacia_bangkok_fr.mp3' },
         { id: 8, title: '8. LE GRAND PALAIS ET LE TEMPLE DU BOUDDHA D\'ÉMERAUDE', url: BASE_URL + 'french/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_fr.mp3' },
-        { id: 9, title: '9. SALUT FINAL', url: BASE_URL + 'french/9.saludo_final_fr.mp3' }
+        { id: 9, title: '9. TRAVERSEZ LA RIVIÈRE CHAO PHRAYA | ROUTE VERS WAT ARUN', url: BASE_URL + 'french/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_fr.mp3' },
+        { id: 10, title: '10. WAT ARUN | LE TEMPLE DE L\'AUBE', url: BASE_URL + 'french/10.wat_arun_el_templo_del_amanecer_fr.mp3' },
+        { id: 11, title: '11. WAT PHO | LE BOUDDHA Couché', url: BASE_URL + 'french/11.wat_pho_el_buda_reclinado_fr.mp3' }
     ],
     galician: [
         { id: 1, title: '1. INTRODUCIÓN | BENVIDOS', url: BASE_URL + 'galician/1.introduccion_bienvenida_gl.mp3' },
         { id: 2, title: '2. CAMIÑO A MAEKLONG', url: BASE_URL + 'galician/2.camino_hacia_maeklong_gl.mp3' },
         { id: 3, title: '3. MERCADO DE TREN DE MAEKLONG', url: BASE_URL + 'galician/3.mercado_del_tren_de_maeklong_gl.mp3' },
-        { id: 4, title: '4. CAMIÑA AO DÁR', url: BASE_URL + 'galician/4.camino_hacia_el_muelle_gl.mp3' },
+        { id: 4, title: '4. CAMIÑA AO PIRAXE', url: BASE_URL + 'galician/4.camino_hacia_el_muelle_gl.mp3' },
         { id: 5, title: '5. EXPERIENCIA EN BARCO DE COLA LONGA (HANG YAO ROAD)', url: BASE_URL + 'galician/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_gl.mp3' },
         { id: 6, title: '6. MERCADO FLOTANTE DAMNOEN SADUAK', url: BASE_URL + 'galician/6.mercado_flotante_damnoen_saduak_gl.mp3' },
         { id: 7, title: '7. VOLTA A BANGKOK', url: BASE_URL + 'galician/7.regreso_hacia_bangkok_gl.mp3' },
         { id: 8, title: '8. O GRAN PALACIO E O TEMPLO DO BUDA ESMERALDA', url: BASE_URL + 'galician/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_gl.mp3' },
-        { id: 9, title: '9. SAÚDO FINAL', url: BASE_URL + 'galician/9.saludo_final_gl.mp3' }
+        { id: 9, title: '9. CRUZAR O RÍO CHAO PHRAYA | CAMIÑO A WAT ARUN', url: BASE_URL + 'galician/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_gl.mp3' },
+        { id: 10, title: '10. WAT ARUN | O TEMPLO DO AMANECER', url: BASE_URL + 'galician/10.wat_arun_el_templo_del_amanecer_gl.mp3' },
+        { id: 11, title: '11. QUE FOTO | O BUDA RECLINADO', url: BASE_URL + 'galician/11.wat_pho_el_buda_reclinado_gl.mp3' }
     ],
     german: [
         { id: 1, title: '1. EINFÜHRUNG | WILLKOMMEN', url: BASE_URL + 'german/1.introduccion_bienvenida_de.mp3' },
@@ -143,7 +167,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK SCHWIMMENDER MARKT', url: BASE_URL + 'german/6.mercado_flotante_damnoen_saduak_de.mp3' },
         { id: 7, title: '7. RÜCKKEHR NACH BANGKOK', url: BASE_URL + 'german/7.regreso_hacia_bangkok_de.mp3' },
         { id: 8, title: '8. DER GROSSE PALAST UND DER TEMPEL DES SMARAGD-BUDDHA', url: BASE_URL + 'german/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_de.mp3' },
-        { id: 9, title: '9. SCHLUSSGRUSS', url: BASE_URL + 'german/9.saludo_final_de.mp3' }
+        { id: 9, title: '9. ÜBERQUEREN SIE DEN FLUSS CHAO PHRAYA | STRASSE NACH WAT ARUN', url: BASE_URL + 'german/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_de.mp3' },
+        { id: 10, title: '10. WAT ARUN | DER TEMPEL DER MORGEN', url: BASE_URL + 'german/10.wat_arun_el_templo_del_amanecer_de.mp3' },
+        { id: 11, title: '11. WAT PHO | DER LIEGENDE BUDDHA', url: BASE_URL + 'german/11.wat_pho_el_buda_reclinado_de.mp3' }
     ],
     greek: [
         { id: 1, title: '1. ΕΙΣΑΓΩΓΗ | ΚΑΛΩΣΟΡΙΣΜΑ', url: BASE_URL + 'greek/1.introduccion_bienvenida_el.mp3' },
@@ -154,7 +180,9 @@ const audioDatabase = {
         { id: 6, title: '6. ΠΛΩΤΗ ΑΓΟΡΑ DAMNOEN SADUAK', url: BASE_URL + 'greek/6.mercado_flotante_damnoen_saduak_el.mp3' },
         { id: 7, title: '7. ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΜΠΑΝΓΚΟΚ', url: BASE_URL + 'greek/7.regreso_hacia_bangkok_el.mp3' },
         { id: 8, title: '8. ΤΟ ΜΕΓΑΛΟ ΠΑΛΑΤΙ ΚΑΙ Ο ΝΑΟΣ ΤΟΥ ΣΜΑΡΑΓΔΙΟΥ ΒΟΥΔΑ', url: BASE_URL + 'greek/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_el.mp3' },
-        { id: 9, title: '9. ΤΕΛΙΚΟΣ ΧΑΙΡΕΤΙΣΜΟΣ', url: BASE_URL + 'greek/9.saludo_final_el.mp3' }
+        { id: 9, title: '9. ΔΙΑΒΑΣΤΕ ΤΟΝ ΠΟΤΑΜΟ ΤΣΑΟ ΦΡΑΓΙΑ | ΔΡΟΜΟΣ ΣΤΟ WAT ARUN', url: BASE_URL + 'greek/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_el.mp3' },
+        { id: 10, title: '10. WAT ARUN | Ο ΝΑΟΣ ΤΗΣ ΑΥΓΗΣ', url: BASE_URL + 'greek/10.wat_arun_el_templo_del_amanecer_el.mp3' },
+        { id: 11, title: '11. WAT PHO | Ο ΞΑΠΛΑΣΜΕΝΟΣ ΒΟΥΔΑ', url: BASE_URL + 'greek/11.wat_pho_el_buda_reclinado_el.mp3' }
     ],
     hindi: [
         { id: 1, title: '1. परिचय | स्वागत', url: BASE_URL + 'hindi/1.introduccion_bienvenida_hi.mp3' },
@@ -165,7 +193,9 @@ const audioDatabase = {
         { id: 6, title: '6. डेमनोएन सदुक फ्लोटिंग मार्केट', url: BASE_URL + 'hindi/6.mercado_flotante_damnoen_saduak_hi.mp3' },
         { id: 7, title: '7. बैंकॉक को लौटें', url: BASE_URL + 'hindi/7.regreso_hacia_bangkok_hi.mp3' },
         { id: 8, title: '8. महान महल और पन्ना बुद्ध का मंदिर', url: BASE_URL + 'hindi/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_hi.mp3' },
-        { id: 9, title: '9. अंतिम अभिवादन', url: BASE_URL + 'hindi/9.saludo_final_hi.mp3' }
+        { id: 9, title: '9. चाओ फ्राया नदी पार करें | अरुण को वाट करने का मार्ग', url: BASE_URL + 'hindi/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_hi.mp3' },
+        { id: 10, title: '10. क्या अरुण | भोर का मंदिर', url: BASE_URL + 'hindi/10.wat_arun_el_templo_del_amanecer_hi.mp3' },
+        { id: 11, title: '11. वाट फो | लेटे हुए बुद्ध', url: BASE_URL + 'hindi/11.wat_pho_el_buda_reclinado_hi.mp3' }
     ],
     hungarian: [
         { id: 1, title: '1. BEVEZETÉS | ÜDVÖZÖLJÜK', url: BASE_URL + 'hungarian/1.introduccion_bienvenida_hu.mp3' },
@@ -176,7 +206,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK LEBEGŐ PIAC', url: BASE_URL + 'hungarian/6.mercado_flotante_damnoen_saduak_hu.mp3' },
         { id: 7, title: '7. VISSZA BANGKOKBA', url: BASE_URL + 'hungarian/7.regreso_hacia_bangkok_hu.mp3' },
         { id: 8, title: '8. A NAGY PALOTÁT ÉS A SMAGRALD BUDDHA TEMPLOMÁT', url: BASE_URL + 'hungarian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_hu.mp3' },
-        { id: 9, title: '9. VÉGSŐ KÖSZÖNTÉS', url: BASE_URL + 'hungarian/9.saludo_final_hu.mp3' }
+        { id: 9, title: '9. KERESZTÜL A CHAO PHRAYA FOLYÓN | ÚT A WAT ARUNHOZ', url: BASE_URL + 'hungarian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_hu.mp3' },
+        { id: 10, title: '10. WAT ARUN | A HAJNAL TEMPLOMA', url: BASE_URL + 'hungarian/10.wat_arun_el_templo_del_amanecer_hu.mp3' },
+        { id: 11, title: '11. WAT PHO | A FEKÜLŐ BUDDHA', url: BASE_URL + 'hungarian/11.wat_pho_el_buda_reclinado_hu.mp3' }
     ],
     indonesian: [
         { id: 1, title: '1. PENDAHULUAN | SELAMAT DATANG', url: BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3' },
@@ -187,7 +219,9 @@ const audioDatabase = {
         { id: 6, title: '6. PASAR TERAPUNG DAMNOEN SADUAK', url: BASE_URL + 'indonesian/6.mercado_flotante_damnoen_saduak_id.mp3' },
         { id: 7, title: '7. KEMBALI KE BANGKOK', url: BASE_URL + 'indonesian/7.regreso_hacia_bangkok_id.mp3' },
         { id: 8, title: '8. ISTANA BESAR DAN CANDI BUDDHA EMERALD', url: BASE_URL + 'indonesian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_id.mp3' },
-        { id: 9, title: '9. SALAM TERAKHIR', url: BASE_URL + 'indonesian/9.saludo_final_id.mp3' }
+        { id: 9, title: '9. MENYEBERANG SUNGAI CHAO PHRAYA | JALAN MENUJU WAT ARUN', url: BASE_URL + 'indonesian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_id.mp3' },
+        { id: 10, title: '10. APA ARUN | CANDI FAJAR', url: BASE_URL + 'indonesian/10.wat_arun_el_templo_del_amanecer_id.mp3' },
+        { id: 11, title: '11. APA PHO | BUDDHA YANG BERBARING', url: BASE_URL + 'indonesian/11.wat_pho_el_buda_reclinado_id.mp3' }
     ],
     italian: [
         { id: 1, title: '1. INTRODUZIONE | BENVENUTO', url: BASE_URL + 'italian/1.introduccion_bienvenida_it.mp3' },
@@ -198,7 +232,9 @@ const audioDatabase = {
         { id: 6, title: '6. MERCATO GALLEGGIANTE DI DAMNOEN SADUAK', url: BASE_URL + 'italian/6.mercado_flotante_damnoen_saduak_it.mp3' },
         { id: 7, title: '7. RITORNO A BANGKOK', url: BASE_URL + 'italian/7.regreso_hacia_bangkok_it.mp3' },
         { id: 8, title: '8. IL GRANDE PALAZZO E IL TEMPIO DEL BUDDHA DI SMERALDO', url: BASE_URL + 'italian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_it.mp3' },
-        { id: 9, title: '9. SALUTO FINALE', url: BASE_URL + 'italian/9.saludo_final_it.mp3' }
+        { id: 9, title: '9. ATTRAVERSA IL FIUME CHAO PHRAYA | STRADA PER WAT ARUN', url: BASE_URL + 'italian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_it.mp3' },
+        { id: 10, title: '10. COSA ARUN | IL TEMPIO DELL\'ALBA', url: BASE_URL + 'italian/10.wat_arun_el_templo_del_amanecer_it.mp3' },
+        { id: 11, title: '11. CHE FOTO | IL BUDDHA RECLINATO', url: BASE_URL + 'italian/11.wat_pho_el_buda_reclinado_it.mp3' }
     ],
     japanese: [
         { id: 1, title: '1. はじめに |いらっしゃいませ', url: BASE_URL + 'japanese/1.introduccion_bienvenida_ja.mp3' },
@@ -209,7 +245,9 @@ const audioDatabase = {
         { id: 6, title: '6. ダムヌン サドゥアク水上マーケット', url: BASE_URL + 'japanese/6.mercado_flotante_damnoen_saduak_ja.mp3' },
         { id: 7, title: '7. バンコクに戻ります', url: BASE_URL + 'japanese/7.regreso_hacia_bangkok_ja.mp3' },
         { id: 8, title: '8. 大宮殿とエメラルド仏の寺院', url: BASE_URL + 'japanese/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ja.mp3' },
-        { id: 9, title: '9. 最後の挨拶', url: BASE_URL + 'japanese/9.saludo_final_ja.mp3' }
+        { id: 9, title: '9. チャオプラヤー川を渡る |ワット・アルンへの道', url: BASE_URL + 'japanese/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ja.mp3' },
+        { id: 10, title: '10. ワット アルン |暁の神殿', url: BASE_URL + 'japanese/10.wat_arun_el_templo_del_amanecer_ja.mp3' },
+        { id: 11, title: '11. ワット・ポー |涅槃仏', url: BASE_URL + 'japanese/11.wat_pho_el_buda_reclinado_ja.mp3' }
     ],
     khmer: [
         { id: 1, title: '1. សេចក្តីផ្តើម | សូមស្វាគមន៍', url: BASE_URL + 'khmer/1.introduccion_bienvenida_km.mp3' },
@@ -220,7 +258,9 @@ const audioDatabase = {
         { id: 6, title: '6. ផ្សារ​អណ្តែត​សា​ឌូ​', url: BASE_URL + 'khmer/6.mercado_flotante_damnoen_saduak_km.mp3' },
         { id: 7, title: '7. ត្រឡប់ទៅ បាងកក វិញ', url: BASE_URL + 'khmer/7.regreso_hacia_bangkok_km.mp3' },
         { id: 8, title: '8. ព្រះបរមរាជវាំង និងប្រាសាទព្រះឥន្រ្ទទេវី', url: BASE_URL + 'khmer/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_km.mp3' },
-        { id: 9, title: '9. ការស្វាគមន៍ចុងក្រោយ', url: BASE_URL + 'khmer/9.saludo_final_km.mp3' }
+        { id: 9, title: '9. ឆ្លងទន្លេចាវប្រាយ | ផ្លូវទៅវត្តអរុណ', url: BASE_URL + 'khmer/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_km.mp3' },
+        { id: 10, title: '10. វត្ត អារុណ | ប្រាសាទនៃថ្ងៃរះ', url: BASE_URL + 'khmer/10.wat_arun_el_templo_del_amanecer_km.mp3' },
+        { id: 11, title: '11. WAT PHO | ព្រះពុទ្ធបដិមា', url: BASE_URL + 'khmer/11.wat_pho_el_buda_reclinado_km.mp3' }
     ],
     korean: [
         { id: 1, title: '1. 소개 | 환영', url: BASE_URL + 'korean/1.introduccion_bienvenida_ko.mp3' },
@@ -231,7 +271,9 @@ const audioDatabase = {
         { id: 6, title: '6. 담넌사두악 수상시장', url: BASE_URL + 'korean/6.mercado_flotante_damnoen_saduak_ko.mp3' },
         { id: 7, title: '7. 방콕으로 돌아가기', url: BASE_URL + 'korean/7.regreso_hacia_bangkok_ko.mp3' },
         { id: 8, title: '8. 대궁전과 에메랄드 부처의 사원', url: BASE_URL + 'korean/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ko.mp3' },
-        { id: 9, title: '9. 최종 인사말', url: BASE_URL + 'korean/9.saludo_final_ko.mp3' }
+        { id: 9, title: '9. 차오프라야 강 건너기 | 왓 아룬으로 가는 길', url: BASE_URL + 'korean/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ko.mp3' },
+        { id: 10, title: '10. 왓 아룬 | 새벽의 사원', url: BASE_URL + 'korean/10.wat_arun_el_templo_del_amanecer_ko.mp3' },
+        { id: 11, title: '11. 왓포 | 누워있는 부처님', url: BASE_URL + 'korean/11.wat_pho_el_buda_reclinado_ko.mp3' }
     ],
     malay: [
         { id: 1, title: '1. PENGENALAN | SELAMAT DATANG', url: BASE_URL + 'malay/1.introduccion_bienvenida_ms.mp3' },
@@ -242,7 +284,9 @@ const audioDatabase = {
         { id: 6, title: '6. PASARAN TERApung DAMNOEN SADUAK', url: BASE_URL + 'malay/6.mercado_flotante_damnoen_saduak_ms.mp3' },
         { id: 7, title: '7. PULANG KE BANGKOK', url: BASE_URL + 'malay/7.regreso_hacia_bangkok_ms.mp3' },
         { id: 8, title: '8. ISTANA BESAR DAN KUIL EMERALD BUDDHA', url: BASE_URL + 'malay/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ms.mp3' },
-        { id: 9, title: '9. SALAM AKHIR', url: BASE_URL + 'malay/9.saludo_final_ms.mp3' }
+        { id: 9, title: '9. LINTAS SUNGAI CHAO PHRAYA | JALAN KE WAT ARUN', url: BASE_URL + 'malay/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ms.mp3' },
+        { id: 10, title: '10. WAT ARUN | KUIL SUBUH', url: BASE_URL + 'malay/10.wat_arun_el_templo_del_amanecer_ms.mp3' },
+        { id: 11, title: '11. WAT PHO | BUDDHA YANG BERBARING', url: BASE_URL + 'malay/11.wat_pho_el_buda_reclinado_ms.mp3' }
     ],
     mandarin_china: [
         { id: 1, title: '1. 简介 |欢迎', url: BASE_URL + 'mandarin_china/1.introduccion_bienvenida_zh_cn.mp3' },
@@ -253,7 +297,9 @@ const audioDatabase = {
         { id: 6, title: '6. 丹嫩沙多水上市场', url: BASE_URL + 'mandarin_china/6.mercado_flotante_damnoen_saduak_zh_cn.mp3' },
         { id: 7, title: '7. 返回曼谷', url: BASE_URL + 'mandarin_china/7.regreso_hacia_bangkok_zh_cn.mp3' },
         { id: 8, title: '8. 大皇宫和玉佛寺', url: BASE_URL + 'mandarin_china/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_zh_cn.mp3' },
-        { id: 9, title: '9. 最后的问候', url: BASE_URL + 'mandarin_china/9.saludo_final_zh_cn.mp3' }
+        { id: 9, title: '9. 穿越湄南河 |通往郑王庙的路', url: BASE_URL + 'mandarin_china/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_zh_cn.mp3' },
+        { id: 10, title: '10. 郑王庙 |黎明神殿', url: BASE_URL + 'mandarin_china/10.wat_arun_el_templo_del_amanecer_zh_cn.mp3' },
+        { id: 11, title: '11. 卧佛寺 |卧佛', url: BASE_URL + 'mandarin_china/11.wat_pho_el_buda_reclinado_zh_cn.mp3' }
     ],
     mandarin_taiwan: [
         { id: 1, title: '1. 簡介 |歡迎', url: BASE_URL + 'mandarin_taiwan/1.introduccion_bienvenida_zh_tw.mp3' },
@@ -264,7 +310,9 @@ const audioDatabase = {
         { id: 6, title: '6. 丹嫩沙多水上市場', url: BASE_URL + 'mandarin_taiwan/6.mercado_flotante_damnoen_saduak_zh_tw.mp3' },
         { id: 7, title: '7. 返回曼谷', url: BASE_URL + 'mandarin_taiwan/7.regreso_hacia_bangkok_zh_tw.mp3' },
         { id: 8, title: '8. 大皇宮和玉佛寺', url: BASE_URL + 'mandarin_taiwan/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_zh_tw.mp3' },
-        { id: 9, title: '9. 最後的問候', url: BASE_URL + 'mandarin_taiwan/9.saludo_final_zh_tw.mp3' }
+        { id: 9, title: '9. 穿越湄南河 |通往鄭王廟的路', url: BASE_URL + 'mandarin_taiwan/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_zh_tw.mp3' },
+        { id: 10, title: '10. 鄭王廟 |黎明神殿', url: BASE_URL + 'mandarin_taiwan/10.wat_arun_el_templo_del_amanecer_zh_tw.mp3' },
+        { id: 11, title: '11. 臥佛寺 |臥佛', url: BASE_URL + 'mandarin_taiwan/11.wat_pho_el_buda_reclinado_zh_tw.mp3' }
     ],
     nepali: [
         { id: 1, title: '1. परिचय | स्वागत छ', url: BASE_URL + 'nepali/1.introduccion_bienvenida_ne.mp3' },
@@ -275,7 +323,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK फ्लोटिंग बजार', url: BASE_URL + 'nepali/6.mercado_flotante_damnoen_saduak_ne.mp3' },
         { id: 7, title: '7. बैंकक फर्कनुहोस्', url: BASE_URL + 'nepali/7.regreso_hacia_bangkok_ne.mp3' },
         { id: 8, title: '8. ठूलो दरबार र पन्ना बुद्धको मन्दिर', url: BASE_URL + 'nepali/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ne.mp3' },
-        { id: 9, title: '9. अन्तिम अभिवादन', url: BASE_URL + 'nepali/9.saludo_final_ne.mp3' }
+        { id: 9, title: '9. चाओ फराया नदी पार | अरुण को वाट बाटो', url: BASE_URL + 'nepali/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ne.mp3' },
+        { id: 10, title: '10. वाट अरुण | बिहानको मन्दिर', url: BASE_URL + 'nepali/10.wat_arun_el_templo_del_amanecer_ne.mp3' },
+        { id: 11, title: '11. WAT PHO | द रिक्लिनिङ बुद्ध', url: BASE_URL + 'nepali/11.wat_pho_el_buda_reclinado_ne.mp3' }
     ],
     norwegian: [
         { id: 1, title: '1. INNLEDNING | VELKOMST', url: BASE_URL + 'norwegian/1.introduccion_bienvenida_no.mp3' },
@@ -286,7 +336,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK FLYTENDE MARKED', url: BASE_URL + 'norwegian/6.mercado_flotante_damnoen_saduak_no.mp3' },
         { id: 7, title: '7. TILBAKE TIL BANGKOK', url: BASE_URL + 'norwegian/7.regreso_hacia_bangkok_no.mp3' },
         { id: 8, title: '8. DET STORE PALASSET OG EMERALDBUDDHAENS TEMPEL', url: BASE_URL + 'norwegian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_no.mp3' },
-        { id: 9, title: '9. ENDELIG HILSEN', url: BASE_URL + 'norwegian/9.saludo_final_no.mp3' }
+        { id: 9, title: '9. KRYSS CHAO PHRAYA ELVEN | VEIEN TIL WAT ARUN', url: BASE_URL + 'norwegian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_no.mp3' },
+        { id: 10, title: '10. WAT ARUN | DAGENS TEMPEL', url: BASE_URL + 'norwegian/10.wat_arun_el_templo_del_amanecer_no.mp3' },
+        { id: 11, title: '11. WAT PHO | DEN LIGGENDE BUDDHA', url: BASE_URL + 'norwegian/11.wat_pho_el_buda_reclinado_no.mp3' }
     ],
     persian: [
         { id: 1, title: '1. مقدمه | خوش آمدید', url: BASE_URL + 'persian/1.introduccion_bienvenida_fa.mp3' },
@@ -297,7 +349,9 @@ const audioDatabase = {
         { id: 6, title: '6. بازار شناور DAMNOEN SADUAK', url: BASE_URL + 'persian/6.mercado_flotante_damnoen_saduak_fa.mp3' },
         { id: 7, title: '7. بازگشت به بانکوک', url: BASE_URL + 'persian/7.regreso_hacia_bangkok_fa.mp3' },
         { id: 8, title: '8. کاخ بزرگ و معبد بودای زمرد', url: BASE_URL + 'persian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_fa.mp3' },
-        { id: 9, title: '9. سلام پایانی', url: BASE_URL + 'persian/9.saludo_final_fa.mp3' }
+        { id: 9, title: '9. عبور از رودخانه چائو فرایا | جاده به وات آرون', url: BASE_URL + 'persian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_fa.mp3' },
+        { id: 10, title: '10. وات آرون | معبد سپیده دم', url: BASE_URL + 'persian/10.wat_arun_el_templo_del_amanecer_fa.mp3' },
+        { id: 11, title: '11. WAT PHO | بودای دراز کشیده', url: BASE_URL + 'persian/11.wat_pho_el_buda_reclinado_fa.mp3' }
     ],
     polish: [
         { id: 1, title: '1. WSTĘP | POWITANIE', url: BASE_URL + 'polish/1.introduccion_bienvenida_pl.mp3' },
@@ -308,18 +362,22 @@ const audioDatabase = {
         { id: 6, title: '6. PŁYWAJĄCY TARG DAMNOEN SADUAK', url: BASE_URL + 'polish/6.mercado_flotante_damnoen_saduak_pl.mp3' },
         { id: 7, title: '7. POWRÓT DO BANGKOKU', url: BASE_URL + 'polish/7.regreso_hacia_bangkok_pl.mp3' },
         { id: 8, title: '8. WIELKI PAŁAC I ŚWIĄTYNIA SZMARAJDOWEGO BUDDY', url: BASE_URL + 'polish/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_pl.mp3' },
-        { id: 9, title: '9. KOŃCOWE POWITANIE', url: BASE_URL + 'polish/9.saludo_final_pl.mp3' }
+        { id: 9, title: '9. PRZEJDŹ RZEKĘ CHAO PHRAYA | DROGA DO WAT ARUN', url: BASE_URL + 'polish/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_pl.mp3' },
+        { id: 10, title: '10. WAT ARUN | ŚWIĄTYNIA JURNU', url: BASE_URL + 'polish/10.wat_arun_el_templo_del_amanecer_pl.mp3' },
+        { id: 11, title: '11. WAT PHO | LEŻĄCY BUDDA', url: BASE_URL + 'polish/11.wat_pho_el_buda_reclinado_pl.mp3' }
     ],
     portuguese: [
         { id: 1, title: '1. INTRODUÇÃO | BEM-VINDO', url: BASE_URL + 'portuguese/1.introduccion_bienvenida_pt.mp3' },
         { id: 2, title: '2. ESTRADA PARA MAEKLONG', url: BASE_URL + 'portuguese/2.camino_hacia_maeklong_pt.mp3' },
-        { id: 3, title: '3. MERCADO DE TREM MAEKLONG', url: BASE_URL + 'portuguese/3.mercado_del_tren_de_maeklong_pt.mp3' },
+        { id: 3, title: '3. MERCADO DE TREM DE MAEKLONG', url: BASE_URL + 'portuguese/3.mercado_del_tren_de_maeklong_pt.mp3' },
         { id: 4, title: '4. CAMINHE ATÉ A DOCA', url: BASE_URL + 'portuguese/4.camino_hacia_el_muelle_pt.mp3' },
         { id: 5, title: '5. EXPERIÊNCIA DE BARCO DE CAUDA LONGA (HANG YAO ROAD)', url: BASE_URL + 'portuguese/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_pt.mp3' },
         { id: 6, title: '6. MERCADO FLUTUANTE DAMNOEN SADUAK', url: BASE_URL + 'portuguese/6.mercado_flotante_damnoen_saduak_pt.mp3' },
         { id: 7, title: '7. VOLTAR A BANGUECOQUE', url: BASE_URL + 'portuguese/7.regreso_hacia_bangkok_pt.mp3' },
         { id: 8, title: '8. O GRANDE PALÁCIO E O TEMPLO DO BUDA ESMERALDA', url: BASE_URL + 'portuguese/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_pt.mp3' },
-        { id: 9, title: '9. SAUDAÇÃO FINAL', url: BASE_URL + 'portuguese/9.saludo_final_pt.mp3' }
+        { id: 9, title: '9. CRUZAR O RIO CHAO PHRAYA | ESTRADA PARA WAT ARUN', url: BASE_URL + 'portuguese/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_pt.mp3' },
+        { id: 10, title: '10. O QUE ARUN | O TEMPLO DO AMANHECER', url: BASE_URL + 'portuguese/10.wat_arun_el_templo_del_amanecer_pt.mp3' },
+        { id: 11, title: '11. QUE FOTO | O BUDA RECLINADO', url: BASE_URL + 'portuguese/11.wat_pho_el_buda_reclinado_pt.mp3' }
     ],
     russian: [
         { id: 1, title: '1. ВВЕДЕНИЕ | ДОБРО ПОЖАЛОВАТЬ', url: BASE_URL + 'russian/1.introduccion_bienvenida_ru.mp3' },
@@ -330,7 +388,9 @@ const audioDatabase = {
         { id: 6, title: '6. ПЛАВУЧИЙ РЫНОК ДАМНОЕН САДУАК', url: BASE_URL + 'russian/6.mercado_flotante_damnoen_saduak_ru.mp3' },
         { id: 7, title: '7. ВОЗВРАЩЕНИЕ В БАНГКОК', url: BASE_URL + 'russian/7.regreso_hacia_bangkok_ru.mp3' },
         { id: 8, title: '8. БОЛЬШОЙ ДВОРЕЦ И ХРАМ ИЗУМРУДНОГО БУДДЫ', url: BASE_URL + 'russian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ru.mp3' },
-        { id: 9, title: '9. ЗАКЛЮЧИТЕЛЬНОЕ ПРИВЕТСТВИЕ', url: BASE_URL + 'russian/9.saludo_final_ru.mp3' }
+        { id: 9, title: '9. ПЕРЕСЕКАЕМ РЕКУ ЧАО ПРАЯ | ДОРОГА К ВАТ АРУН', url: BASE_URL + 'russian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ru.mp3' },
+        { id: 10, title: '10. ВАТ АРУН | ХРАМ РАССВЕТА', url: BASE_URL + 'russian/10.wat_arun_el_templo_del_amanecer_ru.mp3' },
+        { id: 11, title: '11. ВАТ ПХО | ЛЕЖАЩИЙ БУДДА', url: BASE_URL + 'russian/11.wat_pho_el_buda_reclinado_ru.mp3' }
     ],
     serbian: [
         { id: 1, title: '1. УВОД | ДОБРОДОШЛИ', url: BASE_URL + 'serbian/1.introduccion_bienvenida_sr.mp3' },
@@ -341,7 +401,9 @@ const audioDatabase = {
         { id: 6, title: '6. ДАМНОЕН САДУАК ПЛУЋА ТРЖНИЦА', url: BASE_URL + 'serbian/6.mercado_flotante_damnoen_saduak_sr.mp3' },
         { id: 7, title: '7. ПОВРАТАК У БАНГКОК', url: BASE_URL + 'serbian/7.regreso_hacia_bangkok_sr.mp3' },
         { id: 8, title: '8. ВЕЛИКА ПАЛАТА И ХРАМ СМАРАДНОГ БУДЕ', url: BASE_URL + 'serbian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_sr.mp3' },
-        { id: 9, title: '9. ЗАВРШНИ ПОЗДРАВ', url: BASE_URL + 'serbian/9.saludo_final_sr.mp3' }
+        { id: 9, title: '9. ПРЕЛАЗИТЕ РЕКУ ЧАО ПРАЈА | ПУТ ЗА ВАТ АРУН', url: BASE_URL + 'serbian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_sr.mp3' },
+        { id: 10, title: '10. ВАТ АРУН | ХРАМ ЗОРЕ', url: BASE_URL + 'serbian/10.wat_arun_el_templo_del_amanecer_sr.mp3' },
+        { id: 11, title: '11. ВАТ ПХО | ЛЕЖЕЋИ БУДА', url: BASE_URL + 'serbian/11.wat_pho_el_buda_reclinado_sr.mp3' }
     ],
     slovenian: [
         { id: 1, title: '1. UVOD | DOBRODOŠLI', url: BASE_URL + 'slovenian/1.introduccion_bienvenida_sl.mp3' },
@@ -352,7 +414,9 @@ const audioDatabase = {
         { id: 6, title: '6. PLAVAJOČA TRŽNICA DAMNOEN SADUAK', url: BASE_URL + 'slovenian/6.mercado_flotante_damnoen_saduak_sl.mp3' },
         { id: 7, title: '7. VRNITEV V BANGKOK', url: BASE_URL + 'slovenian/7.regreso_hacia_bangkok_sl.mp3' },
         { id: 8, title: '8. VELIKA PALAČA IN TEMPELJ SMARAGDNEGA BUDE', url: BASE_URL + 'slovenian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_sl.mp3' },
-        { id: 9, title: '9. ZAKLJUČNI POZDRAV', url: BASE_URL + 'slovenian/9.saludo_final_sl.mp3' }
+        { id: 9, title: '9. PREČKANJE REKE CHAO PHRAYA | CESTA V WAT ARUN', url: BASE_URL + 'slovenian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_sl.mp3' },
+        { id: 10, title: '10. WAT ARUN | TEMPELJ ZORE', url: BASE_URL + 'slovenian/10.wat_arun_el_templo_del_amanecer_sl.mp3' },
+        { id: 11, title: '11. WAT PHO | LEŽEČI BUDA', url: BASE_URL + 'slovenian/11.wat_pho_el_buda_reclinado_sl.mp3' }
     ],
     spanish_spain: [
         { id: 1, title: '1. INTRODUCCIÓN | BIENVENIDA', url: BASE_URL + 'spanish_spain/1.introduccion_bienvenida_es.mp3' },
@@ -363,7 +427,9 @@ const audioDatabase = {
         { id: 6, title: '6. MERCADO FLOTANTE DAMNOEN SADUAK', url: BASE_URL + 'spanish_spain/6.mercado_flotante_damnoen_saduak_es.mp3' },
         { id: 7, title: '7. REGRESO HACIA BANGKOK', url: BASE_URL + 'spanish_spain/7.regreso_hacia_bangkok_es.mp3' },
         { id: 8, title: '8. EL GRAN PALACIO Y EL TEMPLO DEL BUDA ESMERALDA', url: BASE_URL + 'spanish_spain/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_es.mp3' },
-        { id: 9, title: '9. SALUDO FINAL', url: BASE_URL + 'spanish_spain/9.saludo_final_es.mp3' }
+        { id: 9, title: '9. CRUCE POR EL RÍO CHAO PHRAYA | CAMINO HACIA WAT ARUN', url: BASE_URL + 'spanish_spain/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_es.mp3' },
+        { id: 10, title: '10. WAT ARUN | EL TEMPLO DEL AMANECER', url: BASE_URL + 'spanish_spain/10.wat_arun_el_templo_del_amanecer_es.mp3' },
+        { id: 11, title: '11. WAT PHO | EL BUDA RECLINADO', url: BASE_URL + 'spanish_spain/11.wat_pho_el_buda_reclinado_es.mp3' }
     ],
     spanish_latam: [
         { id: 1, title: '1. INTRODUCCIÓN | BIENVENIDA', url: BASE_URL + 'spanish_latam/1.introduccion_bienvenida_es_latam.mp3' },
@@ -374,7 +440,9 @@ const audioDatabase = {
         { id: 6, title: '6. MERCADO FLOTANTE DAMNOEN SADUAK', url: BASE_URL + 'spanish_latam/6.mercado_flotante_damnoen_saduak_es_latam.mp3' },
         { id: 7, title: '7. REGRESO HACIA BANGKOK', url: BASE_URL + 'spanish_latam/7.regreso_hacia_bangkok_es_latam.mp3' },
         { id: 8, title: '8. EL GRAN PALACIO Y EL TEMPLO DEL BUDA ESMERALDA', url: BASE_URL + 'spanish_latam/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_es_latam.mp3' },
-        { id: 9, title: '9. SALUDO FINAL', url: BASE_URL + 'spanish_latam/9.saludo_final_es_latam.mp3' }
+        { id: 9, title: '9. CRUCE POR EL RÍO CHAO PHRAYA | CAMINO HACIA WAT ARUN', url: BASE_URL + 'spanish_latam/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_es_latam.mp3' },
+        { id: 10, title: '10. WAT ARUN | EL TEMPLO DEL AMANECER', url: BASE_URL + 'spanish_latam/10.wat_arun_el_templo_del_amanecer_es_latam.mp3' },
+        { id: 11, title: '11. WAT PHO | EL BUDA RECLINADO', url: BASE_URL + 'spanish_latam/11.wat_pho_el_buda_reclinado_es_latam.mp3' }
     ],
     swahili: [
         { id: 1, title: '1. UTANGULIZI | KARIBU', url: BASE_URL + 'swahili/1.introduccion_bienvenida_sw.mp3' },
@@ -385,7 +453,9 @@ const audioDatabase = {
         { id: 6, title: '6. SOKO LA DAMNOEN SADUAK LINAELEA', url: BASE_URL + 'swahili/6.mercado_flotante_damnoen_saduak_sw.mp3' },
         { id: 7, title: '7. RUDI BANGKOK', url: BASE_URL + 'swahili/7.regreso_hacia_bangkok_sw.mp3' },
         { id: 8, title: '8. IKULU NA HEKALU LA BUDHA YA ZUMARIDI', url: BASE_URL + 'swahili/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_sw.mp3' },
-        { id: 9, title: '9. SALAMU ZA MWISHO', url: BASE_URL + 'swahili/9.saludo_final_sw.mp3' }
+        { id: 9, title: '9. VUKA MTO CHAO PHRAYA | BARABARA YA WAT ARUN', url: BASE_URL + 'swahili/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_sw.mp3' },
+        { id: 10, title: '10. WAT ARUN | HEKALU LA ASUBUHI', url: BASE_URL + 'swahili/10.wat_arun_el_templo_del_amanecer_sw.mp3' },
+        { id: 11, title: '11. WAT PHO | BUDHA ALIYEREJEA', url: BASE_URL + 'swahili/11.wat_pho_el_buda_reclinado_sw.mp3' }
     ],
     swedish: [
         { id: 1, title: '1. INTRODUKTION | VÄLKOMNA', url: BASE_URL + 'swedish/1.introduccion_bienvenida_sv.mp3' },
@@ -396,7 +466,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK FLYTANDE MARKNAD', url: BASE_URL + 'swedish/6.mercado_flotante_damnoen_saduak_sv.mp3' },
         { id: 7, title: '7. TILLBAKA TILL BANGKOK', url: BASE_URL + 'swedish/7.regreso_hacia_bangkok_sv.mp3' },
         { id: 8, title: '8. DET STORA PALATET OCH EMERALDBUDDHAS TEMPEL', url: BASE_URL + 'swedish/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_sv.mp3' },
-        { id: 9, title: '9. SLUTLIG HÄLSNING', url: BASE_URL + 'swedish/9.saludo_final_sv.mp3' }
+        { id: 9, title: '9. KORSA CHAO PHRAYA FLOD | VÄGEN TILL WAT ARUN', url: BASE_URL + 'swedish/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_sv.mp3' },
+        { id: 10, title: '10. WAT ARUN | GRYNINGENS TEMPEL', url: BASE_URL + 'swedish/10.wat_arun_el_templo_del_amanecer_sv.mp3' },
+        { id: 11, title: '11. WAT PHO | DEN LIGGANDE BUDDHA', url: BASE_URL + 'swedish/11.wat_pho_el_buda_reclinado_sv.mp3' }
     ],
     tamil: [
         { id: 1, title: '1. அறிமுகம் | வரவேற்கிறோம்', url: BASE_URL + 'tamil/1.introduccion_bienvenida_ta.mp3' },
@@ -407,7 +479,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK மிதக்கும் சந்தை', url: BASE_URL + 'tamil/6.mercado_flotante_damnoen_saduak_ta.mp3' },
         { id: 7, title: '7. பேங்காக்கிற்குத் திரும்பு', url: BASE_URL + 'tamil/7.regreso_hacia_bangkok_ta.mp3' },
         { id: 8, title: '8. பெரிய அரண்மனை மற்றும் மரகத புத்தரின் கோவில்', url: BASE_URL + 'tamil/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ta.mp3' },
-        { id: 9, title: '9. இறுதி வாழ்த்து', url: BASE_URL + 'tamil/9.saludo_final_ta.mp3' }
+        { id: 9, title: '9. சாவோ ஃபிராயா நதியைக் கடக்கவும் | வாட் அருண் செல்லும் சாலை', url: BASE_URL + 'tamil/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ta.mp3' },
+        { id: 10, title: '10. வாட் அருண் | விடியற்காலையில் கோயில்', url: BASE_URL + 'tamil/10.wat_arun_el_templo_del_amanecer_ta.mp3' },
+        { id: 11, title: '11. வாட் ஃபோ | சாய்ந்திருக்கும் புத்தர்', url: BASE_URL + 'tamil/11.wat_pho_el_buda_reclinado_ta.mp3' }
     ],
     thai: [
         { id: 1, title: '1. บทนำ | ยินดีต้อนรับ', url: BASE_URL + 'thai/1.introduccion_bienvenida_th.mp3' },
@@ -418,7 +492,9 @@ const audioDatabase = {
         { id: 6, title: '6. ตลาดน้ำดำเนินสะดวก', url: BASE_URL + 'thai/6.mercado_flotante_damnoen_saduak_th.mp3' },
         { id: 7, title: '7. กลับกรุงเทพฯ', url: BASE_URL + 'thai/7.regreso_hacia_bangkok_th.mp3' },
         { id: 8, title: '8. พระราชวังอันยิ่งใหญ่และวัดพระแก้วมรกต', url: BASE_URL + 'thai/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_th.mp3' },
-        { id: 9, title: '9. คำทักทายครั้งสุดท้าย', url: BASE_URL + 'thai/9.saludo_final_th.mp3' }
+        { id: 9, title: '9. ข้ามแม่น้ำเจ้าพระยา | ถนนไปวัดอรุณ', url: BASE_URL + 'thai/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_th.mp3' },
+        { id: 10, title: '10. วัดอรุณ | วิหารแห่งรุ่งอรุณ', url: BASE_URL + 'thai/10.wat_arun_el_templo_del_amanecer_th.mp3' },
+        { id: 11, title: '11. วัดโพธิ์ | พระพุทธไสยาสน์', url: BASE_URL + 'thai/11.wat_pho_el_buda_reclinado_th.mp3' }
     ],
     turkish: [
         { id: 1, title: '1. GİRİŞ | HOŞ GELDİN', url: BASE_URL + 'turkish/1.introduccion_bienvenida_tr.mp3' },
@@ -429,7 +505,9 @@ const audioDatabase = {
         { id: 6, title: '6. DAMNOEN SADUAK YÜZEN PAZAR', url: BASE_URL + 'turkish/6.mercado_flotante_damnoen_saduak_tr.mp3' },
         { id: 7, title: '7. BANGKOK\'A DÖNÜŞ', url: BASE_URL + 'turkish/7.regreso_hacia_bangkok_tr.mp3' },
         { id: 8, title: '8. BÜYÜK SARAY VE ZÜMRÜT BUDA\'NIN TAPINAĞI', url: BASE_URL + 'turkish/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_tr.mp3' },
-        { id: 9, title: '9. SON SELAMLAMA', url: BASE_URL + 'turkish/9.saludo_final_tr.mp3' }
+        { id: 9, title: '9. CHAO PHRAYA NEHRİNİ GEÇİN | WAT ARUN\'A GİDEN YOL', url: BASE_URL + 'turkish/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_tr.mp3' },
+        { id: 10, title: '10. WAT ARUN | ŞAFAK TAPINAĞI', url: BASE_URL + 'turkish/10.wat_arun_el_templo_del_amanecer_tr.mp3' },
+        { id: 11, title: '11. WAT PHO | YATAN BUDA', url: BASE_URL + 'turkish/11.wat_pho_el_buda_reclinado_tr.mp3' }
     ],
     ukrainian: [
         { id: 1, title: '1. ВСТУП | ЛАСКАВО ПРОСИМО', url: BASE_URL + 'ukrainian/1.introduccion_bienvenida_uk.mp3' },
@@ -440,7 +518,9 @@ const audioDatabase = {
         { id: 6, title: '6. ПЛАВУЧИЙ РИНОК ДАМНОЕН САДУАК', url: BASE_URL + 'ukrainian/6.mercado_flotante_damnoen_saduak_uk.mp3' },
         { id: 7, title: '7. ПОВЕРНЕННЯ ДО БАНГКОКУ', url: BASE_URL + 'ukrainian/7.regreso_hacia_bangkok_uk.mp3' },
         { id: 8, title: '8. ВЕЛИКИЙ ПАЛАЦ І ХРАМ СМАРАГДОВОГО БУДДИ', url: BASE_URL + 'ukrainian/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_uk.mp3' },
-        { id: 9, title: '9. ЗАКЛЮЧНЕ ПРИВІТАННЯ', url: BASE_URL + 'ukrainian/9.saludo_final_uk.mp3' }
+        { id: 9, title: '9. ПЕРЕТАЙТЕ РІЧКУ ЧАОПРАЯ | ДОРОГА НА ВАТ АРУН', url: BASE_URL + 'ukrainian/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_uk.mp3' },
+        { id: 10, title: '10. ВАТ АРУН | ХРАМ ЗОРІ', url: BASE_URL + 'ukrainian/10.wat_arun_el_templo_del_amanecer_uk.mp3' },
+        { id: 11, title: '11. WAT PHO | ЛЕЖАЧИЙ БУДДА', url: BASE_URL + 'ukrainian/11.wat_pho_el_buda_reclinado_uk.mp3' }
     ],
     urdu: [
         { id: 1, title: '1. تعارف | خوش آمدید', url: BASE_URL + 'urdu/1.introduccion_bienvenida_ur.mp3' },
@@ -449,9 +529,11 @@ const audioDatabase = {
         { id: 4, title: '4. گودی تک چلیں۔', url: BASE_URL + 'urdu/4.camino_hacia_el_muelle_ur.mp3' },
         { id: 5, title: '5. لمبی دم والی کشتی کا تجربہ (ہنگ یاو روڈ)', url: BASE_URL + 'urdu/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_ur.mp3' },
         { id: 6, title: '6. ڈیمنوین سادواک فلوٹنگ مارکیٹ', url: BASE_URL + 'urdu/6.mercado_flotante_damnoen_saduak_ur.mp3' },
-        { id: 7, title: '7. بنکاک واپس جائیں۔', url: BASE_URL + 'urdu/7.regreso_hacia_bangkok_ur.mp3' },
+        { id: 7, title: '7. بنکاک واپسی', url: BASE_URL + 'urdu/7.regreso_hacia_bangkok_ur.mp3' },
         { id: 8, title: '8. عظیم محل اور زمرد بدھا کا مندر', url: BASE_URL + 'urdu/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_ur.mp3' },
-        { id: 9, title: '9. آخری سلام', url: BASE_URL + 'urdu/9.saludo_final_ur.mp3' }
+        { id: 9, title: '9. چاو فرایا دریا کو پار کریں | واٹ ارون تک سڑک', url: BASE_URL + 'urdu/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_ur.mp3' },
+        { id: 10, title: '10. واٹ ارون | دی ٹیمپل آف دی ڈان', url: BASE_URL + 'urdu/10.wat_arun_el_templo_del_amanecer_ur.mp3' },
+        { id: 11, title: '11. WAT PHO | ٹیک لگائے ہوئے بدھا', url: BASE_URL + 'urdu/11.wat_pho_el_buda_reclinado_ur.mp3' }
     ],
     vietnamese: [
         { id: 1, title: '1. GIỚI THIỆU | CHÀO MỪNG', url: BASE_URL + 'vietnamese/1.introduccion_bienvenida_vi.mp3' },
@@ -460,179 +542,10 @@ const audioDatabase = {
         { id: 4, title: '4. ĐI BỘ ĐẾN BẾN', url: BASE_URL + 'vietnamese/4.camino_hacia_el_muelle_vi.mp3' },
         { id: 5, title: '5. TRẢI NGHIỆM THUYỀN ĐUÔI DÀI (HANG YAO ROAD)', url: BASE_URL + 'vietnamese/5.experiencia_en_barco_de_cola_larga_ruea_hang_yao_vi.mp3' },
         { id: 6, title: '6. CHỢ NỔI DAMNOEN SADUAK', url: BASE_URL + 'vietnamese/6.mercado_flotante_damnoen_saduak_vi.mp3' },
-        { id: 7, title: '7. TRỞ VỀ BANGKOK', url: BASE_URL + 'vietnamese/7.regreso_hacia_bangkok_vi.mp3' },
+        { id: 7, title: '7. TRỞ LẠI BANGKOK', url: BASE_URL + 'vietnamese/7.regreso_hacia_bangkok_vi.mp3' },
         { id: 8, title: '8. ĐẠI CUNG ĐIỆN VÀ CHÙA PHẬT Ngọc Lục Bảo', url: BASE_URL + 'vietnamese/8.el_gran_palacio_y_el_templo_del_buda_esmeralda_vi.mp3' },
-        { id: 9, title: '9. LỜI CHÀO CUỐI CÙNG', url: BASE_URL + 'vietnamese/9.saludo_final_vi.mp3' }
+        { id: 9, title: '9. VƯỢT SÔNG CHÀO PHRAYA | ĐƯỜNG ĐẾN WARUN', url: BASE_URL + 'vietnamese/9.cruce_por_el_rio_chao_phraya_camino_hacia_wat_arun_vi.mp3' },
+        { id: 10, title: '10. ÁO ARUN | Ngôi Đền Bình Minh', url: BASE_URL + 'vietnamese/10.wat_arun_el_templo_del_amanecer_vi.mp3' },
+        { id: 11, title: '11. PH PHỞ | PHẬT Nằm', url: BASE_URL + 'vietnamese/11.wat_pho_el_buda_reclinado_vi.mp3' }
     ]
-};
-
-const tourMapStops = {
-    english: [
-        { name: "Stop 1 - Maeklong Railway Market" },
-        { name: "Stop 2 - Damnoen Saduak Floating Market" }
-    ],
-    arabic: [
-        { name: "المحطة 1 - سوق سكة حديد ماكلونج" },
-        { name: "المحطة 2 - مدخل السوق العائم" }
-    ],
-    basque: [
-        { name: "1. geltokia - Maeklong Trenbideko Merkatua" },
-        { name: "2. geltokia - Merkatu Flotagarriaren sarrera" }
-    ],
-    bengali: [
-        { name: "স্টপ ১ - মেকলং রেলওয়ে মার্কেট" },
-        { name: "স্টপ ২ - ভাসমান বাজারের প্রবেশদ্বার" }
-    ],
-    catalan: [
-        { name: "Parada 1 - Mercat del Ferrocarril de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercat Flotant" }
-    ],
-    croatian: [
-        { name: "Postaja 1 - Željeznička tržnica Maeklong" },
-        { name: "Postaja 2 - Ulaz u Plovni tržnicu" }
-    ],
-    czech: [
-        { name: "Zastávka 1 - Železniční trh Maeklong" },
-        { name: "Zastávka 2 - Vstup na Plovoucí tržiště" }
-    ],
-    danish: [
-        { name: "Stop 1 - Maeklong Togmarked" },
-        { name: "Stop 2 - Indgangen til det flydende marked" }
-    ],
-    dutch: [
-        { name: "Stop 1 - Maeklong Spoorwegmarkt" },
-        { name: "Stop 2 - Ingang Drijvende Markt" }
-    ],
-    filipino: [
-        { name: "Hinto 1 - Pamilihan ng Riles ng Maeklong" },
-        { name: "Hinto 2 - Pasukan ng Lumulutang na Palengke" }
-    ],
-    french: [
-        { name: "Arrêt 1 - Marché Ferroviaire de Maeklong" },
-        { name: "Arrêt 2 - Entrée du Marché Flottant" }
-    ],
-    galician: [
-        { name: "Parada 1 - Mercado Ferroviario de Maeklong" },
-        { name: "Parada 2 - Entrada ao Mercado Flotante" }
-    ],
-    german: [
-        { name: "Haltestelle 1 - Maeklong Eisenbahnmarkt" },
-        { name: "Haltestelle 2 - Eingang zum Schwimmenden Markt" }
-    ],
-    greek: [
-        { name: "Στάση 1 - Αγορά Σιδηροδρόμου Maeklong" },
-        { name: "Στάση 2 - Είσοδος Πλωτής Αγοράς" }
-    ],
-    hindi: [
-        { name: "स्टॉप 1 - माईक्लोंग रेलवे मार्केट" },
-        { name: "स्टॉप 2 - फ्लोटिंग मार्केट प्रवेश द्वार" }
-    ],
-    hungarian: [
-        { name: "1. megálló - Maeklong Vasúti Piac" },
-        { name: "2. megálló - Úszó piac bejárata" }
-    ],
-    indonesian: [
-        { name: "Pemberhentian 1 - Pasar Kereta Api Maeklong" },
-        { name: "Pemberhentian 2 - Pintu Masuk Pasar Terapung" }
-    ],
-    italian: [
-        { name: "Fermata 1 - Mercato Ferroviario di Maeklong" },
-        { name: "Fermata 2 - Ingresso al Mercato Galleggiante" }
-    ],
-    japanese: [
-        { name: "ストップ1 - メークロン鉄道市場" },
-        { name: "ストップ2 - フローティングマーケット入口" }
-    ],
-    khmer: [
-        { name: "ចំណុចឈប់ 1 - ទីផ្សារផ្លូវដែកម៉ែគឡុង" },
-        { name: "ចំណុចឈប់ 2 - ច្រកចូលទីផ្សារអណ្តែតទឹក" }
-    ],
-    korean: [
-        { name: "정류장 1 - 매끌렁 기차시장" },
-        { name: "정류장 2 - 수상 시장 입구" }
-    ],
-    malay: [
-        { name: "Hentian 1 - Pasar Kereta Api Maeklong" },
-        { name: "Hentian 2 - Pintu Masuk Pasar Terapung" }
-    ],
-    mandarin_china: [
-        { name: "站点 1 - 美功铁道市场" },
-        { name: "站点 2 - 水上市场入口" }
-    ],
-    mandarin_taiwan: [
-        { name: "站點 1 - 美功鐵道市場" },
-        { name: "站點 2 - 水上市場入口" }
-    ],
-    nepali: [
-        { name: "स्टप १ - मएक्लोङ रेलवे बजार" },
-        { name: "स्टप २ - तैरिने बजारको प्रवेशद्वार" }
-    ],
-    norwegian: [
-        { name: "Stopp 1 - Maeklong Jernbanemarked" },
-        { name: "Stopp 2 - Inngangen til det flytende markedet" }
-    ],
-    persian: [
-        { name: "ایستگاه ۱ - بازار راه‌آهن مائکلونگ" },
-        { name: "ایستگاه ۲ - ورودی بازار شناور" }
-    ],
-    polish: [
-        { name: "Przystanek 1 - Targ Kolejowy Maeklong" },
-        { name: "Przystanek 2 - Wejście na Pływający Rynek" }
-    ],
-    portuguese: [
-        { name: "Parada 1 - Mercado Ferroviário de Maeklong" },
-        { name: "Parada 2 - Entrada do Mercado Flutuante" }
-    ],
-    russian: [
-        { name: "Остановка 1 - Рынок на железной дороге Маеклонг" },
-        { name: "Остановка 2 - Вход на плавучий рынок" }
-    ],
-    serbian: [
-        { name: "Станица 1 - Железничка пијаца Маеклонг" },
-        { name: "Станица 2 - Улаз у Пловећу пијацу" }
-    ],
-    slovenian: [
-        { name: "Postaja 1 - Železniška tržnica Maeklong" },
-        { name: "Postaja 2 - Vhod v Plavajoči trg" }
-    ],
-    spanish_spain: [
-        { name: "Parada 1 - Mercado del Tren de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercado Flotante" }
-    ],
-    spanish_latam: [
-        { name: "Parada 1 - Mercado del Tren de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercado Flotante" }
-    ],
-    swahili: [
-        { name: "Kituo 1 - Soko la Reli la Maeklong" },
-        { name: "Kituo 2 - Mlango wa Soko la Maji" }
-    ],
-    swedish: [
-        { name: "Stopp 1 - Maeklong Järnvägsmarknad" },
-        { name: "Stopp 2 - Ingången till den flytande marknaden" }
-    ],
-    tamil: [
-        { name: "நிறுத்தம் 1 - மேக்லாங் ரயில் சந்தை" },
-        { name: "நிறுத்தம் 2 - மிதக்கும் சந்தை நுழைவு" }
-    ],
-    thai: [
-        { name: "จุดแวะที่ 1 - ตลาดร่มหุบ (แม่กลอง)" },
-        { name: "จุดแวะที่ 2 - ทางเข้าตลาดน้ำ" }
-    ],
-    turkish: [
-        { name: "Durak 1 - Maeklong Tren Pazarı" },
-        { name: "Durak 2 - Yüzen Pazar Girişi" }
-    ],
-    ukrainian: [
-        { name: "Зупинка 1 - Залізничний ринок Маклонг" },
-        { name: "Зупинка 2 - Вхід до Плавучого ринку" }
-    ],
-    urdu: [
-        { name: "اسٹاپ 1 - ماکیلوںگ ریلوے مارکیٹ" },
-        { name: "اسٹاپ 2 - تیرتے بازار کا داخلہ" }
-    ],
-    vietnamese: [
-        { name: "Điểm dừng 1 - Chợ đường sắt Maeklong" },
-        { name: "Điểm dừng 2 - Lối vào Chợ nổi" }
-    ],
 };

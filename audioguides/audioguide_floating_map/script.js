@@ -26,7 +26,7 @@ function loadHeroImages() {
     if (!heroContainer) return;
 
     heroContainer.innerHTML = ''; // Limpiar por si acaso
-    const imageFolder = '../../PICTURES/FLOATING WEB/';
+    const imageFolder = '../../PICTURES/';
 
     // Usar la lista global heroImages (cargada desde heroImages.js)
     if (typeof heroImages !== 'undefined' && heroImages.length > 0) {
