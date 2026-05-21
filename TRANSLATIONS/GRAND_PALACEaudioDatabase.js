@@ -469,170 +469,212 @@ const audioDatabase = {
 const tourMapStops = {
     english: [
         { name: "Stop 1 - Maeklong Railway Market" },
-        { name: "Stop 2 - Damnoen Saduak Floating Market" }
+        { name: "Stop 2 - Damnoen Saduak Floating Market" },
+        { name: "Stop 3 - Grand Palace Bangkok" }
     ],
     arabic: [
         { name: "المحطة 1 - سوق سكة حديد ماكلونج" },
-        { name: "المحطة 2 - مدخل السوق العائم" }
+        { name: "المحطة 2 - مدخل السوق العائم" },
+        { name: "المحطة 3 - القصر الكبير بانكوك" }
     ],
     basque: [
         { name: "1. geltokia - Maeklong Trenbideko Merkatua" },
-        { name: "2. geltokia - Merkatu Flotagarriaren sarrera" }
+        { name: "2. geltokia - Merkatu Flotagarriaren sarrera" },
+        { name: "3. geltokia - Bangkok-eko Jauregi Handia" }
     ],
     bengali: [
         { name: "স্টপ ১ - মেকলং রেলওয়ে মার্কেট" },
-        { name: "স্টপ ২ - ভাসমান বাজারের প্রবেশদ্বার" }
+        { name: "স্টপ ২ - ভাসমান বাজারের প্রবেশদ্বার" },
+        { name: "স্টপ ৩ - গ্র্যান্ড প্যালেস ব্যাংকক" }
     ],
     catalan: [
         { name: "Parada 1 - Mercat del Ferrocarril de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercat Flotant" }
+        { name: "Parada 2 - Entrada al Mercat Flotant" },
+        { name: "Parada 3 - Gran Palau de Bangkok" }
     ],
     croatian: [
         { name: "Postaja 1 - Željeznička tržnica Maeklong" },
-        { name: "Postaja 2 - Ulaz u Plovni tržnicu" }
+        { name: "Postaja 2 - Ulaz u Plovni tržnicu" },
+        { name: "Postaja 3 - Velika palača Bangkok" }
     ],
     czech: [
         { name: "Zastávka 1 - Železniční trh Maeklong" },
-        { name: "Zastávka 2 - Vstup na Plovoucí tržiště" }
+        { name: "Zastávka 2 - Vstup na Plovoucí tržiště" },
+        { name: "Zastávka 3 - Velký palác Bangkok" }
     ],
     danish: [
         { name: "Stop 1 - Maeklong Togmarked" },
-        { name: "Stop 2 - Indgangen til det flydende marked" }
+        { name: "Stop 2 - Indgangen til det flydende marked" },
+        { name: "Stop 3 - Grand Palace Bangkok" }
     ],
     dutch: [
         { name: "Stop 1 - Maeklong Spoorwegmarkt" },
-        { name: "Stop 2 - Ingang Drijvende Markt" }
+        { name: "Stop 2 - Ingang Drijvende Markt" },
+        { name: "Stop 3 - Grand Palace Bangkok" }
     ],
     filipino: [
         { name: "Hinto 1 - Pamilihan ng Riles ng Maeklong" },
-        { name: "Hinto 2 - Pasukan ng Lumulutang na Palengke" }
+        { name: "Hinto 2 - Pasukan ng Lumulutang na Palengke" },
+        { name: "Hinto 3 - Grand Palace Bangkok" }
     ],
     french: [
         { name: "Arrêt 1 - Marché Ferroviaire de Maeklong" },
-        { name: "Arrêt 2 - Entrée du Marché Flottant" }
+        { name: "Arrêt 2 - Entrée du Marché Flottant" },
+        { name: "Arrêt 3 - Grand Palais Bangkok" }
     ],
     galician: [
         { name: "Parada 1 - Mercado Ferroviario de Maeklong" },
-        { name: "Parada 2 - Entrada ao Mercado Flotante" }
+        { name: "Parada 2 - Entrada ao Mercado Flotante" },
+        { name: "Parada 3 - Gran Palacio de Bangkok" }
     ],
     german: [
         { name: "Haltestelle 1 - Maeklong Eisenbahnmarkt" },
-        { name: "Haltestelle 2 - Eingang zum Schwimmenden Markt" }
+        { name: "Haltestelle 2 - Eingang zum Schwimmenden Markt" },
+        { name: "Haltestelle 3 - Großer Palast Bangkok" }
     ],
     greek: [
         { name: "Στάση 1 - Αγορά Σιδηροδρόμου Maeklong" },
-        { name: "Στάση 2 - Είσοδος Πλωτής Αγοράς" }
+        { name: "Στάση 2 - Είσοδος Πλωτής Αγοράς" },
+        { name: "Στάση 3 - Μεγάλο Παλάτι Μπανγκόκ" }
     ],
     hindi: [
         { name: "स्टॉप 1 - माईक्लोंग रेलवे मार्केट" },
-        { name: "स्टॉप 2 - फ्लोटिंग मार्केट प्रवेश द्वार" }
+        { name: "स्टॉप 2 - फ्लोटिंग मार्केट प्रवेश द्वार" },
+        { name: "स्टॉप 3 - ग्रैंड पैलेस बैंकॉक" }
     ],
     hungarian: [
         { name: "1. megálló - Maeklong Vasúti Piac" },
-        { name: "2. megálló - Úszó piac bejárata" }
+        { name: "2. megálló - Úszó piac bejárata" },
+        { name: "3. megálló - Grand Palace Bangkok" }
     ],
     indonesian: [
         { name: "Pemberhentian 1 - Pasar Kereta Api Maeklong" },
-        { name: "Pemberhentian 2 - Pintu Masuk Pasar Terapung" }
+        { name: "Pemberhentian 2 - Pintu Masuk Pasar Terapung" },
+        { name: "Pemberhentian 3 - Grand Palace Bangkok" }
     ],
     italian: [
         { name: "Fermata 1 - Mercato Ferroviario di Maeklong" },
-        { name: "Fermata 2 - Ingresso al Mercato Galleggiante" }
+        { name: "Fermata 2 - Ingresso al Mercato Galleggiante" },
+        { name: "Fermata 3 - Grande Palazzo Bangkok" }
     ],
     japanese: [
         { name: "ストップ1 - メークロン鉄道市場" },
-        { name: "ストップ2 - フローティングマーケット入口" }
+        { name: "ストップ2 - フローティングマーケット入口" },
+        { name: "ストップ3 - グランドパレス バンコク" }
     ],
     khmer: [
         { name: "ចំណុចឈប់ 1 - ទីផ្សារផ្លូវដែកម៉ែគឡុង" },
-        { name: "ចំណុចឈប់ 2 - ច្រកចូលទីផ្សារអណ្តែតទឹក" }
+        { name: "ចំណុចឈប់ 2 - ច្រកចូលទីផ្សារអណ្តែតទឹក" },
+        { name: "ចំណុចឈប់ 3 - រាជដំណាក់ធំ បាងកក" }
     ],
     korean: [
         { name: "정류장 1 - 매끌렁 기차시장" },
-        { name: "정류장 2 - 수상 시장 입구" }
+        { name: "정류장 2 - 수상 시장 입구" },
+        { name: "정류장 3 - 그랜드 팰리스 방콕" }
     ],
     malay: [
         { name: "Hentian 1 - Pasar Kereta Api Maeklong" },
-        { name: "Hentian 2 - Pintu Masuk Pasar Terapung" }
+        { name: "Hentian 2 - Pintu Masuk Pasar Terapung" },
+        { name: "Hentian 3 - Grand Palace Bangkok" }
     ],
     mandarin_china: [
         { name: "站点 1 - 美功铁道市场" },
-        { name: "站点 2 - 水上市场入口" }
+        { name: "站点 2 - 水上市场入口" },
+        { name: "站点 3 - 大皇宫 曼谷" }
     ],
     mandarin_taiwan: [
         { name: "站點 1 - 美功鐵道市場" },
-        { name: "站點 2 - 水上市場入口" }
+        { name: "站點 2 - 水上市場入口" },
+        { name: "站點 3 - 大皇宮 曼谷" }
     ],
     nepali: [
         { name: "स्टप १ - मएक्लोङ रेलवे बजार" },
-        { name: "स्टप २ - तैरिने बजारको प्रवेशद्वार" }
+        { name: "स्टप २ - तैरिने बजारको प्रवेशद्वार" },
+        { name: "स्टप ३ - ग्रान्ड प्यालेस ब्याङ्कक" }
     ],
     norwegian: [
         { name: "Stopp 1 - Maeklong Jernbanemarked" },
-        { name: "Stopp 2 - Inngangen til det flytende markedet" }
+        { name: "Stopp 2 - Inngangen til det flytende markedet" },
+        { name: "Stopp 3 - Grand Palace Bangkok" }
     ],
     persian: [
         { name: "ایستگاه ۱ - بازار راه‌آهن مائکلونگ" },
-        { name: "ایستگاه ۲ - ورودی بازار شناور" }
+        { name: "ایستگاه ۲ - ورودی بازار شناور" },
+        { name: "ایستگاه ۳ - کاخ بزرگ بانکوک" }
     ],
     polish: [
         { name: "Przystanek 1 - Targ Kolejowy Maeklong" },
-        { name: "Przystanek 2 - Wejście na Pływający Rynek" }
+        { name: "Przystanek 2 - Wejście na Pływający Rynek" },
+        { name: "Przystanek 3 - Grand Palace Bangkok" }
     ],
     portuguese: [
         { name: "Parada 1 - Mercado Ferroviário de Maeklong" },
-        { name: "Parada 2 - Entrada do Mercado Flutuante" }
+        { name: "Parada 2 - Entrada do Mercado Flutuante" },
+        { name: "Parada 3 - Grande Palácio Bangkok" }
     ],
     russian: [
         { name: "Остановка 1 - Рынок на железной дороге Маеклонг" },
-        { name: "Остановка 2 - Вход на плавучий рынок" }
+        { name: "Остановка 2 - Вход на плавучий рынок" },
+        { name: "Остановка 3 - Большой дворец Бангкок" }
     ],
     serbian: [
         { name: "Станица 1 - Железничка пијаца Маеклонг" },
-        { name: "Станица 2 - Улаз у Пловећу пијацу" }
+        { name: "Станица 2 - Улаз у Пловећу пијацу" },
+        { name: "Станица 3 - Велика палата Бангкок" }
     ],
     slovenian: [
         { name: "Postaja 1 - Železniška tržnica Maeklong" },
-        { name: "Postaja 2 - Vhod v Plavajoči trg" }
+        { name: "Postaja 2 - Vhod v Plavajoči trg" },
+        { name: "Postaja 3 - Grand Palace Bangkok" }
     ],
     spanish_spain: [
         { name: "Parada 1 - Mercado del Tren de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercado Flotante" }
+        { name: "Parada 2 - Entrada al Mercado Flotante" },
+        { name: "Parada 3 - Gran Palacio de Bangkok" }
     ],
     spanish_latam: [
         { name: "Parada 1 - Mercado del Tren de Maeklong" },
-        { name: "Parada 2 - Entrada al Mercado Flotante" }
+        { name: "Parada 2 - Entrada al Mercado Flotante" },
+        { name: "Parada 3 - Gran Palacio de Bangkok" }
     ],
     swahili: [
         { name: "Kituo 1 - Soko la Reli la Maeklong" },
-        { name: "Kituo 2 - Mlango wa Soko la Maji" }
+        { name: "Kituo 2 - Mlango wa Soko la Maji" },
+        { name: "Kituo 3 - Grand Palace Bangkok" }
     ],
     swedish: [
         { name: "Stopp 1 - Maeklong Järnvägsmarknad" },
-        { name: "Stopp 2 - Ingången till den flytande marknaden" }
+        { name: "Stopp 2 - Ingången till den flytande marknaden" },
+        { name: "Stopp 3 - Grand Palace Bangkok" }
     ],
     tamil: [
         { name: "நிறுத்தம் 1 - மேக்லாங் ரயில் சந்தை" },
-        { name: "நிறுத்தம் 2 - மிதக்கும் சந்தை நுழைவு" }
+        { name: "நிறுத்தம் 2 - மிதக்கும் சந்தை நுழைவு" },
+        { name: "நிறுத்தம் 3 - கிராண்ட் பேலஸ் பாங்காக்" }
     ],
     thai: [
         { name: "จุดแวะที่ 1 - ตลาดร่มหุบ (แม่กลอง)" },
-        { name: "จุดแวะที่ 2 - ทางเข้าตลาดน้ำ" }
+        { name: "จุดแวะที่ 2 - ทางเข้าตลาดน้ำ" },
+        { name: "จุดแวะที่ 3 - พระบรมมหาราชวัง" }
     ],
     turkish: [
         { name: "Durak 1 - Maeklong Tren Pazarı" },
-        { name: "Durak 2 - Yüzen Pazar Girişi" }
+        { name: "Durak 2 - Yüzen Pazar Girişi" },
+        { name: "Durak 3 - Grand Palace Bangkok" }
     ],
     ukrainian: [
         { name: "Зупинка 1 - Залізничний ринок Маклонг" },
-        { name: "Зупинка 2 - Вхід до Плавучого ринку" }
+        { name: "Зупинка 2 - Вхід до Плавучого ринку" },
+        { name: "Зупинка 3 - Великий палац Бангкок" }
     ],
     urdu: [
         { name: "اسٹاپ 1 - ماکیلوںگ ریلوے مارکیٹ" },
-        { name: "اسٹاپ 2 - تیرتے بازار کا داخلہ" }
+        { name: "اسٹاپ 2 - تیرتے بازار کا داخلہ" },
+        { name: "اسٹاپ 3 - گرینڈ پیلس بینکاک" }
     ],
     vietnamese: [
         { name: "Điểm dừng 1 - Chợ đường sắt Maeklong" },
-        { name: "Điểm dừng 2 - Lối vào Chợ nổi" }
+        { name: "Điểm dừng 2 - Lối vào Chợ nổi" },
+        { name: "Điểm dừng 3 - Grand Palace Bangkok" }
     ],
 };

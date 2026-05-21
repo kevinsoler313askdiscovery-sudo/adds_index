@@ -484,6 +484,11 @@ const tourMapPoints = [
         lng: 99.9586287865303,
         url: 'https://monkeytravel.co/audioguia/audioguia-floating/'
     },
+    {
+        lat: 13.749907906874823,
+        lng: 100.49160332205827,
+        url: 'https://monkeytravel.co'
+    },
 ];
 
 function buildPopupHTML(name, desc, url) {
