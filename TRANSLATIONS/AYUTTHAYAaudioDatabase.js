@@ -565,5 +565,251 @@ const tourMapStops = {
         { name: "Stop 2 - Wat Maha That" },
         { name: "Stop 3 - Ayothaya Floating Market" },
         { name: "Stop 4 - Wat Yai Chai Mongkhon" }
+    ],
+    arabic: [
+        { name: "المحطة 1 - وات تشاي واتانارام" },
+        { name: "المحطة 2 - وات ماها ثات" },
+        { name: "المحطة 3 - سوق أيوثايا العائم" },
+        { name: "المحطة 4 - وات ياي تشاي مونغخون" }
+    ],
+    basque: [
+        { name: "1. geltokia - Wat Chaiwatthanaram" },
+        { name: "2. geltokia - Wat Maha That" },
+        { name: "3. geltokia - Ayothaya Merkatu Flotatzailea" },
+        { name: "4. geltokia - Wat Yai Chai Mongkhon" }
+    ],
+    bengali: [
+        { name: "স্টপ ১ - ওয়াট চাই ওয়াত্তারানাম" },
+        { name: "স্টপ ২ - ওয়াট মহাথাত" },
+        { name: "স্টপ ৩ - আয়োথায়া ফ্লোটিং মার্কেট" },
+        { name: "স্টপ ৪ - ওয়াট ইয়াই চাই মংখন" }
+    ],
+    cambodian: [
+        { name: "ចំណុចឈប់ 1 - វត្ត Chaiwatthanaram" },
+        { name: "ចំណុចឈប់ 2 - វត្ត Maha That" },
+        { name: "ចំណុចឈប់ 3 - ទីផ្សារអណ្តែត Ayothaya" },
+        { name: "ចំណុចឈប់ 4 - វត្ត Yai Chai Mongkhon" }
+    ],
+    catalan: [
+        { name: "Parada 1 - Wat Chaiwatthanaram" },
+        { name: "Parada 2 - Wat Maha That" },
+        { name: "Parada 3 - Mercat Flotant d'Ayothaya" },
+        { name: "Parada 4 - Wat Yai Chai Mongkhon" }
+    ],
+    mandarin_china: [
+        { name: "站点 1 - 柴瓦他那兰寺" },
+        { name: "站点 2 - 玛哈泰寺" },
+        { name: "站点 3 - 阿育他亚水上市场" },
+        { name: "站点 4 - 耶才蒙空寺" }
+    ],
+    mandarin_taiwan: [
+        { name: "站點 1 - 柴瓦他那蘭寺" },
+        { name: "站點 2 - 瑪哈泰寺" },
+        { name: "站點 3 - 阿育他亞水上市場" },
+        { name: "站點 4 - 耶才蒙空寺" }
+    ],
+    croatian: [
+        { name: "Postaja 1 - Wat Chaiwatthanaram" },
+        { name: "Postaja 2 - Wat Maha That" },
+        { name: "Postaja 3 - Plutajuće tržište Ayothaya" },
+        { name: "Postaja 4 - Wat Yai Chai Mongkhon" }
+    ],
+    czech: [
+        { name: "Zastávka 1 - Wat Chaiwatthanaram" },
+        { name: "Zastávka 2 - Wat Maha That" },
+        { name: "Zastávka 3 - Plovoucí trh Ayothaya" },
+        { name: "Zastávka 4 - Wat Yai Chai Mongkhon" }
+    ],
+    danish: [
+        { name: "Stop 1 - Wat Chaiwatthanaram" },
+        { name: "Stop 2 - Wat Maha That" },
+        { name: "Stop 3 - Ayothaya Flydende Marked" },
+        { name: "Stop 4 - Wat Yai Chai Mongkhon" }
+    ],
+    dutch: [
+        { name: "Stop 1 - Wat Chaiwatthanaram" },
+        { name: "Stop 2 - Wat Maha That" },
+        { name: "Stop 3 - Ayothaya Drijvende Markt" },
+        { name: "Stop 4 - Wat Yai Chai Mongkhon" }
+    ],
+    french: [
+        { name: "Arrêt 1 - Wat Chaiwatthanaram" },
+        { name: "Arrêt 2 - Wat Maha That" },
+        { name: "Arrêt 3 - Marché Flottant d'Ayothaya" },
+        { name: "Arrêt 4 - Wat Yai Chai Mongkhon" }
+    ],
+    galician: [
+        { name: "Parada 1 - Wat Chaiwatthanaram" },
+        { name: "Parada 2 - Wat Maha That" },
+        { name: "Parada 3 - Mercado Flotante de Ayothaya" },
+        { name: "Parada 4 - Wat Yai Chai Mongkhon" }
+    ],
+    german: [
+        { name: "Haltestelle 1 - Wat Chaiwatthanaram" },
+        { name: "Haltestelle 2 - Wat Maha That" },
+        { name: "Haltestelle 3 - Schwimmender Markt Ayothaya" },
+        { name: "Haltestelle 4 - Wat Yai Chai Mongkhon" }
+    ],
+    greek: [
+        { name: "Στάση 1 - Wat Chaiwatthanaram" },
+        { name: "Στάση 2 - Wat Maha That" },
+        { name: "Στάση 3 - Πλωτή Αγορά Ayothaya" },
+        { name: "Στάση 4 - Wat Yai Chai Mongkhon" }
+    ],
+    hindi: [
+        { name: "स्टॉप 1 - वाट चाईवाटानाराम" },
+        { name: "स्टॉप 2 - वाट महाथात" },
+        { name: "स्टॉप 3 - अयोथाया फ्लोटिंग मार्केट" },
+        { name: "स्टॉप 4 - वाट याई चाई मोंखोन" }
+    ],
+    hungarian: [
+        { name: "1. megálló - Wat Chaiwatthanaram" },
+        { name: "2. megálló - Wat Maha That" },
+        { name: "3. megálló - Ayothaya Úszó Piac" },
+        { name: "4. megálló - Wat Yai Chai Mongkhon" }
+    ],
+    indonesian: [
+        { name: "Pemberhentian 1 - Wat Chaiwatthanaram" },
+        { name: "Pemberhentian 2 - Wat Maha That" },
+        { name: "Pemberhentian 3 - Pasar Terapung Ayothaya" },
+        { name: "Pemberhentian 4 - Wat Yai Chai Mongkhon" }
+    ],
+    italian: [
+        { name: "Fermata 1 - Wat Chaiwatthanaram" },
+        { name: "Fermata 2 - Wat Maha That" },
+        { name: "Fermata 3 - Mercato Galleggiante di Ayothaya" },
+        { name: "Fermata 4 - Wat Yai Chai Mongkhon" }
+    ],
+    japanese: [
+        { name: "ストップ1 - ワット・チャイワッタナーラーム" },
+        { name: "ストップ2 - ワット・マハータート" },
+        { name: "ストップ3 - アユタヤ水上マーケット" },
+        { name: "ストップ4 - ワット・ヤイ・チャイ・モンコン" }
+    ],
+    korean: [
+        { name: "정류장 1 - 왓 차이왓타나람" },
+        { name: "정류장 2 - 왓 마하탓" },
+        { name: "정류장 3 - 아유타야 수상시장" },
+        { name: "정류장 4 - 왓 야이 차이 몽콘" }
+    ],
+    malay: [
+        { name: "Hentian 1 - Wat Chaiwatthanaram" },
+        { name: "Hentian 2 - Wat Maha That" },
+        { name: "Hentian 3 - Pasar Terapung Ayothaya" },
+        { name: "Hentian 4 - Wat Yai Chai Mongkhon" }
+    ],
+    nepali: [
+        { name: "स्टप १ - वाट चाईवाट्टानाराम" },
+        { name: "स्टप २ - वाट महाथात" },
+        { name: "स्टप ३ - अयोथाया तैरिने बजार" },
+        { name: "स्टप ४ - वाट याई चाई मोंखोन" }
+    ],
+    norwegian: [
+        { name: "Stopp 1 - Wat Chaiwatthanaram" },
+        { name: "Stopp 2 - Wat Maha That" },
+        { name: "Stopp 3 - Ayothaya Flytende Marked" },
+        { name: "Stopp 4 - Wat Yai Chai Mongkhon" }
+    ],
+    persian: [
+        { name: "ایستگاه 1 - وات چایواتانارام" },
+        { name: "ایستگاه 2 - وات ماها تات" },
+        { name: "ایستگاه 3 - بازار شناور آیوتایا" },
+        { name: "ایستگاه 4 - وات یای چای مونگخون" }
+    ],
+    philipines: [
+        { name: "Hinto 1 - Wat Chaiwatthanaram" },
+        { name: "Hinto 2 - Wat Maha That" },
+        { name: "Hinto 3 - Ayothaya Floating Market" },
+        { name: "Hinto 4 - Wat Yai Chai Mongkhon" }
+    ],
+    polish: [
+        { name: "Postój 1 - Wat Chaiwatthanaram" },
+        { name: "Postój 2 - Wat Maha That" },
+        { name: "Postój 3 - Pływający rynek Ayothaya" },
+        { name: "Postój 4 - Wat Yai Chai Mongkhon" }
+    ],
+    portuguese: [
+        { name: "Parada 1 - Wat Chaiwatthanaram" },
+        { name: "Parada 2 - Wat Maha That" },
+        { name: "Parada 3 - Mercado Flutuante de Ayothaya" },
+        { name: "Parada 4 - Wat Yai Chai Mongkhon" }
+    ],
+    russian: [
+        { name: "Остановка 1 - Ват Чайваттханарам" },
+        { name: "Остановка 2 - Ват Маха Тхат" },
+        { name: "Остановка 3 - Плавучий рынок Айютая" },
+        { name: "Остановка 4 - Ват Яй Чай Монгкхон" }
+    ],
+    serbian: [
+        { name: "Постаја 1 - Ват Чаивотанарам" },
+        { name: "Постаја 2 - Ват Маха Тат" },
+        { name: "Постаја 3 - Пловајућа пијаца Ајутаја" },
+        { name: "Постаја 4 - Ват Јај Чај Монгкхон" }
+    ],
+    slovenian: [
+        { name: "Postaja 1 - Wat Chaiwatthanaram" },
+        { name: "Postaja 2 - Wat Maha That" },
+        { name: "Postaja 3 - Plavajoče tržišče Ayothaya" },
+        { name: "Postaja 4 - Wat Yai Chai Mongkhon" }
+    ],
+    spanish_latam: [
+        { name: "Parada 1 - Wat Chaiwatthanaram" },
+        { name: "Parada 2 - Wat Maha That" },
+        { name: "Parada 3 - Mercado Flotante de Ayothaya" },
+        { name: "Parada 4 - Wat Yai Chai Mongkhon" }
+    ],
+    spanish_spain: [
+        { name: "Parada 1 - Wat Chaiwatthanaram" },
+        { name: "Parada 2 - Wat Maha That" },
+        { name: "Parada 3 - Mercado Flotante de Ayothaya" },
+        { name: "Parada 4 - Wat Yai Chai Mongkhon" }
+    ],
+    swahili: [
+        { name: "Kituo 1 - Wat Chaiwatthanaram" },
+        { name: "Kituo 2 - Wat Maha That" },
+        { name: "Kituo 3 - Soko Linaloelea la Ayothaya" },
+        { name: "Kituo 4 - Wat Yai Chai Mongkhon" }
+    ],
+    swedish: [
+        { name: "Stopp 1 - Wat Chaiwatthanaram" },
+        { name: "Stopp 2 - Wat Maha That" },
+        { name: "Stopp 3 - Ayothaya Flytande Marknad" },
+        { name: "Stopp 4 - Wat Yai Chai Mongkhon" }
+    ],
+    tamil: [
+        { name: "நிறுத்தம் 1 - வாட் சாய்வாட்டனாராம்" },
+        { name: "நிறுத்தம் 2 - வாட் மஹாதாத்" },
+        { name: "நிறுத்தம் 3 - அயோதயா மிதக்கும் சந்தை" },
+        { name: "நிறுத்தம் 4 - வாட் யாய் சாய் மொங்கோன்" }
+    ],
+    thai: [
+        { name: "จุดที่ 1 - วัดไชยวัฒนาราม" },
+        { name: "จุดที่ 2 - วัดมหาธาตุ" },
+        { name: "จุดที่ 3 - ตลาดน้ำอโยธยา" },
+        { name: "จุดที่ 4 - วัดใหญ่ชัยมงคล" }
+    ],
+    turkish: [
+        { name: "Durak 1 - Wat Chaiwatthanaram" },
+        { name: "Durak 2 - Wat Maha That" },
+        { name: "Durak 3 - Ayothaya Yüzen Pazar" },
+        { name: "Durak 4 - Wat Yai Chai Mongkhon" }
+    ],
+    ukrainian: [
+        { name: "Зупинка 1 - Ват Чайваттханарам" },
+        { name: "Зупинка 2 - Ват Маха Тхат" },
+        { name: "Зупинка 3 - Плавучий ринок Айюттхая" },
+        { name: "Зупинка 4 - Ват Яй Чай Монгкхон" }
+    ],
+    urdu: [
+        { name: "اسٹاپ 1 - واٹ چائیواٹنارام" },
+        { name: "اسٹاپ 2 - واٹ مہاتھات" },
+        { name: "اسٹاپ 3 - ایوتھایا فلوٹنگ مارکیٹ" },
+        { name: "اسٹاپ 4 - واٹ یائی چائی مونگکھون" }
+    ],
+    vietnamese: [
+        { name: "Điểm dừng 1 - Wat Chaiwatthanaram" },
+        { name: "Điểm dừng 2 - Wat Maha That" },
+        { name: "Điểm dừng 3 - Chợ nổi Ayothaya" },
+        { name: "Điểm dừng 4 - Wat Yai Chai Mongkhon" }
     ]
 }

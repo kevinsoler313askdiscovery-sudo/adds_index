@@ -535,19 +535,9 @@ const tourMapPoints = [
         url: 'https://monkeytravel.co/audioguia/maeklong-railway-market/'
     },
     {
-        lat: 13.506600891635927,
-        lng: 99.9715800199491,
-        url: 'https://monkeytravel.co'
-    },
-    {
         lat: 13.520176060764442,
         lng: 99.9586287865303,
         url: 'https://monkeytravel.co/audioguia/audioguia-floating/'
-    },
-    {
-        lat: 13.749970435108397,
-        lng: 100.491581864418,
-        url: 'https://monkeytravel.co'
     },
     {
         lat: 13.752823982465735,
