@@ -557,4 +557,209 @@ const tourMapStops = {
         { name: "Stop 2 - Emerald Pool" },
         { name: "Stop 3 - Hot Spring" }
     ],
-}
+    arabic: [
+        { name: "المحطة 1 - معبد كهف النمر" },
+        { name: "المحطة 2 - البركة الزمردية" },
+        { name: "المحطة 3 - الينابيع الحارة" }
+    ],
+    basque: [
+        { name: "1. geltokia - Tigre Kobazuloko Tenplua" },
+        { name: "2. geltokia - Esmeralda Putzua" },
+        { name: "3. geltokia - Iturri Beroak" }
+    ],
+    bengali: [
+        { name: "স্টপ ১ - টাইগার কেভ টেম্পল" },
+        { name: "স্টপ ২ - এমারেল্ড পুল" },
+        { name: "স্টপ ৩ - হট স্প্রিং" }
+    ],
+    catalan: [
+        { name: "Parada 1 - Temple de la Cova del Tigre" },
+        { name: "Parada 2 - Piscina Esmeralda" },
+        { name: "Parada 3 - Font Termal" }
+    ],
+    croatian: [
+        { name: "Postaja 1 - Hram Tigrove Špilje" },
+        { name: "Postaja 2 - Smaragdni Bazen" },
+        { name: "Postaja 3 - Toplice" }
+    ],
+    czech: [
+        { name: "Zastávka 1 - Chrám Tygří Jeskyně" },
+        { name: "Zastávka 2 - Smaragdový Bazén" },
+        { name: "Zastávka 3 - Horký Pramen" }
+    ],
+    danish: [
+        { name: "Stop 1 - Tiger Cave Tempel" },
+        { name: "Stop 2 - Smaragd Bassin" },
+        { name: "Stop 3 - Varm Kilde" }
+    ],
+    dutch: [
+        { name: "Stop 1 - Tiger Grot Tempel" },
+        { name: "Stop 2 - Smaragd Poel" },
+        { name: "Stop 3 - Warmwaterbron" }
+    ],
+    filipino: [
+        { name: "Hinto 1 - Tiger Cave Temple" },
+        { name: "Hinto 2 - Emerald Pool" },
+        { name: "Hinto 3 - Hot Spring" }
+    ],
+    french: [
+        { name: "Arrêt 1 - Temple de la Grotte du Tigre" },
+        { name: "Arrêt 2 - Piscine Émeraude" },
+        { name: "Arrêt 3 - Source Thermale" }
+    ],
+    galician: [
+        { name: "Parada 1 - Templo da Cova do Tigre" },
+        { name: "Parada 2 - Piscina Esmeralda" },
+        { name: "Parada 3 - Fonte Termal" }
+    ],
+    german: [
+        { name: "Haltestelle 1 - Tigerhöhlen Tempel" },
+        { name: "Haltestelle 2 - Smaragd Pool" },
+        { name: "Haltestelle 3 - Heißquelle" }
+    ],
+    greek: [
+        { name: "Στάση 1 - Ναός της Σπηλιάς της Τίγρης" },
+        { name: "Στάση 2 - Σμαραγδένια Λίμνη" },
+        { name: "Στάση 3 - Θερμές Πηγές" }
+    ],
+    hindi: [
+        { name: "स्टॉप 1 - टाइगर केव मंदिर" },
+        { name: "स्टॉप 2 - एमरल्ड पूल" },
+        { name: "स्टॉप 3 - गर्म पानी का झरना" }
+    ],
+    hungarian: [
+        { name: "1. megálló - Tigris Barlang Temploma" },
+        { name: "2. megálló - Smaragd Medence" },
+        { name: "3. megálló - Hőforrás" }
+    ],
+    indonesian: [
+        { name: "Pemberhentian 1 - Kuil Goa Harimau" },
+        { name: "Pemberhentian 2 - Kolam Zamrud" },
+        { name: "Pemberhentian 3 - Mata Air Panas" }
+    ],
+    italian: [
+        { name: "Fermata 1 - Tempio della Caverna della Tigre" },
+        { name: "Fermata 2 - Piscina Smeraldo" },
+        { name: "Fermata 3 - Sorgente Termale" }
+    ],
+    japanese: [
+        { name: "ストップ1 - タイガーケーブ寺院" },
+        { name: "ストップ2 - エメラルドプール" },
+        { name: "ストップ3 - 温泉" }
+    ],
+    khmer: [
+        { name: "ចំណុចឈប់ 1 - ប្រាសាទ ថ្ម ខ្លា" },
+        { name: "ចំណុចឈប់ 2 - អាងស្នូ Emerald" },
+        { name: "ចំណុចឈប់ 3 - ទឹករំពុះ" }
+    ],
+    korean: [
+        { name: "정류장 1 - 타이거 케이브 사원" },
+        { name: "정류장 2 - 에메랄드 풀" },
+        { name: "정류장 3 - 온천" }
+    ],
+    malay: [
+        { name: "Hentian 1 - Kuil Gua Harimau" },
+        { name: "Hentian 2 - Kolam Zamrud" },
+        { name: "Hentian 3 - Mata Air Panas" }
+    ],
+    mandarin_china: [
+        { name: "站点 1 - 老虎洞寺" },
+        { name: "站点 2 - 翡翠池" },
+        { name: "站点 3 - 温泉" }
+    ],
+    mandarin_taiwan: [
+        { name: "站點 1 - 老虎洞寺" },
+        { name: "站點 2 - 翡翠池" },
+        { name: "站點 3 - 溫泉" }
+    ],
+    nepali: [
+        { name: "स्टप १ - टाइगर केभ मन्दिर" },
+        { name: "स्टप २ - एमरल्ड पुल" },
+        { name: "स्टप ३ - तातोपानीको मुहान" }
+    ],
+    norwegian: [
+        { name: "Stopp 1 - Tiger Cave Tempel" },
+        { name: "Stopp 2 - Smaragd Basseng" },
+        { name: "Stopp 3 - Varm Kilde" }
+    ],
+    persian: [
+        { name: "ایستگاه ۱ - معبد غار ببر" },
+        { name: "ایستگاه ۲ - استخر زمرد" },
+        { name: "ایستگاه ۳ - چشمه آب گرم" }
+    ],
+    polish: [
+        { name: "Przystanek 1 - Świątynia Tygrysiej Jaskini" },
+        { name: "Przystanek 2 - Szmaragdowy Basen" },
+        { name: "Przystanek 3 - Gorące Źródło" }
+    ],
+    portuguese: [
+        { name: "Parada 1 - Templo da Caverna do Tigre" },
+        { name: "Parada 2 - Piscina Esmeralda" },
+        { name: "Parada 3 - Nascente Termal" }
+    ],
+    russian: [
+        { name: "Остановка 1 - Храм Тигровой пещеры" },
+        { name: "Остановка 2 - Изумрудный бассейн" },
+        { name: "Остановка 3 - Горячий источник" }
+    ],
+    serbian: [
+        { name: "Станица 1 - Храм Тигрове Пећине" },
+        { name: "Станица 2 - Смарагдни базен" },
+        { name: "Станица 3 - Топлица" }
+    ],
+    slovenian: [
+        { name: "Postaja 1 - Tempelj Tigrove Jame" },
+        { name: "Postaja 2 - Smaragdni Bazen" },
+        { name: "Postaja 3 - Vroči Vrelec" }
+    ],
+    spanish_spain: [
+        { name: "Parada 1 - Templo de la Cueva del Tigre" },
+        { name: "Parada 2 - Piscina Esmeralda" },
+        { name: "Parada 3 - Aguas Termales" }
+    ],
+    spanish_latam: [
+        { name: "Parada 1 - Templo de la Cueva del Tigre" },
+        { name: "Parada 2 - Piscina Esmeralda" },
+        { name: "Parada 3 - Aguas Termales" }
+    ],
+    swahili: [
+        { name: "Kituo 1 - Hekalu la Pango la Tiger" },
+        { name: "Kituo 2 - Bwawa la Zumaridi" },
+        { name: "Kituo 3 - Chemchemi ya Maji Moto" }
+    ],
+    swedish: [
+        { name: "Stopp 1 - Tiger Cave Tempel" },
+        { name: "Stopp 2 - Smaragd Pool" },
+        { name: "Stopp 3 - Varm Källa" }
+    ],
+    tamil: [
+        { name: "நிறுத்தம் 1 - புலி குகை கோவில்" },
+        { name: "நிறுத்தம் 2 - எமரால்ட் குளம்" },
+        { name: "நிறுத்தம் 3 - சூடான நீரூற்று" }
+    ],
+    thai: [
+        { name: "จุดแวะที่ 1 - วัดถ้ำเสือ" },
+        { name: "จุดแวะที่ 2 - สระมรกต" },
+        { name: "จุดแวะที่ 3 - น้ำพุร้อน" }
+    ],
+    turkish: [
+        { name: "Durak 1 - Kaplan Mağara Tapınağı" },
+        { name: "Durak 2 - Zümrüt Havuz" },
+        { name: "Durak 3 - Sıcak Su Kaynağı" }
+    ],
+    ukrainian: [
+        { name: "Зупинка 1 - Храм Тигрової Печери" },
+        { name: "Зупинка 2 - Смарагдовий Басейн" },
+        { name: "Зупинка 3 - Гаряче джерело" }
+    ],
+    urdu: [
+        { name: "اسٹاپ 1 - ٹائیگر کیو مندر" },
+        { name: "اسٹاپ 2 - ایمرالڈ پول" },
+        { name: "اسٹاپ 3 - گرم پانی کا چشمہ" }
+    ],
+    vietnamese: [
+        { name: "Điểm dừng 1 - Chùa Hang Hổ" },
+        { name: "Điểm dừng 2 - Hồ Bơi Ngọc Lục Bảo" },
+        { name: "Điểm dừng 3 - Suối Nước Nóng" }
+    ],
+};

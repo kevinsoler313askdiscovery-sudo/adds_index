@@ -388,4 +388,209 @@ const tourMapStops = {
         { name: "Stop 2 - Wat Arun" },
         { name: "Stop 3 - Wat Pho" }
     ],
-}
+    arabic: [
+        { name: "المحطة 1 - القصر الكبير بانكوك" },
+        { name: "المحطة 2 - وات آرون" },
+        { name: "المحطة 3 - وات فو" }
+    ],
+    basque: [
+        { name: "1. geltokia - Bangkok-eko Jauregi Handia" },
+        { name: "2. geltokia - Wat Arun" },
+        { name: "3. geltokia - Wat Pho" }
+    ],
+    bengali: [
+        { name: "স্টপ ১ - গ্র্যান্ড প্যালেস ব্যাংকক" },
+        { name: "স্টপ ২ - ওয়াট আরুণ" },
+        { name: "স্টপ ৩ - ওয়াট ফো" }
+    ],
+    catalan: [
+        { name: "Parada 1 - Gran Palau de Bangkok" },
+        { name: "Parada 2 - Wat Arun" },
+        { name: "Parada 3 - Wat Pho" }
+    ],
+    croatian: [
+        { name: "Postaja 1 - Velika palača Bangkok" },
+        { name: "Postaja 2 - Wat Arun" },
+        { name: "Postaja 3 - Wat Pho" }
+    ],
+    czech: [
+        { name: "Zastávka 1 - Velký palác Bangkok" },
+        { name: "Zastávka 2 - Wat Arun" },
+        { name: "Zastávka 3 - Wat Pho" }
+    ],
+    danish: [
+        { name: "Stop 1 - Grand Palace Bangkok" },
+        { name: "Stop 2 - Wat Arun" },
+        { name: "Stop 3 - Wat Pho" }
+    ],
+    dutch: [
+        { name: "Stop 1 - Grand Palace Bangkok" },
+        { name: "Stop 2 - Wat Arun" },
+        { name: "Stop 3 - Wat Pho" }
+    ],
+    filipino: [
+        { name: "Hinto 1 - Grand Palace Bangkok" },
+        { name: "Hinto 2 - Wat Arun" },
+        { name: "Hinto 3 - Wat Pho" }
+    ],
+    french: [
+        { name: "Arrêt 1 - Grand Palais Bangkok" },
+        { name: "Arrêt 2 - Wat Arun" },
+        { name: "Arrêt 3 - Wat Pho" }
+    ],
+    galician: [
+        { name: "Parada 1 - Gran Palacio de Bangkok" },
+        { name: "Parada 2 - Wat Arun" },
+        { name: "Parada 3 - Wat Pho" }
+    ],
+    german: [
+        { name: "Haltestelle 1 - Großer Palast Bangkok" },
+        { name: "Haltestelle 2 - Wat Arun" },
+        { name: "Haltestelle 3 - Wat Pho" }
+    ],
+    greek: [
+        { name: "Στάση 1 - Μεγάλο Παλάτι Μπανγκόκ" },
+        { name: "Στάση 2 - Wat Arun" },
+        { name: "Στάση 3 - Wat Pho" }
+    ],
+    hindi: [
+        { name: "स्टॉप 1 - ग्रैंड पैलेस बैंकॉक" },
+        { name: "स्टॉप 2 - वाट अरुण" },
+        { name: "स्टॉप 3 - वाट फो" }
+    ],
+    hungarian: [
+        { name: "1. megálló - Grand Palace Bangkok" },
+        { name: "2. megálló - Wat Arun" },
+        { name: "3. megálló - Wat Pho" }
+    ],
+    indonesian: [
+        { name: "Pemberhentian 1 - Grand Palace Bangkok" },
+        { name: "Pemberhentian 2 - Wat Arun" },
+        { name: "Pemberhentian 3 - Wat Pho" }
+    ],
+    italian: [
+        { name: "Fermata 1 - Grande Palazzo Bangkok" },
+        { name: "Fermata 2 - Wat Arun" },
+        { name: "Fermata 3 - Wat Pho" }
+    ],
+    japanese: [
+        { name: "ストップ1 - グランドパレス バンコク" },
+        { name: "ストップ2 - ワット・アルン" },
+        { name: "ストップ3 - ワット・ポー" }
+    ],
+    khmer: [
+        { name: "ចំណុចឈប់ 1 - រាជដំណាក់ធំ បាងកក" },
+        { name: "ចំណុចឈប់ 2 - វត្ត អរុណ" },
+        { name: "ចំណុចឈប់ 3 - វត្ត Pho" }
+    ],
+    korean: [
+        { name: "정류장 1 - 그랜드 팰리스 방콕" },
+        { name: "정류장 2 - 왓 아룬" },
+        { name: "정류장 3 - 왓포" }
+    ],
+    malay: [
+        { name: "Hentian 1 - Grand Palace Bangkok" },
+        { name: "Hentian 2 - Wat Arun" },
+        { name: "Hentian 3 - Wat Pho" }
+    ],
+    mandarin_china: [
+        { name: "站点 1 - 大皇宫 曼谷" },
+        { name: "站点 2 - 郑王庙" },
+        { name: "站点 3 - 卧佛寺" }
+    ],
+    mandarin_taiwan: [
+        { name: "站點 1 - 大皇宮 曼谷" },
+        { name: "站點 2 - 鄭王廟" },
+        { name: "站點 3 - 臥佛寺" }
+    ],
+    nepali: [
+        { name: "स्टप १ - ग्रान्ड प्यालेस ब्याङ्कक" },
+        { name: "स्टप २ - वाट अरुण" },
+        { name: "स्टप ३ - वाट फो" }
+    ],
+    norwegian: [
+        { name: "Stopp 1 - Grand Palace Bangkok" },
+        { name: "Stopp 2 - Wat Arun" },
+        { name: "Stopp 3 - Wat Pho" }
+    ],
+    persian: [
+        { name: "ایستگاه ۱ - کاخ بزرگ بانکوک" },
+        { name: "ایستگاه ۲ - وات آرون" },
+        { name: "ایستگاه ۳ - وات فو" }
+    ],
+    polish: [
+        { name: "Przystanek 1 - Grand Palace Bangkok" },
+        { name: "Przystanek 2 - Wat Arun" },
+        { name: "Przystanek 3 - Wat Pho" }
+    ],
+    portuguese: [
+        { name: "Parada 1 - Grande Palácio Bangkok" },
+        { name: "Parada 2 - Wat Arun" },
+        { name: "Parada 3 - Wat Pho" }
+    ],
+    russian: [
+        { name: "Остановка 1 - Большой дворец Бангкок" },
+        { name: "Остановка 2 - Ват Арун" },
+        { name: "Остановка 3 - Ват Пхо" }
+    ],
+    serbian: [
+        { name: "Станица 1 - Велика палата Бангкок" },
+        { name: "Станица 2 - Ват Арун" },
+        { name: "Станица 3 - Ват Пхо" }
+    ],
+    slovenian: [
+        { name: "Postaja 1 - Grand Palace Bangkok" },
+        { name: "Postaja 2 - Wat Arun" },
+        { name: "Postaja 3 - Wat Pho" }
+    ],
+    spanish_spain: [
+        { name: "Parada 1 - Gran Palacio de Bangkok" },
+        { name: "Parada 2 - Wat Arun" },
+        { name: "Parada 3 - Wat Pho" }
+    ],
+    spanish_latam: [
+        { name: "Parada 1 - Gran Palacio de Bangkok" },
+        { name: "Parada 2 - Wat Arun" },
+        { name: "Parada 3 - Wat Pho" }
+    ],
+    swahili: [
+        { name: "Kituo 1 - Grand Palace Bangkok" },
+        { name: "Kituo 2 - Wat Arun" },
+        { name: "Kituo 3 - Wat Pho" }
+    ],
+    swedish: [
+        { name: "Stopp 1 - Grand Palace Bangkok" },
+        { name: "Stopp 2 - Wat Arun" },
+        { name: "Stopp 3 - Wat Pho" }
+    ],
+    tamil: [
+        { name: "நிறுத்தம் 1 - கிராண்ட் பேலஸ் பாங்காக்" },
+        { name: "நிறுத்தம் 2 - வாட் அருண்" },
+        { name: "நிறுத்தம் 3 - வாட் ஃபோ" }
+    ],
+    thai: [
+        { name: "จุดแวะที่ 1 - พระบรมมหาราชวัง" },
+        { name: "จุดแวะที่ 2 - วัดอรุณ" },
+        { name: "จุดแวะที่ 3 - วัดโพธิ์" }
+    ],
+    turkish: [
+        { name: "Durak 1 - Grand Palace Bangkok" },
+        { name: "Durak 2 - Wat Arun" },
+        { name: "Durak 3 - Wat Pho" }
+    ],
+    ukrainian: [
+        { name: "Зупинка 1 - Великий палац Бангкок" },
+        { name: "Зупинка 2 - Ват Арун" },
+        { name: "Зупинка 3 - Ват Пхо" }
+    ],
+    urdu: [
+        { name: "اسٹاپ 1 - گرینڈ پیلس بینکاک" },
+        { name: "اسٹاپ 2 - واٹ ارون" },
+        { name: "اسٹاپ 3 - واٹ فو" }
+    ],
+    vietnamese: [
+        { name: "Điểm dừng 1 - Grand Palace Bangkok" },
+        { name: "Điểm dừng 2 - Wat Arun" },
+        { name: "Điểm dừng 3 - Wat Pho" }
+    ],
+};
