@@ -1,3026 +1,467 @@
+// Archivo generado automáticamente por audioguias_app.py
+// Define en otro archivo: const BASE_URL = '...';
+
 const audioDatabase = {
-    "arabic": [
-        {
-            "id": 1,
-            "title": "1. مقدمة · مرحبا بك",
-            "url": BASE_URL + 'arabic/1.introduccion_bienvenida_ar.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. بانكوك ليلا",
-            "url": BASE_URL + 'arabic/2.la_noche_de_bangkok_ar.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. معالم المدينة وذاكرتها",
-            "url": BASE_URL + 'arabic/3.monumentos_y_memoria_de_la_ciudad_ar.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. مدخل الحي الصيني | قلب ياوارات",
-            "url": BASE_URL + 'arabic/4.entrada_a_chinatown_el_corazon_de_yaowarat_ar.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. التذوق الأول | نكهات الشارع",
-            "url": BASE_URL + 'arabic/5.primera_degustacion_sabores_de_la_calle_ar.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. الحي الصيني على طريقتك",
-            "url": BASE_URL + 'arabic/6.chinatown_a_tu_ritmo_ar.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. التذوق الثاني | التقاليد في كل لقمة",
-            "url": BASE_URL + 'arabic/7.segunda_degustacion_tradicion_en_cada_bocado_ar.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. ياوارات | قلب فن الطهو",
-            "url": BASE_URL + 'arabic/8.yaowarat_corazon_gastronomico_ar.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. من سوق الزهور إلى النهر",
-            "url": BASE_URL + 'arabic/9.del_mercado_de_flores_al_rio_ar.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. وات آرون | بطاقة بريدية ليلية",
-            "url": BASE_URL + 'arabic/10.wat_arun_postal_nocturna_ar.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. القصر الكبير والانتقال النهائي",
-            "url": BASE_URL + 'arabic/11.gran_palacio_y_transicion_final_ar.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. طريق خاو سان | الحياة الليلية والنكهات",
-            "url": BASE_URL + 'arabic/12.khao_san_road_vida_nocturna_y_sabores_ar.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. التذوق الثالث | باد تاي الكلاسيكي",
-            "url": BASE_URL + 'arabic/13.tercera_degustacion_el_clasico_pad_thai_ar.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. وداعا · نهاية الجولة",
-            "url": BASE_URL + 'arabic/14.despedida_fin_del_recorrido_ar.mp3'
-        }
+    english: [
+        { id: 1, title: '1. WELCOME ON BOARD AND ROUTE TO THE MARKETS', url: BASE_URL + 'english/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_en.mp3' },
+        { id: 2, title: '2. LOCAL MARKETS: FRUITS AND FLOWERS', url: BASE_URL + 'english/2.los_mercados_locales_frutas_y_flores_en.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: THE GARDEN OF ROYAL FLOWERS', url: BASE_URL + 'english/3.wat_suan_dok_el_jardin_de_las_flores_reales_en.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'english/4.cena_en_khao_soi_nimman_en.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENCE AMONG ANCIENT BRICKS', url: BASE_URL + 'english/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_en.mp3' },
+        { id: 6, title: '6. IMMERSION IN THE HISTORICAL CENTER: MONUMENT TO THE THREE KINGS, WAT INTHAKHIN AND WAT PHRA SINGH', url: BASE_URL + 'english/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_en.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: THE ARCHAEOLOGICAL JEWEL OF THE LANNA KINGDOM', url: BASE_URL + 'english/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_en.mp3' },
+        { id: 8, title: '8. THAPAE GATE: THE HISTORIC GATE TO THE WALLED CITY', url: BASE_URL + 'english/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_en.mp3' },
+        { id: 9, title: '9. RETURN TO THE NIGHT BAZAAR AND CLOSING OF THE TOUR', url: BASE_URL + 'english/9.regreso_al_night_bazaar_y_cierre_del_tour_en.mp3' }
     ],
-    "bengali": [
-        {
-            "id": 1,
-            "title": "1. পরিচিতি · স্বাগতম",
-            "url": BASE_URL + 'bengali/1.introduccion_bienvenida_bn.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. ব্যাংককের রাত",
-            "url": BASE_URL + 'bengali/2.la_noche_de_bangkok_bn.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. শহরের স্মৃতি ও স্থাপত্য",
-            "url": BASE_URL + 'bengali/3.monumentos_y_memoria_de_la_ciudad_bn.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. চায়নাটাউনের প্রবেশদ্বার | ইয়াওয়ারাতের হৃদয়",
-            "url": BASE_URL + 'bengali/4.entrada_a_chinatown_el_corazon_de_yaowarat_bn.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. প্রথম স্বাদগ্রহণ | রাস্তার খাবারের স্বাদ",
-            "url": BASE_URL + 'bengali/5.primera_degustacion_sabores_de_la_calle_bn.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. নিজের মতো চায়নাটাউন",
-            "url": BASE_URL + 'bengali/6.chinatown_a_tu_ritmo_bn.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. দ্বিতীয় স্বাদগ্রহণ | প্রতিটি কামড়ে ঐতিহ্য",
-            "url": BASE_URL + 'bengali/7.segunda_degustacion_tradicion_en_cada_bocado_bn.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. ইয়াওয়ারাত | খাবারের হৃদয়",
-            "url": BASE_URL + 'bengali/8.yaowarat_corazon_gastronomico_bn.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. ফুলের বাজার থেকে নদী পর্যন্ত",
-            "url": BASE_URL + 'bengali/9.del_mercado_de_flores_al_rio_bn.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. ওয়াট আরুন | রাতের পোস্টকার্ড",
-            "url": BASE_URL + 'bengali/10.wat_arun_postal_nocturna_bn.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. গ্র্যান্ড প্যালেস ও শেষ যাত্রা",
-            "url": BASE_URL + 'bengali/11.gran_palacio_y_transicion_final_bn.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. খাও সান রোড | রাতের জীবন ও স্বাদ",
-            "url": BASE_URL + 'bengali/12.khao_san_road_vida_nocturna_y_sabores_bn.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. তৃতীয় স্বাদগ্রহণ | ক্লাসিক প্যাড থাই",
-            "url": BASE_URL + 'bengali/13.tercera_degustacion_el_clasico_pad_thai_bn.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. বিদায় · ভ্রমণের সমাপ্তি",
-            "url": BASE_URL + 'bengali/14.despedida_fin_del_recorrido_bn.mp3'
-        }
+    arabic: [
+        { id: 1, title: '1. مرحبًا بك على متن الطائرة وفي طريقك إلى الأسواق', url: BASE_URL + 'arabic/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ar.mp3' },
+        { id: 2, title: '2. الأسواق المحلية: الفواكه والزهور', url: BASE_URL + 'arabic/2.los_mercados_locales_frutas_y_flores_ar.mp3' },
+        { id: 3, title: '3. وات سوان دوك: حديقة الزهور الملكية', url: BASE_URL + 'arabic/3.wat_suan_dok_el_jardin_de_las_flores_reales_ar.mp3' },
+        { id: 4, title: '4. سينا أون خاو سوي نيمان', url: BASE_URL + 'arabic/4.cena_en_khao_soi_nimman_ar.mp3' },
+        { id: 5, title: '5. وات لوك مولي: الصمت بين الطوب القديم', url: BASE_URL + 'arabic/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ar.mp3' },
+        { id: 6, title: '6. الانغماس في المركز التاريخي: النصب التذكاري للملوك الثلاثة، وات إنثاخين، ووات فرا سينغ', url: BASE_URL + 'arabic/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ar.mp3' },
+        { id: 7, title: '7. وات تشيدي لوانغ: الجوهرة الأثرية لمملكة لانا', url: BASE_URL + 'arabic/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ar.mp3' },
+        { id: 8, title: '8. بوابة ثاباي: البوابة التاريخية للمدينة المسورة', url: BASE_URL + 'arabic/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ar.mp3' },
+        { id: 9, title: '9. العودة إلى البازار الليلي واختتام الجولة', url: BASE_URL + 'arabic/9.regreso_al_night_bazaar_y_cierre_del_tour_ar.mp3' }
     ],
-    "catalan": [
-        {
-            "id": 1,
-            "title": "1. Introducció · Benvinguda",
-            "url": BASE_URL + 'catalan/1.introduccion_bienvenida_ca.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. La nit de Bangkok",
-            "url": BASE_URL + 'catalan/2.la_noche_de_bangkok_ca.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monuments i memòria de la ciutat",
-            "url": BASE_URL + 'catalan/3.monumentos_y_memoria_de_la_ciudad_ca.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrada a Chinatown | El cor de Yaowarat",
-            "url": BASE_URL + 'catalan/4.entrada_a_chinatown_el_corazon_de_yaowarat_ca.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Primer tast | Sabors del carrer",
-            "url": BASE_URL + 'catalan/5.primera_degustacion_sabores_de_la_calle_ca.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown al teu ritme",
-            "url": BASE_URL + 'catalan/6.chinatown_a_tu_ritmo_ca.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Segon tast | Tradició a cada mos",
-            "url": BASE_URL + 'catalan/7.segunda_degustacion_tradicion_en_cada_bocado_ca.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Cor gastronòmic",
-            "url": BASE_URL + 'catalan/8.yaowarat_corazon_gastronomico_ca.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Del mercat de les flors al riu",
-            "url": BASE_URL + 'catalan/9.del_mercado_de_flores_al_rio_ca.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Postal nocturna",
-            "url": BASE_URL + 'catalan/10.wat_arun_postal_nocturna_ca.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Gran Palau i transició final",
-            "url": BASE_URL + 'catalan/11.gran_palacio_y_transicion_final_ca.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vida nocturna i sabors",
-            "url": BASE_URL + 'catalan/12.khao_san_road_vida_nocturna_y_sabores_ca.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tercer tast | El clàssic Pad Thai",
-            "url": BASE_URL + 'catalan/13.tercera_degustacion_el_clasico_pad_thai_ca.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Comiat · Final del recorregut",
-            "url": BASE_URL + 'catalan/14.despedida_fin_del_recorrido_ca.mp3'
-        }
+    basque: [
+        { id: 1, title: '1. ONGI ETORRI BORTZEAN ETA IBILBIDEA MERKATUETARA', url: BASE_URL + 'basque/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_eu.mp3' },
+        { id: 2, title: '2. TOKIKO MERKATUAK: FRUTUAK ETA LOREAK', url: BASE_URL + 'basque/2.los_mercados_locales_frutas_y_flores_eu.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: ERREGE-LOREEN BARATZA', url: BASE_URL + 'basque/3.wat_suan_dok_el_jardin_de_las_flores_reales_eu.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'basque/4.cena_en_khao_soi_nimman_eu.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: ISILTASUNA ANTZINAKO ADREILUEN ARTEAN', url: BASE_URL + 'basque/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_eu.mp3' },
+        { id: 6, title: '6. MURTZEGIA HERDI HISTORIKOAN: HIRU ERREGEEN MONUMENTUA, WAT INTHAKHIN ETA WAT PHRA SINGH', url: BASE_URL + 'basque/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_eu.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LANNA ERRESUMAKO BITXI ARKEOLOGIKOA', url: BASE_URL + 'basque/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_eu.mp3' },
+        { id: 8, title: '8. THAPAE ATEA: HARRESIDUTAKO HIRIAREN ATE HISTORIKOA', url: BASE_URL + 'basque/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_eu.mp3' },
+        { id: 9, title: '9. GAUEKO BAZAARRA ITZULERA ETA IBILBIDEAREN ITXERA', url: BASE_URL + 'basque/9.regreso_al_night_bazaar_y_cierre_del_tour_eu.mp3' }
     ],
-    "german": [
-        {
-            "id": 1,
-            "title": "1. Einführung · Willkommen",
-            "url": BASE_URL + 'german/1.introduccion_bienvenida_de.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok bei Nacht",
-            "url": BASE_URL + 'german/2.la_noche_de_bangkok_de.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Denkmäler und Geschichte der Stadt",
-            "url": BASE_URL + 'german/3.monumentos_y_memoria_de_la_ciudad_de.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Eingang nach Chinatown | Das Herz von Yaowarat",
-            "url": BASE_URL + 'german/4.entrada_a_chinatown_el_corazon_de_yaowarat_de.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Erste Verkostung | Straßenküche",
-            "url": BASE_URL + 'german/5.primera_degustacion_sabores_de_la_calle_de.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown in deinem Tempo",
-            "url": BASE_URL + 'german/6.chinatown_a_tu_ritmo_de.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Zweite Verkostung | Tradition in jedem Bissen",
-            "url": BASE_URL + 'german/7.segunda_degustacion_tradicion_en_cada_bocado_de.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Kulinarisches Herz",
-            "url": BASE_URL + 'german/8.yaowarat_corazon_gastronomico_de.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Vom Blumenmarkt zum Fluss",
-            "url": BASE_URL + 'german/9.del_mercado_de_flores_al_rio_de.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Nächtliche Postkarte",
-            "url": BASE_URL + 'german/10.wat_arun_postal_nocturna_de.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Großer Palast und Abschluss",
-            "url": BASE_URL + 'german/11.gran_palacio_y_transicion_final_de.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nachtleben und Aromen",
-            "url": BASE_URL + 'german/12.khao_san_road_vida_nocturna_y_sabores_de.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Dritte Verkostung | Klassisches Pad Thai",
-            "url": BASE_URL + 'german/13.tercera_degustacion_el_clasico_pad_thai_de.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Abschied · Ende der Tour",
-            "url": BASE_URL + 'german/14.despedida_fin_del_recorrido_de.mp3'
-        }
+    bengali: [
+        { id: 1, title: '1. বোর্ডে স্বাগতম এবং বাজারের রুটে', url: BASE_URL + 'bengali/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_bn.mp3' },
+        { id: 2, title: '2. স্থানীয় বাজার: ফল এবং ফুল', url: BASE_URL + 'bengali/2.los_mercados_locales_frutas_y_flores_bn.mp3' },
+        { id: 3, title: '3. ওয়াট সুয়ান ডক: রাজকীয় ফুলের বাগান', url: BASE_URL + 'bengali/3.wat_suan_dok_el_jardin_de_las_flores_reales_bn.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'bengali/4.cena_en_khao_soi_nimman_bn.mp3' },
+        { id: 5, title: '5. ওয়াট লোক মলি: প্রাচীন ইটগুলির মধ্যে নীরবতা', url: BASE_URL + 'bengali/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_bn.mp3' },
+        { id: 6, title: '6. ঐতিহাসিক কেন্দ্রে নিমজ্জন: তিন রাজার স্মৃতিস্তম্ভ, ওয়াট ইন্থাখিন এবং ওয়াট ফ্রা সিং', url: BASE_URL + 'bengali/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_bn.mp3' },
+        { id: 7, title: '7. ওয়াট চেদি লুয়াং: লান্না রাজ্যের প্রত্নতাত্ত্বিক রত্ন', url: BASE_URL + 'bengali/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_bn.mp3' },
+        { id: 8, title: '8. থাপায়ে গেট: প্রাচীর শহরটির ঐতিহাসিক গেট', url: BASE_URL + 'bengali/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_bn.mp3' },
+        { id: 9, title: '9. রাতের বাজারে ফিরে আসা এবং সফরের সমাপ্তি', url: BASE_URL + 'bengali/9.regreso_al_night_bazaar_y_cierre_del_tour_bn.mp3' }
     ],
-    "danish": [
-        {
-            "id": 1,
-            "title": "1. Introduktion · Velkommen",
-            "url": BASE_URL + 'danish/1.introduccion_bienvenida_da.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok om natten",
-            "url": BASE_URL + 'danish/2.la_noche_de_bangkok_da.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumenter og byens historie",
-            "url": BASE_URL + 'danish/3.monumentos_y_memoria_de_la_ciudad_da.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Indgang til Chinatown | Hjertet af Yaowarat",
-            "url": BASE_URL + 'danish/4.entrada_a_chinatown_el_corazon_de_yaowarat_da.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Første smagning | Gadekøkkenets smage",
-            "url": BASE_URL + 'danish/5.primera_degustacion_sabores_de_la_calle_da.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown i dit eget tempo",
-            "url": BASE_URL + 'danish/6.chinatown_a_tu_ritmo_da.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Anden smagning | Tradition i hver bid",
-            "url": BASE_URL + 'danish/7.segunda_degustacion_tradicion_en_cada_bocado_da.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomisk hjerte",
-            "url": BASE_URL + 'danish/8.yaowarat_corazon_gastronomico_da.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Fra blomstermarkedet til floden",
-            "url": BASE_URL + 'danish/9.del_mercado_de_flores_al_rio_da.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Natligt postkort",
-            "url": BASE_URL + 'danish/10.wat_arun_postal_nocturna_da.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Det Store Palads og afslutning",
-            "url": BASE_URL + 'danish/11.gran_palacio_y_transicion_final_da.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Natteliv og smage",
-            "url": BASE_URL + 'danish/12.khao_san_road_vida_nocturna_y_sabores_da.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tredje smagning | Klassisk Pad Thai",
-            "url": BASE_URL + 'danish/13.tercera_degustacion_el_clasico_pad_thai_da.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Afsked · Turens afslutning",
-            "url": BASE_URL + 'danish/14.despedida_fin_del_recorrido_da.mp3'
-        }
+    catalan: [
+        { id: 1, title: '1. BENVINGUDA A BORD I RUTA CAP ALS MERCATS', url: BASE_URL + 'catalan/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ca.mp3' },
+        { id: 2, title: '2. ELS MERCATS LOCALS: FRUITES I FLORS', url: BASE_URL + 'catalan/2.los_mercados_locales_frutas_y_flores_ca.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: EL JARDÍ DE LES FLORS REALS', url: BASE_URL + 'catalan/3.wat_suan_dok_el_jardin_de_las_flores_reales_ca.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'catalan/4.cena_en_khao_soi_nimman_ca.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENCI ENTRE MAONS ANTICS', url: BASE_URL + 'catalan/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ca.mp3' },
+        { id: 6, title: '6. IMMERSIÓ AL CENTRE HISTÒRIC: MONUMENT ALS TRES REIS, WAT INTHAKHIN I WAT PHRA SINGH', url: BASE_URL + 'catalan/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ca.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LA JOIA ARQUEOLÒGICA DEL REGNE LANNA', url: BASE_URL + 'catalan/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ca.mp3' },
+        { id: 8, title: '8. THAPAE GATE: LA PORTA HISTÒRICA A LA CIUTAT AMURALLADA', url: BASE_URL + 'catalan/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ca.mp3' },
+        { id: 9, title: '9. RETORN AL NIGHT BAZAAR I TANCAMENT DEL TOUR', url: BASE_URL + 'catalan/9.regreso_al_night_bazaar_y_cierre_del_tour_ca.mp3' }
     ],
-    "indonesian": [
-        {
-            "id": 1,
-            "title": "1. Pengantar · Selamat datang",
-            "url": BASE_URL + 'indonesian/1.introduccion_bienvenida_id.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok di malam hari",
-            "url": BASE_URL + 'indonesian/2.la_noche_de_bangkok_id.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumen dan sejarah kota",
-            "url": BASE_URL + 'indonesian/3.monumentos_y_memoria_de_la_ciudad_id.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Pintu masuk Chinatown | Jantung Yaowarat",
-            "url": BASE_URL + 'indonesian/4.entrada_a_chinatown_el_corazon_de_yaowarat_id.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Cicipan pertama | Rasa makanan jalanan",
-            "url": BASE_URL + 'indonesian/5.primera_degustacion_sabores_de_la_calle_id.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown dengan ritmemu",
-            "url": BASE_URL + 'indonesian/6.chinatown_a_tu_ritmo_id.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Cicipan kedua | Tradisi di setiap gigitan",
-            "url": BASE_URL + 'indonesian/7.segunda_degustacion_tradicion_en_cada_bocado_id.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Jantung kuliner",
-            "url": BASE_URL + 'indonesian/8.yaowarat_corazon_gastronomico_id.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Dari pasar bunga ke sungai",
-            "url": BASE_URL + 'indonesian/9.del_mercado_de_flores_al_rio_id.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Kartu pos malam",
-            "url": BASE_URL + 'indonesian/10.wat_arun_postal_nocturna_id.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Istana Agung dan penutup",
-            "url": BASE_URL + 'indonesian/11.gran_palacio_y_transicion_final_id.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Kehidupan malam dan rasa",
-            "url": BASE_URL + 'indonesian/12.khao_san_road_vida_nocturna_y_sabores_id.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Cicipan ketiga | Pad Thai klasik",
-            "url": BASE_URL + 'indonesian/13.tercera_degustacion_el_clasico_pad_thai_id.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Perpisahan · Akhir tur",
-            "url": BASE_URL + 'indonesian/14.despedida_fin_del_recorrido_id.mp3'
-        }
+    croatian: [
+        { id: 1, title: '1. DOBRODOŠLI U BROD I PUTA DO TRŽIŠTA', url: BASE_URL + 'croatian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_hr.mp3' },
+        { id: 2, title: '2. LOKALNE TRŽNICE: VOĆE I CVIJEĆE', url: BASE_URL + 'croatian/2.los_mercados_locales_frutas_y_flores_hr.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: VRT KRALJEVSKOG CVIJEĆA', url: BASE_URL + 'croatian/3.wat_suan_dok_el_jardin_de_las_flores_reales_hr.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'croatian/4.cena_en_khao_soi_nimman_hr.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: TIŠINA MEĐU DREVNIM CIGLAMA', url: BASE_URL + 'croatian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_hr.mp3' },
+        { id: 6, title: '6. URANJE U POVIJESNI CENTAR: SPOMENIK TRI KRALJA, WAT INTHAKHIN I WAT PHRA SINGH', url: BASE_URL + 'croatian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_hr.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ARHEOLOŠKI DRAGULJ KRALJEVSTVA LANNA', url: BASE_URL + 'croatian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_hr.mp3' },
+        { id: 8, title: '8. VRATA THAPAE: POVIJESNA VRATA U ZIDANI GRAD', url: BASE_URL + 'croatian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_hr.mp3' },
+        { id: 9, title: '9. POVRATAK NA NOĆNI BAZAR I ZATVARANJE TURE', url: BASE_URL + 'croatian/9.regreso_al_night_bazaar_y_cierre_del_tour_hr.mp3' }
     ],
-    "basque": [
-        {
-            "id": 1,
-            "title": "1. Sarrera · Ongi etorri",
-            "url": BASE_URL + 'basque/1.introduccion_bienvenida_eu.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok gauaz",
-            "url": BASE_URL + 'basque/2.la_noche_de_bangkok_eu.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Hiriko monumentuak eta memoria",
-            "url": BASE_URL + 'basque/3.monumentos_y_memoria_de_la_ciudad_eu.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Chinatownerako sarrera | Yaowaraten bihotza",
-            "url": BASE_URL + 'basque/4.entrada_a_chinatown_el_corazon_de_yaowarat_eu.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Lehen dastaketa | Kaleko zaporeak",
-            "url": BASE_URL + 'basque/5.primera_degustacion_sabores_de_la_calle_eu.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown zure erritmoan",
-            "url": BASE_URL + 'basque/6.chinatown_a_tu_ritmo_eu.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Bigarren dastaketa | Tradizioa mokadu bakoitzean",
-            "url": BASE_URL + 'basque/7.segunda_degustacion_tradicion_en_cada_bocado_eu.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Bihotz gastronomikoa",
-            "url": BASE_URL + 'basque/8.yaowarat_corazon_gastronomico_eu.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Lore merkatuatik ibaira",
-            "url": BASE_URL + 'basque/9.del_mercado_de_flores_al_rio_eu.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Gaueko postal bat",
-            "url": BASE_URL + 'basque/10.wat_arun_postal_nocturna_eu.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Jauregi Handia eta azken trantsizioa",
-            "url": BASE_URL + 'basque/11.gran_palacio_y_transicion_final_eu.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Gaueko bizitza eta zaporeak",
-            "url": BASE_URL + 'basque/12.khao_san_road_vida_nocturna_y_sabores_eu.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Hirugarren dastaketa | Pad Thai klasikoa",
-            "url": BASE_URL + 'basque/13.tercera_degustacion_el_clasico_pad_thai_eu.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Agurra · Ibilbidearen amaiera",
-            "url": BASE_URL + 'basque/14.despedida_fin_del_recorrido_eu.mp3'
-        }
+    czech: [
+        { id: 1, title: '1. VÍTEJTE NA PALUBĚ A CESTA NA TRHY', url: BASE_URL + 'czech/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_cs.mp3' },
+        { id: 2, title: '2. MÍSTNÍ TRHY: OVOCE A KVĚTINY', url: BASE_URL + 'czech/2.los_mercados_locales_frutas_y_flores_cs.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: ZAHRADA KRÁLOVSKÝCH KVĚTIN', url: BASE_URL + 'czech/3.wat_suan_dok_el_jardin_de_las_flores_reales_cs.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'czech/4.cena_en_khao_soi_nimman_cs.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: TICHO MEZI STAROVĚKÝMI CIHLAMI', url: BASE_URL + 'czech/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_cs.mp3' },
+        { id: 6, title: '6. PONOŘENÍ DO HISTORICKÉHO CENTRA: POMNÍK TŘÍ KRÁLŮ, WAT INTHAKHIN A WAT PHRA SINGH', url: BASE_URL + 'czech/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_cs.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ARCHEOLOGICKÝ ŠPERK LANNSKÉHO KRÁLOVSTVÍ', url: BASE_URL + 'czech/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_cs.mp3' },
+        { id: 8, title: '8. THAPÁSKÁ BRÁNA: HISTORICKÁ BRÁNA DO HRADENÉHO MĚSTA', url: BASE_URL + 'czech/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_cs.mp3' },
+        { id: 9, title: '9. NÁVRAT NA NOČNÍ BAZAR A UZAVŘENÍ ZÁJEZDU', url: BASE_URL + 'czech/9.regreso_al_night_bazaar_y_cierre_del_tour_cs.mp3' }
     ],
-    "khmer": [
-        {
-            "id": 1,
-            "title": "1. ការណែនាំ · សូមស្វាគមន៍",
-            "url": BASE_URL + 'cambodian/1.introduccion_bienvenida_km.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. រាត្រីនៅបាងកក",
-            "url": BASE_URL + 'cambodian/2.la_noche_de_bangkok_km.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. វិមាន និងអនុស្សាវរីយ៍នៃទីក្រុង",
-            "url": BASE_URL + 'cambodian/3.monumentos_y_memoria_de_la_ciudad_km.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. ច្រកចូល Chinatown | បេះដូង Yaowarat",
-            "url": BASE_URL + 'cambodian/4.entrada_a_chinatown_el_corazon_de_yaowarat_km.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. ការសាករសជាតិលើកទីមួយ | រសជាតិតាមផ្លូវ",
-            "url": BASE_URL + 'cambodian/5.primera_degustacion_sabores_de_la_calle_km.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown តាមចង្វាក់របស់អ្នក",
-            "url": BASE_URL + 'cambodian/6.chinatown_a_tu_ritmo_km.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. ការសាករសជាតិលើកទីពីរ | ប្រពៃណីក្នុងមួយពាក្យខាំ",
-            "url": BASE_URL + 'cambodian/7.segunda_degustacion_tradicion_en_cada_bocado_km.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | បេះដូងអាហារ",
-            "url": BASE_URL + 'cambodian/8.yaowarat_corazon_gastronomico_km.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. ពីផ្សារផ្កាទៅទន្លេ",
-            "url": BASE_URL + 'cambodian/9.del_mercado_de_flores_al_rio_km.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | កាតប៉ុស្តាល់ពេលយប់",
-            "url": BASE_URL + 'cambodian/10.wat_arun_postal_nocturna_km.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. ព្រះបរមរាជវាំង និងការបញ្ចប់ចុងក្រោយ",
-            "url": BASE_URL + 'cambodian/11.gran_palacio_y_transicion_final_km.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | ជីវិតរាត្រី និងរសជាតិ",
-            "url": BASE_URL + 'cambodian/12.khao_san_road_vida_nocturna_y_sabores_km.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. ការសាករសជាតិលើកទីបី | Pad Thai បែបបុរាណ",
-            "url": BASE_URL + 'cambodian/13.tercera_degustacion_el_clasico_pad_thai_km.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. លា​សិន · បញ្ចប់ដំណើរកម្សាន្ត",
-            "url": BASE_URL + 'cambodian/14.despedida_fin_del_recorrido_km.mp3'
-        }
+    danish: [
+        { id: 1, title: '1. VELKOMMEN OM BORD OG VEJEN TIL MARKEDET', url: BASE_URL + 'danish/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_da.mp3' },
+        { id: 2, title: '2. LOKALE MARKEDER: FRUGT OG BLOMSTER', url: BASE_URL + 'danish/2.los_mercados_locales_frutas_y_flores_da.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: DE KONGELIGE BLOMSTERS HAVE', url: BASE_URL + 'danish/3.wat_suan_dok_el_jardin_de_las_flores_reales_da.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'danish/4.cena_en_khao_soi_nimman_da.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: STILLHED BLANDT Gamle mursten', url: BASE_URL + 'danish/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_da.mp3' },
+        { id: 6, title: '6. FORDYLDELSE I DET HISTORISKE CENTER: MONUMENT TIL DE TRE KONGER, WAT INTHAKHIN OG WAT PHRA SINGH', url: BASE_URL + 'danish/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_da.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LANNA KONGERIGETS ARKÆOLOGISKE JUVEL', url: BASE_URL + 'danish/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_da.mp3' },
+        { id: 8, title: '8. THAPAE-PORTEN: DEN HISTORISKE PORT TIL DEN BEMÆREDE BY', url: BASE_URL + 'danish/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_da.mp3' },
+        { id: 9, title: '9. TILBAGE TIL NATBAZAAR OG AFSLUTNING AF TUREN', url: BASE_URL + 'danish/9.regreso_al_night_bazaar_y_cierre_del_tour_da.mp3' }
     ],
-    "mandarin_china": [
-        {
-            "id": 1,
-            "title": "1. 介绍 · 欢迎",
-            "url": BASE_URL + 'chinese_china/1.introduccion_bienvenida_zh.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. 曼谷之夜",
-            "url": BASE_URL + 'chinese_china/2.la_noche_de_bangkok_zh.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. 城市的地标与记忆",
-            "url": BASE_URL + 'chinese_china/3.monumentos_y_memoria_de_la_ciudad_zh.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. 唐人街入口 | 耀华力路的心脏",
-            "url": BASE_URL + 'chinese_china/4.entrada_a_chinatown_el_corazon_de_yaowarat_zh.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. 第一场品尝 | 街头风味",
-            "url": BASE_URL + 'chinese_china/5.primera_degustacion_sabores_de_la_calle_zh.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. 自由探索唐人街",
-            "url": BASE_URL + 'chinese_china/6.chinatown_a_tu_ritmo_zh.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. 第二场品尝 | 每一口中的传统",
-            "url": BASE_URL + 'chinese_china/7.segunda_degustacion_tradicion_en_cada_bocado_zh.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. 耀华力路 | 美食之心",
-            "url": BASE_URL + 'chinese_china/8.yaowarat_corazon_gastronomico_zh.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. 从花市到河边",
-            "url": BASE_URL + 'chinese_china/9.del_mercado_de_flores_al_rio_zh.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. 郑王庙 | 夜色明信片",
-            "url": BASE_URL + 'chinese_china/10.wat_arun_postal_nocturna_zh.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. 大皇宫与最终过渡",
-            "url": BASE_URL + 'chinese_china/11.gran_palacio_y_transicion_final_zh.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. 考山路 | 夜生活与美食",
-            "url": BASE_URL + 'chinese_china/12.khao_san_road_vida_nocturna_y_sabores_zh.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. 第三场品尝 | 经典泰式炒河粉",
-            "url": BASE_URL + 'chinese_china/13.tercera_degustacion_el_clasico_pad_thai_zh.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. 告别 · 行程结束",
-            "url": BASE_URL + 'chinese_china/14.despedida_fin_del_recorrido_zh.mp3'
-        }
+    dutch: [
+        { id: 1, title: '1. WELKOM AAN BOORD EN ROUTE NAAR DE MARKTEN', url: BASE_URL + 'dutch/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_nl.mp3' },
+        { id: 2, title: '2. LOKALE MARKTEN: FRUIT EN BLOEMEN', url: BASE_URL + 'dutch/2.los_mercados_locales_frutas_y_flores_nl.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: DE TUIN VAN KONINKLIJKE BLOEMEN', url: BASE_URL + 'dutch/3.wat_suan_dok_el_jardin_de_las_flores_reales_nl.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'dutch/4.cena_en_khao_soi_nimman_nl.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: STILTE TUSSEN OUDE BAKSTEEN', url: BASE_URL + 'dutch/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_nl.mp3' },
+        { id: 6, title: '6. ONDERDOMPELING IN HET HISTORISCHE CENTRUM: MONUMENT VOOR DE DRIE KONINGEN, WAT INTHAKHIN EN WAT PHRA SINGH', url: BASE_URL + 'dutch/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_nl.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: HET ARCHEOLOGISCHE JUWEEL VAN HET LANNA-KONINKRIJK', url: BASE_URL + 'dutch/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_nl.mp3' },
+        { id: 8, title: '8. THAPAE POORT: DE HISTORISCHE POORT NAAR DE OMUURDE STAD', url: BASE_URL + 'dutch/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_nl.mp3' },
+        { id: 9, title: '9. TERUG NAAR DE NACHTBAZAAR EN SLUITING VAN DE TOUR', url: BASE_URL + 'dutch/9.regreso_al_night_bazaar_y_cierre_del_tour_nl.mp3' }
     ],
-    "mandarin_taiwan": [
-        {
-            "id": 1,
-            "title": "1. 介紹 · 歡迎",
-            "url": BASE_URL + 'chinese_taiwan/1.introduccion_bienvenida_zh_tw.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. 曼谷之夜",
-            "url": BASE_URL + 'chinese_taiwan/2.la_noche_de_bangkok_zh_tw.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. 城市的地標與記憶",
-            "url": BASE_URL + 'chinese_taiwan/3.monumentos_y_memoria_de_la_ciudad_zh_tw.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. 唐人街入口 | 耀華力路的核心",
-            "url": BASE_URL + 'chinese_taiwan/4.entrada_a_chinatown_el_corazon_de_yaowarat_zh_tw.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. 第一場品嚐 | 街頭風味",
-            "url": BASE_URL + 'chinese_taiwan/5.primera_degustacion_sabores_de_la_calle_zh_tw.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. 自由探索唐人街",
-            "url": BASE_URL + 'chinese_taiwan/6.chinatown_a_tu_ritmo_zh_tw.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. 第二場品嚐 | 每一口中的傳統",
-            "url": BASE_URL + 'chinese_taiwan/7.segunda_degustacion_tradicion_en_cada_bocado_zh_tw.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. 耀華力路 | 美食之心",
-            "url": BASE_URL + 'chinese_taiwan/8.yaowarat_corazon_gastronomico_zh_tw.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. 從花市到河岸",
-            "url": BASE_URL + 'chinese_taiwan/9.del_mercado_de_flores_al_rio_zh_tw.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. 鄭王廟 | 夜晚明信片",
-            "url": BASE_URL + 'chinese_taiwan/10.wat_arun_postal_nocturna_zh_tw.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. 大皇宮與最終轉場",
-            "url": BASE_URL + 'chinese_taiwan/11.gran_palacio_y_transicion_final_zh_tw.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. 考山路 | 夜生活與美食",
-            "url": BASE_URL + 'chinese_taiwan/12.khao_san_road_vida_nocturna_y_sabores_zh_tw.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. 第三場品嚐 | 經典泰式炒河粉",
-            "url": BASE_URL + 'chinese_taiwan/13.tercera_degustacion_el_clasico_pad_thai_zh_tw.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. 告別 · 行程結束",
-            "url": BASE_URL + 'chinese_taiwan/14.despedida_fin_del_recorrido_zh_tw.mp3'
-        }
+    filipino: [
+        { id: 1, title: '1. WELCOME ON BOARD AND ROUTE TO THE MARKETS', url: BASE_URL + 'filipino/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_tl.mp3' },
+        { id: 2, title: '2. MGA LOKAL NA PAMILIHAN: MGA PRUTAS AT BULAKLAK', url: BASE_URL + 'filipino/2.los_mercados_locales_frutas_y_flores_tl.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: THE GARDEN OF ROYAL FLOWERS', url: BASE_URL + 'filipino/3.wat_suan_dok_el_jardin_de_las_flores_reales_tl.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'filipino/4.cena_en_khao_soi_nimman_tl.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: TAHIMIK SA MGA ANCIENT BRICKS', url: BASE_URL + 'filipino/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_tl.mp3' },
+        { id: 6, title: '6. IMMERSION SA HISTORICAL CENTER: MONUMENT TO THE TATLONG HARI, WAT INTHAKHIN AT WAT PHRA SINGH', url: BASE_URL + 'filipino/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_tl.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ANG ARKEOLOHIKAL NA HIYAS NG LANNA KINGDOM', url: BASE_URL + 'filipino/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_tl.mp3' },
+        { id: 8, title: '8. THAPAE GATE: ANG HISTORIC GATE TO THE WALLED CITY', url: BASE_URL + 'filipino/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_tl.mp3' },
+        { id: 9, title: '9. BUMALIK SA NIGHT BAZAAR AT PAGSASARA NG TOUR', url: BASE_URL + 'filipino/9.regreso_al_night_bazaar_y_cierre_del_tour_tl.mp3' }
     ],
-    "croatian": [
-        {
-            "id": 1,
-            "title": "1. Uvod · Dobrodošli",
-            "url": BASE_URL + 'croatian/1.introduccion_bienvenida_hr.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok noću",
-            "url": BASE_URL + 'croatian/2.la_noche_de_bangkok_hr.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Spomenici i sjećanja grada",
-            "url": BASE_URL + 'croatian/3.monumentos_y_memoria_de_la_ciudad_hr.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Ulaz u Chinatown | Srce Yaowarata",
-            "url": BASE_URL + 'croatian/4.entrada_a_chinatown_el_corazon_de_yaowarat_hr.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Prva degustacija | Okusi ulice",
-            "url": BASE_URL + 'croatian/5.primera_degustacion_sabores_de_la_calle_hr.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown vlastitim ritmom",
-            "url": BASE_URL + 'croatian/6.chinatown_a_tu_ritmo_hr.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Druga degustacija | Tradicija u svakom zalogaju",
-            "url": BASE_URL + 'croatian/7.segunda_degustacion_tradicion_en_cada_bocado_hr.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomsko srce",
-            "url": BASE_URL + 'croatian/8.yaowarat_corazon_gastronomico_hr.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Od tržnice cvijeća do rijeke",
-            "url": BASE_URL + 'croatian/9.del_mercado_de_flores_al_rio_hr.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Noćna razglednica",
-            "url": BASE_URL + 'croatian/10.wat_arun_postal_nocturna_hr.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Velika palača i završni prijelaz",
-            "url": BASE_URL + 'croatian/11.gran_palacio_y_transicion_final_hr.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Noćni život i okusi",
-            "url": BASE_URL + 'croatian/12.khao_san_road_vida_nocturna_y_sabores_hr.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Treća degustacija | Klasični Pad Thai",
-            "url": BASE_URL + 'croatian/13.tercera_degustacion_el_clasico_pad_thai_hr.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Oproštaj · Kraj obilaska",
-            "url": BASE_URL + 'croatian/14.despedida_fin_del_recorrido_hr.mp3'
-        }
+    french: [
+        { id: 1, title: '1. BIENVENUE À BORD ET ROUTE VERS LES MARCHÉS', url: BASE_URL + 'french/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_fr.mp3' },
+        { id: 2, title: '2. MARCHÉS LOCAUX : FRUITS ET FLEURS', url: BASE_URL + 'french/2.los_mercados_locales_frutas_y_flores_fr.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK : LE JARDIN DES FLEURS ROYALES', url: BASE_URL + 'french/3.wat_suan_dok_el_jardin_de_las_flores_reales_fr.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'french/4.cena_en_khao_soi_nimman_fr.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI : SILENCE PARMI LES BRIQUES ANCIENNES', url: BASE_URL + 'french/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_fr.mp3' },
+        { id: 6, title: '6. IMMERSION DANS LE CENTRE HISTORIQUE : MONUMENT AUX TROIS ROIS, WAT INTHAKHIN ET WAT PHRA SINGH', url: BASE_URL + 'french/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_fr.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG : LE JOYAU ARCHÉOLOGIQUE DU ROYAUME LANNA', url: BASE_URL + 'french/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_fr.mp3' },
+        { id: 8, title: '8. THAPAE GATE : LA PORTE HISTORIQUE DE LA VILLE FORTifiée', url: BASE_URL + 'french/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_fr.mp3' },
+        { id: 9, title: '9. RETOUR AU BAZAR DE NUIT ET FERMETURE DU TOUR', url: BASE_URL + 'french/9.regreso_al_night_bazaar_y_cierre_del_tour_fr.mp3' }
     ],
-    "czech": [
-        {
-            "id": 1,
-            "title": "1. Úvod · Vítejte",
-            "url": BASE_URL + 'czech/1.introduccion_bienvenida_cs.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok v noci",
-            "url": BASE_URL + 'czech/2.la_noche_de_bangkok_cs.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Památky a historie města",
-            "url": BASE_URL + 'czech/3.monumentos_y_memoria_de_la_ciudad_cs.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Vstup do Chinatownu | Srdce Yaowaratu",
-            "url": BASE_URL + 'czech/4.entrada_a_chinatown_el_corazon_de_yaowarat_cs.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. První ochutnávka | Pouliční chutě",
-            "url": BASE_URL + 'czech/5.primera_degustacion_sabores_de_la_calle_cs.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown vlastním tempem",
-            "url": BASE_URL + 'czech/6.chinatown_a_tu_ritmo_cs.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Druhá ochutnávka | Tradice v každém soustu",
-            "url": BASE_URL + 'czech/7.segunda_degustacion_tradicion_en_cada_bocado_cs.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomické srdce",
-            "url": BASE_URL + 'czech/8.yaowarat_corazon_gastronomico_cs.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Od květinového trhu k řece",
-            "url": BASE_URL + 'czech/9.del_mercado_de_flores_al_rio_cs.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Noční pohlednice",
-            "url": BASE_URL + 'czech/10.wat_arun_postal_nocturna_cs.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Královský palác a závěrečný přechod",
-            "url": BASE_URL + 'czech/11.gran_palacio_y_transicion_final_cs.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Noční život a chutě",
-            "url": BASE_URL + 'czech/12.khao_san_road_vida_nocturna_y_sabores_cs.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Třetí ochutnávka | Klasický Pad Thai",
-            "url": BASE_URL + 'czech/13.tercera_degustacion_el_clasico_pad_thai_cs.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Rozloučení · Konec prohlídky",
-            "url": BASE_URL + 'czech/14.despedida_fin_del_recorrido_cs.mp3'
-        }
+    galician: [
+        { id: 1, title: '1. BENVIDA A BORDO E RUTA AOS MERCADOS', url: BASE_URL + 'galician/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_gl.mp3' },
+        { id: 2, title: '2. MERCADOS LOCAIS: FROITAS E FLORES', url: BASE_URL + 'galician/2.los_mercados_locales_frutas_y_flores_gl.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: O XARDÍN DAS FLORES REAIS', url: BASE_URL + 'galician/3.wat_suan_dok_el_jardin_de_las_flores_reales_gl.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'galician/4.cena_en_khao_soi_nimman_gl.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENCIO ENTRE LADRILLOS ANTIGUOS', url: BASE_URL + 'galician/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_gl.mp3' },
+        { id: 6, title: '6. INMERSIÓN NO CENTRO HISTÓRICO: MONUMENTO AOS REIS REIS, WAT INTHAKHIN E WAT PHRA SINGH', url: BASE_URL + 'galician/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_gl.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: A XOIA ARQUEOLÓXICA DO REINO DE LANNA', url: BASE_URL + 'galician/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_gl.mp3' },
+        { id: 8, title: '8. PORTA DE THAPAE: A PORTA HISTÓRICA DA CIDADE AMURALADA', url: BASE_URL + 'galician/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_gl.mp3' },
+        { id: 9, title: '9. VOLTA AO BAZAR NOCTURNO E PECHE DA VISITA', url: BASE_URL + 'galician/9.regreso_al_night_bazaar_y_cierre_del_tour_gl.mp3' }
     ],
-    "dutch": [
-        {
-            "id": 1,
-            "title": "1. Introductie · Welkom",
-            "url": BASE_URL + 'dutch/1.introduccion_bienvenida_nl.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok bij nacht",
-            "url": BASE_URL + 'dutch/2.la_noche_de_bangkok_nl.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumenten en herinneringen van de stad",
-            "url": BASE_URL + 'dutch/3.monumentos_y_memoria_de_la_ciudad_nl.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Ingang naar Chinatown | Het hart van Yaowarat",
-            "url": BASE_URL + 'dutch/4.entrada_a_chinatown_el_corazon_de_yaowarat_nl.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Eerste proeverij | Straatsmaken",
-            "url": BASE_URL + 'dutch/5.primera_degustacion_sabores_de_la_calle_nl.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown op jouw tempo",
-            "url": BASE_URL + 'dutch/6.chinatown_a_tu_ritmo_nl.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Tweede proeverij | Traditie in elke hap",
-            "url": BASE_URL + 'dutch/7.segunda_degustacion_tradicion_en_cada_bocado_nl.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomisch hart",
-            "url": BASE_URL + 'dutch/8.yaowarat_corazon_gastronomico_nl.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Van de bloemenmarkt naar de rivier",
-            "url": BASE_URL + 'dutch/9.del_mercado_de_flores_al_rio_nl.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Nachtelijke ansichtkaart",
-            "url": BASE_URL + 'dutch/10.wat_arun_postal_nocturna_nl.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace en laatste overgang",
-            "url": BASE_URL + 'dutch/11.gran_palacio_y_transicion_final_nl.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nachtleven en smaken",
-            "url": BASE_URL + 'dutch/12.khao_san_road_vida_nocturna_y_sabores_nl.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Derde proeverij | Klassieke Pad Thai",
-            "url": BASE_URL + 'dutch/13.tercera_degustacion_el_clasico_pad_thai_nl.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Afscheid · Einde van de tour",
-            "url": BASE_URL + 'dutch/14.despedida_fin_del_recorrido_nl.mp3'
-        }
+    german: [
+        { id: 1, title: '1. WILLKOMMEN AN BORD UND WEG ZU DEN MÄRKTEN', url: BASE_URL + 'german/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_de.mp3' },
+        { id: 2, title: '2. LOKALE MÄRKTE: FRÜCHTE UND BLUMEN', url: BASE_URL + 'german/2.los_mercados_locales_frutas_y_flores_de.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: DER GARTEN DER KÖNIGLICHEN BLUMEN', url: BASE_URL + 'german/3.wat_suan_dok_el_jardin_de_las_flores_reales_de.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'german/4.cena_en_khao_soi_nimman_de.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: STILLE ZWISCHEN ALTEN ZIEGELN', url: BASE_URL + 'german/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_de.mp3' },
+        { id: 6, title: '6. EINTAUCHEN IN DAS HISTORISCHE ZENTRUM: DENKMAL DER DREI KÖNIGE, WAT INTHAKHIN UND WAT PHRA SINGH', url: BASE_URL + 'german/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_de.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: DAS ARCHÄOLOGISCHE JUWEL DES LANNA-KÖNIGREICHS', url: BASE_URL + 'german/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_de.mp3' },
+        { id: 8, title: '8. THAPAE-TOR: DAS HISTORISCHE TOR ZUR UMGEBUNG DER STADT', url: BASE_URL + 'german/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_de.mp3' },
+        { id: 9, title: '9. Rückkehr zum Nachtbasar und Abschluss der Tour', url: BASE_URL + 'german/9.regreso_al_night_bazaar_y_cierre_del_tour_de.mp3' }
     ],
-    "english": [
-        {
-            "id": 1,
-            "title": "1. Introduction · Welcome",
-            "url": BASE_URL + 'english/1.introduccion_bienvenida_en.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok at Night",
-            "url": BASE_URL + 'english/2.la_noche_de_bangkok_en.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monuments and Memories of the City",
-            "url": BASE_URL + 'english/3.monumentos_y_memoria_de_la_ciudad_en.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrance to Chinatown | The Heart of Yaowarat",
-            "url": BASE_URL + 'english/4.entrada_a_chinatown_el_corazon_de_yaowarat_en.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. First Tasting | Street Flavors",
-            "url": BASE_URL + 'english/5.primera_degustacion_sabores_de_la_calle_en.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown at Your Own Pace",
-            "url": BASE_URL + 'english/6.chinatown_a_tu_ritmo_en.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Second Tasting | Tradition in Every Bite",
-            "url": BASE_URL + 'english/7.segunda_degustacion_tradicion_en_cada_bocado_en.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Culinary Heart",
-            "url": BASE_URL + 'english/8.yaowarat_corazon_gastronomico_en.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. From the Flower Market to the River",
-            "url": BASE_URL + 'english/9.del_mercado_de_flores_al_rio_en.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | A Nighttime Postcard",
-            "url": BASE_URL + 'english/10.wat_arun_postal_nocturna_en.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace and Final Transition",
-            "url": BASE_URL + 'english/11.gran_palacio_y_transicion_final_en.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nightlife and Flavors",
-            "url": BASE_URL + 'english/12.khao_san_road_vida_nocturna_y_sabores_en.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Third Tasting | Classic Pad Thai",
-            "url": BASE_URL + 'english/13.tercera_degustacion_el_clasico_pad_thai_en.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Farewell · End of the Tour",
-            "url": BASE_URL + 'english/14.despedida_fin_del_recorrido_en.mp3'
-        }
+    greek: [
+        { id: 1, title: '1. ΚΑΛΩΣ ΟΡΙΣΑΤΕ ΕΠΙ ΣΤΟ ΕΠΙΒΑΘΥΜΟ ΚΑΙ ΔΙΑΔΡΟΜΗ ΣΤΙΣ ΑΓΟΡΕΣ', url: BASE_URL + 'greek/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_el.mp3' },
+        { id: 2, title: '2. ΤΟΠΙΚΕΣ ΑΓΟΡΕΣ: ΦΡΟΥΤΑ ΚΑΙ ΑΝΘΗ', url: BASE_URL + 'greek/2.los_mercados_locales_frutas_y_flores_el.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: Ο ΚΗΠΟΣ ΤΩΝ ΒΑΣΙΛΙΚΩΝ ΛΟΥΛΟΥΔΩΝ', url: BASE_URL + 'greek/3.wat_suan_dok_el_jardin_de_las_flores_reales_el.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'greek/4.cena_en_khao_soi_nimman_el.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: ΣΙΩΠΗ ΑΝΑΜΕΣΑ ΣΤΑ ΑΡΧΑΙΑ ΤΟΥΒΛΑ', url: BASE_URL + 'greek/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_el.mp3' },
+        { id: 6, title: '6. ΒΑΘΥΣΗ ΣΤΟ ΙΣΤΟΡΙΚΟ ΚΕΝΤΡΟ: ΜΝΗΜΕΙΟ ΤΩΝ ΤΡΕΩΝ ΒΑΣΙΛΕΙΩΝ, ΓΟΥΑΤ ΙΝΤΑΧΙΝ ΚΑΙ ΓΟΥΑΤ ΦΡΑ ΣΙΝΧ', url: BASE_URL + 'greek/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_el.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ΤΟ ΑΡΧΑΙΟΛΟΓΙΚΟ ΚΟΣΜΗΜΑ ΤΟΥ ΒΑΣΙΛΕΙΟΥ LANNA', url: BASE_URL + 'greek/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_el.mp3' },
+        { id: 8, title: '8. ΠΥΛΗ ΘΑΠΑΙΩΝ: Η ΙΣΤΟΡΙΚΗ ΠΥΛΗ ΠΡΟΣ ΤΗΝ ΤΕΙΧΙΣΜΕΝΗ ΠΟΛΗ', url: BASE_URL + 'greek/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_el.mp3' },
+        { id: 9, title: '9. ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΝΥΧΤΕΡΙΝΟ ΠΑΖΑΑΡ ΚΑΙ ΚΛΕΙΣΙΜΟ ΤΗΣ ΞΕΝΑΓΗΣΗΣ', url: BASE_URL + 'greek/9.regreso_al_night_bazaar_y_cierre_del_tour_el.mp3' }
     ],
-    "french": [
-        {
-            "id": 1,
-            "title": "1. Introduction · Bienvenue",
-            "url": BASE_URL + 'french/1.introduccion_bienvenida_fr.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok la nuit",
-            "url": BASE_URL + 'french/2.la_noche_de_bangkok_fr.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monuments et mémoire de la ville",
-            "url": BASE_URL + 'french/3.monumentos_y_memoria_de_la_ciudad_fr.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrée dans Chinatown | Le cœur de Yaowarat",
-            "url": BASE_URL + 'french/4.entrada_a_chinatown_el_corazon_de_yaowarat_fr.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Première dégustation | Saveurs de rue",
-            "url": BASE_URL + 'french/5.primera_degustacion_sabores_de_la_calle_fr.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown à votre rythme",
-            "url": BASE_URL + 'french/6.chinatown_a_tu_ritmo_fr.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Deuxième dégustation | La tradition à chaque bouchée",
-            "url": BASE_URL + 'french/7.segunda_degustacion_tradicion_en_cada_bocado_fr.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Cœur gastronomique",
-            "url": BASE_URL + 'french/8.yaowarat_corazon_gastronomico_fr.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Du marché aux fleurs jusqu’à la rivière",
-            "url": BASE_URL + 'french/9.del_mercado_de_flores_al_rio_fr.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Une carte postale nocturne",
-            "url": BASE_URL + 'french/10.wat_arun_postal_nocturna_fr.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palais et transition finale",
-            "url": BASE_URL + 'french/11.gran_palacio_y_transicion_final_fr.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vie nocturne et saveurs",
-            "url": BASE_URL + 'french/12.khao_san_road_vida_nocturna_y_sabores_fr.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Troisième dégustation | Le classique Pad Thai",
-            "url": BASE_URL + 'french/13.tercera_degustacion_el_clasico_pad_thai_fr.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Au revoir · Fin de la visite",
-            "url": BASE_URL + 'french/14.despedida_fin_del_recorrido_fr.mp3'
-        }
+    hindi: [
+        { id: 1, title: '1. बोर्ड और बाजारों के मार्ग पर आपका स्वागत है', url: BASE_URL + 'hindi/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_hi.mp3' },
+        { id: 2, title: '2. स्थानीय बाज़ार: फल और फूल', url: BASE_URL + 'hindi/2.los_mercados_locales_frutas_y_flores_hi.mp3' },
+        { id: 3, title: '3. वाट सुआन डॉक: शाही फूलों का बगीचा', url: BASE_URL + 'hindi/3.wat_suan_dok_el_jardin_de_las_flores_reales_hi.mp3' },
+        { id: 4, title: '4. सीना एन खाओ सोइ निम्मान', url: BASE_URL + 'hindi/4.cena_en_khao_soi_nimman_hi.mp3' },
+        { id: 5, title: '5. वाट लोक मोली: प्राचीन ईंटों के बीच मौन', url: BASE_URL + 'hindi/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_hi.mp3' },
+        { id: 6, title: '6. ऐतिहासिक केंद्र में विसर्जन: तीन राजाओं, वाट इंतखिन और वाट फ्रा सिंह का स्मारक', url: BASE_URL + 'hindi/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_hi.mp3' },
+        { id: 7, title: '7. वॉट चेडी लुआंग: लन्ना साम्राज्य का पुरातत्व रत्न', url: BASE_URL + 'hindi/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_hi.mp3' },
+        { id: 8, title: '8. थापे गेट: चारदीवारी वाले शहर का ऐतिहासिक द्वार', url: BASE_URL + 'hindi/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_hi.mp3' },
+        { id: 9, title: '9. रात्रि बाज़ार में वापसी और दौरे का समापन', url: BASE_URL + 'hindi/9.regreso_al_night_bazaar_y_cierre_del_tour_hi.mp3' }
     ],
-    "galician": [
-        {
-            "id": 1,
-            "title": "1. Introdución · Benvida",
-            "url": BASE_URL + 'galician/1.introduccion_bienvenida_gl.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok pola noite",
-            "url": BASE_URL + 'galician/2.la_noche_de_bangkok_gl.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumentos e memoria da cidade",
-            "url": BASE_URL + 'galician/3.monumentos_y_memoria_de_la_ciudad_gl.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrada a Chinatown | O corazón de Yaowarat",
-            "url": BASE_URL + 'galician/4.entrada_a_chinatown_el_corazon_de_yaowarat_gl.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Primeira degustación | Sabores da rúa",
-            "url": BASE_URL + 'galician/5.primera_degustacion_sabores_de_la_calle_gl.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown ao teu ritmo",
-            "url": BASE_URL + 'galician/6.chinatown_a_tu_ritmo_gl.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Segunda degustación | Tradición en cada bocado",
-            "url": BASE_URL + 'galician/7.segunda_degustacion_tradicion_en_cada_bocado_gl.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Corazón gastronómico",
-            "url": BASE_URL + 'galician/8.yaowarat_corazon_gastronomico_gl.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Do mercado das flores ao río",
-            "url": BASE_URL + 'galician/9.del_mercado_de_flores_al_rio_gl.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Postal nocturna",
-            "url": BASE_URL + 'galician/10.wat_arun_postal_nocturna_gl.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Gran Palacio e transición final",
-            "url": BASE_URL + 'galician/11.gran_palacio_y_transicion_final_gl.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vida nocturna e sabores",
-            "url": BASE_URL + 'galician/12.khao_san_road_vida_nocturna_y_sabores_gl.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Terceira degustación | O clásico Pad Thai",
-            "url": BASE_URL + 'galician/13.tercera_degustacion_el_clasico_pad_thai_gl.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Despedida · Fin do percorrido",
-            "url": BASE_URL + 'galician/14.despedida_fin_del_recorrido_gl.mp3'
-        }
+    hungarian: [
+        { id: 1, title: '1. ÜDVÖZÖLJÜK A FEDÉLZETNÉN, ÉS UTASÍTSA A PIACOKRA', url: BASE_URL + 'hungarian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_hu.mp3' },
+        { id: 2, title: '2. HELYI PIACOK: GYÜMÖLCSEK ÉS VIRÁGOK', url: BASE_URL + 'hungarian/2.los_mercados_locales_frutas_y_flores_hu.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: A KIRÁLYI VIRÁGOK KERTE', url: BASE_URL + 'hungarian/3.wat_suan_dok_el_jardin_de_las_flores_reales_hu.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'hungarian/4.cena_en_khao_soi_nimman_hu.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: CSEND AZ ŐSI TÉGLÁK KÖZÖTT', url: BASE_URL + 'hungarian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_hu.mp3' },
+        { id: 6, title: '6. MERÜLÉS A TÖRTÉNELMI KÖZPONTBAN: A HÁROM KIRÁLY Emlékmű, WAT INTHAKHIN ÉS WAT PHRA SINGH', url: BASE_URL + 'hungarian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_hu.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: A LANNA KIRÁLYSÁG RÉGÉSZETI ÉKSZERE', url: BASE_URL + 'hungarian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_hu.mp3' },
+        { id: 8, title: '8. THAPAE KAPU: A VÁROS TÖRTÉNELMI KAPU', url: BASE_URL + 'hungarian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_hu.mp3' },
+        { id: 9, title: '9. VISSZATÉRÉS AZ ÉJSZAKAI BAZAÁRBA ÉS A TÚRA ZÁRÁSA', url: BASE_URL + 'hungarian/9.regreso_al_night_bazaar_y_cierre_del_tour_hu.mp3' }
     ],
-    "greek": [
-        {
-            "id": 1,
-            "title": "1. Εισαγωγή · Καλώς ήρθατε",
-            "url": BASE_URL + 'greek/1.introduccion_bienvenida_el.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Η νύχτα της Μπανγκόκ",
-            "url": BASE_URL + 'greek/2.la_noche_de_bangkok_el.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Μνημεία και μνήμη της πόλης",
-            "url": BASE_URL + 'greek/3.monumentos_y_memoria_de_la_ciudad_el.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Είσοδος στη Chinatown | Η καρδιά του Yaowarat",
-            "url": BASE_URL + 'greek/4.entrada_a_chinatown_el_corazon_de_yaowarat_el.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Πρώτη γευσιγνωσία | Γεύσεις του δρόμου",
-            "url": BASE_URL + 'greek/5.primera_degustacion_sabores_de_la_calle_el.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown με τον δικό σας ρυθμό",
-            "url": BASE_URL + 'greek/6.chinatown_a_tu_ritmo_el.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Δεύτερη γευσιγνωσία | Παράδοση σε κάθε μπουκιά",
-            "url": BASE_URL + 'greek/7.segunda_degustacion_tradicion_en_cada_bocado_el.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Η γαστρονομική καρδιά",
-            "url": BASE_URL + 'greek/8.yaowarat_corazon_gastronomico_el.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Από την αγορά λουλουδιών στο ποτάμι",
-            "url": BASE_URL + 'greek/9.del_mercado_de_flores_al_rio_el.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Νυχτερινή καρτ ποστάλ",
-            "url": BASE_URL + 'greek/10.wat_arun_postal_nocturna_el.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Μεγάλο Παλάτι και τελική μετάβαση",
-            "url": BASE_URL + 'greek/11.gran_palacio_y_transicion_final_el.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Νυχτερινή ζωή και γεύσεις",
-            "url": BASE_URL + 'greek/12.khao_san_road_vida_nocturna_y_sabores_el.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Τρίτη γευσιγνωσία | Κλασικό Pad Thai",
-            "url": BASE_URL + 'greek/13.tercera_degustacion_el_clasico_pad_thai_el.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Αποχαιρετισμός · Τέλος της διαδρομής",
-            "url": BASE_URL + 'greek/14.despedida_fin_del_recorrido_el.mp3'
-        }
+    indonesian: [
+        { id: 1, title: '1. SELAMAT DATANG DI PAPAN DAN RUTE KE PASAR', url: BASE_URL + 'indonesian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_id.mp3' },
+        { id: 2, title: '2. PASAR LOKAL: BUAH DAN BUNGA', url: BASE_URL + 'indonesian/2.los_mercados_locales_frutas_y_flores_id.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: TAMAN BUNGA ROYAL', url: BASE_URL + 'indonesian/3.wat_suan_dok_el_jardin_de_las_flores_reales_id.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'indonesian/4.cena_en_khao_soi_nimman_id.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: KEsunyian DI ANTARA BATA KUNO', url: BASE_URL + 'indonesian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_id.mp3' },
+        { id: 6, title: '6. PENYELAMMAN DI PUSAT SEJARAH: MONUMEN TIGA RAJA, WAT INTHAKHIN DAN WAT PHRA SINGH', url: BASE_URL + 'indonesian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_id.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: PERMATA ARCHAEOLOGI KERAJAAN LANNA', url: BASE_URL + 'indonesian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_id.mp3' },
+        { id: 8, title: '8. GERBANG THAPAE: GERBANG BERSEJARAH KE KOTA BERDINDING', url: BASE_URL + 'indonesian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_id.mp3' },
+        { id: 9, title: '9. KEMBALI KE BAZAAR MALAM DAN PENUTUPAN TOUR', url: BASE_URL + 'indonesian/9.regreso_al_night_bazaar_y_cierre_del_tour_id.mp3' }
     ],
-    "hindi": [
-        {
-            "id": 1,
-            "title": "1. परिचय · स्वागत है",
-            "url": BASE_URL + 'hindi/1.introduccion_bienvenida_hi.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. बैंकॉक की रात",
-            "url": BASE_URL + 'hindi/2.la_noche_de_bangkok_hi.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. शहर के स्मारक और यादें",
-            "url": BASE_URL + 'hindi/3.monumentos_y_memoria_de_la_ciudad_hi.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. चाइनाटाउन का प्रवेश | याओवारात का दिल",
-            "url": BASE_URL + 'hindi/4.entrada_a_chinatown_el_corazon_de_yaowarat_hi.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. पहली चखाई | सड़क के स्वाद",
-            "url": BASE_URL + 'hindi/5.primera_degustacion_sabores_de_la_calle_hi.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. अपने अंदाज़ में चाइनाटाउन",
-            "url": BASE_URL + 'hindi/6.chinatown_a_tu_ritmo_hi.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. दूसरी चखाई | हर निवाले में परंपरा",
-            "url": BASE_URL + 'hindi/7.segunda_degustacion_tradicion_en_cada_bocado_hi.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. याओवारात | भोजन का दिल",
-            "url": BASE_URL + 'hindi/8.yaowarat_corazon_gastronomico_hi.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. फूलों के बाज़ार से नदी तक",
-            "url": BASE_URL + 'hindi/9.del_mercado_de_flores_al_rio_hi.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. वाट अरुण | रात की तस्वीर",
-            "url": BASE_URL + 'hindi/10.wat_arun_postal_nocturna_hi.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. ग्रैंड पैलेस और अंतिम परिवर्तन",
-            "url": BASE_URL + 'hindi/11.gran_palacio_y_transicion_final_hi.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. खाओ सैन रोड | नाइटलाइफ़ और स्वाद",
-            "url": BASE_URL + 'hindi/12.khao_san_road_vida_nocturna_y_sabores_hi.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. तीसरी चखाई | क्लासिक पद थाई",
-            "url": BASE_URL + 'hindi/13.tercera_degustacion_el_clasico_pad_thai_hi.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. विदाई · यात्रा का अंत",
-            "url": BASE_URL + 'hindi/14.despedida_fin_del_recorrido_hi.mp3'
-        }
+    italian: [
+        { id: 1, title: '1. BENVENUTO A BORDO E ROTTA VERSO I MERCATI', url: BASE_URL + 'italian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_it.mp3' },
+        { id: 2, title: '2. MERCATI LOCALI: FRUTTA E FIORI', url: BASE_URL + 'italian/2.los_mercados_locales_frutas_y_flores_it.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: IL GIARDINO DEI FIORI REALI', url: BASE_URL + 'italian/3.wat_suan_dok_el_jardin_de_las_flores_reales_it.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'italian/4.cena_en_khao_soi_nimman_it.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENZIO TRA MATTONI ANTICHI', url: BASE_URL + 'italian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_it.mp3' },
+        { id: 6, title: '6. IMMERSIONE NEL CENTRO STORICO: MONUMENTO AI TRE RE, WAT INTHAKHIN E WAT PHRA SINGH', url: BASE_URL + 'italian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_it.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: IL GIOIELLO ARCHEOLOGICO DEL REGNO LANNA', url: BASE_URL + 'italian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_it.mp3' },
+        { id: 8, title: '8. PORTA THAPAE: LA PORTA STORICA DELLA CITTÀ MURATA', url: BASE_URL + 'italian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_it.mp3' },
+        { id: 9, title: '9. RITORNO AL BAZAAR NOTTURNO E CHIUSURA DEL TOUR', url: BASE_URL + 'italian/9.regreso_al_night_bazaar_y_cierre_del_tour_it.mp3' }
     ],
-    "hungarian": [
-        {
-            "id": 1,
-            "title": "1. Bevezetés · Üdvözöljük",
-            "url": BASE_URL + 'hungarian/1.introduccion_bienvenida_hu.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok éjszakája",
-            "url": BASE_URL + 'hungarian/2.la_noche_de_bangkok_hu.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. A város emlékművei és emlékei",
-            "url": BASE_URL + 'hungarian/3.monumentos_y_memoria_de_la_ciudad_hu.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Belépés Chinatownba | Yaowarat szíve",
-            "url": BASE_URL + 'hungarian/4.entrada_a_chinatown_el_corazon_de_yaowarat_hu.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Első kóstoló | Utcai ízek",
-            "url": BASE_URL + 'hungarian/5.primera_degustacion_sabores_de_la_calle_hu.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown a saját tempódban",
-            "url": BASE_URL + 'hungarian/6.chinatown_a_tu_ritmo_hu.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Második kóstoló | Hagyomány minden falatban",
-            "url": BASE_URL + 'hungarian/7.segunda_degustacion_tradicion_en_cada_bocado_hu.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gasztronómiai központ",
-            "url": BASE_URL + 'hungarian/8.yaowarat_corazon_gastronomico_hu.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. A virágpiactól a folyóig",
-            "url": BASE_URL + 'hungarian/9.del_mercado_de_flores_al_rio_hu.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Éjszakai képeslap",
-            "url": BASE_URL + 'hungarian/10.wat_arun_postal_nocturna_hu.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Nagy Palota és végső átmenet",
-            "url": BASE_URL + 'hungarian/11.gran_palacio_y_transicion_final_hu.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Éjszakai élet és ízek",
-            "url": BASE_URL + 'hungarian/12.khao_san_road_vida_nocturna_y_sabores_hu.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Harmadik kóstoló | Klasszikus Pad Thai",
-            "url": BASE_URL + 'hungarian/13.tercera_degustacion_el_clasico_pad_thai_hu.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Búcsú · A túra vége",
-            "url": BASE_URL + 'hungarian/14.despedida_fin_del_recorrido_hu.mp3'
-        }
+    japanese: [
+        { id: 1, title: '1. ようこそご乗船いただき、市場へご出発ください', url: BASE_URL + 'japanese/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ja.mp3' },
+        { id: 2, title: '2. 地元の市場: 果物と花', url: BASE_URL + 'japanese/2.los_mercados_locales_frutas_y_flores_ja.mp3' },
+        { id: 3, title: '3. ワット・スアン・ドク: 王室の花の庭園', url: BASE_URL + 'japanese/3.wat_suan_dok_el_jardin_de_las_flores_reales_ja.mp3' },
+        { id: 4, title: '4. チェナ エン カオ ソイ ニンマン', url: BASE_URL + 'japanese/4.cena_en_khao_soi_nimman_ja.mp3' },
+        { id: 5, title: '5. ワット・ロク・モーリ：古代のレンガの間の静寂', url: BASE_URL + 'japanese/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ja.mp3' },
+        { id: 6, title: '6. 歴史地区に浸る：三王の記念碑、ワット インターヒン、ワット プラ シン', url: BASE_URL + 'japanese/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ja.mp3' },
+        { id: 7, title: '7. ワット チェディ ルアン: ランナー王国の考古学的宝石', url: BASE_URL + 'japanese/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ja.mp3' },
+        { id: 8, title: '8. ターペー門: 城壁都市への歴史的な門', url: BASE_URL + 'japanese/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ja.mp3' },
+        { id: 9, title: '9. ナイトバザールに戻り、ツアー終了', url: BASE_URL + 'japanese/9.regreso_al_night_bazaar_y_cierre_del_tour_ja.mp3' }
     ],
-    "italian": [
-        {
-            "id": 1,
-            "title": "1. Introduzione · Benvenuti",
-            "url": BASE_URL + 'italian/1.introduccion_bienvenida_it.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. La notte di Bangkok",
-            "url": BASE_URL + 'italian/2.la_noche_de_bangkok_it.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumenti e memoria della città",
-            "url": BASE_URL + 'italian/3.monumentos_y_memoria_de_la_ciudad_it.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Ingresso a Chinatown | Il cuore di Yaowarat",
-            "url": BASE_URL + 'italian/4.entrada_a_chinatown_el_corazon_de_yaowarat_it.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Prima degustazione | Sapori di strada",
-            "url": BASE_URL + 'italian/5.primera_degustacion_sabores_de_la_calle_it.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown al tuo ritmo",
-            "url": BASE_URL + 'italian/6.chinatown_a_tu_ritmo_it.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Seconda degustazione | Tradizione in ogni boccone",
-            "url": BASE_URL + 'italian/7.segunda_degustacion_tradicion_en_cada_bocado_it.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Cuore gastronomico",
-            "url": BASE_URL + 'italian/8.yaowarat_corazon_gastronomico_it.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Dal mercato dei fiori al fiume",
-            "url": BASE_URL + 'italian/9.del_mercado_de_flores_al_rio_it.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Cartolina notturna",
-            "url": BASE_URL + 'italian/10.wat_arun_postal_nocturna_it.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Gran Palazzo e transizione finale",
-            "url": BASE_URL + 'italian/11.gran_palacio_y_transicion_final_it.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vita notturna e sapori",
-            "url": BASE_URL + 'italian/12.khao_san_road_vida_nocturna_y_sabores_it.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Terza degustazione | Il classico Pad Thai",
-            "url": BASE_URL + 'italian/13.tercera_degustacion_el_clasico_pad_thai_it.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Arrivederci · Fine del tour",
-            "url": BASE_URL + 'italian/14.despedida_fin_del_recorrido_it.mp3'
-        }
+    khmer: [
+        { id: 1, title: '1. សូមស្វាគមន៍នៅលើយន្តហោះ និងផ្លូវទៅកាន់ទីផ្សារ', url: BASE_URL + 'khmer/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_km.mp3' },
+        { id: 2, title: '2. ទីផ្សារក្នុងស្រុក៖ ផ្លែឈើ និងផ្កា', url: BASE_URL + 'khmer/2.los_mercados_locales_frutas_y_flores_km.mp3' },
+        { id: 3, title: '3. វត្តសួនដូង៖ សួនផ្ការាជ', url: BASE_URL + 'khmer/3.wat_suan_dok_el_jardin_de_las_flores_reales_km.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'khmer/4.cena_en_khao_soi_nimman_km.mp3' },
+        { id: 5, title: '5. វត្ត​លោម​ម៉ូលី៖ ភាព​ស្ងៀមស្ងាត់​ក្នុង​ចំណោម​ឥដ្ឋ​បុរាណ', url: BASE_URL + 'khmer/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_km.mp3' },
+        { id: 6, title: '6. ការ​ជ្រមុជ​ទឹក​ក្នុង​មជ្ឈមណ្ឌល​ប្រវត្តិសាស្ត្រ៖ វិមាន​ថ្វាយ​ព្រះ​មហាក្សត្រ​ទាំង​បី វត្ត​អន្ទរិន និង​វត្ត​ព្រះ​អង្គ', url: BASE_URL + 'khmer/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_km.mp3' },
+        { id: 7, title: '7. វត្ត​ចេតិយ​ហ្លួង​៖ រតនភណ្ឌ​បុរាណ​នៃ​នគរ​លន់​ណា', url: BASE_URL + 'khmer/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_km.mp3' },
+        { id: 8, title: '8. ច្រកទ្វារថាប៉ា៖ ច្រកប្រវត្តិសាស្ត្រទៅកាន់ទីក្រុងដែលមានជញ្ជាំង', url: BASE_URL + 'khmer/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_km.mp3' },
+        { id: 9, title: '9. ត្រលប់ទៅ NIGHT BAZAAR និងការបិទដំណើរកម្សាន្ត', url: BASE_URL + 'khmer/9.regreso_al_night_bazaar_y_cierre_del_tour_km.mp3' }
     ],
-    "japanese": [
-        {
-            "id": 1,
-            "title": "1. イントロダクション · ようこそ",
-            "url": BASE_URL + 'japanese/1.introduccion_bienvenida_ja.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. バンコクの夜",
-            "url": BASE_URL + 'japanese/2.la_noche_de_bangkok_ja.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. 街のモニュメントと記憶",
-            "url": BASE_URL + 'japanese/3.monumentos_y_memoria_de_la_ciudad_ja.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. チャイナタウン入口 | ヤワラートの中心",
-            "url": BASE_URL + 'japanese/4.entrada_a_chinatown_el_corazon_de_yaowarat_ja.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. 最初の試食 | 屋台の味",
-            "url": BASE_URL + 'japanese/5.primera_degustacion_sabores_de_la_calle_ja.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. 自分のペースで楽しむチャイナタウン",
-            "url": BASE_URL + 'japanese/6.chinatown_a_tu_ritmo_ja.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. 2回目の試食 | 一口ごとの伝統",
-            "url": BASE_URL + 'japanese/7.segunda_degustacion_tradicion_en_cada_bocado_ja.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. ヤワラート | 美食の中心地",
-            "url": BASE_URL + 'japanese/8.yaowarat_corazon_gastronomico_ja.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. 花市場から川へ",
-            "url": BASE_URL + 'japanese/9.del_mercado_de_flores_al_rio_ja.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. ワット・アルン | 夜のポストカード",
-            "url": BASE_URL + 'japanese/10.wat_arun_postal_nocturna_ja.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. 王宮と最後の移動",
-            "url": BASE_URL + 'japanese/11.gran_palacio_y_transicion_final_ja.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. カオサン通り | ナイトライフと味覚",
-            "url": BASE_URL + 'japanese/12.khao_san_road_vida_nocturna_y_sabores_ja.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. 3回目の試食 | 定番のパッタイ",
-            "url": BASE_URL + 'japanese/13.tercera_degustacion_el_clasico_pad_thai_ja.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. お別れ · ツアー終了",
-            "url": BASE_URL + 'japanese/14.despedida_fin_del_recorrido_ja.mp3'
-        }
+    korean: [
+        { id: 1, title: '1. 탑승을 환영하며 시장으로 향합니다', url: BASE_URL + 'korean/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ko.mp3' },
+        { id: 2, title: '2. 지역 시장: 과일과 꽃', url: BASE_URL + 'korean/2.los_mercados_locales_frutas_y_flores_ko.mp3' },
+        { id: 3, title: '3. 왓 수안독(WAT SUAN DOK): 왕실 꽃의 정원', url: BASE_URL + 'korean/3.wat_suan_dok_el_jardin_de_las_flores_reales_ko.mp3' },
+        { id: 4, title: '4. CENA EN KHAO 소이 님만', url: BASE_URL + 'korean/4.cena_en_khao_soi_nimman_ko.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: 고대 벽돌 사이의 침묵', url: BASE_URL + 'korean/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ko.mp3' },
+        { id: 6, title: '6. 역사 중심지에 푹 빠져보세요: 세 왕, 왓 인타힌, 왓 프라싱을 기리는 기념비', url: BASE_URL + 'korean/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ko.mp3' },
+        { id: 7, title: '7. 왓 체디 루앙: 란나 왕국의 ​​고고학 보석', url: BASE_URL + 'korean/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ko.mp3' },
+        { id: 8, title: '8. 타패 게이트: 성벽 도시로 통하는 역사적인 문', url: BASE_URL + 'korean/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ko.mp3' },
+        { id: 9, title: '9. 나이트바자회 복귀 및 투어 종료', url: BASE_URL + 'korean/9.regreso_al_night_bazaar_y_cierre_del_tour_ko.mp3' }
     ],
-    "korean": [
-        {
-            "id": 1,
-            "title": "1. 소개 · 환영합니다",
-            "url": BASE_URL + 'korean/1.introduccion_bienvenida_ko.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. 방콕의 밤",
-            "url": BASE_URL + 'korean/2.la_noche_de_bangkok_ko.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. 도시의 기념물과 기억",
-            "url": BASE_URL + 'korean/3.monumentos_y_memoria_de_la_ciudad_ko.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. 차이나타운 입구 | 야오와랏의 중심",
-            "url": BASE_URL + 'korean/4.entrada_a_chinatown_el_corazon_de_yaowarat_ko.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. 첫 번째 시식 | 길거리 음식의 맛",
-            "url": BASE_URL + 'korean/5.primera_degustacion_sabores_de_la_calle_ko.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. 나만의 속도로 즐기는 차이나타운",
-            "url": BASE_URL + 'korean/6.chinatown_a_tu_ritmo_ko.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. 두 번째 시식 | 한 입마다 담긴 전통",
-            "url": BASE_URL + 'korean/7.segunda_degustacion_tradicion_en_cada_bocado_ko.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. 야오와랏 | 미식의 중심",
-            "url": BASE_URL + 'korean/8.yaowarat_corazon_gastronomico_ko.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. 꽃시장부터 강까지",
-            "url": BASE_URL + 'korean/9.del_mercado_de_flores_al_rio_ko.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. 왓 아룬 | 밤의 엽서",
-            "url": BASE_URL + 'korean/10.wat_arun_postal_nocturna_ko.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. 왕궁과 마지막 여정",
-            "url": BASE_URL + 'korean/11.gran_palacio_y_transicion_final_ko.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. 카오산 로드 | 나이트라이프와 미식",
-            "url": BASE_URL + 'korean/12.khao_san_road_vida_nocturna_y_sabores_ko.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. 세 번째 시식 | 클래식 팟타이",
-            "url": BASE_URL + 'korean/13.tercera_degustacion_el_clasico_pad_thai_ko.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. 작별 인사 · 투어 종료",
-            "url": BASE_URL + 'korean/14.despedida_fin_del_recorrido_ko.mp3'
-        }
+    malay: [
+        { id: 1, title: '1. SELAMAT DATANG DI PAPAN DAN LALUAN KE PASARAN', url: BASE_URL + 'malay/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ms.mp3' },
+        { id: 2, title: '2. PASARAN TEMPATAN: BUAH-BUAHAN DAN BUNGA', url: BASE_URL + 'malay/2.los_mercados_locales_frutas_y_flores_ms.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: TAMAN BUNGA DIRAJA', url: BASE_URL + 'malay/3.wat_suan_dok_el_jardin_de_las_flores_reales_ms.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'malay/4.cena_en_khao_soi_nimman_ms.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: DIAM DI ANTARA BATA KUNO', url: BASE_URL + 'malay/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ms.mp3' },
+        { id: 6, title: '6. RENDAHAN DI PUSAT SEJARAH: MONUMEN TIGA RAJA, WAT INTHAKHIN DAN WAT PHRA SINGH', url: BASE_URL + 'malay/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ms.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: PERMATA ARKEOLOGI KERAJAAN LANNA', url: BASE_URL + 'malay/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ms.mp3' },
+        { id: 8, title: '8. GERBANG THAPAE: PINTU BERSEJARAH KE BANDAR BERTEMBOK', url: BASE_URL + 'malay/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ms.mp3' },
+        { id: 9, title: '9. KEMBALI KE BAZAAR MALAM DAN PENUTUP LAWATAN', url: BASE_URL + 'malay/9.regreso_al_night_bazaar_y_cierre_del_tour_ms.mp3' }
     ],
-    "malay": [
-        {
-            "id": 1,
-            "title": "1. Pengenalan · Selamat Datang",
-            "url": BASE_URL + 'malay/1.introduccion_bienvenida_ms.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Malam Bangkok",
-            "url": BASE_URL + 'malay/2.la_noche_de_bangkok_ms.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumen dan kenangan bandar",
-            "url": BASE_URL + 'malay/3.monumentos_y_memoria_de_la_ciudad_ms.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Pintu masuk Chinatown | Jantung Yaowarat",
-            "url": BASE_URL + 'malay/4.entrada_a_chinatown_el_corazon_de_yaowarat_ms.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Rasa pertama | Cita rasa jalanan",
-            "url": BASE_URL + 'malay/5.primera_degustacion_sabores_de_la_calle_ms.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown mengikut rentak anda",
-            "url": BASE_URL + 'malay/6.chinatown_a_tu_ritmo_ms.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Rasa kedua | Tradisi dalam setiap suapan",
-            "url": BASE_URL + 'malay/7.segunda_degustacion_tradicion_en_cada_bocado_ms.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Jantung gastronomi",
-            "url": BASE_URL + 'malay/8.yaowarat_corazon_gastronomico_ms.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Dari pasar bunga ke sungai",
-            "url": BASE_URL + 'malay/9.del_mercado_de_flores_al_rio_ms.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Poskad malam",
-            "url": BASE_URL + 'malay/10.wat_arun_postal_nocturna_ms.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace dan peralihan terakhir",
-            "url": BASE_URL + 'malay/11.gran_palacio_y_transicion_final_ms.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Kehidupan malam dan cita rasa",
-            "url": BASE_URL + 'malay/12.khao_san_road_vida_nocturna_y_sabores_ms.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Rasa ketiga | Pad Thai klasik",
-            "url": BASE_URL + 'malay/13.tercera_degustacion_el_clasico_pad_thai_ms.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Perpisahan · Tamat lawatan",
-            "url": BASE_URL + 'malay/14.despedida_fin_del_recorrido_ms.mp3'
-        }
+    mandarin_taiwan: [
+        { id: 1, title: '1. 歡迎登機並前往市場', url: BASE_URL + 'mandarin_taiwan/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_zh_tw.mp3' },
+        { id: 2, title: '2. 當地市場：水果和花', url: BASE_URL + 'mandarin_taiwan/2.los_mercados_locales_frutas_y_flores_zh_tw.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK：皇家花園', url: BASE_URL + 'mandarin_taiwan/3.wat_suan_dok_el_jardin_de_las_flores_reales_zh_tw.mp3' },
+        { id: 4, title: '4. 塞納恩考索伊寧曼', url: BASE_URL + 'mandarin_taiwan/4.cena_en_khao_soi_nimman_zh_tw.mp3' },
+        { id: 5, title: '5. 洛莫里寺：古磚間的沉默', url: BASE_URL + 'mandarin_taiwan/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_zh_tw.mp3' },
+        { id: 6, title: '6. 沉浸在歷史中心：三王紀念碑、WAT INTHAKHIN 和 WAT PHRA SINGH', url: BASE_URL + 'mandarin_taiwan/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_zh_tw.mp3' },
+        { id: 7, title: '7. 契迪龍寺：蘭納王國的考古瑰寶', url: BASE_URL + 'mandarin_taiwan/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_zh_tw.mp3' },
+        { id: 8, title: '8. 塔佩門：通往城牆的歷史之門', url: BASE_URL + 'mandarin_taiwan/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_zh_tw.mp3' },
+        { id: 9, title: '9. 返回夜市並結束行程', url: BASE_URL + 'mandarin_taiwan/9.regreso_al_night_bazaar_y_cierre_del_tour_zh_tw.mp3' }
     ],
-    "nepali": [
-        {
-            "id": 1,
-            "title": "1. परिचय · स्वागत छ",
-            "url": BASE_URL + 'nepali/1.introduccion_bienvenida_ne.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. बैंककको रात",
-            "url": BASE_URL + 'nepali/2.la_noche_de_bangkok_ne.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. शहरका स्मारक र सम्झनाहरू",
-            "url": BASE_URL + 'nepali/3.monumentos_y_memoria_de_la_ciudad_ne.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. चाइनाटाउन प्रवेश | याओवारातको मुटु",
-            "url": BASE_URL + 'nepali/4.entrada_a_chinatown_el_corazon_de_yaowarat_ne.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. पहिलो स्वाद | सडकका स्वादहरू",
-            "url": BASE_URL + 'nepali/5.primera_degustacion_sabores_de_la_calle_ne.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. आफ्नो गतिमा चाइनाटाउन",
-            "url": BASE_URL + 'nepali/6.chinatown_a_tu_ritmo_ne.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. दोस्रो स्वाद | प्रत्येक परिकारमा परम्परा",
-            "url": BASE_URL + 'nepali/7.segunda_degustacion_tradicion_en_cada_bocado_ne.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. याओवारात | खानाको मुटु",
-            "url": BASE_URL + 'nepali/8.yaowarat_corazon_gastronomico_ne.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. फूल बजारदेखि नदीसम्म",
-            "url": BASE_URL + 'nepali/9.del_mercado_de_flores_al_rio_ne.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. वाट अरुण | रातको पोस्टकार्ड",
-            "url": BASE_URL + 'nepali/10.wat_arun_postal_nocturna_ne.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. ग्रान्ड प्यालेस र अन्तिम परिवर्तन",
-            "url": BASE_URL + 'nepali/11.gran_palacio_y_transicion_final_ne.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. खाओ सान रोड | रात्रि जीवन र स्वाद",
-            "url": BASE_URL + 'nepali/12.khao_san_road_vida_nocturna_y_sabores_ne.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. तेस्रो स्वाद | क्लासिक पद थाई",
-            "url": BASE_URL + 'nepali/13.tercera_degustacion_el_clasico_pad_thai_ne.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. विदाई · यात्राको अन्त्य",
-            "url": BASE_URL + 'nepali/14.despedida_fin_del_recorrido_ne.mp3'
-        }
+    mandarin_china: [
+        { id: 1, title: '1. 欢迎登机并前往市场', url: BASE_URL + 'mandarin_china/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_zh_cn.mp3' },
+        { id: 2, title: '2. 当地市场：水果和鲜花', url: BASE_URL + 'mandarin_china/2.los_mercados_locales_frutas_y_flores_zh_cn.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK：皇家花园', url: BASE_URL + 'mandarin_china/3.wat_suan_dok_el_jardin_de_las_flores_reales_zh_cn.mp3' },
+        { id: 4, title: '4. 塞纳恩考索伊宁曼', url: BASE_URL + 'mandarin_china/4.cena_en_khao_soi_nimman_zh_cn.mp3' },
+        { id: 5, title: '5. 洛莫里寺：古砖间的沉默', url: BASE_URL + 'mandarin_china/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_zh_cn.mp3' },
+        { id: 6, title: '6. 沉浸在历史中心：三王纪念碑、WAT INTHAKHIN 和 WAT PHRA SINGH', url: BASE_URL + 'mandarin_china/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_zh_cn.mp3' },
+        { id: 7, title: '7. 契迪龙寺：兰纳王国的考古瑰宝', url: BASE_URL + 'mandarin_china/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_zh_cn.mp3' },
+        { id: 8, title: '8. 塔佩门：通往城墙的历史之门', url: BASE_URL + 'mandarin_china/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_zh_cn.mp3' },
+        { id: 9, title: '9. 返回夜市并结束行程', url: BASE_URL + 'mandarin_china/9.regreso_al_night_bazaar_y_cierre_del_tour_zh_cn.mp3' }
     ],
-    "norwegian": [
-        {
-            "id": 1,
-            "title": "1. Introduksjon · Velkommen",
-            "url": BASE_URL + 'norwegian/1.introduccion_bienvenida_no.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok om natten",
-            "url": BASE_URL + 'norwegian/2.la_noche_de_bangkok_no.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Byens monumenter og minner",
-            "url": BASE_URL + 'norwegian/3.monumentos_y_memoria_de_la_ciudad_no.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Inngang til Chinatown | Hjertet av Yaowarat",
-            "url": BASE_URL + 'norwegian/4.entrada_a_chinatown_el_corazon_de_yaowarat_no.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Første smaksprøve | Smaker fra gaten",
-            "url": BASE_URL + 'norwegian/5.primera_degustacion_sabores_de_la_calle_no.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown i ditt eget tempo",
-            "url": BASE_URL + 'norwegian/6.chinatown_a_tu_ritmo_no.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Andre smaksprøve | Tradisjon i hver bit",
-            "url": BASE_URL + 'norwegian/7.segunda_degustacion_tradicion_en_cada_bocado_no.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomisk hjerte",
-            "url": BASE_URL + 'norwegian/8.yaowarat_corazon_gastronomico_no.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Fra blomstermarkedet til elven",
-            "url": BASE_URL + 'norwegian/9.del_mercado_de_flores_al_rio_no.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Et nattlig postkort",
-            "url": BASE_URL + 'norwegian/10.wat_arun_postal_nocturna_no.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace og siste overgang",
-            "url": BASE_URL + 'norwegian/11.gran_palacio_y_transicion_final_no.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Natteliv og smaker",
-            "url": BASE_URL + 'norwegian/12.khao_san_road_vida_nocturna_y_sabores_no.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tredje smaksprøve | Klassisk Pad Thai",
-            "url": BASE_URL + 'norwegian/13.tercera_degustacion_el_clasico_pad_thai_no.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Farvel · Slutt på turen",
-            "url": BASE_URL + 'norwegian/14.despedida_fin_del_recorrido_no.mp3'
-        }
+    nepali: [
+        { id: 1, title: '1. बोर्डमा स्वागत छ र बजारमा बाटो', url: BASE_URL + 'nepali/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ne.mp3' },
+        { id: 2, title: '2. स्थानीय बजारहरू: फलफूल र फूलहरू', url: BASE_URL + 'nepali/2.los_mercados_locales_frutas_y_flores_ne.mp3' },
+        { id: 3, title: '3. वाट सुआन डोक: शाही फूलहरूको बगैचा', url: BASE_URL + 'nepali/3.wat_suan_dok_el_jardin_de_las_flores_reales_ne.mp3' },
+        { id: 4, title: '4. सेना एन खाओ सोइ निम्मान', url: BASE_URL + 'nepali/4.cena_en_khao_soi_nimman_ne.mp3' },
+        { id: 5, title: '5. वाट लोक मोली: प्राचीन ईंटहरू बीच मौन', url: BASE_URL + 'nepali/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ne.mp3' },
+        { id: 6, title: '6. ऐतिहासिक केन्द्रमा विसर्जन: तीन राजाको स्मारक, वाट इन्ठाखिन र वाट फ्रा सिंह', url: BASE_URL + 'nepali/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ne.mp3' },
+        { id: 7, title: '7. वाट चेदी लुआंग: लान्ना राज्यको पुरातात्विक रत्न', url: BASE_URL + 'nepali/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ne.mp3' },
+        { id: 8, title: '8. थापा गेट: पर्खालले घेरिएको सहरको ऐतिहासिक गेट', url: BASE_URL + 'nepali/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ne.mp3' },
+        { id: 9, title: '9. रातको बजारमा फर्कनुहोस् र भ्रमणको समापन', url: BASE_URL + 'nepali/9.regreso_al_night_bazaar_y_cierre_del_tour_ne.mp3' }
     ],
-    "persian": [
-        {
-            "id": 1,
-            "title": "1. مقدمه · خوش آمدید",
-            "url": BASE_URL + 'persian/1.introduccion_bienvenida_fa.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. شب بانکوک",
-            "url": BASE_URL + 'persian/2.la_noche_de_bangkok_fa.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. بناهای یادبود و خاطرات شهر",
-            "url": BASE_URL + 'persian/3.monumentos_y_memoria_de_la_ciudad_fa.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. ورودی محله چینی‌ها | قلب یاوارات",
-            "url": BASE_URL + 'persian/4.entrada_a_chinatown_el_corazon_de_yaowarat_fa.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. اولین چشیدن | طعم‌های خیابانی",
-            "url": BASE_URL + 'persian/5.primera_degustacion_sabores_de_la_calle_fa.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. محله چینی‌ها با ریتم خودتان",
-            "url": BASE_URL + 'persian/6.chinatown_a_tu_ritmo_fa.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. دومین چشیدن | سنت در هر لقمه",
-            "url": BASE_URL + 'persian/7.segunda_degustacion_tradicion_en_cada_bocado_fa.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. یاوارات | قلب غذا",
-            "url": BASE_URL + 'persian/8.yaowarat_corazon_gastronomico_fa.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. از بازار گل تا رودخانه",
-            "url": BASE_URL + 'persian/9.del_mercado_de_flores_al_rio_fa.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. وات آرون | کارت‌پستال شبانه",
-            "url": BASE_URL + 'persian/10.wat_arun_postal_nocturna_fa.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. کاخ بزرگ و انتقال نهایی",
-            "url": BASE_URL + 'persian/11.gran_palacio_y_transicion_final_fa.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. خیابان خائو سان | زندگی شبانه و طعم‌ها",
-            "url": BASE_URL + 'persian/12.khao_san_road_vida_nocturna_y_sabores_fa.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. سومین چشیدن | پد تای کلاسیک",
-            "url": BASE_URL + 'persian/13.tercera_degustacion_el_clasico_pad_thai_fa.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. خداحافظ · پایان تور",
-            "url": BASE_URL + 'persian/14.despedida_fin_del_recorrido_fa.mp3'
-        }
+    persian: [
+        { id: 1, title: '1. به کشتی خوش آمدید و به سمت بازارها حرکت کنید', url: BASE_URL + 'persian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_fa.mp3' },
+        { id: 2, title: '2. بازارهای محلی: میوه و گل', url: BASE_URL + 'persian/2.los_mercados_locales_frutas_y_flores_fa.mp3' },
+        { id: 3, title: '3. وات سون دوک: باغ گلهای سلطنتی', url: BASE_URL + 'persian/3.wat_suan_dok_el_jardin_de_las_flores_reales_fa.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'persian/4.cena_en_khao_soi_nimman_fa.mp3' },
+        { id: 5, title: '5. وات لوک مولی: سکوت در میان آجرهای باستانی', url: BASE_URL + 'persian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_fa.mp3' },
+        { id: 6, title: '6. غوطه ور شدن در مرکز تاریخی: بنای یادبود سه پادشاه، وات اینتاخین و وات فرا سینگ', url: BASE_URL + 'persian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_fa.mp3' },
+        { id: 7, title: '7. وات چدی لوانگ: جواهر باستان شناسی پادشاهی لانا', url: BASE_URL + 'persian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_fa.mp3' },
+        { id: 8, title: '8. THAPAE GATE: دروازه تاریخی به شهر دیواری', url: BASE_URL + 'persian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_fa.mp3' },
+        { id: 9, title: '9. بازگشت به بازار شبانه و بسته شدن تور', url: BASE_URL + 'persian/9.regreso_al_night_bazaar_y_cierre_del_tour_fa.mp3' }
     ],
-    "filipino": [
-        {
-            "id": 1,
-            "title": "1. Panimula · Maligayang pagdating",
-            "url": BASE_URL + 'philipines/1.introduccion_bienvenida_fil.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Gabi sa Bangkok",
-            "url": BASE_URL + 'philipines/2.la_noche_de_bangkok_fil.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Mga monumento at alaala ng lungsod",
-            "url": BASE_URL + 'philipines/3.monumentos_y_memoria_de_la_ciudad_fil.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Pasukan sa Chinatown | Puso ng Yaowarat",
-            "url": BASE_URL + 'philipines/4.entrada_a_chinatown_el_corazon_de_yaowarat_fil.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Unang pagtikim | Mga lasa ng kalye",
-            "url": BASE_URL + 'philipines/5.primera_degustacion_sabores_de_la_calle_fil.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown sa sarili mong bilis",
-            "url": BASE_URL + 'philipines/6.chinatown_a_tu_ritmo_fil.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Ikalawang pagtikim | Tradisyon sa bawat kagat",
-            "url": BASE_URL + 'philipines/7.segunda_degustacion_tradicion_en_cada_bocado_fil.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Pusong gastronomiko",
-            "url": BASE_URL + 'philipines/8.yaowarat_corazon_gastronomico_fil.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Mula sa flower market hanggang ilog",
-            "url": BASE_URL + 'philipines/9.del_mercado_de_flores_al_rio_fil.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Larawang panggabi",
-            "url": BASE_URL + 'philipines/10.wat_arun_postal_nocturna_fil.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace at huling paglipat",
-            "url": BASE_URL + 'philipines/11.gran_palacio_y_transicion_final_fil.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nightlife at mga lasa",
-            "url": BASE_URL + 'philipines/12.khao_san_road_vida_nocturna_y_sabores_fil.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Ikatlong pagtikim | Klasikong Pad Thai",
-            "url": BASE_URL + 'philipines/13.tercera_degustacion_el_clasico_pad_thai_fil.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Paalam · Katapusan ng tour",
-            "url": BASE_URL + 'philipines/14.despedida_fin_del_recorrido_fil.mp3'
-        }
+    polish: [
+        { id: 1, title: '1. WITAJ NA POKŁADZIE I W TRASIE NA RYNKI', url: BASE_URL + 'polish/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_pl.mp3' },
+        { id: 2, title: '2. RYNKI LOKALNE: OWOCE I KWIATY', url: BASE_URL + 'polish/2.los_mercados_locales_frutas_y_flores_pl.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: OGRÓD KRÓLEWSKICH KWIATÓW', url: BASE_URL + 'polish/3.wat_suan_dok_el_jardin_de_las_flores_reales_pl.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'polish/4.cena_en_khao_soi_nimman_pl.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: CISZA WŚRÓD STAROŻYTNYCH CEGŁ', url: BASE_URL + 'polish/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_pl.mp3' },
+        { id: 6, title: '6. ZANURZENIE W HISTORYCZNYM CENTRUM: POMNIK TRZECH KRÓLÓW, WAT INTHAKHIN I WAT PHRA SINGH', url: BASE_URL + 'polish/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_pl.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ARCHEOLOGICZNY KLEJNOT KRÓLESTWA LANNA', url: BASE_URL + 'polish/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_pl.mp3' },
+        { id: 8, title: '8. BRAMA THAPAE: HISTORYCZNA BRAMA DO MURÓW MIASTA', url: BASE_URL + 'polish/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_pl.mp3' },
+        { id: 9, title: '9. POWRÓT NA NOCNY BAZAR I ZAKOŃCZENIE WYCIECZKI', url: BASE_URL + 'polish/9.regreso_al_night_bazaar_y_cierre_del_tour_pl.mp3' }
     ],
-    "polish": [
-        {
-            "id": 1,
-            "title": "1. Wprowadzenie · Witamy",
-            "url": BASE_URL + 'polish/1.introduccion_bienvenida_pl.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Nocny Bangkok",
-            "url": BASE_URL + 'polish/2.la_noche_de_bangkok_pl.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Pomniki i pamięć miasta",
-            "url": BASE_URL + 'polish/3.monumentos_y_memoria_de_la_ciudad_pl.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Wejście do Chinatown | Serce Yaowarat",
-            "url": BASE_URL + 'polish/4.entrada_a_chinatown_el_corazon_de_yaowarat_pl.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Pierwsza degustacja | Smaki ulicy",
-            "url": BASE_URL + 'polish/5.primera_degustacion_sabores_de_la_calle_pl.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. cambodian we własnym tempie",
-            "url": BASE_URL + 'polish/6.chinatown_a_tu_ritmo_pl.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Druga degustacja | Tradycja w każdym kęsie",
-            "url": BASE_URL + 'polish/7.segunda_degustacion_tradicion_en_cada_bocado_pl.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomiczne serce",
-            "url": BASE_URL + 'polish/8.yaowarat_corazon_gastronomico_pl.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Od targu kwiatowego do rzeki",
-            "url": BASE_URL + 'polish/9.del_mercado_de_flores_al_rio_pl.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Nocna pocztówka",
-            "url": BASE_URL + 'polish/10.wat_arun_postal_nocturna_pl.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Wielki Pałac i końcowe przejście",
-            "url": BASE_URL + 'polish/11.gran_palacio_y_transicion_final_pl.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nocne życie i smaki",
-            "url": BASE_URL + 'polish/12.khao_san_road_vida_nocturna_y_sabores_pl.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Trzecia degustacja | Klasyczny Pad Thai",
-            "url": BASE_URL + 'polish/13.tercera_degustacion_el_clasico_pad_thai_pl.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Pożegnanie · Koniec wycieczki",
-            "url": BASE_URL + 'polish/14.despedida_fin_del_recorrido_pl.mp3'
-        }
+    norwegian: [
+        { id: 1, title: '1. VELKOMMEN OM BORD OG RUTE TIL MARKEDENE', url: BASE_URL + 'norwegian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_no.mp3' },
+        { id: 2, title: '2. LOKALE MARKED: FRUKT OG BLOMSTER', url: BASE_URL + 'norwegian/2.los_mercados_locales_frutas_y_flores_no.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: HAGEN MED KONGELIGE BLOMSTER', url: BASE_URL + 'norwegian/3.wat_suan_dok_el_jardin_de_las_flores_reales_no.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'norwegian/4.cena_en_khao_soi_nimman_no.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: STILLHET BLAND ANTIKKE TEGNSTEIN', url: BASE_URL + 'norwegian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_no.mp3' },
+        { id: 6, title: '6. FORDYPELSE I DET HISTORISKE SENTRUM: MONUMENT TIL DE TRE KONGER, WAT INTHAKHIN OG WAT PHRA SINGH', url: BASE_URL + 'norwegian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_no.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: DEN ARKEOLOGISKE JUVELEN I LANNA KINGDOM', url: BASE_URL + 'norwegian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_no.mp3' },
+        { id: 8, title: '8. THAPAE-PORTEN: DEN HISTORISKE PORTEN TIL DEN BEMURDE BYEN', url: BASE_URL + 'norwegian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_no.mp3' },
+        { id: 9, title: '9. RETUR TIL NATTBAZAAR OG AVSLUTNING AV TUREN', url: BASE_URL + 'norwegian/9.regreso_al_night_bazaar_y_cierre_del_tour_no.mp3' }
     ],
-    "portuguese": [
-        {
-            "id": 1,
-            "title": "1. Introdução · Bem-vindo",
-            "url": BASE_URL + 'portugues/1.introduccion_bienvenida_pt.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. A noite de Bangkok",
-            "url": BASE_URL + 'portugues/2.la_noche_de_bangkok_pt.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumentos e memória da cidade",
-            "url": BASE_URL + 'portugues/3.monumentos_y_memoria_de_la_ciudad_pt.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrada em Chinatown | O coração de Yaowarat",
-            "url": BASE_URL + 'portugues/4.entrada_a_chinatown_el_corazon_de_yaowarat_pt.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Primeira degustação | Sabores de rua",
-            "url": BASE_URL + 'portugues/5.primera_degustacion_sabores_de_la_calle_pt.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown no seu ritmo",
-            "url": BASE_URL + 'portugues/6.chinatown_a_tu_ritmo_pt.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Segunda degustação | Tradição em cada mordida",
-            "url": BASE_URL + 'portugues/7.segunda_degustacion_tradicion_en_cada_bocado_pt.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Coração gastronômico",
-            "url": BASE_URL + 'portugues/8.yaowarat_corazon_gastronomico_pt.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Do mercado de flores ao rio",
-            "url": BASE_URL + 'portugues/9.del_mercado_de_flores_al_rio_pt.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Cartão-postal noturno",
-            "url": BASE_URL + 'portugues/10.wat_arun_postal_nocturna_pt.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grande Palácio e transição final",
-            "url": BASE_URL + 'portugues/11.gran_palacio_y_transicion_final_pt.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vida noturna e sabores",
-            "url": BASE_URL + 'portugues/12.khao_san_road_vida_nocturna_y_sabores_pt.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Terceira degustação | O clássico Pad Thai",
-            "url": BASE_URL + 'portugues/13.tercera_degustacion_el_clasico_pad_thai_pt.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Despedida · Fim do passeio",
-            "url": BASE_URL + 'portugues/14.despedida_fin_del_recorrido_pt.mp3'
-        }
+    russian: [
+        { id: 1, title: '1. ДОБРО ПОЖАЛОВАТЬ НА БОРТУ И ПУТЬ НА РЫНКИ', url: BASE_URL + 'russian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ru.mp3' },
+        { id: 2, title: '2. МЕСТНЫЕ РЫНКИ: ФРУКТЫ И ЦВЕТЫ', url: BASE_URL + 'russian/2.los_mercados_locales_frutas_y_flores_ru.mp3' },
+        { id: 3, title: '3. ВАТ СУАН ДОК: САД КОРОЛЕВСКИХ ЦВЕТОВ', url: BASE_URL + 'russian/3.wat_suan_dok_el_jardin_de_las_flores_reales_ru.mp3' },
+        { id: 4, title: '4. СЕНА ЭН ХАО СОЙ НИММАН', url: BASE_URL + 'russian/4.cena_en_khao_soi_nimman_ru.mp3' },
+        { id: 5, title: '5. ВАТ ЛОК МОЛИ: ТИШИНА СРЕДИ ДРЕВНИХ КИРПИЧОВ', url: BASE_URL + 'russian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ru.mp3' },
+        { id: 6, title: '6. ПОГРУЖЕНИЕ В ИСТОРИЧЕСКИЙ ЦЕНТР: ПАМЯТНИК ТРЕМЯ КОРОЛЯМ, ВАТ ИНТХАКИН И ВАТ ПХРА СИНГХ', url: BASE_URL + 'russian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ru.mp3' },
+        { id: 7, title: '7. ВАТ ЧЕДИ ЛУАНГ: АРХЕОЛОГИЧЕСКАЯ ЖЕМЧУЖИНА КОРОЛЕВСТВА ЛАННА', url: BASE_URL + 'russian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ru.mp3' },
+        { id: 8, title: '8. ВОРОТА ТАПАЕ: ИСТОРИЧЕСКИЕ ВОРОТА В ГОРОД-СТЕНУ', url: BASE_URL + 'russian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ru.mp3' },
+        { id: 9, title: '9. ВОЗВРАЩЕНИЕ НА НОЧНОЙ БАЗАР И ЗАКРЫТИЕ ТУРА', url: BASE_URL + 'russian/9.regreso_al_night_bazaar_y_cierre_del_tour_ru.mp3' }
     ],
-    "russian": [
-        {
-            "id": 1,
-            "title": "1. Введение · Добро пожаловать",
-            "url": BASE_URL + 'russian/1.introduccion_bienvenida_ru.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Ночной Бангкок",
-            "url": BASE_URL + 'russian/2.la_noche_de_bangkok_ru.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Памятники и память города",
-            "url": BASE_URL + 'russian/3.monumentos_y_memoria_de_la_ciudad_ru.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Вход в Чайнатаун | Сердце Яоварата",
-            "url": BASE_URL + 'russian/4.entrada_a_chinatown_el_corazon_de_yaowarat_ru.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Первая дегустация | Уличные вкусы",
-            "url": BASE_URL + 'russian/5.primera_degustacion_sabores_de_la_calle_ru.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Чайнатаун в вашем ритме",
-            "url": BASE_URL + 'russian/6.chinatown_a_tu_ritmo_ru.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Вторая дегустация | Традиции в каждом кусочке",
-            "url": BASE_URL + 'russian/7.segunda_degustacion_tradicion_en_cada_bocado_ru.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Яоварат | Гастрономическое сердце",
-            "url": BASE_URL + 'russian/8.yaowarat_corazon_gastronomico_ru.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. От цветочного рынка к реке",
-            "url": BASE_URL + 'russian/9.del_mercado_de_flores_al_rio_ru.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Ват Арун | Ночная открытка",
-            "url": BASE_URL + 'russian/10.wat_arun_postal_nocturna_ru.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Большой дворец и финальный переход",
-            "url": BASE_URL + 'russian/11.gran_palacio_y_transicion_final_ru.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Каосан Роуд | Ночная жизнь и вкусы",
-            "url": BASE_URL + 'russian/12.khao_san_road_vida_nocturna_y_sabores_ru.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Третья дегустация | Классический Пад Тай",
-            "url": BASE_URL + 'russian/13.tercera_degustacion_el_clasico_pad_thai_ru.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Прощание · Конец тура",
-            "url": BASE_URL + 'russian/14.despedida_fin_del_recorrido_ru.mp3'
-        }
+    portuguese: [
+        { id: 1, title: '1. BEM-VINDO A BORDO E ROTA PARA OS MERCADOS', url: BASE_URL + 'portuguese/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_pt.mp3' },
+        { id: 2, title: '2. MERCADOS LOCAIS: FRUTAS E FLORES', url: BASE_URL + 'portuguese/2.los_mercados_locales_frutas_y_flores_pt.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: O JARDIM DAS FLORES REAIS', url: BASE_URL + 'portuguese/3.wat_suan_dok_el_jardin_de_las_flores_reales_pt.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'portuguese/4.cena_en_khao_soi_nimman_pt.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILÊNCIO ENTRE TIJOLOS ANTIGOS', url: BASE_URL + 'portuguese/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_pt.mp3' },
+        { id: 6, title: '6. IMERSÃO NO CENTRO HISTÓRICO: MONUMENTO AOS TRÊS REIS, WAT INTHAKHIN E WAT PHRA SINGH', url: BASE_URL + 'portuguese/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_pt.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: A JÓIA ARQUEOLÓGICA DO REINO LANNA', url: BASE_URL + 'portuguese/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_pt.mp3' },
+        { id: 8, title: '8. PORTÃO THAPAE: O PORTÃO HISTÓRICO DA CIDADE MURADA', url: BASE_URL + 'portuguese/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_pt.mp3' },
+        { id: 9, title: '9. RETORNO AO BAZAR NOTURNO E ENCERRAMENTO DO TOUR', url: BASE_URL + 'portuguese/9.regreso_al_night_bazaar_y_cierre_del_tour_pt.mp3' }
     ],
-    "serbian": [
-        {
-            "id": 1,
-            "title": "1. Uvod · Dobrodošli",
-            "url": BASE_URL + 'serbian/1.introduccion_bienvenida_sr.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Noć u Bangkoku",
-            "url": BASE_URL + 'serbian/2.la_noche_de_bangkok_sr.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Spomenici i sećanja grada",
-            "url": BASE_URL + 'serbian/3.monumentos_y_memoria_de_la_ciudad_sr.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Ulaz u Chinatown | Srce Yaowarata",
-            "url": BASE_URL + 'serbian/4.entrada_a_chinatown_el_corazon_de_yaowarat_sr.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Prva degustacija | Ukusi ulice",
-            "url": BASE_URL + 'serbian/5.primera_degustacion_sabores_de_la_calle_sr.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown vašim tempom",
-            "url": BASE_URL + 'serbian/6.chinatown_a_tu_ritmo_sr.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Druga degustacija | Tradicija u svakom zalogaju",
-            "url": BASE_URL + 'serbian/7.segunda_degustacion_tradicion_en_cada_bocado_sr.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomsko srce",
-            "url": BASE_URL + 'serbian/8.yaowarat_corazon_gastronomico_sr.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Od pijace cveća do reke",
-            "url": BASE_URL + 'serbian/9.del_mercado_de_flores_al_rio_sr.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Noćna razglednica",
-            "url": BASE_URL + 'serbian/10.wat_arun_postal_nocturna_sr.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Velika palata i završni prelaz",
-            "url": BASE_URL + 'serbian/11.gran_palacio_y_transicion_final_sr.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Noćni život i ukusi",
-            "url": BASE_URL + 'serbian/12.khao_san_road_vida_nocturna_y_sabores_sr.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Treća degustacija | Klasični Pad Thai",
-            "url": BASE_URL + 'serbian/13.tercera_degustacion_el_clasico_pad_thai_sr.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Oproštaj · Kraj ture",
-            "url": BASE_URL + 'serbian/14.despedida_fin_del_recorrido_sr.mp3'
-        }
+    serbian: [
+        { id: 1, title: '1. ДОБРО ДОШЛИ НА БРОД И ПУТУ ДО ТРЖИШТА', url: BASE_URL + 'serbian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_sr.mp3' },
+        { id: 2, title: '2. ЛОКАЛНЕ ТРЖНИЦЕ: ВОЋЕ И ЦВЕЋЕ', url: BASE_URL + 'serbian/2.los_mercados_locales_frutas_y_flores_sr.mp3' },
+        { id: 3, title: '3. ВАТ СУАН ДОК: БАШТА КРАЉЕВСКОГ ЦВЕЋА', url: BASE_URL + 'serbian/3.wat_suan_dok_el_jardin_de_las_flores_reales_sr.mp3' },
+        { id: 4, title: '4. ЦЕНА ЕН КХАО СОИ НИММАН', url: BASE_URL + 'serbian/4.cena_en_khao_soi_nimman_sr.mp3' },
+        { id: 5, title: '5. ВАТ ЛОК МОЛИ: ТИШИНА МЕЂУ ДРЕВНИМ ЦИГЛАМА', url: BASE_URL + 'serbian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_sr.mp3' },
+        { id: 6, title: '6. УРАЊЕ У ИСТОРИЈСКИ ЦЕНТАР: СПОМЕНИК ТРИ КРАЉА, ВАТ ИНТАХИН И ВАТ ПРА СИНГ', url: BASE_URL + 'serbian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_sr.mp3' },
+        { id: 7, title: '7. ВАТ ЧЕДИ ЛУАНГ: АРХЕОЛОШКИ ДРАГУЉ КРАЉЕВСТВА ЛАНА', url: BASE_URL + 'serbian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_sr.mp3' },
+        { id: 8, title: '8. ТХАПАЕ КАПИЈА: ИСТОРИЈСКА КАПИЈА ГРАДА ОГРАДА', url: BASE_URL + 'serbian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_sr.mp3' },
+        { id: 9, title: '9. ПОВРАТАК НА НОЋНИ БАЗАР И ЗАТВАРАЊЕ ТУРНЕЈА', url: BASE_URL + 'serbian/9.regreso_al_night_bazaar_y_cierre_del_tour_sr.mp3' }
     ],
-    "slovenian": [
-        {
-            "id": 1,
-            "title": "1. Uvod · Dobrodošli",
-            "url": BASE_URL + 'slovenian/1.introduccion_bienvenida_sl.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Nočni Bangkok",
-            "url": BASE_URL + 'slovenian/2.la_noche_de_bangkok_sl.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Spomeniki in spomini mesta",
-            "url": BASE_URL + 'slovenian/3.monumentos_y_memoria_de_la_ciudad_sl.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Vhod v Chinatown | Srce Yaowarata",
-            "url": BASE_URL + 'slovenian/4.entrada_a_chinatown_el_corazon_de_yaowarat_sl.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Prva degustacija | Okusi ulice",
-            "url": BASE_URL + 'slovenian/5.primera_degustacion_sabores_de_la_calle_sl.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown v vašem ritmu",
-            "url": BASE_URL + 'slovenian/6.chinatown_a_tu_ritmo_sl.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Druga degustacija | Tradicija v vsakem grižljaju",
-            "url": BASE_URL + 'slovenian/7.segunda_degustacion_tradicion_en_cada_bocado_sl.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomsko srce",
-            "url": BASE_URL + 'slovenian/8.yaowarat_corazon_gastronomico_sl.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Od cvetlične tržnice do reke",
-            "url": BASE_URL + 'slovenian/9.del_mercado_de_flores_al_rio_sl.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Nočna razglednica",
-            "url": BASE_URL + 'slovenian/10.wat_arun_postal_nocturna_sl.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Velika palača in zadnji prehod",
-            "url": BASE_URL + 'slovenian/11.gran_palacio_y_transicion_final_sl.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nočno življenje in okusi",
-            "url": BASE_URL + 'slovenian/12.khao_san_road_vida_nocturna_y_sabores_sl.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tretja degustacija | Klasični Pad Thai",
-            "url": BASE_URL + 'slovenian/13.tercera_degustacion_el_clasico_pad_thai_sl.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Slovo · Konec ogleda",
-            "url": BASE_URL + 'slovenian/14.despedida_fin_del_recorrido_sl.mp3'
-        }
+    spanish_spain: [
+        { id: 1, title: '1. BIENVENIDA A BORDO Y RUTA HACIA LOS MERCADOS', url: BASE_URL + 'spanish_spain/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_es.mp3' },
+        { id: 2, title: '2. LOS MERCADOS LOCALES: FRUTAS Y FLORES', url: BASE_URL + 'spanish_spain/2.los_mercados_locales_frutas_y_flores_es.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: EL JARDÍN DE LAS FLORES REALES', url: BASE_URL + 'spanish_spain/3.wat_suan_dok_el_jardin_de_las_flores_reales_es.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'spanish_spain/4.cena_en_khao_soi_nimman_es.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENCIO ENTRE LADRILLOS ANTIGUOS', url: BASE_URL + 'spanish_spain/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_es.mp3' },
+        { id: 6, title: '6. INMERSIÓN EN EL CENTRO HISTÓRICO: MONUMENTO A LOS TRES REYES, WAT INTHAKHIN Y WAT PHRA SINGH', url: BASE_URL + 'spanish_spain/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_es.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LA JOYA ARQUEOLÓGICA DEL REINO LANNA', url: BASE_URL + 'spanish_spain/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_es.mp3' },
+        { id: 8, title: '8. THAPAE GATE: LA PUERTA HISTÓRICA A LA CIUDAD AMURALLADA', url: BASE_URL + 'spanish_spain/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_es.mp3' },
+        { id: 9, title: '9. REGRESO AL NIGHT BAZAAR Y CIERRE DEL TOUR', url: BASE_URL + 'spanish_spain/9.regreso_al_night_bazaar_y_cierre_del_tour_es.mp3' }
     ],
-    "spanish_latam": [
-        {
-            "id": 1,
-            "title": "1. Introducción · Bienvenida",
-            "url": BASE_URL + 'spanish_latam/1.introduccion_bienvenida_es_latam.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. La noche de Bangkok",
-            "url": BASE_URL + 'spanish_latam/2.la_noche_de_bangkok_es_latam.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumentos y memoria de la ciudad",
-            "url": BASE_URL + 'spanish_latam/3.monumentos_y_memoria_de_la_ciudad_es_latam.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrada a Chinatown | El corazón de Yaowarat",
-            "url": BASE_URL + 'spanish_latam/4.entrada_a_chinatown_el_corazon_de_yaowarat_es_latam.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Primera degustación | Sabores de la calle",
-            "url": BASE_URL + 'spanish_latam/5.primera_degustacion_sabores_de_la_calle_es_latam.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown a tu ritmo",
-            "url": BASE_URL + 'spanish_latam/6.chinatown_a_tu_ritmo_es_latam.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Segunda degustación | Tradición en cada bocado",
-            "url": BASE_URL + 'spanish_latam/7.segunda_degustacion_tradicion_en_cada_bocado_es_latam.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Corazón gastronómico",
-            "url": BASE_URL + 'spanish_latam/8.yaowarat_corazon_gastronomico_es_latam.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Del mercado de flores al río",
-            "url": BASE_URL + 'spanish_latam/9.del_mercado_de_flores_al_rio_es_latam.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Postal nocturna",
-            "url": BASE_URL + 'spanish_latam/10.wat_arun_postal_nocturna_es_latam.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Gran Palacio y transición final",
-            "url": BASE_URL + 'spanish_latam/11.gran_palacio_y_transicion_final_es_latam.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vida nocturna y sabores",
-            "url": BASE_URL + 'spanish_latam/12.khao_san_road_vida_nocturna_y_sabores_es_latam.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tercera degustación | El clásico Pad Thai",
-            "url": BASE_URL + 'spanish_latam/13.tercera_degustacion_el_clasico_pad_thai_es_latam.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Despedida · Fin del recorrido",
-            "url": BASE_URL + 'spanish_latam/14.despedida_fin_del_recorrido_es_latam.mp3'
-        }
+    spanish_latam: [
+        { id: 1, title: '1. BIENVENIDA A BORDO Y RUTA HACIA LOS MERCADOS', url: BASE_URL + 'spanish_latam/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_es_latam.mp3' },
+        { id: 2, title: '2. LOS MERCADOS LOCALES: FRUTAS Y FLORES', url: BASE_URL + 'spanish_latam/2.los_mercados_locales_frutas_y_flores_es_latam.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: EL JARDÍN DE LAS FLORES REALES', url: BASE_URL + 'spanish_latam/3.wat_suan_dok_el_jardin_de_las_flores_reales_es_latam.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'spanish_latam/4.cena_en_khao_soi_nimman_es_latam.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: SILENCIO ENTRE LADRILLOS ANTIGUOS', url: BASE_URL + 'spanish_latam/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_es_latam.mp3' },
+        { id: 6, title: '6. INMERSIÓN EN EL CENTRO HISTÓRICO: MONUMENTO A LOS TRES REYES, WAT INTHAKHIN Y WAT PHRA SINGH', url: BASE_URL + 'spanish_latam/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_es_latam.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LA JOYA ARQUEOLÓGICA DEL REINO LANNA', url: BASE_URL + 'spanish_latam/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_es_latam.mp3' },
+        { id: 8, title: '8. THAPAE GATE: LA PUERTA HISTÓRICA A LA CIUDAD AMURALLADA', url: BASE_URL + 'spanish_latam/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_es_latam.mp3' },
+        { id: 9, title: '9. REGRESO AL NIGHT BAZAAR Y CIERRE DEL TOUR', url: BASE_URL + 'spanish_latam/9.regreso_al_night_bazaar_y_cierre_del_tour_es_latam.mp3' }
     ],
-    "spanish_spain": [
-        {
-            "id": 1,
-            "title": "1. Introducción · Bienvenida",
-            "url": BASE_URL + 'spanish_spain/1.introduccion_bienvenida_es.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. La noche de Bangkok",
-            "url": BASE_URL + 'spanish_spain/2.la_noche_de_bangkok_es.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Monumentos y memoria de la ciudad",
-            "url": BASE_URL + 'spanish_spain/3.monumentos_y_memoria_de_la_ciudad_es.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Entrada a Chinatown | El corazón de Yaowarat",
-            "url": BASE_URL + 'spanish_spain/4.entrada_a_chinatown_el_corazon_de_yaowarat_es.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Primera degustación | Sabores de la calle",
-            "url": BASE_URL + 'spanish_spain/5.primera_degustacion_sabores_de_la_calle_es.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown a tu ritmo",
-            "url": BASE_URL + 'spanish_spain/6.chinatown_a_tu_ritmo_es.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Segunda degustación | Tradición en cada bocado",
-            "url": BASE_URL + 'spanish_spain/7.segunda_degustacion_tradicion_en_cada_bocado_es.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Corazón gastronómico",
-            "url": BASE_URL + 'spanish_spain/8.yaowarat_corazon_gastronomico_es.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Del mercado de flores al río",
-            "url": BASE_URL + 'spanish_spain/9.del_mercado_de_flores_al_rio_es.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Postal nocturna",
-            "url": BASE_URL + 'spanish_spain/10.wat_arun_postal_nocturna_es.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Gran Palacio y transición final",
-            "url": BASE_URL + 'spanish_spain/11.gran_palacio_y_transicion_final_es.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Vida nocturna y sabores",
-            "url": BASE_URL + 'spanish_spain/12.khao_san_road_vida_nocturna_y_sabores_es.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tercera degustación | El clásico Pad Thai",
-            "url": BASE_URL + 'spanish_spain/13.tercera_degustacion_el_clasico_pad_thai_es.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Despedida · Fin del recorrido",
-            "url": BASE_URL + 'spanish_spain/14.despedida_fin_del_recorrido_es.mp3'
-        }
+    slovenian: [
+        { id: 1, title: '1. DOBRODOŠLI NA KRVO IN POT NA TRGE', url: BASE_URL + 'slovenian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_sl.mp3' },
+        { id: 2, title: '2. LOKALNE TRŽNICE: SADJE IN ROŽE', url: BASE_URL + 'slovenian/2.los_mercados_locales_frutas_y_flores_sl.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: VRT KRALJEVIH ROŽ', url: BASE_URL + 'slovenian/3.wat_suan_dok_el_jardin_de_las_flores_reales_sl.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'slovenian/4.cena_en_khao_soi_nimman_sl.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: TIŠINA MED STARODAVNIMI OPEKAMI', url: BASE_URL + 'slovenian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_sl.mp3' },
+        { id: 6, title: '6. POTOP V ZGODOVINSKO SREDIŠČE: SPOMENIK TREM KRALJEM, WAT INTHAKHIN IN WAT PHRA SINGH', url: BASE_URL + 'slovenian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_sl.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: ARHEOLOŠKI DRAGULJ KRALJEVSTVA LANNA', url: BASE_URL + 'slovenian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_sl.mp3' },
+        { id: 8, title: '8. VRATA THAPAE: ZGODOVINSKA VRATA V OBZIDANO MESTO', url: BASE_URL + 'slovenian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_sl.mp3' },
+        { id: 9, title: '9. VRNITEV NA NOČNI BAZAR IN ZAKLJUČEK OGLEDA', url: BASE_URL + 'slovenian/9.regreso_al_night_bazaar_y_cierre_del_tour_sl.mp3' }
     ],
-    "swahili": [
-        {
-            "id": 1,
-            "title": "1. Utangulizi · Karibu",
-            "url": BASE_URL + 'swahili/1.introduccion_bienvenida_sw.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Usiku wa Bangkok",
-            "url": BASE_URL + 'swahili/2.la_noche_de_bangkok_sw.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Makumbusho na kumbukumbu za jiji",
-            "url": BASE_URL + 'swahili/3.monumentos_y_memoria_de_la_ciudad_sw.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Kuingia Chinatown | Moyo wa Yaowarat",
-            "url": BASE_URL + 'swahili/4.entrada_a_chinatown_el_corazon_de_yaowarat_sw.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Onjo la kwanza | Ladha za mitaani",
-            "url": BASE_URL + 'swahili/5.primera_degustacion_sabores_de_la_calle_sw.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown kwa mwendo wako",
-            "url": BASE_URL + 'swahili/6.chinatown_a_tu_ritmo_sw.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Onjo la pili | Mila katika kila tonge",
-            "url": BASE_URL + 'swahili/7.segunda_degustacion_tradicion_en_cada_bocado_sw.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Moyo wa gastronomia",
-            "url": BASE_URL + 'swahili/8.yaowarat_corazon_gastronomico_sw.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Kutoka soko la maua hadi mtoni",
-            "url": BASE_URL + 'swahili/9.del_mercado_de_flores_al_rio_sw.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Postikadi ya usiku",
-            "url": BASE_URL + 'swahili/10.wat_arun_postal_nocturna_sw.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace na mpito wa mwisho",
-            "url": BASE_URL + 'swahili/11.gran_palacio_y_transicion_final_sw.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Maisha ya usiku na ladha",
-            "url": BASE_URL + 'swahili/12.khao_san_road_vida_nocturna_y_sabores_sw.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Onjo la tatu | Pad Thai ya kawaida",
-            "url": BASE_URL + 'swahili/13.tercera_degustacion_el_clasico_pad_thai_sw.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Kwaheri · Mwisho wa ziara",
-            "url": BASE_URL + 'swahili/14.despedida_fin_del_recorrido_sw.mp3'
-        }
+    swedish: [
+        { id: 1, title: '1. VÄLKOMMEN OMBORD OCH RUTEN TILL MARKNADERNA', url: BASE_URL + 'swedish/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_sv.mp3' },
+        { id: 2, title: '2. LOKALA MARKNADER: FRUKT OCH BLOMMOR', url: BASE_URL + 'swedish/2.los_mercados_locales_frutas_y_flores_sv.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: THE GARDEN OF ROYAL FLOWERS', url: BASE_URL + 'swedish/3.wat_suan_dok_el_jardin_de_las_flores_reales_sv.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'swedish/4.cena_en_khao_soi_nimman_sv.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: TYSTNAD BLAND ANTIKA TEGELSTENAR', url: BASE_URL + 'swedish/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_sv.mp3' },
+        { id: 6, title: '6. FÖRDUPNING I DET HISTORISKA CENTRUM: MONUMENT FÖR DE TRE KUNGARNA, WAT INTHAKHIN OCH WAT PHRA SINGH', url: BASE_URL + 'swedish/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_sv.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: DEN ARKEOLOGISKA JUVELEN I LANNA KINGDOM', url: BASE_URL + 'swedish/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_sv.mp3' },
+        { id: 8, title: '8. THAPAE-PORTEN: DEN HISTORISKA PORTEN TILL DEN MURSTAD', url: BASE_URL + 'swedish/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_sv.mp3' },
+        { id: 9, title: '9. TILLBAKA TILL NATTBAZAREN OCH TURENS AVSLUTNING', url: BASE_URL + 'swedish/9.regreso_al_night_bazaar_y_cierre_del_tour_sv.mp3' }
     ],
-    "swedish": [
-        {
-            "id": 1,
-            "title": "1. Introduktion · Välkommen",
-            "url": BASE_URL + 'swedish/1.introduccion_bienvenida_sv.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok på natten",
-            "url": BASE_URL + 'swedish/2.la_noche_de_bangkok_sv.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Stadens monument och minnen",
-            "url": BASE_URL + 'swedish/3.monumentos_y_memoria_de_la_ciudad_sv.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Ingång till Chinatown | Hjärtat av Yaowarat",
-            "url": BASE_URL + 'swedish/4.entrada_a_chinatown_el_corazon_de_yaowarat_sv.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Första provsmakningen | Gatans smaker",
-            "url": BASE_URL + 'swedish/5.primera_degustacion_sabores_de_la_calle_sv.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown i din egen takt",
-            "url": BASE_URL + 'swedish/6.chinatown_a_tu_ritmo_sv.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Andra provsmakningen | Tradition i varje tugga",
-            "url": BASE_URL + 'swedish/7.segunda_degustacion_tradicion_en_cada_bocado_sv.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronomiskt hjärta",
-            "url": BASE_URL + 'swedish/8.yaowarat_corazon_gastronomico_sv.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Från blommarknaden till floden",
-            "url": BASE_URL + 'swedish/9.del_mercado_de_flores_al_rio_sv.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Nattligt vykort",
-            "url": BASE_URL + 'swedish/10.wat_arun_postal_nocturna_sv.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace och sista övergången",
-            "url": BASE_URL + 'swedish/11.gran_palacio_y_transicion_final_sv.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Nattliv och smaker",
-            "url": BASE_URL + 'swedish/12.khao_san_road_vida_nocturna_y_sabores_sv.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Tredje provsmakningen | Klassisk Pad Thai",
-            "url": BASE_URL + 'swedish/13.tercera_degustacion_el_clasico_pad_thai_sv.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Farväl · Slutet på turen",
-            "url": BASE_URL + 'swedish/14.despedida_fin_del_recorrido_sv.mp3'
-        }
+    thai: [
+        { id: 1, title: '1. ยินดีต้อนรับบนกระดานและเส้นทางสู่ตลาด', url: BASE_URL + 'thai/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_th.mp3' },
+        { id: 2, title: '2. ตลาดท้องถิ่น: ผลไม้และดอกไม้', url: BASE_URL + 'thai/2.los_mercados_locales_frutas_y_flores_th.mp3' },
+        { id: 3, title: '3. วัดสวนดอก: สวนดอกไม้หลวง', url: BASE_URL + 'thai/3.wat_suan_dok_el_jardin_de_las_flores_reales_th.mp3' },
+        { id: 4, title: '4. ซีน่าเอนข้าว ซอยนิมมาน', url: BASE_URL + 'thai/4.cena_en_khao_soi_nimman_th.mp3' },
+        { id: 5, title: '5. วัดโลกโมลี: ความเงียบท่ามกลางอิฐโบราณ', url: BASE_URL + 'thai/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_th.mp3' },
+        { id: 6, title: '6. ดื่มด่ำในศูนย์ประวัติศาสตร์: อนุสาวรีย์สามกษัตริย์ วัดอินทขิล และวัดพระสิงห์', url: BASE_URL + 'thai/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_th.mp3' },
+        { id: 7, title: '7. วัดเจดีย์หลวง: อัญมณีทางโบราณคดีแห่งอาณาจักรล้านนา', url: BASE_URL + 'thai/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_th.mp3' },
+        { id: 8, title: '8. ประตูท่าแพ: ประตูประวัติศาสตร์สู่กำแพงเมือง', url: BASE_URL + 'thai/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_th.mp3' },
+        { id: 9, title: '9. กลับสู่ไนท์บาซาร์และปิดทัวร์', url: BASE_URL + 'thai/9.regreso_al_night_bazaar_y_cierre_del_tour_th.mp3' }
     ],
-    "tamil": [
-        {
-            "id": 1,
-            "title": "1. அறிமுகம் · வரவேற்பு",
-            "url": BASE_URL + 'tamil/1.introduccion_bienvenida_ta.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. பாங்காக்கின் இரவு",
-            "url": BASE_URL + 'tamil/2.la_noche_de_bangkok_ta.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. நகரத்தின் நினைவுச்சின்னங்களும் வரலாறும்",
-            "url": BASE_URL + 'tamil/3.monumentos_y_memoria_de_la_ciudad_ta.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. சைனாடவுன் நுழைவு | யாவராட்டின் இதயம்",
-            "url": BASE_URL + 'tamil/4.entrada_a_chinatown_el_corazon_de_yaowarat_ta.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. முதல் சுவை அனுபவம் | தெரு உணவின் சுவைகள்",
-            "url": BASE_URL + 'tamil/5.primera_degustacion_sabores_de_la_calle_ta.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. உங்கள் வேகத்தில் சைனாடவுன்",
-            "url": BASE_URL + 'tamil/6.chinatown_a_tu_ritmo_ta.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. இரண்டாவது சுவை அனுபவம் | ஒவ்வொரு கடியிலும் பாரம்பரியம்",
-            "url": BASE_URL + 'tamil/7.segunda_degustacion_tradicion_en_cada_bocado_ta.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. யாவராட் | உணவின் இதயம்",
-            "url": BASE_URL + 'tamil/8.yaowarat_corazon_gastronomico_ta.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. மலர் சந்தையிலிருந்து நதிவரை",
-            "url": BASE_URL + 'tamil/9.del_mercado_de_flores_al_rio_ta.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. வாட் அருண் | இரவின் அஞ்சல் அட்டை",
-            "url": BASE_URL + 'tamil/10.wat_arun_postal_nocturna_ta.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. கிராண்ட் பேலஸ் மற்றும் இறுதி மாற்றம்",
-            "url": BASE_URL + 'tamil/11.gran_palacio_y_transicion_final_ta.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. கhao San Road | இரவுநேர வாழ்க்கையும் சுவைகளும்",
-            "url": BASE_URL + 'tamil/12.khao_san_road_vida_nocturna_y_sabores_ta.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. மூன்றாவது சுவை அனுபவம் | பாரம்பரிய Pad Thai",
-            "url": BASE_URL + 'tamil/13.tercera_degustacion_el_clasico_pad_thai_ta.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. விடைபெறல் · சுற்றுலாவின் முடிவு",
-            "url": BASE_URL + 'tamil/14.despedida_fin_del_recorrido_ta.mp3'
-        }
+    ukrainian: [
+        { id: 1, title: '1. ЛАСКАВО ПРОСИМО НА БОРТ І МАРШРУТ НА РИНКИ', url: BASE_URL + 'ukrainian/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_uk.mp3' },
+        { id: 2, title: '2. МІСЦЕВІ РИНКИ: ФРУКТИ ТА КВІТИ', url: BASE_URL + 'ukrainian/2.los_mercados_locales_frutas_y_flores_uk.mp3' },
+        { id: 3, title: '3. ВАТ СУАН ДОК: САД КОРОЛІВСЬКИХ КВІТІВ', url: BASE_URL + 'ukrainian/3.wat_suan_dok_el_jardin_de_las_flores_reales_uk.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'ukrainian/4.cena_en_khao_soi_nimman_uk.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: ТИША СЕРЕД СТАРОДАВНІХ ЦЕГЛИН', url: BASE_URL + 'ukrainian/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_uk.mp3' },
+        { id: 6, title: '6. ЗАНУРЕННЯ В ІСТОРИЧНИЙ ЦЕНТР: ПАМ\'ЯТНИК Трьом Королям, ВАТ ІНТАКХІН ТА ВАТ ПХРА СІНГХ', url: BASE_URL + 'ukrainian/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_uk.mp3' },
+        { id: 7, title: '7. ВАТ ЧЕДІ ЛУАНГ: АРХЕОЛОГІЧНА ПЕРЛИНА КОРОЛІВСТВА ЛАННА', url: BASE_URL + 'ukrainian/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_uk.mp3' },
+        { id: 8, title: '8. ВОРОТА ТАПАЕ: ІСТОРИЧНІ ВОРОТА ДО МІСТА, ОТКРИТОГО СТУРАМИ', url: BASE_URL + 'ukrainian/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_uk.mp3' },
+        { id: 9, title: '9. ПОВЕРНЕННЯ НА НІЧНИЙ БАЗАР ТА ЗАКРИТТЯ ТУРУ', url: BASE_URL + 'ukrainian/9.regreso_al_night_bazaar_y_cierre_del_tour_uk.mp3' }
     ],
-    "thai": [
-        {
-            "id": 1,
-            "title": "1. บทนำ · ยินดีต้อนรับ",
-            "url": BASE_URL + 'thai/1.introduccion_bienvenida_th.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. ค่ำคืนแห่งกรุงเทพฯ",
-            "url": BASE_URL + 'thai/2.la_noche_de_bangkok_th.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. อนุสรณ์สถานและความทรงจำของเมือง",
-            "url": BASE_URL + 'thai/3.monumentos_y_memoria_de_la_ciudad_th.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. ทางเข้าไชน่าทาวน์ | หัวใจของเยาวราช",
-            "url": BASE_URL + 'thai/4.entrada_a_chinatown_el_corazon_de_yaowarat_th.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. การชิมครั้งแรก | รสชาติอาหารริมทาง",
-            "url": BASE_URL + 'thai/5.primera_degustacion_sabores_de_la_calle_th.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. ไชน่าทาวน์ในจังหวะของคุณ",
-            "url": BASE_URL + 'thai/6.chinatown_a_tu_ritmo_th.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. การชิมครั้งที่สอง | ประเพณีในทุกคำ",
-            "url": BASE_URL + 'thai/7.segunda_degustacion_tradicion_en_cada_bocado_th.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. เยาวราช | หัวใจแห่งอาหาร",
-            "url": BASE_URL + 'thai/8.yaowarat_corazon_gastronomico_th.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. จากตลาดดอกไม้สู่แม่น้ำ",
-            "url": BASE_URL + 'thai/9.del_mercado_de_flores_al_rio_th.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. วัดอรุณ | โปสการ์ดยามค่ำคืน",
-            "url": BASE_URL + 'thai/10.wat_arun_postal_nocturna_th.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. พระบรมมหาราชวังและการเปลี่ยนผ่านครั้งสุดท้าย",
-            "url": BASE_URL + 'thai/11.gran_palacio_y_transicion_final_th.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. ถนนข้าวสาร | ชีวิตยามค่ำคืนและรสชาติ",
-            "url": BASE_URL + 'thai/12.khao_san_road_vida_nocturna_y_sabores_th.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. การชิมครั้งที่สาม | ผัดไทยต้นตำรับ",
-            "url": BASE_URL + 'thai/13.tercera_degustacion_el_clasico_pad_thai_th.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. กล่าวลา · สิ้นสุดทัวร์",
-            "url": BASE_URL + 'thai/14.despedida_fin_del_recorrido_th.mp3'
-        }
+    vietnamese: [
+        { id: 1, title: '1. CHÀO MỪNG BẠN TRÊN TÀU VÀ ĐƯỜNG ĐẾN THỊ TRƯỜNG', url: BASE_URL + 'vietnamese/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_vi.mp3' },
+        { id: 2, title: '2. THỊ TRƯỜNG ĐỊA PHƯƠNG: TRÁI CÂY VÀ HOA', url: BASE_URL + 'vietnamese/2.los_mercados_locales_frutas_y_flores_vi.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: VƯỜN HOA HOÀNG GIA', url: BASE_URL + 'vietnamese/3.wat_suan_dok_el_jardin_de_las_flores_reales_vi.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'vietnamese/4.cena_en_khao_soi_nimman_vi.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: Sự im lặng giữa những viên gạch cổ', url: BASE_URL + 'vietnamese/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_vi.mp3' },
+        { id: 6, title: '6. Đắm chìm trong trung tâm lịch sử: TƯỚNG TƯỚNG BA VUA, WAT INTHAKHIN VÀ WAT PHRA SINGH', url: BASE_URL + 'vietnamese/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_vi.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: VIÊN TRẮNG KHOA HỌC CỦA VƯƠNG QUỐC LANNA', url: BASE_URL + 'vietnamese/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_vi.mp3' },
+        { id: 8, title: '8. THAPAE GATE: CỔNG LỊCH SỬ VÀO THÀNH PHỐ CÓ TƯỜNG TƯỜNG', url: BASE_URL + 'vietnamese/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_vi.mp3' },
+        { id: 9, title: '9. TRỞ LẠI CHỢ ĐÊM VÀ KẾT THÚC TOUR', url: BASE_URL + 'vietnamese/9.regreso_al_night_bazaar_y_cierre_del_tour_vi.mp3' }
     ],
-    "turkish": [
-        {
-            "id": 1,
-            "title": "1. Giriş · Hoş geldiniz",
-            "url": BASE_URL + 'turkish/1.introduccion_bienvenida_tr.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Bangkok gecesi",
-            "url": BASE_URL + 'turkish/2.la_noche_de_bangkok_tr.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Şehrin anıtları ve hatıraları",
-            "url": BASE_URL + 'turkish/3.monumentos_y_memoria_de_la_ciudad_tr.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Chinatown girişi | Yaowarat’ın kalbi",
-            "url": BASE_URL + 'turkish/4.entrada_a_chinatown_el_corazon_de_yaowarat_tr.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. İlk tadım | Sokak lezzetleri",
-            "url": BASE_URL + 'turkish/5.primera_degustacion_sabores_de_la_calle_tr.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Kendi ritminizde Chinatown",
-            "url": BASE_URL + 'turkish/6.chinatown_a_tu_ritmo_tr.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. İkinci tadım | Her lokmada gelenek",
-            "url": BASE_URL + 'turkish/7.segunda_degustacion_tradicion_en_cada_bocado_tr.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Gastronominin kalbi",
-            "url": BASE_URL + 'turkish/8.yaowarat_corazon_gastronomico_tr.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Çiçek pazarından nehre",
-            "url": BASE_URL + 'turkish/9.del_mercado_de_flores_al_rio_tr.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Gece kartpostalı",
-            "url": BASE_URL + 'turkish/10.wat_arun_postal_nocturna_tr.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Büyük Saray ve son geçiş",
-            "url": BASE_URL + 'turkish/11.gran_palacio_y_transicion_final_tr.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Gece hayatı ve lezzetler",
-            "url": BASE_URL + 'turkish/12.khao_san_road_vida_nocturna_y_sabores_tr.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Üçüncü tadım | Klasik Pad Thai",
-            "url": BASE_URL + 'turkish/13.tercera_degustacion_el_clasico_pad_thai_tr.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Veda · Turun sonu",
-            "url": BASE_URL + 'turkish/14.despedida_fin_del_recorrido_tr.mp3'
-        }
+    urdu: [
+        { id: 1, title: '1. بورڈ پر خوش آمدید اور بازاروں کے راستے پر', url: BASE_URL + 'urdu/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ur.mp3' },
+        { id: 2, title: '2. مقامی بازار: پھل اور پھول', url: BASE_URL + 'urdu/2.los_mercados_locales_frutas_y_flores_ur.mp3' },
+        { id: 3, title: '3. واٹ سوان ڈوک: شاہی پھولوں کا باغ', url: BASE_URL + 'urdu/3.wat_suan_dok_el_jardin_de_las_flores_reales_ur.mp3' },
+        { id: 4, title: '4. سینا این کھاؤ سوئی نمان', url: BASE_URL + 'urdu/4.cena_en_khao_soi_nimman_ur.mp3' },
+        { id: 5, title: '5. واٹ لوک مولی: قدیم اینٹوں کے درمیان خاموشی', url: BASE_URL + 'urdu/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ur.mp3' },
+        { id: 6, title: '6. تاریخی مرکز میں وسرجن: تین بادشاہوں کی یادگار، واٹ انتھاکن اور واٹ فرہ سنگھ', url: BASE_URL + 'urdu/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ur.mp3' },
+        { id: 7, title: '7. واٹ چیڈی لوانگ: لانا بادشاہی کا آثار قدیمہ کا زیور', url: BASE_URL + 'urdu/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ur.mp3' },
+        { id: 8, title: '8. تھاپے گیٹ: دیوار والے شہر کا تاریخی دروازہ', url: BASE_URL + 'urdu/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ur.mp3' },
+        { id: 9, title: '9. رات کے بازار کی طرف واپسی اور ٹور کا اختتام', url: BASE_URL + 'urdu/9.regreso_al_night_bazaar_y_cierre_del_tour_ur.mp3' }
     ],
-    "ukrainian": [
-        {
-            "id": 1,
-            "title": "1. Вступ · Ласкаво просимо",
-            "url": BASE_URL + 'ukranian/1.introduccion_bienvenida_uk.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Нічний Бангкок",
-            "url": BASE_URL + 'ukranian/2.la_noche_de_bangkok_uk.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Пам’ятки та пам’ять міста",
-            "url": BASE_URL + 'ukranian/3.monumentos_y_memoria_de_la_ciudad_uk.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Вхід до Чайнатауну | Серце Яоварату",
-            "url": BASE_URL + 'ukranian/4.entrada_a_chinatown_el_corazon_de_yaowarat_uk.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Перша дегустація | Вуличні смаки",
-            "url": BASE_URL + 'ukranian/5.primera_degustacion_sabores_de_la_calle_uk.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Чайнатаун у вашому ритмі",
-            "url": BASE_URL + 'ukranian/6.chinatown_a_tu_ritmo_uk.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Друга дегустація | Традиція в кожному шматочку",
-            "url": BASE_URL + 'ukranian/7.segunda_degustacion_tradicion_en_cada_bocado_uk.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Яоварат | Гастрономічне серце",
-            "url": BASE_URL + 'ukranian/8.yaowarat_corazon_gastronomico_uk.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Від квіткового ринку до річки",
-            "url": BASE_URL + 'ukranian/9.del_mercado_de_flores_al_rio_uk.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Ват Арун | Нічна листівка",
-            "url": BASE_URL + 'ukranian/10.wat_arun_postal_nocturna_uk.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Великий палац і фінальний перехід",
-            "url": BASE_URL + 'ukranian/11.gran_palacio_y_transicion_final_uk.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Нічне життя та смаки",
-            "url": BASE_URL + 'ukranian/12.khao_san_road_vida_nocturna_y_sabores_uk.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Третя дегустація | Класичний Pad Thai",
-            "url": BASE_URL + 'ukranian/13.tercera_degustacion_el_clasico_pad_thai_uk.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Прощання · Кінець туру",
-            "url": BASE_URL + 'ukranian/14.despedida_fin_del_recorrido_uk.mp3'
-        }
+    turkish: [
+        { id: 1, title: '1. GEMİYE HOŞGELDİNİZ VE PAZARLARA YOLA ÇIKIN', url: BASE_URL + 'turkish/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_tr.mp3' },
+        { id: 2, title: '2. YEREL PAZARLAR: MEYVELER VE ÇİÇEKLER', url: BASE_URL + 'turkish/2.los_mercados_locales_frutas_y_flores_tr.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: KRALİYET ÇİÇEKLERİ BAHÇESİ', url: BASE_URL + 'turkish/3.wat_suan_dok_el_jardin_de_las_flores_reales_tr.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'turkish/4.cena_en_khao_soi_nimman_tr.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: ANTİK TUĞLALAR ARASINDAKİ SESSİZLİK', url: BASE_URL + 'turkish/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_tr.mp3' },
+        { id: 6, title: '6. TARİHİ MERKEZE DALDIRILMA: ÜÇ KRAL ANITI, WAT INTHAKHIN VE WAT PHRA SINGH', url: BASE_URL + 'turkish/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_tr.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: LANNA KRALLIĞININ ARKEOLOJİK MÜCEVHERİ', url: BASE_URL + 'turkish/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_tr.mp3' },
+        { id: 8, title: '8. THAPAE KAPISI: SURLARLA ÇEVRİLİ ŞEHRİN TARİHİ KAPISI', url: BASE_URL + 'turkish/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_tr.mp3' },
+        { id: 9, title: '9. GECE PAZARINA DÖNÜŞ VE TURUN KAPANIŞI', url: BASE_URL + 'turkish/9.regreso_al_night_bazaar_y_cierre_del_tour_tr.mp3' }
     ],
-    "urdu": [
-        {
-            "id": 1,
-            "title": "1. تعارف · خوش آمدید",
-            "url": BASE_URL + 'urdu/1.introduccion_bienvenida_ur.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. بینکاک کی رات",
-            "url": BASE_URL + 'urdu/2.la_noche_de_bangkok_ur.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. شہر کی یادگاریں اور یادیں",
-            "url": BASE_URL + 'urdu/3.monumentos_y_memoria_de_la_ciudad_ur.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. چائنا ٹاؤن کا داخلی راستہ | یاوارات کا دل",
-            "url": BASE_URL + 'urdu/4.entrada_a_chinatown_el_corazon_de_yaowarat_ur.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. پہلی چکھائی | اسٹریٹ فوڈ کے ذائقے",
-            "url": BASE_URL + 'urdu/5.primera_degustacion_sabores_de_la_calle_ur.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. اپنی رفتار سے چائنا ٹاؤن",
-            "url": BASE_URL + 'urdu/6.chinatown_a_tu_ritmo_ur.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. دوسری چکھائی | ہر نوالے میں روایت",
-            "url": BASE_URL + 'urdu/7.segunda_degustacion_tradicion_en_cada_bocado_ur.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. یاوارات | کھانوں کا دل",
-            "url": BASE_URL + 'urdu/8.yaowarat_corazon_gastronomico_ur.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. پھولوں کی مارکیٹ سے دریا تک",
-            "url": BASE_URL + 'urdu/9.del_mercado_de_flores_al_rio_ur.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. واٹ ارون | رات کا پوسٹ کارڈ",
-            "url": BASE_URL + 'urdu/10.wat_arun_postal_nocturna_ur.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. گرینڈ پیلس اور آخری مرحلہ",
-            "url": BASE_URL + 'urdu/11.gran_palacio_y_transicion_final_ur.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. کھاؤ سان روڈ | رات کی زندگی اور ذائقے",
-            "url": BASE_URL + 'urdu/12.khao_san_road_vida_nocturna_y_sabores_ur.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. تیسری چکھائی | کلاسک پیڈ تھائی",
-            "url": BASE_URL + 'urdu/13.tercera_degustacion_el_clasico_pad_thai_ur.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. الوداع · ٹور کا اختتام",
-            "url": BASE_URL + 'urdu/14.despedida_fin_del_recorrido_ur.mp3'
-        }
+    tamil: [
+        { id: 1, title: '1. பலகையில் வரவேற்கிறோம் மற்றும் சந்தைகளுக்கு செல்லும் பாதை', url: BASE_URL + 'tamil/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_ta.mp3' },
+        { id: 2, title: '2. உள்ளூர் சந்தைகள்: பழங்கள் மற்றும் பூக்கள்', url: BASE_URL + 'tamil/2.los_mercados_locales_frutas_y_flores_ta.mp3' },
+        { id: 3, title: '3. வாட் சுவான் டோக்: அரச மலர்களின் தோட்டம்', url: BASE_URL + 'tamil/3.wat_suan_dok_el_jardin_de_las_flores_reales_ta.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'tamil/4.cena_en_khao_soi_nimman_ta.mp3' },
+        { id: 5, title: '5. வாட் லோக் மோலி: பண்டைய செங்கற்கள் மத்தியில் அமைதி', url: BASE_URL + 'tamil/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_ta.mp3' },
+        { id: 6, title: '6. வரலாற்று மையத்தில் மூழ்குதல்: மூன்று மன்னர்களின் நினைவுச்சின்னம், வாட் இன்தாகின் மற்றும் வாட் பிரா சிங்', url: BASE_URL + 'tamil/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_ta.mp3' },
+        { id: 7, title: '7. வாட் செடி லுவாங்: லன்னா இராச்சியத்தின் தொல்பொருள் நகை', url: BASE_URL + 'tamil/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_ta.mp3' },
+        { id: 8, title: '8. தாபே கேட்: சுவர் நகரத்திற்கான வரலாற்று வாயில்', url: BASE_URL + 'tamil/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_ta.mp3' },
+        { id: 9, title: '9. இரவு பஜாருக்குத் திரும்பி, சுற்றுப்பயணத்தின் நிறைவு', url: BASE_URL + 'tamil/9.regreso_al_night_bazaar_y_cierre_del_tour_ta.mp3' }
     ],
-    "vietnamese": [
-        {
-            "id": 1,
-            "title": "1. Giới thiệu · Chào mừng",
-            "url": BASE_URL + 'vietnamese/1.introduccion_bienvenida_vi.mp3'
-        },
-        {
-            "id": 2,
-            "title": "2. Đêm Bangkok",
-            "url": BASE_URL + 'vietnamese/2.la_noche_de_bangkok_vi.mp3'
-        },
-        {
-            "id": 3,
-            "title": "3. Những công trình và ký ức của thành phố",
-            "url": BASE_URL + 'vietnamese/3.monumentos_y_memoria_de_la_ciudad_vi.mp3'
-        },
-        {
-            "id": 4,
-            "title": "4. Lối vào Chinatown | Trái tim của Yaowarat",
-            "url": BASE_URL + 'vietnamese/4.entrada_a_chinatown_el_corazon_de_yaowarat_vi.mp3'
-        },
-        {
-            "id": 5,
-            "title": "5. Thưởng thức đầu tiên | Hương vị đường phố",
-            "url": BASE_URL + 'vietnamese/5.primera_degustacion_sabores_de_la_calle_vi.mp3'
-        },
-        {
-            "id": 6,
-            "title": "6. Chinatown theo nhịp điệu của bạn",
-            "url": BASE_URL + 'vietnamese/6.chinatown_a_tu_ritmo_vi.mp3'
-        },
-        {
-            "id": 7,
-            "title": "7. Thưởng thức lần hai | Truyền thống trong từng miếng ăn",
-            "url": BASE_URL + 'vietnamese/7.segunda_degustacion_tradicion_en_cada_bocado_vi.mp3'
-        },
-        {
-            "id": 8,
-            "title": "8. Yaowarat | Trái tim ẩm thực",
-            "url": BASE_URL + 'vietnamese/8.yaowarat_corazon_gastronomico_vi.mp3'
-        },
-        {
-            "id": 9,
-            "title": "9. Từ chợ hoa đến dòng sông",
-            "url": BASE_URL + 'vietnamese/9.del_mercado_de_flores_al_rio_vi.mp3'
-        },
-        {
-            "id": 10,
-            "title": "10. Wat Arun | Bưu thiếp đêm",
-            "url": BASE_URL + 'vietnamese/10.wat_arun_postal_nocturna_vi.mp3'
-        },
-        {
-            "id": 11,
-            "title": "11. Grand Palace và chặng chuyển tiếp cuối cùng",
-            "url": BASE_URL + 'vietnamese/11.gran_palacio_y_transicion_final_vi.mp3'
-        },
-        {
-            "id": 12,
-            "title": "12. Khao San Road | Cuộc sống về đêm và hương vị",
-            "url": BASE_URL + 'vietnamese/12.khao_san_road_vida_nocturna_y_sabores_vi.mp3'
-        },
-        {
-            "id": 13,
-            "title": "13. Thưởng thức lần ba | Pad Thai cổ điển",
-            "url": BASE_URL + 'vietnamese/13.tercera_degustacion_el_clasico_pad_thai_vi.mp3'
-        },
-        {
-            "id": 14,
-            "title": "14. Tạm biệt · Kết thúc chuyến tham quan",
-            "url": BASE_URL + 'vietnamese/14.despedida_fin_del_recorrido_vi.mp3'
-        }
+    swahili: [
+        { id: 1, title: '1. KARIBU NDANI YA BONGO NA NJIA YA KWENDA MASOKONI', url: BASE_URL + 'swahili/1.bienvenida_a_bordo_y_ruta_hacia_los_mercados_sw.mp3' },
+        { id: 2, title: '2. MASOKO YA MTAA: MATUNDA NA MAUA', url: BASE_URL + 'swahili/2.los_mercados_locales_frutas_y_flores_sw.mp3' },
+        { id: 3, title: '3. WAT SUAN DOK: BUSTANI YA MAUA YA KIFALME', url: BASE_URL + 'swahili/3.wat_suan_dok_el_jardin_de_las_flores_reales_sw.mp3' },
+        { id: 4, title: '4. CENA EN KHAO SOI NIMMAN', url: BASE_URL + 'swahili/4.cena_en_khao_soi_nimman_sw.mp3' },
+        { id: 5, title: '5. WAT LOK MOLI: UKIMYA MIONGONI MWA MATOFALI YA ZAMANI', url: BASE_URL + 'swahili/5.wat_lok_moli_silencio_entre_ladrillos_antiguos_sw.mp3' },
+        { id: 6, title: '6. KUZAMIZWA KATIKA KITUO CHA KIHISTORIA: MWINGI WA WAFALME WATATU, WAT INTHAKHIN NA WAT PHRA SINGH', url: BASE_URL + 'swahili/6.inmersion_en_el_centro_historico_monumento_a_los_tres_reyes_wat_inthakhin_y_wat_phra_singh_sw.mp3' },
+        { id: 7, title: '7. WAT CHEDI LUANG: KITO CHA ARCHAEOLOJIA CHA UFALME WA LANNA', url: BASE_URL + 'swahili/7.wat_chedi_luang_la_joya_arqueologica_del_reino_lanna_sw.mp3' },
+        { id: 8, title: '8. LANGO LA THAPAE: LANGO LA KIHISTORIA LA JIJI LILILO NA UKUTA', url: BASE_URL + 'swahili/8.thapae_gate_la_puerta_historica_a_la_ciudad_amurallada_sw.mp3' },
+        { id: 9, title: '9. RUDI USIKU BAZAAR NA KUFUNGA ZIARA', url: BASE_URL + 'swahili/9.regreso_al_night_bazaar_y_cierre_del_tour_sw.mp3' }
     ]
 };
